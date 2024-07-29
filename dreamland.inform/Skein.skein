@@ -3,7 +3,7 @@
 <Skein rootNode="node-1002">
     <generator>Inform Mac Client (Inform version 1.82/6.41/10.1.2)</generator>
     <item nodeId="node-1002">
-        <command xml:space="preserve">hent-ai</command>
+        <command xml:space="preserve">dreamland</command>
         <result xml:space="preserve">
 
 
@@ -13,7 +13,7 @@ You wake up to the ringing of your alarm. Images of a strange dream drift throug
 (´｡• ᵕ •｡`) ♡ 
 Dreamland
 An Interactive Fiction by Melissa Liu
-Release 1 / Serial number 240330 / Inform 7 v10.1.2 / D
+Release 1 / Serial number 240728 / Inform 7 v10.1.2 / D
 
 Bedroom
  .   \_/       .:"    .:"    .:"
@@ -32,11 +32,11 @@ In the corner your monitor blinks wearily. You must've forgotten to turn it off.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2246"></child>
-            <child nodeId="node-2225"></child>
-            <child nodeId="node-2206"></child>
-            <child nodeId="node-2188"></child>
-            <child nodeId="node-2166"></child>
+        <children><child nodeId="node-2278"></child>
+            <child nodeId="node-2257"></child>
+            <child nodeId="node-2238"></child>
+            <child nodeId="node-2220"></child>
+            <child nodeId="node-2198"></child>
             <child nodeId="node-2162"></child>
             <child nodeId="node-2156"></child>
             <child nodeId="node-2146"></child>
@@ -12256,7 +12256,7 @@ The computer is currently switched off.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2250"></child>
+        <children><child nodeId="node-2166"></child>
             <child nodeId="node-2163"></child>
         </children>
     </item>
@@ -12288,7 +12288,7 @@ You can see a note and a fridge (closed) here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-2250">
+    <item nodeId="node-2166">
         <command xml:space="preserve">turn on computer</command>
         <result xml:space="preserve">The monitor lights up.
 
@@ -12296,10 +12296,10 @@ You switch the computer on.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2251"></child>
+        <children><child nodeId="node-2167"></child>
         </children>
     </item>
-    <item nodeId="node-2251">
+    <item nodeId="node-2167">
         <command xml:space="preserve">examine computer</command>
         <result xml:space="preserve">The computer is open to a game development software. You feel unsettled. 
 
@@ -12307,19 +12307,19 @@ The computer is currently switched on.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2252"></child>
+        <children><child nodeId="node-2168"></child>
         </children>
     </item>
-    <item nodeId="node-2252">
+    <item nodeId="node-2168">
         <command xml:space="preserve">go north</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2253"></child>
+        <children><child nodeId="node-2169"></child>
         </children>
     </item>
-    <item nodeId="node-2253">
+    <item nodeId="node-2169">
         <command xml:space="preserve">go to kitchen</command>
         <result xml:space="preserve">Kitchen
 Your kitchen has seen better days. A fridge lies in one corner. Near the door is a row of plants with yellowing leaves. At the north corner is a door that leads onto the street.
@@ -12328,29 +12328,29 @@ You can see a jug, a plant, a note and a fridge (closed) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2254"></child>
+        <children><child nodeId="node-2170"></child>
         </children>
     </item>
-    <item nodeId="node-2254">
+    <item nodeId="node-2170">
         <command xml:space="preserve">x note</command>
         <result xml:space="preserve">There's a note stuck to the fridge. It reads  ??? ??? ????????? ???? You can't make out the text ."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2255"></child>
+        <children><child nodeId="node-2171"></child>
         </children>
     </item>
-    <item nodeId="node-2255">
+    <item nodeId="node-2171">
         <command xml:space="preserve">open fridge</command>
         <result xml:space="preserve">The fridge contains ??? ??? ????????? ???? You can't make out the text.
  and curiously, a piece of candy. The candy beckons to you.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2256"></child>
+        <children><child nodeId="node-2172"></child>
         </children>
     </item>
-    <item nodeId="node-2256">
+    <item nodeId="node-2172">
         <command xml:space="preserve">eat candy</command>
         <result xml:space="preserve">(first taking the candy)
 You pocket the candy. It feels heavy, like nostalgia.
@@ -12363,65 +12363,65 @@ Clang! Out comes a small piece of metal. You pick it up, bewildered. It's a smal
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2257"></child>
+        <children><child nodeId="node-2173"></child>
         </children>
     </item>
-    <item nodeId="node-2257">
+    <item nodeId="node-2173">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   a silver key
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2258"></child>
+        <children><child nodeId="node-2174"></child>
         </children>
     </item>
-    <item nodeId="node-2258">
+    <item nodeId="node-2174">
         <command xml:space="preserve">go to door</command>
         <result xml:space="preserve">That noun did not make sense in this context.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2259"></child>
+        <children><child nodeId="node-2175"></child>
         </children>
     </item>
-    <item nodeId="node-2259">
+    <item nodeId="node-2175">
         <command xml:space="preserve">go to the door</command>
         <result xml:space="preserve">That noun did not make sense in this context.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2260"></child>
+        <children><child nodeId="node-2176"></child>
         </children>
     </item>
-    <item nodeId="node-2260">
+    <item nodeId="node-2176">
         <command xml:space="preserve">open door</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2261"></child>
+        <children><child nodeId="node-2177"></child>
         </children>
     </item>
-    <item nodeId="node-2261">
+    <item nodeId="node-2177">
         <command xml:space="preserve">x note</command>
         <result xml:space="preserve">There's a note stuck to the fridge. It reads  "Where did you go? Come play with me in Dreamland /( ^^)/."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2262"></child>
+        <children><child nodeId="node-2178"></child>
         </children>
     </item>
-    <item nodeId="node-2262">
+    <item nodeId="node-2178">
         <command xml:space="preserve">open fridge</command>
         <result xml:space="preserve">That's already open.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2263"></child>
+        <children><child nodeId="node-2179"></child>
         </children>
     </item>
-    <item nodeId="node-2263">
+    <item nodeId="node-2179">
         <command xml:space="preserve">look at fridge</command>
         <result xml:space="preserve">You're bizarrely attached to your fridge. It's charming in its age, rickedy, humming in a contented manner. It's covered with  and a note is pinned to it.
 
@@ -12429,82 +12429,82 @@ In the fridge are a black vial, a 'Drink Me' potion, shortcake and crackers.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2264"></child>
+        <children><child nodeId="node-2180"></child>
         </children>
     </item>
-    <item nodeId="node-2264">
+    <item nodeId="node-2180">
         <command xml:space="preserve"></command>
         <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2265"></child>
+        <children><child nodeId="node-2181"></child>
         </children>
     </item>
-    <item nodeId="node-2265">
+    <item nodeId="node-2181">
         <command xml:space="preserve"></command>
         <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2266"></child>
+        <children><child nodeId="node-2182"></child>
         </children>
     </item>
-    <item nodeId="node-2266">
+    <item nodeId="node-2182">
         <command xml:space="preserve">drink the potion</command>
         <result xml:space="preserve">There's nothing suitable to drink here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2267"></child>
+        <children><child nodeId="node-2183"></child>
         </children>
     </item>
-    <item nodeId="node-2267">
+    <item nodeId="node-2183">
         <command xml:space="preserve">open potion</command>
         <result xml:space="preserve">It isn't something you can open.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2268"></child>
+        <children><child nodeId="node-2184"></child>
         </children>
     </item>
-    <item nodeId="node-2268">
+    <item nodeId="node-2184">
         <command xml:space="preserve">open black vial</command>
         <result xml:space="preserve">It isn't something you can open.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2269"></child>
+        <children><child nodeId="node-2185"></child>
         </children>
     </item>
-    <item nodeId="node-2269">
+    <item nodeId="node-2185">
         <command xml:space="preserve">drink black vial</command>
         <result xml:space="preserve">There's nothing suitable to drink here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2270"></child>
+        <children><child nodeId="node-2186"></child>
         </children>
     </item>
-    <item nodeId="node-2270">
+    <item nodeId="node-2186">
         <command xml:space="preserve">take black vial</command>
         <result xml:space="preserve">That's fixed in place.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2271"></child>
+        <children><child nodeId="node-2187"></child>
         </children>
     </item>
-    <item nodeId="node-2271">
+    <item nodeId="node-2187">
         <command xml:space="preserve">take all</command>
         <result xml:space="preserve">jug: Taken. You see nothing special about the jug.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2272"></child>
+        <children><child nodeId="node-2188"></child>
         </children>
     </item>
-    <item nodeId="node-2272">
+    <item nodeId="node-2188">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   a jug
@@ -12512,10 +12512,10 @@ In the fridge are a black vial, a 'Drink Me' potion, shortcake and crackers.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2273"></child>
+        <children><child nodeId="node-2189"></child>
         </children>
     </item>
-    <item nodeId="node-2273">
+    <item nodeId="node-2189">
         <command xml:space="preserve">go to bedroom</command>
         <result xml:space="preserve">Bedroom
  .   \_/       .:"    .:"    .:"
@@ -12534,10 +12534,10 @@ Lo-fi indie is playing from your computer. You notice movement on the screen. Be
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2274"></child>
+        <children><child nodeId="node-2190"></child>
         </children>
     </item>
-    <item nodeId="node-2274">
+    <item nodeId="node-2190">
         <command xml:space="preserve">go to closet</command>
         <result xml:space="preserve">Closet
 It's empty except for a single cardbord box. You feel cramped.
@@ -12546,56 +12546,56 @@ You can see a cardboard box (closed) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2275"></child>
+        <children><child nodeId="node-2191"></child>
         </children>
     </item>
-    <item nodeId="node-2275">
+    <item nodeId="node-2191">
         <command xml:space="preserve">x closet</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2276"></child>
+        <children><child nodeId="node-2192"></child>
         </children>
     </item>
-    <item nodeId="node-2276">
+    <item nodeId="node-2192">
         <command xml:space="preserve">x box</command>
         <result xml:space="preserve">You see nothing special about the cardboard box.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2277"></child>
+        <children><child nodeId="node-2193"></child>
         </children>
     </item>
-    <item nodeId="node-2277">
+    <item nodeId="node-2193">
         <command xml:space="preserve">x drawer</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2278"></child>
+        <children><child nodeId="node-2194"></child>
         </children>
     </item>
-    <item nodeId="node-2278">
+    <item nodeId="node-2194">
         <command xml:space="preserve">open box</command>
         <result xml:space="preserve">Inside is a yearbook, a record player, a binder, and a 3D printed narwhal, amongst other odds and ends.
 The closet smells dusty.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2279"></child>
+        <children><child nodeId="node-2195"></child>
         </children>
     </item>
-    <item nodeId="node-2279">
+    <item nodeId="node-2195">
         <command xml:space="preserve">open yearbook</command>
         <result xml:space="preserve">That's already open.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2280"></child>
+        <children><child nodeId="node-2196"></child>
         </children>
     </item>
-    <item nodeId="node-2280">
+    <item nodeId="node-2196">
         <command xml:space="preserve">x record player</command>
         <result xml:space="preserve">A vintage turntable. It's loaded with a vinyl - Best of 2010s Hits.
 
@@ -12603,10 +12603,10 @@ Record player is currently switched off.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2281"></child>
+        <children><child nodeId="node-2197"></child>
         </children>
     </item>
-    <item nodeId="node-2281">
+    <item nodeId="node-2197">
         <command xml:space="preserve">turn on record player</command>
         <result xml:space="preserve">You switch record player on.
 
@@ -12615,17 +12615,17 @@ Phoebe Bridgers fills the room.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-2166">
+    <item nodeId="node-2198">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2184"></child>
-            <child nodeId="node-2167"></child>
+        <children><child nodeId="node-2216"></child>
+            <child nodeId="node-2199"></child>
         </children>
     </item>
-    <item nodeId="node-2167">
+    <item nodeId="node-2199">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Kitchen
@@ -12635,19 +12635,19 @@ The old fridge hums irratically. Your stomach growls.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2168"></child>
+        <children><child nodeId="node-2200"></child>
         </children>
     </item>
-    <item nodeId="node-2168">
+    <item nodeId="node-2200">
         <command xml:space="preserve">open fridge</command>
         <result xml:space="preserve">Curiously, an apple is in the fridge.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2169"></child>
+        <children><child nodeId="node-2201"></child>
         </children>
     </item>
-    <item nodeId="node-2169">
+    <item nodeId="node-2201">
         <command xml:space="preserve">eat apple</command>
         <result xml:space="preserve">(first taking the apple)
 Something falls in your pocket.
@@ -12655,10 +12655,10 @@ Are ants coming out of the sink? No, probably no.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2170"></child>
+        <children><child nodeId="node-2202"></child>
         </children>
     </item>
-    <item nodeId="node-2170">
+    <item nodeId="node-2202">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Bedroom
@@ -12670,26 +12670,26 @@ On the nightstand are a lamp and a book (closed).
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2171"></child>
+        <children><child nodeId="node-2203"></child>
         </children>
     </item>
-    <item nodeId="node-2171">
+    <item nodeId="node-2203">
         <command xml:space="preserve">unlock book with key</command>
         <result xml:space="preserve">You unlock the book.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2172"></child>
+        <children><child nodeId="node-2204"></child>
         </children>
     </item>
-    <item nodeId="node-2172">
+    <item nodeId="node-2204">
         <command xml:space="preserve">open book</command>
         <result xml:space="preserve">Enter password: </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2173"></child>
+        <children><child nodeId="node-2205"></child>
         </children>
     </item>
-    <item nodeId="node-2173">
+    <item nodeId="node-2205">
         <command xml:space="preserve">yes</command>
         <result xml:space="preserve">Dreamland
 
@@ -12699,10 +12699,10 @@ That was a rhetorical question.
 
 Enter password: </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2174"></child>
+        <children><child nodeId="node-2206"></child>
         </children>
     </item>
-    <item nodeId="node-2174">
+    <item nodeId="node-2206">
         <command xml:space="preserve">no</command>
         <result xml:space="preserve">DreamlandNo
 Over in the corner your computer monitor blinks wearily. You must've forgotten to turn it off. 
@@ -12718,10 +12718,10 @@ That was a rhetorical question.
 
 Enter password: </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2175"></child>
+        <children><child nodeId="node-2207"></child>
         </children>
     </item>
-    <item nodeId="node-2175">
+    <item nodeId="node-2207">
         <command xml:space="preserve">yes</command>
         <result xml:space="preserve">Dreamland
 
@@ -12731,10 +12731,10 @@ That was a rhetorical question.
 
 Enter password: </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2176"></child>
+        <children><child nodeId="node-2208"></child>
         </children>
     </item>
-    <item nodeId="node-2176">
+    <item nodeId="node-2208">
         <command xml:space="preserve">yes</command>
         <result xml:space="preserve">Dreamland
 
@@ -12744,10 +12744,10 @@ That was a rhetorical question.
 
 Enter password: </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2177"></child>
+        <children><child nodeId="node-2209"></child>
         </children>
     </item>
-    <item nodeId="node-2177">
+    <item nodeId="node-2209">
         <command xml:space="preserve">yes</command>
         <result xml:space="preserve">Dreamland
 
@@ -12757,10 +12757,10 @@ That was a rhetorical question.
 
 Enter password: </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2178"></child>
+        <children><child nodeId="node-2210"></child>
         </children>
     </item>
-    <item nodeId="node-2178">
+    <item nodeId="node-2210">
         <command xml:space="preserve">no</command>
         <result xml:space="preserve">DreamlandNo
 Over in the corner your computer monitor blinks wearily. You must've forgotten to turn it off. 
@@ -12776,10 +12776,10 @@ That was a rhetorical question.
 
 Enter password: </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2179"></child>
+        <children><child nodeId="node-2211"></child>
         </children>
     </item>
-    <item nodeId="node-2179">
+    <item nodeId="node-2211">
         <command xml:space="preserve">yes</command>
         <result xml:space="preserve">Dreamland
 
@@ -12789,10 +12789,10 @@ That was a rhetorical question.
 
 Enter password: </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2180"></child>
+        <children><child nodeId="node-2212"></child>
         </children>
     </item>
-    <item nodeId="node-2180">
+    <item nodeId="node-2212">
         <command xml:space="preserve">.</command>
         <result xml:space="preserve">DreamlandNo
 Over in the corner your computer monitor blinks wearily. You must've forgotten to turn it off. 
@@ -12808,10 +12808,10 @@ That's not a verb I recognise.
 
 Enter password: </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2181"></child>
+        <children><child nodeId="node-2213"></child>
         </children>
     </item>
-    <item nodeId="node-2181">
+    <item nodeId="node-2213">
         <command xml:space="preserve">.</command>
         <result xml:space="preserve">DreamlandNo
 Over in the corner your computer monitor blinks wearily. You must've forgotten to turn it off. 
@@ -12827,10 +12827,10 @@ That's not a verb I recognise.
 
 Enter password: </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2182"></child>
+        <children><child nodeId="node-2214"></child>
         </children>
     </item>
-    <item nodeId="node-2182">
+    <item nodeId="node-2214">
         <command xml:space="preserve">no</command>
         <result xml:space="preserve">DreamlandNo
 Over in the corner your computer monitor blinks wearily. You must've forgotten to turn it off. 
@@ -12846,10 +12846,10 @@ That was a rhetorical question.
 
 Enter password: </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2183"></child>
+        <children><child nodeId="node-2215"></child>
         </children>
     </item>
-    <item nodeId="node-2183">
+    <item nodeId="node-2215">
         <command xml:space="preserve">nin'</command>
         <result xml:space="preserve">DreamlandNo
 Over in the corner your computer monitor blinks wearily. You must've forgotten to turn it off. 
@@ -12866,34 +12866,34 @@ That's not a verb I recognise.
 Enter password: </result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-2184">
+    <item nodeId="node-2216">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2185"></child>
+        <children><child nodeId="node-2217"></child>
         </children>
     </item>
-    <item nodeId="node-2185">
+    <item nodeId="node-2217">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2186"></child>
+        <children><child nodeId="node-2218"></child>
         </children>
     </item>
-    <item nodeId="node-2186">
+    <item nodeId="node-2218">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2187"></child>
+        <children><child nodeId="node-2219"></child>
         </children>
     </item>
-    <item nodeId="node-2187">
+    <item nodeId="node-2219">
         <command xml:space="preserve">leave emma</command>
         <result xml:space="preserve">Bedroom
  .   \_/       .:"    .:"    .:"
@@ -12913,16 +12913,16 @@ In the corner your monitor blinks wearily. You must've forgotten to turn it off.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-2188">
+    <item nodeId="node-2220">
         <command xml:space="preserve">draw narwhal on newsprint</command>
         <result xml:space="preserve">I didn't understand that sentence.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2189"></child>
+        <children><child nodeId="node-2221"></child>
         </children>
     </item>
-    <item nodeId="node-2189">
+    <item nodeId="node-2221">
         <command xml:space="preserve">draw lion on newsprint</command>
         <result xml:space="preserve">
 *** Run-time problem P10: Since nothing is not allowed the property "doodle", it is against the rules to try to use it.
@@ -12931,10 +12931,10 @@ You doodle a lion on it. Looks cute.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2190"></child>
+        <children><child nodeId="node-2222"></child>
         </children>
     </item>
-    <item nodeId="node-2190">
+    <item nodeId="node-2222">
         <command xml:space="preserve">draw bunny on newsprint</command>
         <result xml:space="preserve">
 *** Run-time problem P10: Since nothing is not allowed the property "doodle", it is against the rules to try to use it.
@@ -12943,47 +12943,47 @@ You doodle a bunny on it. Looks cute.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2191"></child>
+        <children><child nodeId="node-2223"></child>
         </children>
     </item>
-    <item nodeId="node-2191">
+    <item nodeId="node-2223">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying nothing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2192"></child>
+        <children><child nodeId="node-2224"></child>
         </children>
     </item>
-    <item nodeId="node-2192">
+    <item nodeId="node-2224">
         <command xml:space="preserve">take all</command>
         <result xml:space="preserve">newsprint (with a bunny on it): Taken.
 ballpoint pen: Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2193"></child>
+        <children><child nodeId="node-2225"></child>
         </children>
     </item>
-    <item nodeId="node-2193">
+    <item nodeId="node-2225">
         <command xml:space="preserve">take all</command>
         <result xml:space="preserve">There are none at all available!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2194"></child>
+        <children><child nodeId="node-2226"></child>
         </children>
     </item>
-    <item nodeId="node-2194">
+    <item nodeId="node-2226">
         <command xml:space="preserve">take all</command>
         <result xml:space="preserve">There are none at all available!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2195"></child>
+        <children><child nodeId="node-2227"></child>
         </children>
     </item>
-    <item nodeId="node-2195">
+    <item nodeId="node-2227">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   a ballpoint pen
@@ -12991,10 +12991,10 @@ ballpoint pen: Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2196"></child>
+        <children><child nodeId="node-2228"></child>
         </children>
     </item>
-    <item nodeId="node-2196">
+    <item nodeId="node-2228">
         <command xml:space="preserve">draw lion on newsprint</command>
         <result xml:space="preserve">
 *** Run-time problem P10: Since nothing is not allowed the property "doodle", it is against the rules to try to use it.
@@ -13003,10 +13003,10 @@ You doodle a lion on it. Looks cute.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2197"></child>
+        <children><child nodeId="node-2229"></child>
         </children>
     </item>
-    <item nodeId="node-2197">
+    <item nodeId="node-2229">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   a ballpoint pen
@@ -13014,10 +13014,10 @@ You doodle a lion on it. Looks cute.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2198"></child>
+        <children><child nodeId="node-2230"></child>
         </children>
     </item>
-    <item nodeId="node-2198">
+    <item nodeId="node-2230">
         <command xml:space="preserve">draw lion on newsprint</command>
         <result xml:space="preserve">
 *** Run-time problem P10: Since nothing is not allowed the property "doodle", it is against the rules to try to use it.
@@ -13026,10 +13026,10 @@ You doodle a lion on it. Looks cute.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2199"></child>
+        <children><child nodeId="node-2231"></child>
         </children>
     </item>
-    <item nodeId="node-2199">
+    <item nodeId="node-2231">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   a ballpoint pen
@@ -13037,28 +13037,28 @@ You doodle a lion on it. Looks cute.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2200"></child>
+        <children><child nodeId="node-2232"></child>
         </children>
     </item>
-    <item nodeId="node-2200">
+    <item nodeId="node-2232">
         <command xml:space="preserve">draw lion on book</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2201"></child>
+        <children><child nodeId="node-2233"></child>
         </children>
     </item>
-    <item nodeId="node-2201">
+    <item nodeId="node-2233">
         <command xml:space="preserve">open nightstand</command>
         <result xml:space="preserve">You pull open the drawer. A book, a box of crayons, and a housekey lies inside.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2202"></child>
+        <children><child nodeId="node-2234"></child>
         </children>
     </item>
-    <item nodeId="node-2202">
+    <item nodeId="node-2234">
         <command xml:space="preserve">take all</command>
         <result xml:space="preserve">book (with a bunny on it): Taken.
 crayons: Taken.
@@ -13066,10 +13066,10 @@ housekey: Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2203"></child>
+        <children><child nodeId="node-2235"></child>
         </children>
     </item>
-    <item nodeId="node-2203">
+    <item nodeId="node-2235">
         <command xml:space="preserve">draw lion on book</command>
         <result xml:space="preserve">
 *** Run-time problem P10: Since nothing is not allowed the property "doodle", it is against the rules to try to use it.
@@ -13078,19 +13078,19 @@ You doodle a lion on it. Looks cute.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2204"></child>
+        <children><child nodeId="node-2236"></child>
         </children>
     </item>
-    <item nodeId="node-2204">
+    <item nodeId="node-2236">
         <command xml:space="preserve">take all</command>
         <result xml:space="preserve">There are none at all available!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2205"></child>
+        <children><child nodeId="node-2237"></child>
         </children>
     </item>
-    <item nodeId="node-2205">
+    <item nodeId="node-2237">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   a housekey
@@ -13102,34 +13102,34 @@ You doodle a lion on it. Looks cute.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-2206">
+    <item nodeId="node-2238">
         <command xml:space="preserve">draw</command>
         <result xml:space="preserve">You may not name an object.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2207"></child>
+        <children><child nodeId="node-2239"></child>
         </children>
     </item>
-    <item nodeId="node-2207">
+    <item nodeId="node-2239">
         <command xml:space="preserve">draw</command>
         <result xml:space="preserve">You may not name an object.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2208"></child>
+        <children><child nodeId="node-2240"></child>
         </children>
     </item>
-    <item nodeId="node-2208">
+    <item nodeId="node-2240">
         <command xml:space="preserve">open nightstand</command>
         <result xml:space="preserve">You pull open the drawer. A book, a box of crayons, and a housekey lies inside.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2209"></child>
+        <children><child nodeId="node-2241"></child>
         </children>
     </item>
-    <item nodeId="node-2209">
+    <item nodeId="node-2241">
         <command xml:space="preserve">take all</command>
         <result xml:space="preserve">newsprint (with a bunny on it): Taken.
 book: Taken.
@@ -13139,46 +13139,46 @@ ballpoint pen: Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2210"></child>
+        <children><child nodeId="node-2242"></child>
         </children>
     </item>
-    <item nodeId="node-2210">
+    <item nodeId="node-2242">
         <command xml:space="preserve">draw bunny on book</command>
         <result xml:space="preserve">You doodle a bunny on it. Looks cute.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2211"></child>
+        <children><child nodeId="node-2243"></child>
         </children>
     </item>
-    <item nodeId="node-2211">
+    <item nodeId="node-2243">
         <command xml:space="preserve">x book</command>
         <result xml:space="preserve">A worn out journal in which you've taken to scrawling your dreams.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2212"></child>
+        <children><child nodeId="node-2244"></child>
         </children>
     </item>
-    <item nodeId="node-2212">
+    <item nodeId="node-2244">
         <command xml:space="preserve">draw bunny on newsprint</command>
         <result xml:space="preserve">You doodle a bunny on it. Looks cute.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2213"></child>
+        <children><child nodeId="node-2245"></child>
         </children>
     </item>
-    <item nodeId="node-2213">
+    <item nodeId="node-2245">
         <command xml:space="preserve">x newsprint</command>
         <result xml:space="preserve">You straighten out the sheet of newspaper, handling it delicately. You can't quite make out the words. Your head is spinning.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2214"></child>
+        <children><child nodeId="node-2246"></child>
         </children>
     </item>
-    <item nodeId="node-2214">
+    <item nodeId="node-2246">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   a ballpoint pen
@@ -13189,55 +13189,55 @@ ballpoint pen: Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2215"></child>
+        <children><child nodeId="node-2247"></child>
         </children>
     </item>
-    <item nodeId="node-2215">
+    <item nodeId="node-2247">
         <command xml:space="preserve">draw sdf on newsprint</command>
         <result xml:space="preserve">I only understood you as far as wanting to draw.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2216"></child>
+        <children><child nodeId="node-2248"></child>
         </children>
     </item>
-    <item nodeId="node-2216">
+    <item nodeId="node-2248">
         <command xml:space="preserve">x crayons</command>
         <result xml:space="preserve">A bright yellow box. On it are instructions on how to draw certain shapes: a bunny, a lion, a narwhal, and a unicorn.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2217"></child>
+        <children><child nodeId="node-2249"></child>
         </children>
     </item>
-    <item nodeId="node-2217">
+    <item nodeId="node-2249">
         <command xml:space="preserve"></command>
         <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2218"></child>
+        <children><child nodeId="node-2250"></child>
         </children>
     </item>
-    <item nodeId="node-2218">
+    <item nodeId="node-2250">
         <command xml:space="preserve">draw bunny on newsprint</command>
         <result xml:space="preserve">You doodle a bunny on it. Looks cute.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2219"></child>
+        <children><child nodeId="node-2251"></child>
         </children>
     </item>
-    <item nodeId="node-2219">
+    <item nodeId="node-2251">
         <command xml:space="preserve">x newsprint</command>
         <result xml:space="preserve">You straighten out the sheet of newspaper, handling it delicately. You can't quite make out the words. Your head is spinning.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2220"></child>
+        <children><child nodeId="node-2252"></child>
         </children>
     </item>
-    <item nodeId="node-2220">
+    <item nodeId="node-2252">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   a ballpoint pen
@@ -13248,10 +13248,10 @@ ballpoint pen: Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2221"></child>
+        <children><child nodeId="node-2253"></child>
         </children>
     </item>
-    <item nodeId="node-2221">
+    <item nodeId="node-2253">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   a ballpoint pen
@@ -13262,107 +13262,107 @@ ballpoint pen: Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2222"></child>
+        <children><child nodeId="node-2254"></child>
         </children>
     </item>
-    <item nodeId="node-2222">
+    <item nodeId="node-2254">
         <command xml:space="preserve">draw bunny on book</command>
         <result xml:space="preserve">You doodle a bunny on it. Looks cute.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2223"></child>
+        <children><child nodeId="node-2255"></child>
         </children>
     </item>
-    <item nodeId="node-2223">
+    <item nodeId="node-2255">
         <command xml:space="preserve">draw narwhal on book</command>
         <result xml:space="preserve">I only understood you as far as wanting to draw.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2224"></child>
+        <children><child nodeId="node-2256"></child>
         </children>
     </item>
-    <item nodeId="node-2224">
+    <item nodeId="node-2256">
         <command xml:space="preserve">draw narwhal on newsprint</command>
         <result xml:space="preserve">I only understood you as far as wanting to draw.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-2225">
+    <item nodeId="node-2257">
         <command xml:space="preserve">ask emma to get up</command>
         <result xml:space="preserve">Emma won't listen to you. Tears are running down her face. "Leave me", she chokes out. "Run away from here".
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2226"></child>
+        <children><child nodeId="node-2258"></child>
         </children>
     </item>
-    <item nodeId="node-2226">
+    <item nodeId="node-2258">
         <command xml:space="preserve">say hi to emma</command>
         <result xml:space="preserve">Emma won't listen to you. Tears are running down her face. "Leave me", she chokes out. "Run away from here".
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2227"></child>
+        <children><child nodeId="node-2259"></child>
         </children>
     </item>
-    <item nodeId="node-2227">
+    <item nodeId="node-2259">
         <command xml:space="preserve">ask emma about to get up</command>
         <result xml:space="preserve">Emma won't listen to you. Tears are running down her face. "Leave me", she chokes out. "Run away from here".
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2228"></child>
+        <children><child nodeId="node-2260"></child>
         </children>
     </item>
-    <item nodeId="node-2228">
+    <item nodeId="node-2260">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2229"></child>
+        <children><child nodeId="node-2261"></child>
         </children>
     </item>
-    <item nodeId="node-2229">
+    <item nodeId="node-2261">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2230"></child>
+        <children><child nodeId="node-2262"></child>
         </children>
     </item>
-    <item nodeId="node-2230">
+    <item nodeId="node-2262">
         <command xml:space="preserve">a</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2231"></child>
+        <children><child nodeId="node-2263"></child>
         </children>
     </item>
-    <item nodeId="node-2231">
+    <item nodeId="node-2263">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2232"></child>
+        <children><child nodeId="node-2264"></child>
         </children>
     </item>
-    <item nodeId="node-2232">
+    <item nodeId="node-2264">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2233"></child>
+        <children><child nodeId="node-2265"></child>
         </children>
     </item>
-    <item nodeId="node-2233">
+    <item nodeId="node-2265">
         <command xml:space="preserve">leave emma</command>
         <result xml:space="preserve">You feel like you're being sucked out of this world. You feel a whirlwind of crying, of pain, of grief, of everything crashing down on you in that moment. When the whirling stops you find yourself in your bedroom. Wake up.
 
@@ -13383,10 +13383,10 @@ In the corner your monitor blinks wearily. You must've forgotten to turn it off.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2234"></child>
+        <children><child nodeId="node-2266"></child>
         </children>
     </item>
-    <item nodeId="node-2234">
+    <item nodeId="node-2266">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Kitchen
@@ -13396,20 +13396,20 @@ You can see a note and a fridge (closed) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2235"></child>
+        <children><child nodeId="node-2267"></child>
         </children>
     </item>
-    <item nodeId="node-2235">
+    <item nodeId="node-2267">
         <command xml:space="preserve">open fridge</command>
         <result xml:space="preserve">The fridge contains ?????? ??? ?? ????? ??????? ??????? ?? ????
  and curiously, a piece of candy. The candy beckons to you.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2236"></child>
+        <children><child nodeId="node-2268"></child>
         </children>
     </item>
-    <item nodeId="node-2236">
+    <item nodeId="node-2268">
         <command xml:space="preserve">eat candy</command>
         <result xml:space="preserve">(first taking the candy)
 You pocket the candy. It feels heavy, like nostalgia.
@@ -13422,19 +13422,19 @@ Clang! Out comes a small piece of metal. You pick it up, bewildered. It's a smal
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2237"></child>
+        <children><child nodeId="node-2269"></child>
         </children>
     </item>
-    <item nodeId="node-2237">
+    <item nodeId="node-2269">
         <command xml:space="preserve">eat candy</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2238"></child>
+        <children><child nodeId="node-2270"></child>
         </children>
     </item>
-    <item nodeId="node-2238">
+    <item nodeId="node-2270">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Bedroom
@@ -13454,37 +13454,37 @@ Lo-fi indie is playing from your computer. You notice movement on the screen. Be
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2239"></child>
+        <children><child nodeId="node-2271"></child>
         </children>
     </item>
-    <item nodeId="node-2239">
+    <item nodeId="node-2271">
         <command xml:space="preserve">open drawer</command>
         <result xml:space="preserve">It seems to be locked.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2240"></child>
+        <children><child nodeId="node-2272"></child>
         </children>
     </item>
-    <item nodeId="node-2240">
+    <item nodeId="node-2272">
         <command xml:space="preserve">unlock drawer with key</command>
         <result xml:space="preserve">You unlock the drawer.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2241"></child>
+        <children><child nodeId="node-2273"></child>
         </children>
     </item>
-    <item nodeId="node-2241">
+    <item nodeId="node-2273">
         <command xml:space="preserve">open drawer</command>
         <result xml:space="preserve">You pull open the drawer. A journal, a box of crayons, and a pair of glasses lies inside. The journal beckons to you.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2242"></child>
+        <children><child nodeId="node-2274"></child>
         </children>
     </item>
-    <item nodeId="node-2242">
+    <item nodeId="node-2274">
         <command xml:space="preserve">take all</command>
         <result xml:space="preserve">newsprint: Taken. You straighten out the sheet of newspaper, handling it delicately.  The page contains two girls playing in a sandbox. The smaller of the two is labouring over a crudely formed sand sculpture. The other is carelessly sprawled across the sand, her body covered in dust. You study the small stature, the neat braids, the wrinkled clothing. They look around preschool age. 
 
@@ -13498,10 +13498,10 @@ glasses: Taken. You see nothing special about glasses.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2243"></child>
+        <children><child nodeId="node-2275"></child>
         </children>
     </item>
-    <item nodeId="node-2243">
+    <item nodeId="node-2275">
         <command xml:space="preserve">read journal</command>
         <result xml:space="preserve">You flip the pages randomly and arrive at page 2:
 
@@ -13511,26 +13511,26 @@ Toybox Dreamland
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2244"></child>
+        <children><child nodeId="node-2276"></child>
         </children>
     </item>
-    <item nodeId="node-2244">
+    <item nodeId="node-2276">
         <command xml:space="preserve">ask emma</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2245"></child>
+        <children><child nodeId="node-2277"></child>
         </children>
     </item>
-    <item nodeId="node-2245">
+    <item nodeId="node-2277">
         <command xml:space="preserve">ask emma about hi</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-2246">
+    <item nodeId="node-2278">
         <command xml:space="preserve">X</command>
         <result xml:space="preserve">What do you want to examine?
 

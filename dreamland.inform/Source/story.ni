@@ -21,6 +21,35 @@ tragedy
 in jail for killing friend?
 girl is imaginary?
 girls that dream together but have never met.
+multiple paths
+doki doki
+unreliable narrator
+she hits the delete button
+
+
+writing a children's book
+fantasy 
+create a novel
+pill bottles instead of candy
+inventory pill instead of candy
+physical symptoms of drug withdrawal
+
+manuscript is visible on a desk
+traumatic chapter 10 times to get the content out
+
+
+dream: early 2000s
+high school 
+computer dream
+
+endings:
+	she coded it all up as fantasy escapism
+	god complex ?
+	imaginary friend
+	she erased her own memory
+	
+	she did something bad (memory) - first dream
+	
 ]
 
 When play begins:
