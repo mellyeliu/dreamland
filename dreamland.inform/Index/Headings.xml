@@ -17,49 +17,49 @@
     </dict>
     <key>2</key><dict>
         <key>Filename</key><string>/Users/mellyeliu/dreamland/dreamland.inform/Source/story.ni</string>
-        <key>Line</key><integer>114</integer>
+        <key>Line</key><integer>129</integer>
         <key>Title</key><string>Section 1 - BEDROOM</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>3</key><dict>
         <key>Filename</key><string>/Users/mellyeliu/dreamland/dreamland.inform/Source/story.ni</string>
-        <key>Line</key><integer>240</integer>
+        <key>Line</key><integer>260</integer>
         <key>Title</key><string>Section 2 - Closet</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>4</key><dict>
         <key>Filename</key><string>/Users/mellyeliu/dreamland/dreamland.inform/Source/story.ni</string>
-        <key>Line</key><integer>268</integer>
+        <key>Line</key><integer>288</integer>
         <key>Title</key><string>Section 2 - KITCHEN</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>5</key><dict>
         <key>Filename</key><string>/Users/mellyeliu/dreamland/dreamland.inform/Source/story.ni</string>
-        <key>Line</key><integer>311</integer>
+        <key>Line</key><integer>331</integer>
         <key>Title</key><string>Section 3 - Toybox</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>6</key><dict>
         <key>Filename</key><string>/Users/mellyeliu/dreamland/dreamland.inform/Source/story.ni</string>
-        <key>Line</key><integer>383</integer>
+        <key>Line</key><integer>403</integer>
         <key>Title</key><string>Section 3,1 - EMMA</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>7</key><dict>
         <key>Filename</key><string>/Users/mellyeliu/dreamland/dreamland.inform/Source/story.ni</string>
-        <key>Line</key><integer>519</integer>
+        <key>Line</key><integer>539</integer>
         <key>Title</key><string>Section 4 - Plushieland</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>8</key><dict>
         <key>Filename</key><string>/Users/mellyeliu/dreamland/dreamland.inform/Source/story.ni</string>
-        <key>Line</key><integer>534</integer>
+        <key>Line</key><integer>554</integer>
         <key>Title</key><string>Section 5 - INDEX</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>

@@ -6,7 +6,22 @@ bookDrawn is a number that varies. bookDrawn is 0.
 bookWrite is a number that varies. bookWrite is 0.
 emmaName is a number that varies. emmaName is 0.
 drawingHint is a number that varies. drawingHint is 0.
-suitcaseOpen is a number that varies. drawingHint is 0.
+suitcaseOpen is a number that varies. suitcaseOpen is 0.
+helpInstructions is a number that varies. helpInstructions is 0.
+
+Helping is an action applying to nothing. 
+Understand "help" as helping.
+
+Carry out helping:
+	say "[line break]
+	[italic type]Here are some instructions to get you started:[line break]	- Use 'look' to observe your surroundings.[line break]
+    - Use 'take item' to pick up items.[line break]
+    - Use 'inventory' or 'i' to see what you're carrying.[line break]
+    - Use 'go direction' to move around (e.g., 'go north' or simply 'n' or 's').[line break]
+    - For more details, try interacting with objects using 'examine item' or 'x item'.[line break]
+- Visit: https://tinyurl.com/inform-cheatsheet for more commands.[roman type] [line break]
+";
+
 
 [female childhood best friend
 
@@ -128,7 +143,12 @@ The Bedroom is a room. "
 [if roomCount is 0]Your bedroom is unadorned. The walls are chalky and the ground bare. The only decoration is a poster of The Killers. A lightbulb hangs from the ceiling. A tiny window is opened a crack, and the sound of faint static comes through.[else if roomCount is 1]You step into the bedroom and are flooded with emotion. Every inch of its surface now looks as if it's been dipped in. The walls are pulsating and warm, shifting from blue to red to violet. [else if roomCount is 2] It's weird to see things in 3D now. Your room has gone back to normal. There's an odd humming coming from your computer, though. [end if]
 
 [if roomCount is 0]In the corner your monitor blinks wearily. You must've forgotten to turn it off. [else if roomCount is 1]Lo-fi indie is playing from your computer. You notice movement on the screen.[end if] Beside you is a worn out drawer. To the north your kitchen fridge hums. To the south is a cramped closet.
+[if helpInstructions is 0][paragraph break]
+[italic type]If this is your first interactive fiction game, type [bold type]help[italic type] to get started.[roman type][end if]
 ".
+
+After looking in the Bedroom:
+	now helpInstructions is 1;
 
 A window is here. It is fixed in place. The description of window is "North facing. Not a lot of light coming in.".A poster is here. It is fixed in place. A lightbulb is here. It is fixed in place. It is a device. It is switched off. A drawer is here. It is a container. It is openable. It is closed. It is locked. It is fixed in place. A journal, crayons, and glasses is inside the drawer. The glasses is wearable.
 The description of drawer is "It's covered with a layer of dust and lined with faint scratches. You can make out a tiny keyhole in the upper right corner.".

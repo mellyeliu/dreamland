@@ -30,6 +30,8 @@ Your bedroom is unadorned. The walls are chalky and the ground bare. The only de
 
 In the corner your monitor blinks wearily. You must've forgotten to turn it off.  Beside you is a worn out drawer. To the north your kitchen fridge hums. To the south is a cramped closet. 
 
+ If this is your first interactive fiction game, type help to get started. 
+
 &gt;</result>
         <commentary xml:space="preserve">
 
@@ -72,6 +74,7 @@ In the corner your monitor blinks wearily. You must've forgotten to turn it off.
             <child nodeId="node-2452"></child>
             <child nodeId="node-1973"></child>
             <child nodeId="node-3138"></child>
+            <child nodeId="node-7126"></child>
             <child nodeId="node-2327"></child>
             <child nodeId="node-1873"></child>
             <child nodeId="node-1872"></child>
@@ -9524,7 +9527,7 @@ You can interact with her by typing: ask girl about `topic`. The topic should be
     </item>
     <item nodeId="node-5669">
         <command xml:space="preserve">ask girl about dress</command>
-        <result xml:space="preserve">Emma is humming to herself.
+        <result xml:space="preserve">Emma is too busy doodling flowers.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -9533,7 +9536,7 @@ You can interact with her by typing: ask girl about `topic`. The topic should be
     </item>
     <item nodeId="node-5709">
         <command xml:space="preserve">ask girl about flower</command>
-        <result xml:space="preserve">Emma doesn't seem to hear you. She seems lost in a daydream.
+        <result xml:space="preserve">Emma is humming to herself.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -9896,7 +9899,7 @@ Phoebe Bridgers fills the room.
         <command xml:space="preserve">x yearbook</command>
         <result xml:space="preserve">Class of XXYZ.
 
-Twenty One Pilots fills the room.
+BETWEEN FRIENDS fills the room.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -9907,7 +9910,7 @@ Twenty One Pilots fills the room.
         <command xml:space="preserve">x yearbook</command>
         <result xml:space="preserve">Class of XXYZ.
 
-Fall Out Boy fills the room.
+BETWEEN FRIENDS fills the room.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -9929,7 +9932,7 @@ Porter Robinson fills the room. You're on the verge of tears, but you're not sur
         <command xml:space="preserve">x narwhal</command>
         <result xml:space="preserve">A ragged thing. An old hurt vibrates through you. You can't place why.
 
-Twenty One Pilots fills the room.
+Pussy Riot fills the room.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -9941,7 +9944,7 @@ Twenty One Pilots fills the room.
         <result xml:space="preserve">yearbook: Taken.
 narwhal: It's a ragged thing. An old hurt vibrates through you. You can't place why. From faraway, the journal vibrates.
 
-Fall Out Boy fills the room.
+BETWEEN FRIENDS fills the room.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -9952,7 +9955,7 @@ Fall Out Boy fills the room.
         <command xml:space="preserve">read journal</command>
         <result xml:space="preserve">You need to specify a page to read.
 
-Pussy Riot fills the room.
+BETWEEN FRIENDS fills the room.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -10025,6 +10028,25 @@ You can interact with her by typing: ask Emma about `topic`. The topic should be
 
 Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7124"></child>
+        </children>
+    </item>
+    <item nodeId="node-7124">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Plushieland
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7125"></child>
+        </children>
+    </item>
+    <item nodeId="node-7125">
+        <command xml:space="preserve">help</command>
+        <result xml:space="preserve">Welcome to the game! Here are some instructions to get you started: å- Use "look" to observe your surroundings. - Use "take item" to pick up items. - Use "inventory" to see what you're carrying. - Use "go direction" to move around (e.g., "go north" or simply "north"). - For more details, try interacting with objects using "examine item".
+
+&gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1679">
@@ -13456,6 +13478,74 @@ It's empty except for a single cardbord box. You feel cramped.
 
 You can see a cardboard box (closed) here.
 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-7126">
+        <command xml:space="preserve">help</command>
+        <result xml:space="preserve">
+ Here are some instructions to get you started:
+ - Use "look" to observe your surroundings.
+ - Use "take item" to pick up items.
+ - Use "inventory" or "i" to see what you're carrying.
+ - Use "go direction" to move around (e.g., "go north" or simply "n" or "s").
+ - For more details, try interacting with objects using "examine item" or "x item".
+ - Visit: https://tinyurl.com/inform-cheatsheet for more commands. 
+ 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7128"></child>
+        </children>
+    </item>
+    <item nodeId="node-7128">
+        <command xml:space="preserve">help</command>
+        <result xml:space="preserve">
+ Here are some instructions to get you started:
+ - Use "look" to observe your surroundings.
+ - Use "take item" to pick up items.
+ - Use "inventory" or "i" to see what you're carrying.
+ - Use "go direction" to move around (e.g., "go north" or simply "n" or "s").
+ - For more details, try interacting with objects using "examine item" or "x item".
+ - Visit: https://tinyurl.com/inform-cheatsheet for more commands. 
+ 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7131"></child>
+        </children>
+    </item>
+    <item nodeId="node-7131">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Bedroom
+ .   \_/       .:"    .:"    .:"
+ -=(_)=- /\ ||    /\||    /\||
+ .   / \     //\\|   //\\|   //\\|
+ .          //  \\  //  \\  //  \\
+ .         //    \ ^/    \^/    \\
+ .         |  ( )  ||  ( ) || ( ) |
+ .         |       ||      ||      |%
+ &amp;%&amp;--==--&amp;%-==--%&amp;
+
+
+Your bedroom is unadorned. The walls are chalky and the ground bare. The only decoration is a poster of The Killers. A lightbulb hangs from the ceiling. A tiny window is opened a crack, and the sound of faint static comes through.
+
+In the corner your monitor blinks wearily. You must've forgotten to turn it off.  Beside you is a worn out drawer. To the north your kitchen fridge hums. To the south is a cramped closet.  
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7156"></child>
+        </children>
+    </item>
+    <item nodeId="node-7156">
+        <command xml:space="preserve">help</command>
+        <result xml:space="preserve">
+ Here are some instructions to get you started:
+ - Use "look" to observe your surroundings.
+ - Use "take item" to pick up items.
+ - Use "inventory" or "i" to see what you're carrying.
+ - Use "go direction" to move around (e.g., "go north" or simply "n" or "s").
+ - For more details, try interacting with objects using "examine item" or "x item".
+ - Visit: https://tinyurl.com/inform-cheatsheet for more commands. 
+ 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
