@@ -1,4 +1,4 @@
-just for funsies, plot still tbd (i am still fiddling w inform... >.<)
+just for funsies, plot tbd (i am still fiddling w inform... >.<)
 
 play the demo here: https://dreamland-demo.netlify.app/play
 
