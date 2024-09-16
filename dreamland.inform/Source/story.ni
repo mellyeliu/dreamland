@@ -125,16 +125,16 @@ The Bedroom is a room. "
 .         |       ||      ||      |%[line break]
   &%&--==--&%-==--%&[line break]
 
-[if roomCount is 0]Your bedroom is unadorned. The walls are chalky and the ground bare. The only decoration is a poster of The Killers. A lightbulb hangs from the ceiling. A tiny window is opened a crack, and the sound of faint static comes through.[else if roomCount is 1]You step into the bedroom and are flooded with emotion. Every inch of its surface now looks as if it's been dipped in. The walls are pulsating and warm, shifting from blue to red to violet. [else if roomCount is 2] It's weird to see things in 3D now. Your room has gone back to normal. There's an odd humming coming from your computer, though. [end if].
+[if roomCount is 0]Your bedroom is unadorned. The walls are chalky and the ground bare. The only decoration is a poster of The Killers. A lightbulb hangs from the ceiling. A tiny window is opened a crack, and the sound of faint static comes through.[else if roomCount is 1]You step into the bedroom and are flooded with emotion. Every inch of its surface now looks as if it's been dipped in. The walls are pulsating and warm, shifting from blue to red to violet. [else if roomCount is 2] It's weird to see things in 3D now. Your room has gone back to normal. There's an odd humming coming from your computer, though. [end if]
 
-[if roomCount is 0]In the corner your monitor blinks wearily. You must've forgotten to turn it off. [else if roomCount is 1]Lo-fi indie is playing from your computer. You notice movement on the screen.[end if] Beside you is a worn out drawer. To the south your kitchen fridge hums. To the north is a cramped closet.
+[if roomCount is 0]In the corner your monitor blinks wearily. You must've forgotten to turn it off. [else if roomCount is 1]Lo-fi indie is playing from your computer. You notice movement on the screen.[end if] Beside you is a worn out drawer. To the north your kitchen fridge hums. To the south is a cramped closet.
 ".
 
-A poster is here. It is fixed in place. A lightbulb is here. It is fixed in place. It is a device. It is switched off. A drawer is here. It is a container. It is openable. It is closed. It is locked. It is fixed in place. A journal, crayons, and glasses is inside the drawer. The glasses is wearable.
+A window is here. It is fixed in place. The description of window is "North facing. Not a lot of light coming in.".A poster is here. It is fixed in place. A lightbulb is here. It is fixed in place. It is a device. It is switched off. A drawer is here. It is a container. It is openable. It is closed. It is locked. It is fixed in place. A journal, crayons, and glasses is inside the drawer. The glasses is wearable.
 The description of drawer is "It's covered with a layer of dust and lined with faint scratches. You can make out a tiny keyhole in the upper right corner.".
 The description of lightbulb is "A single lightbulb. A string dangles.".
 The description of poster is "A relic of your emo era. The corners have frayed over the years. ".
-The description of crayons is "A bright yellow box. On it are instructions on how to draw certain shapes: a bunny, a lion, a narwhal, and a unicorn."
+The description of crayons is "A bright yellow box. On it are instructions on how to draw certain shapes: a bunny, a lion, a narwhal, and a unicorn. Good for fixing things, if you're in the right place."
 The description of glasses is "A wacky looking pair of with black frames and blue-purple swirling lenses. On the side are the words [italic type] Sentence Scrambler."
 
 After opening the drawer:
@@ -143,24 +143,36 @@ After opening the drawer:
 After putting on glasses:
 	say "You put on the pair of glasses and the world turns all sorts of odd colours. Guess you need to change your prescription.".
 
-A desk is here. It is a supporter. It is fixed in place. A ballpoint pen is on the desk. It is fixed in place. A computer is on the desk. A computer is a device. It is switched off. It is fixed in place. The description is "[if noun is switched off]A yellowing Windows XP that's seen better days.[else if roomCount is 0]The computer is open to a game development software. You feel unsettled.[else if roomCount is 1]Your screen is being populated with a barrage of popups. The same message is written on them. 'Your dreams await. \( ^^)/'.[else if roomCount is 2]
+A desk is here. It is a supporter. It is fixed in place. A ballpoint pen is on the desk. It is fixed in place. A computer is on the desk. A computer is a device. It is switched off. It is fixed in place. The description is "[if noun is switched off]A yellowing Windows XP that's seen better days.[else if roomCount is 0]The computer is open to a game development software. You feel unsettled, like you're being watched.[else if roomCount is 1]Your screen is being populated with a barrage of popups. The same message is written on them. 'Your dreams await. \( ^^)/'.[else if roomCount is 2]
 A browser is open to an email inbox. You have several unread emails.
 [end if] "
 
-Instead of examining the computer:
+After examining the computer:
 	if roomCount is 2:
 		say "The browser is open to your email inbox. You have 5 unread emails. You can select an email to read by typing a number from 1 to 5 or type `exit` to leave.";
 		now the command prompt is "> Select an email to read: ".
 
 After reading a command when the command prompt is "> Select an email to read: ":
 	if the player's command matches "5":
-		say "From: Emma - Word Search from Emma[paragraph break]Hi! I made you a word search. It contains all my favourite neopets! It’ll be fun.";
+		say "From: Emma - Word Search from Emma[paragraph break]Hi! I made you a word search. It's neopet themed! 
+		
+ . J T A M X I L L S A[line break]
+H Y B Z A P F Z X R[line break]
+U R E D O U B L E P[line break]
+D F S E T Y W E T I[line break]
+O L I L I S H A E N[line break]
+R J N L O F A E U J[line break]
+A F F G C I D O L S[line break]
+P A I N T B R U S H[line break]
+B I L L U S E N F T[line break]
+J U B J U B A S S G[line break]
+		";
 		reject the player's command;
 	else if the player's command matches "2":
 		say "From: Mr. Anderson - Welcome to 5th Grade![paragraph break]Dear Student, Welcome to 5th grade! We are excited to have you. Make sure to bring your materials on the first day. Your new teacher, Mr. Anderson.";
 		reject the player's command;	
 	else if the player's command matches "3":
-		say "From: Emma - Ideas for Our Universe[paragraph break]Hey, I had some ideas for the fictional world we're creating together! We should have flying narwhals, secret caves, and magical powers that only the bravest can use! Let me know what you think.";
+		say "From: Emma - Ideas for Plushieland[paragraph break]Hey, I had some ideas for the fictional world we're creating together! We should have flying narwhals, secret caves, and magical powers that only the bravest can use! Let me know what you think.";
 		reject the player's command;
 	else if the player's command matches "4":
 		say "From: School Admin - Field Trip to the Science Museum[paragraph break]Parents and Guardians, We are planning a field trip to the Science Museum next month. Please submit the signed permission slip by Friday.";
@@ -191,11 +203,23 @@ Carry out switching on the lightbulb:
 Carry out switching off lightbulb:
 	say "The room dims.".
 
+After switching on the lightbulb:
+    stop the action.
+
+After switching off the lightbulb:
+    stop the action.
+
 Carry out switching on computer:
 	say "The monitor lights up with a staticky pop. ".
 
 Carry out switching off computer:
 	say "The monitor shuts off. The fan goes silent.".
+	
+After switching on the computer:
+    stop the action.
+
+After switching off the computer:
+    stop the action.
 
 A newsprint is here. "A crumpled newsprint lies wrinkled on the floor." It is fixed in place. The description is "You straighten out the sheet of newspaper, handling it delicately. [if roomCount is 0]You can't quite make out the words. Your head is spinning.[else if roomCount is 1] The page contains two girls playing in a sandbox. The smaller of the two is labouring over a crudely formed sand sculpture. The other is carelessly sprawled across the sand, her body covered in dust. You study the small stature, the neat braids, the wrinkled clothing. They look around preschool age. [paragraph break]¯¯̿̿¯̿̿'̿̿̿̿̿̿̿'̿̿'̿̿̿̿̿'̿̿̿)͇̿̿)̿̿̿̿ '̿̿̿̿̿̿\̵͇̿̿\=(•̪̀●́)=o/̵͇̿̿/. You can't make out the caption.[end if]".
 
@@ -215,9 +239,9 @@ Carry out examining something:
 
 Section 2 - Closet
 
-The Closet is north of the Bedroom. "The closet is small and cramped, with a single cardboard box in the corner. It's dimly lit, and you can smell a faint musty odor, as if the space hasn’t been opened in years. The walls are lined with old, forgotten coats, and the ceiling is low, making the space feel claustrophobic."
+The Closet is south of the Bedroom. "The closet is small and cramped, with a single cardboard box in the corner. It's dimly lit, and you can smell a faint musty odor, as if the space hasn’t been opened in years. The walls are lined with old, forgotten coats, and the ceiling is low, making the space feel claustrophobic."
 
-A suitcase is here. The description of the suitcase is "[if the suitcase is closed] A small black suitcase with a tag that reads '[italic type]My favourite neopet[roman type]' and a keypad on the side. It looks like it requires a passcode to open. [else] Inside the suitcase is a collection of random objects, a yearbook, a record player, and a narwhal". A suitcase is locked and closed. The suitcase is a container. It is fixed in place. A yearbook, record player, and narwhal is in the suitcase.
+A suitcase is here. The description of the suitcase is "[if the suitcase is closed] A small black suitcase and a keypad on the side. It looks like it requires a passcode to open. [else] Inside the suitcase is a collection of random objects, a yearbook, a record player, and a narwhal". A suitcase is locked and closed. The suitcase is a container. It is fixed in place. A yearbook, record player, and narwhal is in the suitcase. A keypad is here. It is fixed in place. The description is "A numeric keypad, a little old fashioned. The tag reads '[italic type]My favourite neopet[roman type]'.".
 
 Instead of unlocking the suitcase with the key:
 	now the command prompt is "> This suitcase requires a passcode: ";
@@ -238,28 +262,32 @@ After reading a command when the command prompt is "> This suitcase requires a p
 	reject the player's command.
 
 A yearbook is a container. It is openable. The description is "[italic type][if roomCount is 0] ??? ???? ???? ???? You can't make out the text right now.[else if the player is wearing the glasses]Class of XXYZ[end if][roman type].".
-A narwhal is a thing. The description is "An old hurt vibrates through you. You can't place why.".
+A narwhal is a thing. The description is "A ragged thing. An old hurt vibrates through you. You can't place why.".
 A record player is a device. It is switched off. It is fixed in place. The description is "A vintage turntable. It's loaded with a vinyl - Best of 2010s Hits.".
 
 Section 2 - KITCHEN
 
-The Kitchen is south of the Bedroom. "Your kitchen has seen better days. A fridge lies in one corner. Near the door is a row of plants with yellowing leaves. At the north corner is a door that leads onto the street."
+The Kitchen is north of the Bedroom. "Your kitchen has seen better days. A fridge lies in one corner. Near the door is a row of plants with yellowing leaves."
 
 The silver key is a thing. The description is “A stainless steel key, slightly bigger than your thumb. It's wet with your saliva.” The matching key of the drawer is the silver key. The silver key is nowhere.
 
 After unlocking the drawer with the silver key:
+	say "The drawer yawns open lazily. In it are a journal, crayons and glasses.";
 	now the drawer is open;
 
-A jug is here. 
+A jug is here. The description is "Filled with water."
 
-The plant is a thing. It is here. It is fixed in place. 
+The plant is a thing. It is here. It is fixed in place. The description is "It looks parched.".
 Understand "water [something]" as watering. Watering is an action applying to one thing.
 
 After watering the plant:
 	if the player is carrying the jug:
 		say "You water the plant with the jug. The plant perks up a little.";
+		now the description of the plant is "It's standing a bit taller now";
+	else: 
+		say "You don't have anything to water it with.".
 
-A note is here. It is fixed in place. A fridge is here. The fridge is fixed in place.  The description of the fridge is "You're bizarrely attached to your fridge. It's charming in its age, rickedy, humming in a contented manner. It's covered with  and a note is pinned to it." It is a container. It is openable. It is closed. The description of the note is "There's a note stuck to the fridge. It reads [if roomCount is 0] ??? ??? ????????? ???? You can't make out the text [else if roomCount is 1] 'Where did you go? Come play with me in Dreamland /( ^^)/[end if].'".
+A note is here. It is fixed in place. A fridge is here. The fridge is fixed in place.  The description of the fridge is "You're bizarrely attached to your fridge. It's charming in its age, rickedy, humming in a contented manner. It's covered with  and a note is pinned to it." It is a container. It is openable. It is closed. The description of the note is "There's a note stuck to the fridge. It reads [if the player is not wearing the glasses] ??? ??? ????????? ???? You can't make out the text [else] 'Where did you go? Come play with me in Dreamland /( ^^)/[end if].'".
 
 After opening the fridge, say "The fridge contains a jug and a piece of candy. The candy beckons to you."
 
@@ -273,7 +301,9 @@ After eating the candy:
 
 A sudden prickling rips through your throat, like you've swallowed something you shouldn't have. You double over, coughing, clutching the counter for balance. There's something lodged in your throat.
 
-[italic type]Clang![roman type] Out comes a small piece of metal. You pick it up, bewildered. It's a small key.";
+[italic type]Clang![roman type] Out comes a small piece of metal. You pick it up, bewildered. It's a small key. 
+
+[italic type]You can press i to view your inventory.[roman type]";
 	now the player is carrying the silver key;
 	now roomCount is 1;
 
@@ -299,13 +329,13 @@ You open your eyes to pure whiteness. Every bit of empty space is blue lines, pi
 
 Margins! That's it. The world you're in is rendered on notebook paper. Objects are flat, paperlike, outlined in waxy lines. You look down at your hands and suppress a cry of shock. You're wearing a triangular smock of purple and your body is composed of black lines. You unfurl your fingers and watch as the lines retract and relax.
 
-You take in the rest of your surroundings. You seem to be in a playground of sorts. There's a set of swings and a playstructure in a garish primary colours. In the distance is a forest, the paper trees swaying in the wind. One of the trees stands proudly in the center, a broken ladder propped against it.
-
-A girl no older than five is playing in the field. She's crawling through the grass, plucking out a stem here and there." Toybox is a room with printed name "Toybox (Dreamland)".
+You take in the rest of your surroundings. You seem to be in a playground of sorts. There's a set of swings and a playstructure in a garish primary colours. In the distance is a forest, the paper trees swaying in the wind. One of the trees stands proudly in the center, a broken ladder propped against it." 
+Toybox is a room with printed name "Toybox (Dreamland)".
 
 [A doodlebox machine is in the Toybox. It is fixed in place and opaque. ]
 
-A tree is here. It is fixed in place. The description of the tree is "A knotted looking thing with a thick trunk. Leaning on it is a worm out ladder. Nestled in the branches is a winding structure, a treehouse of sorts.". A bunny is here. It is fixed in place. A clover is here. It is fixed in place. A dandelion is here. It is fixed in place.
+
+A playstructure is here. It is fixed in place. Understand "playground" or "park" as playstructure. The description of the playstructure is "Warped plastics. Doesn't look safe to visit.". A swing is here. It is fixed in place. Understand "swings" as swing. The description of the swing is "A rusted thing. Doesn't look safe to swing on.". A tree is here. It is fixed in place. The description of the tree is "A knotted looking thing with a thick trunk. Leaning on it is a worn out ladder. Nestled in the branches is a winding structure, a treehouse of sorts.". A bunny is here. It is fixed in place. A clover is here. It is fixed in place. A dandelion is here. It is fixed in place.
 
 Drawing is an action applying to one topic and one carried thing.
 Understand "draw [text] with [something]" as drawing.
@@ -352,16 +382,24 @@ Rule for printing the locale description of Toybox: stop.
 
 Section 3,1 - EMMA
 
-The Treehouse is a room. "You have entered a cozy treehouse. It has a wooden floor, a small table with some board games, a hammock, and a girl named Emma who is sitting on a bean bag chair. There's a window with a view of the forest below."
+The Treehouse is a room. "You have entered a cozy treehouse. It has a wooden floor, a small table with some board games, a hammock, and a small girl around the age of 6. There's a window with a view of the forest below.
+
+The girl is doodling furiously. It's some sort of composition of flowers. Every moment she pauses to wipe her wax-covered hands on her skirt. When she sees you, she cries out in delight. 
+
+'I see you managed to fix the ladder,' she says. I was getting bored up here. What took you so long?'"
 
 The ladder is a supporter in the Toybox. The ladder can be fixed or broken. The ladder is broken. The description of the ladder is "The ladder leans against the tree, but some of its rungs are missing."
+
+Rule for printing the locale description of the Treehouse:
+	stop.
+
 
 [Carry out teleporting to the Treehouse:
 	say "The ladder is missing some rungs and isn't usable right now. You need to fix it first.";
 	stop the action;]
 
 Instead of climbing the ladder when the ladder is broken:
-	say "The ladder is missing some rungs and isn't usable right now. You need to fix it first."
+	say "That would be dangerous."
 
 Drawing on it with is an action applying to two things. Understand "draw on [something] with [something]" as drawing on it with.
 
@@ -375,7 +413,7 @@ Carry out drawing on the ladder with the crayons:
 	now the ladder is fixed.
 
 Report drawing on the ladder with the crayons:
-	say "You use the crayon to draw in the missing rungs on the ladder. It now seems sturdy and ready to climb."
+	say "You color in the missing gaps with the silver crayon. Good as new."
 	
 
 Instead of climbing the ladder when the ladder is fixed:
@@ -387,7 +425,9 @@ After going to the Treehouse for the first time:
 
 emmaTalk is a number that varies. emmaTalk is 1.
 
-Emma is a person in the Treehouse. The description of Emma is "A small girl wearing a checkered dress. Her hair is in neat plaits and her socks are mismatched. She looks familiar." Understand "girl" or "child" or "kid" as Emma.
+Emma is a person in the Treehouse. The description of Emma is "[if Emma is in Treehouse]A small girl wearing a checkered dress. Her hair is in neat plaits and her socks are mismatched. She looks familiar. [else] Emma looks bigger than you remember. She's fiddling with a sewing needle.[end if]
+
+[italic type]You can interact with her by typing: ask [if emmaName is 1]Emma[else]girl[end if] about `topic`. The topic should be a singular word.[roman type]". Understand "girl" or "child" or "kid" as Emma.
 
 Instead of telling someone about something, try asking the noun about it. Instead of answering the noun that something, try asking the noun about it.
 
@@ -397,10 +437,12 @@ Giving it about is an action applying to two things. Understand "give [someone] 
 
 Carry out giving something about someone:
 	say "Emma cries out in joy. A [the second noun]!";
-Instead of giving narwhal to Emma:
-	say "She scoffs at the plushies. 'I'm not talking about a narwhal, silly! Mr. Narkins is way smarter at that thing. We used to play Faerie Bubbles together.";
+Before giving narwhal to Emma:
+	say "'Mr. Narkins!' she cries. 'You've returned him to me. But his wings are gone...'. She sobers up. 'That's to be continued. This is a demo, after all.'";
+	end the story finally saying "You've reached the end of the demo (´｡• ᵕ •｡`) ♡ See you again soon.";
+
 	
-Instead of giving dandelion to Emma:
+Before giving dandelion to Emma:
 	say "Emma looks up at you in wonder. 'A dandelion', she whispers reverentially. 'I've never seen one before.'
 
 	You tell her they're commonplace where you're from. 'That can't be right,' she says. 'My grandma says they went extinct long ago. They were killed, you know. For being too resilient. She cups the fluffy white thing delicately. 'C'mon! Let's wish together.'
@@ -408,12 +450,12 @@ Instead of giving dandelion to Emma:
 	You put your heads together and your breaths create a flurry of white as the spores release into the air. You stare at this strange girl, wide-eyed with awe, twirling the empty stem in her hands. You're drawn to her uncomplicated joy.
 
 	'I wished for a friend,' she says abruptly. She gazes at you in wonder. 'I've never had a friend. Will you be my friend?";
-	now the command prompt is "> Befriend Emma? Y/N";
+	now the command prompt is "> Befriend Emma? Y/N ";
 	reject the player's command.
 
 The crayola key is nowhere. It is fixed in place.
 
-After reading a command when the command prompt is "> Befriend Emma? Y/N":
+After reading a command when the command prompt is "> Befriend Emma? Y/N ":
 	if the player's command matches "Y":
 		say "Her face blooms with delight. 'YAAAAY', she cries. 'We can all be friends now. Me, you, Mr. Narkins.
 
@@ -424,39 +466,9 @@ After reading a command when the command prompt is "> Befriend Emma? Y/N":
 	else if the player's command matches "N":
 		say "Emma deflates for just a second. Then she shrugs it off, and says, 'That's okay.'";
 	else:
-		say "[italic type]Twenty One Pilots fills the room.";
-	now the command prompt is ">".
-
-[Talking to Emma about is an action applying to one topic. Understand "[text]" as talking to Emma about when Emma is visible.
-
-Carry out talking to Emma about:
-	if the topic understood includes "wish/wishes":
-		try asking Emma about "wish";
-	otherwise if the topic understood includes "dream/dreaming":
-		try asking Emma about "dream";
-	otherwise if the topic understood includes "hi/hello/greetings":
-		try asking Emma about "hi";
-	otherwise if the topic understood includes "drawing/draw/art/doodle":
-		try asking Emma about "drawing";
-	otherwise if the topic understood includes "crayons":
-		try asking Emma about "crayons";
-	otherwise:
-		say "Emma doesn't seem to understand what you're asking about."
-
-Instead of asking Emma about "wish":
-    say "Huuuh? I can't tell you! 'Cause if I did, it wouldn't come true!".
-
-Instead of asking Emma about "dream/dreaming":
-    say "[if emmaName is 1]Emma[else]The girl[end if] is crestfallen. 'So it's true. You think we're only dreaming.'".
-
-Instead of asking Emma about "hi":
-    say "[if emmaName is 1]Emma[else]She[end if] crushes you in a hug. 'You found me!'".
-
-Instead of asking Emma about "drawing/draw/art/doodle/":
-    say "C'mon! Let's draw together.".
-
-Instead of asking Emma about "crayons":
-    say "Waahhhh! Crayons! Can I eat one?.".]
+		say "That's not a valid response.";
+	now the command prompt is ">";
+	reject the player's command.
 
 
 Instead of kissing Emma:
@@ -470,31 +482,35 @@ Instead of asking Emma about "friends":
 Instead of asking Emma about "name":
     now emmaName is 1;
     say "Huuuh? I'm Emma, silly. Did you hit your head on the way down here?".
-Instead of asking Emma about "dream/dreaming":
+Instead of asking Emma about "dream":
     say "[if emmaName is 1]Emma[else]The girl[end if]is crestfallen. So it's true. You think we're only dreaming.".
 Instead of asking Emma about "hi":
     say "[if emmaName is 1]Emma[else]She[end if] crushes you in a hug. You found me!".
-Instead of asking Emma about "drawing/draw/art/doodle/":
-    say "C'mon! Let's draw together.".
+Instead of asking Emma about "drawing":
+    say "'C'mon! Let's draw together', she cries.".
 Instead of asking Emma about "crayons":
-    say "Waahhhh! Crayons! Can I eat one?.".
-Instead of asking Emma about "wish/magic":
+    say "Her eyes go wide. 'Waahhhh! Crayons! Can I eat one?' she cries. 'Just kidding. But I wonder if you could help me out with my wish.'".
+Instead of asking Emma about "wish":
     say "You feel it too, don't you? whispers [if emmaName is 1]Emma[else]the girl[end if]. This is a magic place.".
 Instead of asking Emma about "looking/find/doing/grass/stem/meadow":
     say "[if emmaName is 1]Emma[else]The girl[end if] looks solemn, 'I'm looking for something. It's a [italic type]special[roman type] plant. My grandma told me it's got special powers, and I need it to make a wish.".
 Instead of asking Emma about "wish/what her wish is/wishes":
     say "Huuuh? I can't tell you! 'Cause if I did, it wouldn't come true!".
-Instead of asking Emma about "dandelions/flowers/dandelion":
-    say "[if emmaName is 1]Emma[else]The girl[end if] looks up at you in wonder. So you do know the story! Could'ya help me look? Pretty please!".
+Instead of asking Emma about "flowers":
+    say "[if emmaName is 1]Emma[else]The girl[end if] brightens up. 'Yes! I'm trying to draw a specific flower... for a wish. It's yellow, and then not yellow. When it's old it becomes a puffball.'".
+Instead of asking Emma about "dandelion":
+    say "[if emmaName is 1]Emma[else]The girl[end if] looks up at you in wonder. So you do know the story! Could'ya help me find one? Pretty please!".
+Instead of asking Emma about "narwhal":
+    say "'Mr. Narkins!' she cries.".
 Instead of asking Emma about "parents":
-    say "[if emmaName is 1]Emma[else]The girl[end if] goes quiet for a long time. When she speaks, her voice is shaking.".
-Instead of asking Emma about "fuck/shit/bitch/ass/cunt/penis/boobs":
+    say "[if emmaName is 1]Emma[else]The girl[end if] goes quiet for a long time. 'I don't know who they are', she finally says.".
+Instead of asking Emma about "fuck":
     say "[if emmaName is 1]Emma[else]The girl[end if] covers her ears and turns red. 'Stop it with the bad words or I'll tell on you!'".
 Instead of asking Emma about something:
 	if emmaTalk is 1:
 		say "Emma doesn't seem to hear you. She seems lost in a daydream.";
 	else if emmaTalk is 2:
-		say "Emma is too busy digging through the meadow.";
+		say "Emma is too busy doodling flowers.";
 	else if emmaTalk is 3:
 		say "Emma is humming to herself.";
 	now emmaTalk is a random number from 1 to 3.
@@ -502,8 +518,7 @@ Instead of asking Emma about "world/where/toybox/notebook/paper", say "She looks
 
 Section 4 - Plushieland
 
-Plushieland is north of Toybox. "You wake up in world of cotton. Everything you see is rendered in a shade of pastel - the turgid river, the sky, the meadows in front of you. A girl around the age of seven is digging up flowers. Surrounding you are 
-"
+Plushieland is a room. "You wake up in world of cotton. Everything you see is rendered in a shade of pastel - the turgid river, the sky, the meadows in front of you. Before you are a medley of anthropomorphic plushies. You spot a jubjub, hedgehog, and even a djungelskog. A girl around the age of seven is playing with the stuffed animals."
 
 Table of Conversation
 Topic	Response
@@ -520,10 +535,15 @@ Section 5 - INDEX
 
 A journal is a thing. It is portable. The description of the journal is "A worn out journal in which you've taken to scrawling your dreams.
 
+
 TABLE OF CONTENTS:[line break]
-	1  TOYBOX[line break]
-	2  [if the player is carrying the narwhal]PLUSHIELAND[else]?????[end if][line break]
-	3  [if the player is carrying the narwhal]TERMINAL[else]?????[line break]".
+	1.  TOYBOX[line break]
+	2.  [if the player is carrying the narwhal]PLUSHIELAND[else]?????[end if][line break]
+	3. ?????
+	
+	[italic type]You can read the journal by typing: read page N of journal[roman type].".
+	
+
 	
 The journal is an openable closed container. A journal has a number called the last page read.
 
@@ -534,10 +554,7 @@ Carry out reading it in:
 	read page number understood.
 
 Carry out reading:
-	let N be a random number between 1 and the 4; now the number understood is N;
-	say "You flip the pages randomly and arrive at page [the number understood]:[paragraph break]";
-	try reading the number understood in the journal.
-
+	say "You need to specify a page to read.";
 
 Table of Book Contents
 page	content
@@ -550,7 +567,7 @@ To read page (N - a number):
 	if there is a content corresponding to a page of N in the Table of Book Contents:
 		choose row with a page of N in the Table of Book Contents;
 		if N is 1:
-			say "A thunderous crack cuts through the air. Everything begins to spin. You watch as everything around you dissolves and reforms until your eyes begin to burn from the distortion. [N]. '[content entry]'[paragraph break]";
+			say "A thunderous crack cuts through the air. Everything begins to spin. You watch as everything around you dissolves and reforms until your eyes begin to burn from the distortion.";
 			move player to Toybox;
 		if N is 2:	
 			if the player is carrying the narwhal:
@@ -559,6 +576,8 @@ To read page (N - a number):
 				move player to Plushieland;
 			else: 
 				say "Page [N] appears to be blank.";
+		if N > 2:
+			say "Page [N] appears to be blank.";
 	otherwise:
 		say "Page [N] appears to be blank."
 
@@ -591,6 +610,9 @@ After writing journal:
 
 After playing record player:
 	now the command prompt is "> Select a song: ".
+	
+After taking the narwhal:
+	say "It's a ragged thing. An old hurt vibrates through you. You can't place why. From faraway, the journal vibrates.";
 
 After reading a command when the command prompt is "> Select a song: ":
 	if the player's command matches "1":
@@ -617,10 +639,12 @@ Every turn when record player is switched on:
 		else if songX is 2:
 			say "[italic type]Pussy Riot fills the room.";
 		else if songX is 3:
-			say "[italic type]Twice fills the room.";
+			say "[italic type]BETWEEN FRIENDS fills the room.";
 			now songX is 1;
 		else if songX is 4:
-			say "[italic type]Bruno Mars fills the room. You're on the verge of tears, but you're not sure why.";
+			say "[italic type]Porter Robinson fills the room. You're on the verge of tears, but you're not sure why.";
 		else if songX is 5:
 			say "[italic type]Twenty One Pilots fills the room.";
 		now songX is a random number from 1 to 5.
+
+Release along with an interpreter.

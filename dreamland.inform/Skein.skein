@@ -13,7 +13,34 @@ You wake up to the ringing of your alarm. Images of a strange dream drift throug
 (´｡• ᵕ •｡`) ♡ 
 Dreamland
 An Interactive Fiction by Melissa Liu
-Release 1 / Serial number 240915 / Inform 7 v10.1.2 / D
+Release 1 / Serial number 240916 / Inform 7 v10.1.2 / D
+
+Bedroom
+ .   \_/       .:"    .:"    .:"
+ -=(_)=- /\ ||    /\||    /\||
+ .   / \     //\\|   //\\|   //\\|
+ .          //  \\  //  \\  //  \\
+ .         //    \ ^/    \^/    \\
+ .         |  ( )  ||  ( ) || ( ) |
+ .         |       ||      ||      |%
+ &amp;%&amp;--==--&amp;%-==--%&amp;
+
+
+Your bedroom is unadorned. The walls are chalky and the ground bare. The only decoration is a poster of The Killers. A lightbulb hangs from the ceiling. A tiny window is opened a crack, and the sound of faint static comes through.
+
+In the corner your monitor blinks wearily. You must've forgotten to turn it off.  Beside you is a worn out drawer. To the north your kitchen fridge hums. To the south is a cramped closet. 
+
+&gt;</result>
+        <commentary xml:space="preserve">
+
+
+
+You wake up to the ringing of your alarm. Images of a strange dream drift through your mind, but when you try to conjure them, you draw a blank.
+
+(´｡• ᵕ •｡`) ♡ 
+Dreamland
+An Interactive Fiction by Melissa Liu
+Release 1 / Serial number 240916 / Inform 7 v10.1.2 / D
 
 Bedroom
  .   \_/       .:"    .:"    .:"
@@ -30,8 +57,7 @@ Your bedroom is unadorned. The walls are chalky and the ground bare. The only de
 
 In the corner your monitor blinks wearily. You must've forgotten to turn it off.  Beside you is a worn out drawer. To the south your kitchen fridge hums. To the north is a cramped closet. 
 
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
+&gt;</commentary>
         <children><child nodeId="node-2278"></child>
             <child nodeId="node-2257"></child>
             <child nodeId="node-2238"></child>
@@ -53,6 +79,7 @@ In the corner your monitor blinks wearily. You must've forgotten to turn it off.
             <child nodeId="node-1745"></child>
             <child nodeId="node-1691"></child>
             <child nodeId="node-1679"></child>
+            <child nodeId="node-4545"></child>
             <child nodeId="node-1675"></child>
             <child nodeId="node-1613"></child>
             <child nodeId="node-1577"></child>
@@ -78,6 +105,7 @@ In the corner your monitor blinks wearily. You must've forgotten to turn it off.
             <child nodeId="node-1009"></child>
             <child nodeId="node-1007"></child>
             <child nodeId="node-1004"></child>
+            <child nodeId="node-5409"></child>
             <child nodeId="node-1003"></child>
         </children>
     </item>
@@ -87,6 +115,313 @@ In the corner your monitor blinks wearily. You must've forgotten to turn it off.
 
 The shadows are growing darker.
 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5409">
+        <command xml:space="preserve">x window</command>
+        <result xml:space="preserve">North facing. Not a lot of light coming in.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5413"></child>
+        </children>
+    </item>
+    <item nodeId="node-5413">
+        <command xml:space="preserve">pull light</command>
+        <result xml:space="preserve">It is fixed in place.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5414"></child>
+        </children>
+    </item>
+    <item nodeId="node-5414">
+        <command xml:space="preserve">turn light on</command>
+        <result xml:space="preserve">You pull on the lightbulb. Things seem a little brighter.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5415"></child>
+        </children>
+    </item>
+    <item nodeId="node-5415">
+        <command xml:space="preserve">x light</command>
+        <result xml:space="preserve">A single lightbulb. A string dangles.
+
+The lightbulb is currently switched on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5424"></child>
+        </children>
+    </item>
+    <item nodeId="node-5424">
+        <command xml:space="preserve">x computer</command>
+        <result xml:space="preserve">A yellowing Windows XP that's seen better days. 
+
+The computer is currently switched off.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5425"></child>
+        </children>
+    </item>
+    <item nodeId="node-5425">
+        <command xml:space="preserve">turn on computer</command>
+        <result xml:space="preserve">The monitor lights up with a staticky pop. 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5426"></child>
+        </children>
+    </item>
+    <item nodeId="node-5426">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5427"></child>
+        </children>
+    </item>
+    <item nodeId="node-5427">
+        <command xml:space="preserve">x computer</command>
+        <result xml:space="preserve">The computer is open to a game development software. You feel unsettled, like you're being watched. 
+
+The computer is currently switched on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5428"></child>
+        </children>
+    </item>
+    <item nodeId="node-5428">
+        <command xml:space="preserve">x desk</command>
+        <result xml:space="preserve">On the desk are a ballpoint pen and a computer.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5429"></child>
+        </children>
+    </item>
+    <item nodeId="node-5429">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Bedroom
+ .   \_/       .:"    .:"    .:"
+ -=(_)=- /\ ||    /\||    /\||
+ .   / \     //\\|   //\\|   //\\|
+ .          //  \\  //  \\  //  \\
+ .         //    \ ^/    \^/    \\
+ .         |  ( )  ||  ( ) || ( ) |
+ .         |       ||      ||      |%
+ &amp;%&amp;--==--&amp;%-==--%&amp;
+
+
+Your bedroom is unadorned. The walls are chalky and the ground bare. The only decoration is a poster of The Killers. A lightbulb hangs from the ceiling. A tiny window is opened a crack, and the sound of faint static comes through.
+
+In the corner your monitor blinks wearily. You must've forgotten to turn it off.  Beside you is a worn out drawer. To the north your kitchen fridge hums. To the south is a cramped closet. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5450"></child>
+        </children>
+    </item>
+    <item nodeId="node-5450">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Kitchen
+Your kitchen has seen better days. A fridge lies in one corner. Near the door is a row of plants with yellowing leaves.
+
+You can see a jug, a plant, a note and a fridge (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5451"></child>
+        </children>
+    </item>
+    <item nodeId="node-5451">
+        <command xml:space="preserve">open fridge</command>
+        <result xml:space="preserve">The fridge contains a jug and a piece of candy. The candy beckons to you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5452"></child>
+        </children>
+    </item>
+    <item nodeId="node-5452">
+        <command xml:space="preserve">open candy</command>
+        <result xml:space="preserve">It isn't something you can open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5453"></child>
+        </children>
+    </item>
+    <item nodeId="node-5453">
+        <command xml:space="preserve">eat candy</command>
+        <result xml:space="preserve">(first taking the candy)
+You pocket the candy. It feels heavy, like nostalgia.
+
+You unwrap the candy and pop it in your mouth. It tastes of a strange medley of flavours - vanilla custard, citrus, a hint of buttered toast. Delightful.
+
+A sudden prickling rips through your throat, like you've swallowed something you shouldn't have. You double over, coughing, clutching the counter for balance. There's something lodged in your throat.
+
+Clang! Out comes a small piece of metal. You pick it up, bewildered. It's a small key.
+
+You can press i to view your inventory.
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5454"></child>
+        </children>
+    </item>
+    <item nodeId="node-5454">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a silver key
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5470"></child>
+        </children>
+    </item>
+    <item nodeId="node-5470">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5471"></child>
+        </children>
+    </item>
+    <item nodeId="node-5471">
+        <command xml:space="preserve">k</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5472"></child>
+        </children>
+    </item>
+    <item nodeId="node-5472">
+        <command xml:space="preserve">kill</command>
+        <result xml:space="preserve">(the silver key)
+Violence isn't the answer to this one.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5473"></child>
+        </children>
+    </item>
+    <item nodeId="node-5473">
+        <command xml:space="preserve">eat</command>
+        <result xml:space="preserve">(the silver key)
+That's plainly inedible.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5474"></child>
+        </children>
+    </item>
+    <item nodeId="node-5474">
+        <command xml:space="preserve">take al</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5475"></child>
+        </children>
+    </item>
+    <item nodeId="node-5475">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">jug: Taken. Filled with water.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5497"></child>
+        </children>
+    </item>
+    <item nodeId="node-5497">
+        <command xml:space="preserve">x plant</command>
+        <result xml:space="preserve">It looks parched.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5542"></child>
+        </children>
+    </item>
+    <item nodeId="node-5542">
+        <command xml:space="preserve">water plant</command>
+        <result xml:space="preserve">You water the plant with the jug. The plant perks up a little.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5543"></child>
+        </children>
+    </item>
+    <item nodeId="node-5543">
+        <command xml:space="preserve">drop jug</command>
+        <result xml:space="preserve">Dropped.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5544"></child>
+        </children>
+    </item>
+    <item nodeId="node-5544">
+        <command xml:space="preserve">water plant</command>
+        <result xml:space="preserve">You don't have anything to water it with.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5570"></child>
+        </children>
+    </item>
+    <item nodeId="node-5570">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5571"></child>
+        </children>
+    </item>
+    <item nodeId="node-5571">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Bedroom
+ .   \_/       .:"    .:"    .:"
+ -=(_)=- /\ ||    /\||    /\||
+ .   / \     //\\|   //\\|   //\\|
+ .          //  \\  //  \\  //  \\
+ .         //    \ ^/    \^/    \\
+ .         |  ( )  ||  ( ) || ( ) |
+ .         |       ||      ||      |%
+ &amp;%&amp;--==--&amp;%-==--%&amp;
+
+
+You step into the bedroom and are flooded with emotion. Every inch of its surface now looks as if it's been dipped in. The walls are pulsating and warm, shifting from blue to red to violet. 
+
+Lo-fi indie is playing from your computer. You notice movement on the screen. Beside you is a worn out drawer. To the north your kitchen fridge hums. To the south is a cramped closet. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5572"></child>
+        </children>
+    </item>
+    <item nodeId="node-5572">
+        <command xml:space="preserve">x computer</command>
+        <result xml:space="preserve">Your screen is being populated with a barrage of popups. The same message is written on them. "Your dreams await. \( ^^)/". 
+
+The computer is currently switched on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5573"></child>
+        </children>
+    </item>
+    <item nodeId="node-5573">
+        <command xml:space="preserve">unlock drawer with key</command>
+        <result xml:space="preserve">The drawer yawns open lazily. In it are a journal, crayons and glasses
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
@@ -7099,7 +7434,9 @@ Twenty One Pilots fills the room.
         <result xml:space="preserve">There are none at all available!
 
 &gt;</result>
-        <commentary xml:space="preserve"></commentary>
+        <commentary xml:space="preserve">There are none at all available!
+
+&gt;</commentary>
         <children><child nodeId="node-1669"></child>
             <child nodeId="node-1630"></child>
             <child nodeId="node-1614"></child>
@@ -7259,7 +7596,9 @@ housekey: Taken.
         <result xml:space="preserve">It seems to be locked.
 
 &gt;</result>
-        <commentary xml:space="preserve"></commentary>
+        <commentary xml:space="preserve">It seems to be locked.
+
+&gt;</commentary>
         <children><child nodeId="node-1631"></child>
         </children>
     </item>
@@ -7268,7 +7607,9 @@ housekey: Taken.
         <result xml:space="preserve">It's covered with a layer of dust and lined with faint scratches. You can make out a tiny keyhole in the upper right corner.
 
 &gt;</result>
-        <commentary xml:space="preserve"></commentary>
+        <commentary xml:space="preserve">It's covered with a layer of dust and lined with faint scratches. You can make out a tiny keyhole in the upper right corner.
+
+&gt;</commentary>
         <children><child nodeId="node-1632"></child>
         </children>
     </item>
@@ -7277,7 +7618,9 @@ housekey: Taken.
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
-        <commentary xml:space="preserve"></commentary>
+        <commentary xml:space="preserve">You can't see any such thing.
+
+&gt;</commentary>
         <children><child nodeId="node-1633"></child>
         </children>
     </item>
@@ -7286,7 +7629,9 @@ housekey: Taken.
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
-        <commentary xml:space="preserve"></commentary>
+        <commentary xml:space="preserve">You can't see any such thing.
+
+&gt;</commentary>
         <children><child nodeId="node-1634"></child>
         </children>
     </item>
@@ -7295,7 +7640,9 @@ housekey: Taken.
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
-        <commentary xml:space="preserve"></commentary>
+        <commentary xml:space="preserve">You can't see any such thing.
+
+&gt;</commentary>
         <children><child nodeId="node-1635"></child>
         </children>
     </item>
@@ -7304,7 +7651,9 @@ housekey: Taken.
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
-        <commentary xml:space="preserve"></commentary>
+        <commentary xml:space="preserve">You can't see any such thing.
+
+&gt;</commentary>
         <children><child nodeId="node-1636"></child>
         </children>
     </item>
@@ -7313,7 +7662,9 @@ housekey: Taken.
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
-        <commentary xml:space="preserve"></commentary>
+        <commentary xml:space="preserve">You can't see any such thing.
+
+&gt;</commentary>
         <children><child nodeId="node-1637"></child>
         </children>
     </item>
@@ -7322,7 +7673,9 @@ housekey: Taken.
         <result xml:space="preserve">You are carrying nothing.
 
 &gt;</result>
-        <commentary xml:space="preserve"></commentary>
+        <commentary xml:space="preserve">You are carrying nothing.
+
+&gt;</commentary>
         <children><child nodeId="node-1638"></child>
         </children>
     </item>
@@ -7995,6 +8348,8 @@ TABLE OF CONTENTS:
 Plushieland
 You wake up in world of cotton. Everything you see is rendered in a shade of pastel - the turgid river, the sky, the meadows in front of you. A girl around the age of seven is digging up flowers. Surrounding you are 
 
+You can see Emma here.
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-4328"></child>
@@ -8011,7 +8366,16 @@ You wake up in world of cotton. Everything you see is rendered in a shade of pas
     </item>
     <item nodeId="node-4329">
         <command xml:space="preserve">ask emma about toy</command>
-        <result xml:space="preserve">You can't see any such thing.
+        <result xml:space="preserve">Emma doesn't seem to hear you. She seems lost in a daydream.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4402"></child>
+        </children>
+    </item>
+    <item nodeId="node-4402">
+        <command xml:space="preserve">give narwhal to emma</command>
+        <result xml:space="preserve">She scoffs at the plushies. "I'm not talking about a narwhal, silly! Mr. Narkins is way smarter at that thing. We used to play Faerie Bubbles together.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -8112,6 +8476,1555 @@ housekey: Taken.
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-4545">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Closet
+The closet is small and cramped, with a single cardboard box in the corner. It's dimly lit, and you can smell a faint musty odor, as if the space hasn't been opened in years. The walls are lined with old, forgotten coats, and the ceiling is low, making the space feel claustrophobic.
+
+You can see a suitcase (closed) and a keypad here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5575"></child>
+            <child nodeId="node-4546"></child>
+        </children>
+    </item>
+    <item nodeId="node-4546">
+        <command xml:space="preserve">open fridge</command>
+        <result xml:space="preserve">The fridge contains a jug and a piece of candy. The candy beckons to you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4547"></child>
+        </children>
+    </item>
+    <item nodeId="node-4547">
+        <command xml:space="preserve">eat candy</command>
+        <result xml:space="preserve">(first taking the candy)
+You pocket the candy. It feels heavy, like nostalgia.
+
+You unwrap the candy and pop it in your mouth. It tastes of a strange medley of flavours - vanilla custard, citrus, a hint of buttered toast. Delightful.
+
+A sudden prickling rips through your throat, like you've swallowed something you shouldn't have. You double over, coughing, clutching the counter for balance. There's something lodged in your throat.
+
+Clang! Out comes a small piece of metal. You pick it up, bewildered. It's a small key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4548"></child>
+        </children>
+    </item>
+    <item nodeId="node-4548">
+        <command xml:space="preserve">take jug</command>
+        <result xml:space="preserve">Taken. You see nothing special about the jug.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4549"></child>
+        </children>
+    </item>
+    <item nodeId="node-4549">
+        <command xml:space="preserve">water plant</command>
+        <result xml:space="preserve">You water the plant with the jug. The plant perks up a little.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4550"></child>
+        </children>
+    </item>
+    <item nodeId="node-4550">
+        <command xml:space="preserve">x plant</command>
+        <result xml:space="preserve">You see nothing special about the plant.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4551"></child>
+        </children>
+    </item>
+    <item nodeId="node-4551">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4552"></child>
+        </children>
+    </item>
+    <item nodeId="node-4552">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Bedroom
+ .   \_/       .:"    .:"    .:"
+ -=(_)=- /\ ||    /\||    /\||
+ .   / \     //\\|   //\\|   //\\|
+ .          //  \\  //  \\  //  \\
+ .         //    \ ^/    \^/    \\
+ .         |  ( )  ||  ( ) || ( ) |
+ .         |       ||      ||      |%
+ &amp;%&amp;--==--&amp;%-==--%&amp;
+
+
+You step into the bedroom and are flooded with emotion. Every inch of its surface now looks as if it's been dipped in. The walls are pulsating and warm, shifting from blue to red to violet. .
+
+Lo-fi indie is playing from your computer. You notice movement on the screen. Beside you is a worn out drawer. To the south your kitchen fridge hums. To the north is a cramped closet. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4553"></child>
+        </children>
+    </item>
+    <item nodeId="node-4553">
+        <command xml:space="preserve">x computer</command>
+        <result xml:space="preserve">A yellowing Windows XP that's seen better days. 
+
+The computer is currently switched off.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4563"></child>
+        </children>
+    </item>
+    <item nodeId="node-4563">
+        <command xml:space="preserve">switch on</command>
+        <result xml:space="preserve">What do you want to switch on?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4564"></child>
+        </children>
+    </item>
+    <item nodeId="node-4564">
+        <command xml:space="preserve">switch on computer</command>
+        <result xml:space="preserve">The monitor lights up with a staticky pop. 
+You switch the computer on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4565"></child>
+        </children>
+    </item>
+    <item nodeId="node-4565">
+        <command xml:space="preserve">x computer</command>
+        <result xml:space="preserve">Your screen is being populated with a barrage of popups. The same message is written on them. "Your dreams await. \( ^^)/". 
+
+The computer is currently switched on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4566"></child>
+        </children>
+    </item>
+    <item nodeId="node-4566">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Kitchen
+Your kitchen has seen better days. A fridge lies in one corner. Near the door is a row of plants with yellowing leaves. At the north corner is a door that leads onto the street.
+
+You can see a plant, a note and a fridge (empty) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4567"></child>
+        </children>
+    </item>
+    <item nodeId="node-4567">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Bedroom
+ .   \_/       .:"    .:"    .:"
+ -=(_)=- /\ ||    /\||    /\||
+ .   / \     //\\|   //\\|   //\\|
+ .          //  \\  //  \\  //  \\
+ .         //    \ ^/    \^/    \\
+ .         |  ( )  ||  ( ) || ( ) |
+ .         |       ||      ||      |%
+ &amp;%&amp;--==--&amp;%-==--%&amp;
+
+
+You step into the bedroom and are flooded with emotion. Every inch of its surface now looks as if it's been dipped in. The walls are pulsating and warm, shifting from blue to red to violet. .
+
+Lo-fi indie is playing from your computer. You notice movement on the screen. Beside you is a worn out drawer. To the south your kitchen fridge hums. To the north is a cramped closet. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4568"></child>
+        </children>
+    </item>
+    <item nodeId="node-4568">
+        <command xml:space="preserve">nn</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4569"></child>
+        </children>
+    </item>
+    <item nodeId="node-4569">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Closet
+The closet is small and cramped, with a single cardboard box in the corner. It's dimly lit, and you can smell a faint musty odor, as if the space hasn't been opened in years. The walls are lined with old, forgotten coats, and the ceiling is low, making the space feel claustrophobic.
+
+You can see a suitcase (closed) and a keypad here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4570"></child>
+        </children>
+    </item>
+    <item nodeId="node-4570">
+        <command xml:space="preserve">open suitcase</command>
+        <result xml:space="preserve">&gt; This suitcase requires a passcode: </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4571"></child>
+        </children>
+    </item>
+    <item nodeId="node-4571">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt; This suitcase requires a passcode: </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4572"></child>
+        </children>
+    </item>
+    <item nodeId="node-4572">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">The suitcase beeps. The passcode is incorrect.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4573"></child>
+        </children>
+    </item>
+    <item nodeId="node-4573">
+        <command xml:space="preserve">x suitcase</command>
+        <result xml:space="preserve"> A small black suitcase and a keypad on the side. It looks like it requires a passcode to open. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4594"></child>
+        </children>
+    </item>
+    <item nodeId="node-4594">
+        <command xml:space="preserve">x keypad</command>
+        <result xml:space="preserve">A numeric keypad, a little old fashioned. The tag reads "My favourite neopet".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4616"></child>
+        </children>
+    </item>
+    <item nodeId="node-4616">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Bedroom
+ .   \_/       .:"    .:"    .:"
+ -=(_)=- /\ ||    /\||    /\||
+ .   / \     //\\|   //\\|   //\\|
+ .          //  \\  //  \\  //  \\
+ .         //    \ ^/    \^/    \\
+ .         |  ( )  ||  ( ) || ( ) |
+ .         |       ||      ||      |%
+ &amp;%&amp;--==--&amp;%-==--%&amp;
+
+
+You step into the bedroom and are flooded with emotion. Every inch of its surface now looks as if it's been dipped in. The walls are pulsating and warm, shifting from blue to red to violet. .
+
+Lo-fi indie is playing from your computer. You notice movement on the screen. Beside you is a worn out drawer. To the south your kitchen fridge hums. To the north is a cramped closet. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4617"></child>
+        </children>
+    </item>
+    <item nodeId="node-4617">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a jug
+  a silver key
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4618"></child>
+        </children>
+    </item>
+    <item nodeId="node-4618">
+        <command xml:space="preserve">unlock drawer with key</command>
+        <result xml:space="preserve">The drawer yawns open lazily. In it are a journal, crayons and glasses
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4619"></child>
+        </children>
+    </item>
+    <item nodeId="node-4619">
+        <command xml:space="preserve">x drawer</command>
+        <result xml:space="preserve">It's covered with a layer of dust and lined with faint scratches. You can make out a tiny keyhole in the upper right corner.
+
+In the drawer are a journal, crayons and glasses.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4620"></child>
+        </children>
+    </item>
+    <item nodeId="node-4620">
+        <command xml:space="preserve">open drawer</command>
+        <result xml:space="preserve">That's already open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4647"></child>
+        </children>
+    </item>
+    <item nodeId="node-4647">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">journal: Taken. A worn out journal in which you've taken to scrawling your dreams.
+
+
+TABLE OF CONTENTS:
+ 1.  TOYBOX
+ 2.  ?????
+ 3. ?????
+
+You can read the journal by typing: read page N of journal.
+
+crayons: Taken. A bright yellow box. On it are instructions on how to draw certain shapes: a bunny, a lion, a narwhal, and a unicorn. Good for fixing things, if you're in the right place.
+
+glasses: Taken. A wacky looking pair of with black frames and blue-purple swirling lenses. On the side are the words  Sentence Scrambler.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4648"></child>
+        </children>
+    </item>
+    <item nodeId="node-4648">
+        <command xml:space="preserve">x glasses</command>
+        <result xml:space="preserve">A wacky looking pair of with black frames and blue-purple swirling lenses. On the side are the words  Sentence Scrambler.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4649"></child>
+        </children>
+    </item>
+    <item nodeId="node-4649">
+        <command xml:space="preserve">x crayons</command>
+        <result xml:space="preserve">A bright yellow box. On it are instructions on how to draw certain shapes: a bunny, a lion, a narwhal, and a unicorn. Good for fixing things, if you're in the right place.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4795"></child>
+        </children>
+    </item>
+    <item nodeId="node-4795">
+        <command xml:space="preserve">read page 3 of journal</command>
+        <result xml:space="preserve">Page 3 appears to be blank.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4796"></child>
+        </children>
+    </item>
+    <item nodeId="node-4796">
+        <command xml:space="preserve">read page 2 of journal</command>
+        <result xml:space="preserve">Page 2 appears to be blank.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4859"></child>
+        </children>
+    </item>
+    <item nodeId="node-4859">
+        <command xml:space="preserve">read page 2 of journal</command>
+        <result xml:space="preserve">Page 2 appears to be blank.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4860"></child>
+        </children>
+    </item>
+    <item nodeId="node-4860">
+        <command xml:space="preserve">read journal</command>
+        <result xml:space="preserve">You need to specify a page to read.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4894"></child>
+        </children>
+    </item>
+    <item nodeId="node-4894">
+        <command xml:space="preserve">read page 1 of journal</command>
+        <result xml:space="preserve">A thunderous crack cuts through the air. Everything begins to spin. You watch as everything around you dissolves and reforms until your eyes begin to burn from the distortion.
+
+Toybox (Dreamland)
+ |                  /\   
+ |                 / | \ 
+ |                / | | \ 
+ |               /_|_|_|_
+ |                |     / /
+ |__    __    __ |    / /__    __    __
+ |  |__|  |__|  |.   / /|  |__|  |__|  |
+ |__            ____/ /___           __|
+ |          / .------  )         |
+ |         / /        /          |  TOYBOX
+ |        / /        /           |
+ ~~~~~~~~~~~~-----------~~~~~~~~
+
+
+You open your eyes to pure whiteness. Every bit of empty space is blue lines, pink margins...
+
+Margins! That's it. The world you're in is rendered on notebook paper. Objects are flat, paperlike, outlined in waxy lines. You look down at your hands and suppress a cry of shock. You're wearing a triangular smock of purple and your body is composed of black lines. You unfurl your fingers and watch as the lines retract and relax.
+
+You take in the rest of your surroundings. You seem to be in a playground of sorts. There's a set of swings and a playstructure in a garish primary colours. In the distance is a forest, the paper trees swaying in the wind. One of the trees stands proudly in the center, a broken ladder propped against it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4997"></child>
+        </children>
+    </item>
+    <item nodeId="node-4997">
+        <command xml:space="preserve">x tree</command>
+        <result xml:space="preserve">A knotted looking thing with a thick trunk. Leaning on it is a worn out ladder. Nestled in the branches is a winding structure, a treehouse of sorts.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4998"></child>
+        </children>
+    </item>
+    <item nodeId="node-4998">
+        <command xml:space="preserve">x ladder</command>
+        <result xml:space="preserve">The ladder leans against the tree, but some of its rungs are missing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4999"></child>
+        </children>
+    </item>
+    <item nodeId="node-4999">
+        <command xml:space="preserve">x page</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5000"></child>
+        </children>
+    </item>
+    <item nodeId="node-5000">
+        <command xml:space="preserve">x hands</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5001"></child>
+        </children>
+    </item>
+    <item nodeId="node-5001">
+        <command xml:space="preserve">x self</command>
+        <result xml:space="preserve">As good-looking as ever.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5002"></child>
+        </children>
+    </item>
+    <item nodeId="node-5002">
+        <command xml:space="preserve">x swings</command>
+        <result xml:space="preserve">A rusted thing. Doesn't look safe to swing on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5043"></child>
+        </children>
+    </item>
+    <item nodeId="node-5043">
+        <command xml:space="preserve">x swing</command>
+        <result xml:space="preserve">A rusted thing. Doesn't look safe to swing on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5085"></child>
+        </children>
+    </item>
+    <item nodeId="node-5085">
+        <command xml:space="preserve">draw on ladder</command>
+        <result xml:space="preserve">What do you want to draw on the ladder with?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5086"></child>
+        </children>
+    </item>
+    <item nodeId="node-5086">
+        <command xml:space="preserve">draw on ladder with crayons</command>
+        <result xml:space="preserve">You color in the missing gaps with the silver crayon. Good as new.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5216"></child>
+        </children>
+    </item>
+    <item nodeId="node-5216">
+        <command xml:space="preserve">climb ladder</command>
+        <result xml:space="preserve">You climb the ladder.
+
+Treehouse
+You have entered a cozy treehouse. It has a wooden floor, a small table with some board games, a hammock, and a small girl around the age of 6. There's a window with a view of the forest below.
+
+The girl is doodling furiously. It's some sort of composition of flowers. Every moment she pauses to wipe her wax-covered hands on her skirt. When she sees you, she cries out in delight.
+
+"I see you managed to fix the ladder," she says. I was getting bored up here. What took you so long?"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5261"></child>
+        </children>
+    </item>
+    <item nodeId="node-5261">
+        <command xml:space="preserve">x girl</command>
+        <result xml:space="preserve">A small girl wearing a checkered dress. Her hair is in neat plaits and her socks are mismatched. She looks familiar.
+
+You can interact with her by typing: ask girl about `topic`. The topic should be a singular word.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5262"></child>
+        </children>
+    </item>
+    <item nodeId="node-5262">
+        <command xml:space="preserve">ask girl about name</command>
+        <result xml:space="preserve">Huuuh? I'm Emma, silly. Did you hit your head on the way down here?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5263"></child>
+        </children>
+    </item>
+    <item nodeId="node-5263">
+        <command xml:space="preserve">ask girl about hi</command>
+        <result xml:space="preserve">Emma crushes you in a hug. You found me!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5358"></child>
+        </children>
+    </item>
+    <item nodeId="node-5358">
+        <command xml:space="preserve">ask emma about flowers</command>
+        <result xml:space="preserve">Emma brightens up. "Yes! I'm trying to draw a specific flower... for a wish. It's yellow, and then not yellow. When it's old it becomes a puffball.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5359"></child>
+        </children>
+    </item>
+    <item nodeId="node-5359">
+        <command xml:space="preserve">ask emma about drawing</command>
+        <result xml:space="preserve">"C'mon! Let's draw together", she cries.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5575">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Bedroom
+ .   \_/       .:"    .:"    .:"
+ -=(_)=- /\ ||    /\||    /\||
+ .   / \     //\\|   //\\|   //\\|
+ .          //  \\  //  \\  //  \\
+ .         //    \ ^/    \^/    \\
+ .         |  ( )  ||  ( ) || ( ) |
+ .         |       ||      ||      |%
+ &amp;%&amp;--==--&amp;%-==--%&amp;
+
+
+Your bedroom is unadorned. The walls are chalky and the ground bare. The only decoration is a poster of The Killers. A lightbulb hangs from the ceiling. A tiny window is opened a crack, and the sound of faint static comes through.
+
+In the corner your monitor blinks wearily. You must've forgotten to turn it off.  Beside you is a worn out drawer. To the north your kitchen fridge hums. To the south is a cramped closet. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5576"></child>
+        </children>
+    </item>
+    <item nodeId="node-5576">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Kitchen
+Your kitchen has seen better days. A fridge lies in one corner. Near the door is a row of plants with yellowing leaves.
+
+You can see a jug, a plant, a note and a fridge (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5577"></child>
+        </children>
+    </item>
+    <item nodeId="node-5577">
+        <command xml:space="preserve">open fridge</command>
+        <result xml:space="preserve">The fridge contains a jug and a piece of candy. The candy beckons to you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5578"></child>
+        </children>
+    </item>
+    <item nodeId="node-5578">
+        <command xml:space="preserve">eat candy</command>
+        <result xml:space="preserve">(first taking the candy)
+You pocket the candy. It feels heavy, like nostalgia.
+
+You unwrap the candy and pop it in your mouth. It tastes of a strange medley of flavours - vanilla custard, citrus, a hint of buttered toast. Delightful.
+
+A sudden prickling rips through your throat, like you've swallowed something you shouldn't have. You double over, coughing, clutching the counter for balance. There's something lodged in your throat.
+
+Clang! Out comes a small piece of metal. You pick it up, bewildered. It's a small key.
+
+You can press i to view your inventory.
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5579"></child>
+        </children>
+    </item>
+    <item nodeId="node-5579">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5580"></child>
+        </children>
+    </item>
+    <item nodeId="node-5580">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Bedroom
+ .   \_/       .:"    .:"    .:"
+ -=(_)=- /\ ||    /\||    /\||
+ .   / \     //\\|   //\\|   //\\|
+ .          //  \\  //  \\  //  \\
+ .         //    \ ^/    \^/    \\
+ .         |  ( )  ||  ( ) || ( ) |
+ .         |       ||      ||      |%
+ &amp;%&amp;--==--&amp;%-==--%&amp;
+
+
+You step into the bedroom and are flooded with emotion. Every inch of its surface now looks as if it's been dipped in. The walls are pulsating and warm, shifting from blue to red to violet. 
+
+Lo-fi indie is playing from your computer. You notice movement on the screen. Beside you is a worn out drawer. To the north your kitchen fridge hums. To the south is a cramped closet. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5595"></child>
+        </children>
+    </item>
+    <item nodeId="node-5595">
+        <command xml:space="preserve">open drawer with key</command>
+        <result xml:space="preserve">The drawer yawns open lazily. In it are a journal, crayons and glasses.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5596"></child>
+        </children>
+    </item>
+    <item nodeId="node-5596">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">journal: Taken. A worn out journal in which you've taken to scrawling your dreams.
+
+
+TABLE OF CONTENTS:
+ 1.  TOYBOX
+ 2.  ?????
+ 3. ?????
+
+You can read the journal by typing: read page N of journal.
+
+crayons: Taken. A bright yellow box. On it are instructions on how to draw certain shapes: a bunny, a lion, a narwhal, and a unicorn. Good for fixing things, if you're in the right place.
+
+glasses: Taken. A wacky looking pair of with black frames and blue-purple swirling lenses. On the side are the words  Sentence Scrambler.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5597"></child>
+        </children>
+    </item>
+    <item nodeId="node-5597">
+        <command xml:space="preserve">wear glasses</command>
+        <result xml:space="preserve">You put on glasses.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5598"></child>
+        </children>
+    </item>
+    <item nodeId="node-5598">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Closet
+The closet is small and cramped, with a single cardboard box in the corner. It's dimly lit, and you can smell a faint musty odor, as if the space hasn't been opened in years. The walls are lined with old, forgotten coats, and the ceiling is low, making the space feel claustrophobic.
+
+You can see a suitcase (closed) and a keypad here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5599"></child>
+        </children>
+    </item>
+    <item nodeId="node-5599">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Bedroom
+ .   \_/       .:"    .:"    .:"
+ -=(_)=- /\ ||    /\||    /\||
+ .   / \     //\\|   //\\|   //\\|
+ .          //  \\  //  \\  //  \\
+ .         //    \ ^/    \^/    \\
+ .         |  ( )  ||  ( ) || ( ) |
+ .         |       ||      ||      |%
+ &amp;%&amp;--==--&amp;%-==--%&amp;
+
+
+You step into the bedroom and are flooded with emotion. Every inch of its surface now looks as if it's been dipped in. The walls are pulsating and warm, shifting from blue to red to violet. 
+
+Lo-fi indie is playing from your computer. You notice movement on the screen. Beside you is a worn out drawer. To the north your kitchen fridge hums. To the south is a cramped closet. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5600"></child>
+        </children>
+    </item>
+    <item nodeId="node-5600">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Kitchen
+Your kitchen has seen better days. A fridge lies in one corner. Near the door is a row of plants with yellowing leaves.
+
+You can see a jug, a plant, a note and a fridge (empty) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5601"></child>
+        </children>
+    </item>
+    <item nodeId="node-5601">
+        <command xml:space="preserve">x note</command>
+        <result xml:space="preserve">There's a note stuck to the fridge. It reads  "Where did you go? Come play with me in Dreamland /( ^^)/."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5616"></child>
+        </children>
+    </item>
+    <item nodeId="node-5616">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5617"></child>
+        </children>
+    </item>
+    <item nodeId="node-5617">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You see nothing unexpected in that direction.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5618"></child>
+        </children>
+    </item>
+    <item nodeId="node-5618">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Bedroom
+ .   \_/       .:"    .:"    .:"
+ -=(_)=- /\ ||    /\||    /\||
+ .   / \     //\\|   //\\|   //\\|
+ .          //  \\  //  \\  //  \\
+ .         //    \ ^/    \^/    \\
+ .         |  ( )  ||  ( ) || ( ) |
+ .         |       ||      ||      |%
+ &amp;%&amp;--==--&amp;%-==--%&amp;
+
+
+You step into the bedroom and are flooded with emotion. Every inch of its surface now looks as if it's been dipped in. The walls are pulsating and warm, shifting from blue to red to violet. 
+
+Lo-fi indie is playing from your computer. You notice movement on the screen. Beside you is a worn out drawer. To the north your kitchen fridge hums. To the south is a cramped closet. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5619"></child>
+        </children>
+    </item>
+    <item nodeId="node-5619">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Closet
+The closet is small and cramped, with a single cardboard box in the corner. It's dimly lit, and you can smell a faint musty odor, as if the space hasn't been opened in years. The walls are lined with old, forgotten coats, and the ceiling is low, making the space feel claustrophobic.
+
+You can see a suitcase (closed) and a keypad here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5620"></child>
+        </children>
+    </item>
+    <item nodeId="node-5620">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5621"></child>
+        </children>
+    </item>
+    <item nodeId="node-5621">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Bedroom
+ .   \_/       .:"    .:"    .:"
+ -=(_)=- /\ ||    /\||    /\||
+ .   / \     //\\|   //\\|   //\\|
+ .          //  \\  //  \\  //  \\
+ .         //    \ ^/    \^/    \\
+ .         |  ( )  ||  ( ) || ( ) |
+ .         |       ||      ||      |%
+ &amp;%&amp;--==--&amp;%-==--%&amp;
+
+
+You step into the bedroom and are flooded with emotion. Every inch of its surface now looks as if it's been dipped in. The walls are pulsating and warm, shifting from blue to red to violet. 
+
+Lo-fi indie is playing from your computer. You notice movement on the screen. Beside you is a worn out drawer. To the north your kitchen fridge hums. To the south is a cramped closet. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5622"></child>
+        </children>
+    </item>
+    <item nodeId="node-5622">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Kitchen
+Your kitchen has seen better days. A fridge lies in one corner. Near the door is a row of plants with yellowing leaves.
+
+You can see a jug, a plant, a note and a fridge (empty) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5623"></child>
+        </children>
+    </item>
+    <item nodeId="node-5623">
+        <command xml:space="preserve">open fridge</command>
+        <result xml:space="preserve">That's already open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5624"></child>
+        </children>
+    </item>
+    <item nodeId="node-5624">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Bedroom
+ .   \_/       .:"    .:"    .:"
+ -=(_)=- /\ ||    /\||    /\||
+ .   / \     //\\|   //\\|   //\\|
+ .          //  \\  //  \\  //  \\
+ .         //    \ ^/    \^/    \\
+ .         |  ( )  ||  ( ) || ( ) |
+ .         |       ||      ||      |%
+ &amp;%&amp;--==--&amp;%-==--%&amp;
+
+
+You step into the bedroom and are flooded with emotion. Every inch of its surface now looks as if it's been dipped in. The walls are pulsating and warm, shifting from blue to red to violet. 
+
+Lo-fi indie is playing from your computer. You notice movement on the screen. Beside you is a worn out drawer. To the north your kitchen fridge hums. To the south is a cramped closet. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5625"></child>
+        </children>
+    </item>
+    <item nodeId="node-5625">
+        <command xml:space="preserve">read journal</command>
+        <result xml:space="preserve">You need to specify a page to read.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5626"></child>
+        </children>
+    </item>
+    <item nodeId="node-5626">
+        <command xml:space="preserve">x journal</command>
+        <result xml:space="preserve">A worn out journal in which you've taken to scrawling your dreams.
+
+
+TABLE OF CONTENTS:
+ 1.  TOYBOX
+ 2.  ?????
+ 3. ?????
+
+You can read the journal by typing: read page N of journal.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5627"></child>
+        </children>
+    </item>
+    <item nodeId="node-5627">
+        <command xml:space="preserve">read page 1 of journal</command>
+        <result xml:space="preserve">A thunderous crack cuts through the air. Everything begins to spin. You watch as everything around you dissolves and reforms until your eyes begin to burn from the distortion.
+
+Toybox (Dreamland)
+ |                  /\   
+ |                 / | \ 
+ |                / | | \ 
+ |               /_|_|_|_
+ |                |     / /
+ |__    __    __ |    / /__    __    __
+ |  |__|  |__|  |.   / /|  |__|  |__|  |
+ |__            ____/ /___           __|
+ |          / .------  )         |
+ |         / /        /          |  TOYBOX
+ |        / /        /           |
+ ~~~~~~~~~~~~-----------~~~~~~~~
+
+
+You open your eyes to pure whiteness. Every bit of empty space is blue lines, pink margins...
+
+Margins! That's it. The world you're in is rendered on notebook paper. Objects are flat, paperlike, outlined in waxy lines. You look down at your hands and suppress a cry of shock. You're wearing a triangular smock of purple and your body is composed of black lines. You unfurl your fingers and watch as the lines retract and relax.
+
+You take in the rest of your surroundings. You seem to be in a playground of sorts. There's a set of swings and a playstructure in a garish primary colours. In the distance is a forest, the paper trees swaying in the wind. One of the trees stands proudly in the center, a broken ladder propped against it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5628"></child>
+        </children>
+    </item>
+    <item nodeId="node-5628">
+        <command xml:space="preserve">x tree</command>
+        <result xml:space="preserve">A knotted looking thing with a thick trunk. Leaning on it is a worn out ladder. Nestled in the branches is a winding structure, a treehouse of sorts.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5629"></child>
+        </children>
+    </item>
+    <item nodeId="node-5629">
+        <command xml:space="preserve">x swings</command>
+        <result xml:space="preserve">A rusted thing. Doesn't look safe to swing on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5630"></child>
+        </children>
+    </item>
+    <item nodeId="node-5630">
+        <command xml:space="preserve">x playstructure</command>
+        <result xml:space="preserve">Warped plastics. Doesn't look safe to visit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5660"></child>
+        </children>
+    </item>
+    <item nodeId="node-5660">
+        <command xml:space="preserve">x forest</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5661"></child>
+        </children>
+    </item>
+    <item nodeId="node-5661">
+        <command xml:space="preserve">x trees</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5662"></child>
+        </children>
+    </item>
+    <item nodeId="node-5662">
+        <command xml:space="preserve">x tree</command>
+        <result xml:space="preserve">A knotted looking thing with a thick trunk. Leaning on it is a worn out ladder. Nestled in the branches is a winding structure, a treehouse of sorts.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5663"></child>
+        </children>
+    </item>
+    <item nodeId="node-5663">
+        <command xml:space="preserve">x ladder</command>
+        <result xml:space="preserve">The ladder leans against the tree, but some of its rungs are missing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5664"></child>
+        </children>
+    </item>
+    <item nodeId="node-5664">
+        <command xml:space="preserve">draw on ladder with crayons</command>
+        <result xml:space="preserve">You color in the missing gaps with the silver crayon. Good as new.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5665"></child>
+        </children>
+    </item>
+    <item nodeId="node-5665">
+        <command xml:space="preserve">climb ladder</command>
+        <result xml:space="preserve">You climb the ladder.
+
+Treehouse
+You have entered a cozy treehouse. It has a wooden floor, a small table with some board games, a hammock, and a small girl around the age of 6. There's a window with a view of the forest below.
+
+The girl is doodling furiously. It's some sort of composition of flowers. Every moment she pauses to wipe her wax-covered hands on her skirt. When she sees you, she cries out in delight.
+
+"I see you managed to fix the ladder," she says. I was getting bored up here. What took you so long?"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5666"></child>
+        </children>
+    </item>
+    <item nodeId="node-5666">
+        <command xml:space="preserve">x girl</command>
+        <result xml:space="preserve">A small girl wearing a checkered dress. Her hair is in neat plaits and her socks are mismatched. She looks familiar. 
+
+You can interact with her by typing: ask girl about `topic`. The topic should be a singular word.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5667"></child>
+        </children>
+    </item>
+    <item nodeId="node-5667">
+        <command xml:space="preserve">ask girl about name</command>
+        <result xml:space="preserve">Huuuh? I'm Emma, silly. Did you hit your head on the way down here?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5668"></child>
+        </children>
+    </item>
+    <item nodeId="node-5668">
+        <command xml:space="preserve">ask girl about dress</command>
+        <result xml:space="preserve">Emma doesn't seem to hear you. She seems lost in a daydream.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5669"></child>
+        </children>
+    </item>
+    <item nodeId="node-5669">
+        <command xml:space="preserve">ask girl about dress</command>
+        <result xml:space="preserve">Emma is humming to herself.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5709"></child>
+        </children>
+    </item>
+    <item nodeId="node-5709">
+        <command xml:space="preserve">ask girl about flower</command>
+        <result xml:space="preserve">Emma doesn't seem to hear you. She seems lost in a daydream.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5710"></child>
+        </children>
+    </item>
+    <item nodeId="node-5710">
+        <command xml:space="preserve">ask girl about flowers</command>
+        <result xml:space="preserve">Emma brightens up. "Yes! I'm trying to draw a specific flower... for a wish. It's yellow, and then not yellow. When it's old it becomes a puffball."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5711"></child>
+        </children>
+    </item>
+    <item nodeId="node-5711">
+        <command xml:space="preserve">ask girl about dandelion</command>
+        <result xml:space="preserve">Emma looks up at you in wonder. So you do know the story! Could'ya help me find one? Pretty please!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5712"></child>
+        </children>
+    </item>
+    <item nodeId="node-5712">
+        <command xml:space="preserve">draw dandelion with crayons</command>
+        <result xml:space="preserve">You use the crayons to carefully draw a bright yellow dandelion. The petals are vivid, and the stem is a bright green. The drawing looks almost alive.
+
+The air sizzles, and with a pop, something drops in your pocket
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5713"></child>
+        </children>
+    </item>
+    <item nodeId="node-5713">
+        <command xml:space="preserve">give dandelion to emma</command>
+        <result xml:space="preserve">Emma looks up at you in wonder. "A dandelion", she whispers reverentially. "I've never seen one before."
+
+You tell her they're commonplace where you're from. "That can't be right," she says. "My grandma says they went extinct long ago. They were killed, you know. For being too resilient. She cups the fluffy white thing delicately. "C'mon! Let's wish together."
+
+You put your heads together and your breaths create a flurry of white as the spores release into the air. You stare at this strange girl, wide-eyed with awe, twirling the empty stem in her hands. You're drawn to her uncomplicated joy.
+
+"I wished for a friend," she says abruptly. She gazes at you in wonder. "I've never had a friend. Will you be my friend?
+
+&gt; Befriend Emma? Y/N </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5714"></child>
+        </children>
+    </item>
+    <item nodeId="node-5714">
+        <command xml:space="preserve">give dandelion</command>
+        <result xml:space="preserve">That's not a valid response.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5715"></child>
+        </children>
+    </item>
+    <item nodeId="node-5715">
+        <command xml:space="preserve">give emma dandelion</command>
+        <result xml:space="preserve">Emma looks up at you in wonder. "A dandelion", she whispers reverentially. "I've never seen one before."
+
+You tell her they're commonplace where you're from. "That can't be right," she says. "My grandma says they went extinct long ago. They were killed, you know. For being too resilient. She cups the fluffy white thing delicately. "C'mon! Let's wish together."
+
+You put your heads together and your breaths create a flurry of white as the spores release into the air. You stare at this strange girl, wide-eyed with awe, twirling the empty stem in her hands. You're drawn to her uncomplicated joy.
+
+"I wished for a friend," she says abruptly. She gazes at you in wonder. "I've never had a friend. Will you be my friend?
+
+&gt; Befriend Emma? Y/N </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5716"></child>
+        </children>
+    </item>
+    <item nodeId="node-5716">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">That's not a valid response.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5717"></child>
+        </children>
+    </item>
+    <item nodeId="node-5717">
+        <command xml:space="preserve">give emma dandelion</command>
+        <result xml:space="preserve">Emma looks up at you in wonder. "A dandelion", she whispers reverentially. "I've never seen one before."
+
+You tell her they're commonplace where you're from. "That can't be right," she says. "My grandma says they went extinct long ago. They were killed, you know. For being too resilient. She cups the fluffy white thing delicately. "C'mon! Let's wish together."
+
+You put your heads together and your breaths create a flurry of white as the spores release into the air. You stare at this strange girl, wide-eyed with awe, twirling the empty stem in her hands. You're drawn to her uncomplicated joy.
+
+"I wished for a friend," she says abruptly. She gazes at you in wonder. "I've never had a friend. Will you be my friend?
+
+&gt; Befriend Emma? Y/N </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5766"></child>
+        </children>
+    </item>
+    <item nodeId="node-5766">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve">Her face blooms with delight. "YAAAAY", she cries. "We can all be friends now. Me, you, Mr. Narkins.
+
+Her face darkens for a second. "Have you seen him, by the way? He's a sea unicorn." You feel suction around you, like you're going through a vacuum. Everything blurs.
+
+Bedroom
+ .   \_/       .:"    .:"    .:"
+ -=(_)=- /\ ||    /\||    /\||
+ .   / \     //\\|   //\\|   //\\|
+ .          //  \\  //  \\  //  \\
+ .         //    \ ^/    \^/    \\
+ .         |  ( )  ||  ( ) || ( ) |
+ .         |       ||      ||      |%
+ &amp;%&amp;--==--&amp;%-==--%&amp;
+
+
+ It's weird to see things in 3D now. Your room has gone back to normal. There's an odd humming coming from your computer, though. 
+
+ Beside you is a worn out drawer. To the north your kitchen fridge hums. To the south is a cramped closet. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5914"></child>
+        </children>
+    </item>
+    <item nodeId="node-5914">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Kitchen
+Your kitchen has seen better days. A fridge lies in one corner. Near the door is a row of plants with yellowing leaves.
+
+You can see a jug, a plant, a note and a fridge (empty) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5915"></child>
+        </children>
+    </item>
+    <item nodeId="node-5915">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5916"></child>
+        </children>
+    </item>
+    <item nodeId="node-5916">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve">That was a rhetorical question.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5969"></child>
+        </children>
+    </item>
+    <item nodeId="node-5969">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Bedroom
+ .   \_/       .:"    .:"    .:"
+ -=(_)=- /\ ||    /\||    /\||
+ .   / \     //\\|   //\\|   //\\|
+ .          //  \\  //  \\  //  \\
+ .         //    \ ^/    \^/    \\
+ .         |  ( )  ||  ( ) || ( ) |
+ .         |       ||      ||      |%
+ &amp;%&amp;--==--&amp;%-==--%&amp;
+
+
+ It's weird to see things in 3D now. Your room has gone back to normal. There's an odd humming coming from your computer, though. 
+
+ Beside you is a worn out drawer. To the north your kitchen fridge hums. To the south is a cramped closet. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5970"></child>
+        </children>
+    </item>
+    <item nodeId="node-5970">
+        <command xml:space="preserve">x computer</command>
+        <result xml:space="preserve">A yellowing Windows XP that's seen better days. 
+
+The computer is currently switched off.
+
+The browser is open to your email inbox. You have 5 unread emails. You can select an email to read by typing a number from 1 to 5 or type `exit` to leave.
+
+&gt; Select an email to read: </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5971"></child>
+        </children>
+    </item>
+    <item nodeId="node-5971">
+        <command xml:space="preserve">1</command>
+        <result xml:space="preserve">From: Art Class Reminder - Reminder: Bring Your Crayons to Art Class!
+
+This is a reminder to bring your crayons to art class next week. We'll be doing a special drawing activity.
+
+&gt; Select an email to read: </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5972"></child>
+        </children>
+    </item>
+    <item nodeId="node-5972">
+        <command xml:space="preserve">2</command>
+        <result xml:space="preserve">From: Mr. Anderson - Welcome to 5th Grade!
+
+Dear Student, Welcome to 5th grade! We are excited to have you. Make sure to bring your materials on the first day. Your new teacher, Mr. Anderson.
+
+&gt; Select an email to read: </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5973"></child>
+        </children>
+    </item>
+    <item nodeId="node-5973">
+        <command xml:space="preserve">3</command>
+        <result xml:space="preserve">From: Emma - Ideas for Plushieland
+
+Hey, I had some ideas for the fictional world we're creating together! We should have flying narwhals, secret caves, and magical powers that only the bravest can use! Let me know what you think.
+
+&gt; Select an email to read: </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5974"></child>
+        </children>
+    </item>
+    <item nodeId="node-5974">
+        <command xml:space="preserve">4</command>
+        <result xml:space="preserve">From: School Admin - Field Trip to the Science Museum
+
+Parents and Guardians, We are planning a field trip to the Science Museum next month. Please submit the signed permission slip by Friday.
+
+&gt; Select an email to read: </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5975"></child>
+        </children>
+    </item>
+    <item nodeId="node-5975">
+        <command xml:space="preserve">5</command>
+        <result xml:space="preserve">From: Emma - Word Search from Emma
+
+Hi! I made you a word search. It's neopet themed!
+
+. J T A M X I L L S A
+ H Y B Z A P F Z X R
+ U R E D O U B L E P
+ D F S E T Y W E T I
+ O L I L I S H A E N
+ R J N L O F A E U J
+ A F F G C I D O L S
+ P A I N T B R U S H
+ B I L L U S E N F T
+ J U B J U B A S S G
+ 
+&gt; Select an email to read: </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6330"></child>
+        </children>
+    </item>
+    <item nodeId="node-6330">
+        <command xml:space="preserve">exit</command>
+        <result xml:space="preserve">&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6331"></child>
+        </children>
+    </item>
+    <item nodeId="node-6331">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Kitchen
+Your kitchen has seen better days. A fridge lies in one corner. Near the door is a row of plants with yellowing leaves.
+
+You can see a jug, a plant, a note and a fridge (empty) here.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6332"></child>
+        </children>
+    </item>
+    <item nodeId="node-6332">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Bedroom
+ .   \_/       .:"    .:"    .:"
+ -=(_)=- /\ ||    /\||    /\||
+ .   / \     //\\|   //\\|   //\\|
+ .          //  \\  //  \\  //  \\
+ .         //    \ ^/    \^/    \\
+ .         |  ( )  ||  ( ) || ( ) |
+ .         |       ||      ||      |%
+ &amp;%&amp;--==--&amp;%-==--%&amp;
+
+
+ It's weird to see things in 3D now. Your room has gone back to normal. There's an odd humming coming from your computer, though. 
+
+ Beside you is a worn out drawer. To the north your kitchen fridge hums. To the south is a cramped closet. 
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6333"></child>
+        </children>
+    </item>
+    <item nodeId="node-6333">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Closet
+The closet is small and cramped, with a single cardboard box in the corner. It's dimly lit, and you can smell a faint musty odor, as if the space hasn't been opened in years. The walls are lined with old, forgotten coats, and the ceiling is low, making the space feel claustrophobic.
+
+You can see a suitcase (closed) and a keypad here.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6334"></child>
+        </children>
+    </item>
+    <item nodeId="node-6334">
+        <command xml:space="preserve">open closet</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6335"></child>
+        </children>
+    </item>
+    <item nodeId="node-6335">
+        <command xml:space="preserve">open suitcase</command>
+        <result xml:space="preserve">&gt; This suitcase requires a passcode: </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6336"></child>
+        </children>
+    </item>
+    <item nodeId="node-6336">
+        <command xml:space="preserve">jubjub</command>
+        <result xml:space="preserve">The suitcase clicks open. Inside the suitcase is a collection of random objects, a yearbook, a record player, and a narwhal
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6337"></child>
+        </children>
+    </item>
+    <item nodeId="node-6337">
+        <command xml:space="preserve">x record player</command>
+        <result xml:space="preserve">A vintage turntable. It's loaded with a vinyl - Best of 2010s Hits.
+
+Record player is currently switched off.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6338"></child>
+        </children>
+    </item>
+    <item nodeId="node-6338">
+        <command xml:space="preserve">turn on record player</command>
+        <result xml:space="preserve">You switch record player on.
+
+Phoebe Bridgers fills the room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6339"></child>
+        </children>
+    </item>
+    <item nodeId="node-6339">
+        <command xml:space="preserve">x yearbook</command>
+        <result xml:space="preserve">Class of XXYZ.
+
+Twenty One Pilots fills the room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6340"></child>
+        </children>
+    </item>
+    <item nodeId="node-6340">
+        <command xml:space="preserve">x yearbook</command>
+        <result xml:space="preserve">Class of XXYZ.
+
+Fall Out Boy fills the room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6341"></child>
+        </children>
+    </item>
+    <item nodeId="node-6341">
+        <command xml:space="preserve">open yearbook</command>
+        <result xml:space="preserve">That's already open.
+
+Porter Robinson fills the room. You're on the verge of tears, but you're not sure why.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6342"></child>
+        </children>
+    </item>
+    <item nodeId="node-6342">
+        <command xml:space="preserve">x narwhal</command>
+        <result xml:space="preserve">A ragged thing. An old hurt vibrates through you. You can't place why.
+
+Twenty One Pilots fills the room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6343"></child>
+        </children>
+    </item>
+    <item nodeId="node-6343">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">yearbook: Taken.
+narwhal: It's a ragged thing. An old hurt vibrates through you. You can't place why. From faraway, the journal vibrates.
+
+Fall Out Boy fills the room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6490"></child>
+        </children>
+    </item>
+    <item nodeId="node-6490">
+        <command xml:space="preserve">read journal</command>
+        <result xml:space="preserve">You need to specify a page to read.
+
+Pussy Riot fills the room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6491"></child>
+        </children>
+    </item>
+    <item nodeId="node-6491">
+        <command xml:space="preserve">x journal</command>
+        <result xml:space="preserve">A worn out journal in which you've taken to scrawling your dreams.
+
+
+TABLE OF CONTENTS:
+ 1.  TOYBOX
+ 2.  PLUSHIELAND
+ 3. ?????
+
+You can read the journal by typing: read page N of journal.
+
+BETWEEN FRIENDS fills the room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6492"></child>
+        </children>
+    </item>
+    <item nodeId="node-6492">
+        <command xml:space="preserve">read page 2 of journal</command>
+        <result xml:space="preserve">A thunderous crack cuts through the air. Everything begins to spin. You watch as everything around you dissolves and reforms until your eyes begin to burn from the distortion. 2. "PLUSHIELAND"
+
+Plushieland
+You wake up in world of cotton. Everything you see is rendered in a shade of pastel - the turgid river, the sky, the meadows in front of you. Before you are a medley of anthropomorphic plushies. You spot a jubjub, hedgehog, and even a djungelskog. A girl around the age of seven is playing with the stuffed animals.
+
+You can see Emma here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6493"></child>
+        </children>
+    </item>
+    <item nodeId="node-6493">
+        <command xml:space="preserve">x emma</command>
+        <result xml:space="preserve"> Emma looks bigger than you remember. She's fiddling with a sewing needle.
+
+You can interact with her by typing: ask Emma about `topic`. The topic should be a singular word.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6571"></child>
+        </children>
+    </item>
+    <item nodeId="node-6571">
+        <command xml:space="preserve">ask girl about narwhal</command>
+        <result xml:space="preserve">"Mr. Narkins!" she cries.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6728"></child>
+        </children>
+    </item>
+    <item nodeId="node-6728">
+        <command xml:space="preserve">give narwhal to emma</command>
+        <result xml:space="preserve">"Mr. Narkins!" she cries. "You've returned him to me. But his wings are gone...". She sobers up. "That's to be continued. This is a demo, after all."
+
+
+
+    *** You've reached the end of the demo (´｡• ᵕ •｡`) ♡ See you again soon. ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1679">
@@ -15791,7 +17704,7 @@ You're dizzy.
 Closet
 The closet is small and cramped, with a single cardboard box in the corner. It's dimly lit, and you can smell a faint musty odor, as if the space hasn't been opened in years. The walls are lined with old, forgotten coats, and the ceiling is low, making the space feel claustrophobic.
 
-You can see a cardboard box (closed) here.
+You can see a suitcase (closed) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -15812,9 +17725,9 @@ Bedroom
  &amp;%&amp;--==--&amp;%-==--%&amp;
 
 
-Your bedroom is unadorned. The walls are chalky and the ground bare. The only decoration is a poster of The Killers. A lightbulb hangs from the ceiling. A tiny window is opened a crack, and the sound of faint static comes through. In the distance your kitchen fridge hums.
+Your bedroom is unadorned. The walls are chalky and the ground bare. The only decoration is a poster of The Killers. A lightbulb hangs from the ceiling. A tiny window is opened a crack, and the sound of faint static comes through..
 
-In the corner your monitor blinks wearily. You must've forgotten to turn it off.  Beside you is a worn out drawer. To the left is a cramped closet. 
+In the corner your monitor blinks wearily. You must've forgotten to turn it off.  Beside you is a worn out drawer. To the south your kitchen fridge hums. To the north is a cramped closet. 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -15826,7 +17739,7 @@ In the corner your monitor blinks wearily. You must've forgotten to turn it off.
         <result xml:space="preserve">Closet
 The closet is small and cramped, with a single cardboard box in the corner. It's dimly lit, and you can smell a faint musty odor, as if the space hasn't been opened in years. The walls are lined with old, forgotten coats, and the ceiling is low, making the space feel claustrophobic.
 
-You can see a cardboard box (closed) here.
+You can see a suitcase (closed) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -15846,9 +17759,9 @@ You can see a cardboard box (closed) here.
  &amp;%&amp;--==--&amp;%-==--%&amp;
 
 
-Your bedroom is unadorned. The walls are chalky and the ground bare. The only decoration is a poster of The Killers. A lightbulb hangs from the ceiling. A tiny window is opened a crack, and the sound of faint static comes through. In the distance your kitchen fridge hums.
+Your bedroom is unadorned. The walls are chalky and the ground bare. The only decoration is a poster of The Killers. A lightbulb hangs from the ceiling. A tiny window is opened a crack, and the sound of faint static comes through..
 
-In the corner your monitor blinks wearily. You must've forgotten to turn it off.  Beside you is a worn out drawer. To the left is a cramped closet. 
+In the corner your monitor blinks wearily. You must've forgotten to turn it off.  Beside you is a worn out drawer. To the south your kitchen fridge hums. To the north is a cramped closet. 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -15880,11 +17793,7 @@ In the corner your monitor blinks wearily. You must've forgotten to turn it off.
     </item>
     <item nodeId="node-2162">
         <command xml:space="preserve">examine monitor</command>
-        <result xml:space="preserve">A yellowing Windows XP that's seen better days. 
-
-The computer is currently switched off.
-
-&gt;</result>
+        <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-2166"></child>
             <child nodeId="node-2163"></child>
@@ -15892,9 +17801,7 @@ The computer is currently switched off.
     </item>
     <item nodeId="node-2163">
         <command xml:space="preserve">x laptop</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
+        <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-2164"></child>
         </children>
@@ -15904,7 +17811,7 @@ The computer is currently switched off.
         <result xml:space="preserve">Kitchen
 Your kitchen has seen better days. A fridge lies in one corner. Near the door is a row of plants with yellowing leaves. At the north corner is a door that leads onto the street.
 
-You can see a note and a fridge (closed) here.
+You can see a jug, a plant, a note and a fridge (closed) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -15920,8 +17827,7 @@ You can see a note and a fridge (closed) here.
     </item>
     <item nodeId="node-2166">
         <command xml:space="preserve">turn on computer</command>
-        <result xml:space="preserve">The monitor lights up.
-
+        <result xml:space="preserve">The monitor lights up with a staticky pop. 
 You switch the computer on.
 
 &gt;</result>
@@ -15931,18 +17837,18 @@ You switch the computer on.
     </item>
     <item nodeId="node-2167">
         <command xml:space="preserve">examine computer</command>
-        <result xml:space="preserve">The computer is open to a game development software. You feel unsettled. 
-
-The computer is currently switched on.
-
-&gt;</result>
+        <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-2168"></child>
         </children>
     </item>
     <item nodeId="node-2168">
         <command xml:space="preserve">go north</command>
-        <result xml:space="preserve">You can't go that way.
+        <result xml:space="preserve">
+Closet
+The closet is small and cramped, with a single cardboard box in the corner. It's dimly lit, and you can smell a faint musty odor, as if the space hasn't been opened in years. The walls are lined with old, forgotten coats, and the ceiling is low, making the space feel claustrophobic.
+
+You can see a suitcase (closed) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -15972,8 +17878,7 @@ You can see a jug, a plant, a note and a fridge (closed) here.
     </item>
     <item nodeId="node-2171">
         <command xml:space="preserve">open fridge</command>
-        <result xml:space="preserve">The fridge contains ??? ??? ????????? ???? You can't make out the text.
- and curiously, a piece of candy. The candy beckons to you.
+        <result xml:space="preserve">The fridge contains a jug and a piece of candy. The candy beckons to you.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16055,8 +17960,6 @@ Clang! Out comes a small piece of metal. You pick it up, bewildered. It's a smal
         <command xml:space="preserve">look at fridge</command>
         <result xml:space="preserve">You're bizarrely attached to your fridge. It's charming in its age, rickedy, humming in a contented manner. It's covered with  and a note is pinned to it.
 
-In the fridge are a black vial, a 'Drink Me' potion, shortcake and crackers.
-
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-2180"></child>
@@ -16082,7 +17985,7 @@ In the fridge are a black vial, a 'Drink Me' potion, shortcake and crackers.
     </item>
     <item nodeId="node-2182">
         <command xml:space="preserve">drink the potion</command>
-        <result xml:space="preserve">There's nothing suitable to drink here.
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16091,7 +17994,7 @@ In the fridge are a black vial, a 'Drink Me' potion, shortcake and crackers.
     </item>
     <item nodeId="node-2183">
         <command xml:space="preserve">open potion</command>
-        <result xml:space="preserve">It isn't something you can open.
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16100,7 +18003,7 @@ In the fridge are a black vial, a 'Drink Me' potion, shortcake and crackers.
     </item>
     <item nodeId="node-2184">
         <command xml:space="preserve">open black vial</command>
-        <result xml:space="preserve">It isn't something you can open.
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16109,7 +18012,7 @@ In the fridge are a black vial, a 'Drink Me' potion, shortcake and crackers.
     </item>
     <item nodeId="node-2185">
         <command xml:space="preserve">drink black vial</command>
-        <result xml:space="preserve">There's nothing suitable to drink here.
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16118,7 +18021,7 @@ In the fridge are a black vial, a 'Drink Me' potion, shortcake and crackers.
     </item>
     <item nodeId="node-2186">
         <command xml:space="preserve">take black vial</command>
-        <result xml:space="preserve">That's fixed in place.
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16158,9 +18061,9 @@ In the fridge are a black vial, a 'Drink Me' potion, shortcake and crackers.
  &amp;%&amp;--==--&amp;%-==--%&amp;
 
 
-You step into the bedroom and are flooded with emotion. Every inch of its surface now looks as if it's been dipped in. The walls are pulsating and warm, shifting from blue to red to violet.  In the distance your kitchen fridge hums.
+You step into the bedroom and are flooded with emotion. Every inch of its surface now looks as if it's been dipped in. The walls are pulsating and warm, shifting from blue to red to violet. .
 
-Lo-fi indie is playing from your computer. You notice movement on the screen. Beside you is a worn out drawer. To the left is a cramped closet. 
+Lo-fi indie is playing from your computer. You notice movement on the screen. Beside you is a worn out drawer. To the south your kitchen fridge hums. To the north is a cramped closet. 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16170,9 +18073,9 @@ Lo-fi indie is playing from your computer. You notice movement on the screen. Be
     <item nodeId="node-2190">
         <command xml:space="preserve">go to closet</command>
         <result xml:space="preserve">Closet
-It's empty except for a single cardbord box. You feel cramped.
+The closet is small and cramped, with a single cardboard box in the corner. It's dimly lit, and you can smell a faint musty odor, as if the space hasn't been opened in years. The walls are lined with old, forgotten coats, and the ceiling is low, making the space feel claustrophobic.
 
-You can see a cardboard box (closed) here.
+You can see a suitcase (closed) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16190,7 +18093,7 @@ You can see a cardboard box (closed) here.
     </item>
     <item nodeId="node-2192">
         <command xml:space="preserve">x box</command>
-        <result xml:space="preserve">You see nothing special about the cardboard box.
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16208,8 +18111,7 @@ You can see a cardboard box (closed) here.
     </item>
     <item nodeId="node-2194">
         <command xml:space="preserve">open box</command>
-        <result xml:space="preserve">Inside is a yearbook, a record player, a binder, and a 3D printed narwhal, amongst other odds and ends.
-The closet smells dusty.
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16218,7 +18120,7 @@ The closet smells dusty.
     </item>
     <item nodeId="node-2195">
         <command xml:space="preserve">open yearbook</command>
-        <result xml:space="preserve">That's already open.
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16227,9 +18129,7 @@ The closet smells dusty.
     </item>
     <item nodeId="node-2196">
         <command xml:space="preserve">x record player</command>
-        <result xml:space="preserve">A vintage turntable. It's loaded with a vinyl - Best of 2010s Hits.
-
-Record player is currently switched off.
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16238,9 +18138,7 @@ Record player is currently switched off.
     </item>
     <item nodeId="node-2197">
         <command xml:space="preserve">turn on record player</command>
-        <result xml:space="preserve">You switch record player on.
-
-Phoebe Bridgers fills the room.
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16257,11 +18155,7 @@ Phoebe Bridgers fills the room.
     </item>
     <item nodeId="node-2199">
         <command xml:space="preserve">w</command>
-        <result xml:space="preserve">
-Kitchen
-Your kitchen has seen better days. A fridge lies in one corner. At the north corner is a door that leads onto the street.
-
-The old fridge hums irratically. Your stomach growls.
+        <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16270,7 +18164,7 @@ The old fridge hums irratically. Your stomach growls.
     </item>
     <item nodeId="node-2200">
         <command xml:space="preserve">open fridge</command>
-        <result xml:space="preserve">Curiously, an apple is in the fridge.
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16279,9 +18173,7 @@ The old fridge hums irratically. Your stomach growls.
     </item>
     <item nodeId="node-2201">
         <command xml:space="preserve">eat apple</command>
-        <result xml:space="preserve">(first taking the apple)
-Something falls in your pocket.
-Are ants coming out of the sink? No, probably no.
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16290,13 +18182,7 @@ Are ants coming out of the sink? No, probably no.
     </item>
     <item nodeId="node-2202">
         <command xml:space="preserve">e</command>
-        <result xml:space="preserve">
-Bedroom
-Your bedroom is unadorned. Nearby your kitchen light remains on.
-
-Beside you is a worn out nightstand. You're not a fan of the washed out brown.
-
-On the nightstand are a lamp and a book (closed).
+        <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16305,7 +18191,7 @@ On the nightstand are a lamp and a book (closed).
     </item>
     <item nodeId="node-2203">
         <command xml:space="preserve">unlock book with key</command>
-        <result xml:space="preserve">You unlock the book.
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16314,191 +18200,117 @@ On the nightstand are a lamp and a book (closed).
     </item>
     <item nodeId="node-2204">
         <command xml:space="preserve">open book</command>
-        <result xml:space="preserve">Enter password: </result>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-2205"></child>
         </children>
     </item>
     <item nodeId="node-2205">
         <command xml:space="preserve">yes</command>
-        <result xml:space="preserve">Dreamland
+        <result xml:space="preserve">That was a rhetorical question.
 
-*** Run-time problem P40: Attempt to splice a snippet value which is currently invalid: words 0 to -1.
-
-That was a rhetorical question.
-
-Enter password: </result>
+&gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-2206"></child>
         </children>
     </item>
     <item nodeId="node-2206">
         <command xml:space="preserve">no</command>
-        <result xml:space="preserve">DreamlandNo
-Over in the corner your computer monitor blinks wearily. You must've forgotten to turn it off. 
+        <result xml:space="preserve">That was a rhetorical question.
 
-On the computer is an USB.
-
-An flyer lies wrinkled on the floor.
-
-
-*** Run-time problem P40: Attempt to splice a snippet value which is currently invalid: words 0 to -1.
-
-That was a rhetorical question.
-
-Enter password: </result>
+&gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-2207"></child>
         </children>
     </item>
     <item nodeId="node-2207">
         <command xml:space="preserve">yes</command>
-        <result xml:space="preserve">Dreamland
+        <result xml:space="preserve">That was a rhetorical question.
 
-*** Run-time problem P40: Attempt to splice a snippet value which is currently invalid: words 0 to -1.
-
-That was a rhetorical question.
-
-Enter password: </result>
+&gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-2208"></child>
         </children>
     </item>
     <item nodeId="node-2208">
         <command xml:space="preserve">yes</command>
-        <result xml:space="preserve">Dreamland
+        <result xml:space="preserve">That was a rhetorical question.
 
-*** Run-time problem P40: Attempt to splice a snippet value which is currently invalid: words 0 to -1.
-
-That was a rhetorical question.
-
-Enter password: </result>
+&gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-2209"></child>
         </children>
     </item>
     <item nodeId="node-2209">
         <command xml:space="preserve">yes</command>
-        <result xml:space="preserve">Dreamland
+        <result xml:space="preserve">That was a rhetorical question.
 
-*** Run-time problem P40: Attempt to splice a snippet value which is currently invalid: words 0 to -1.
-
-That was a rhetorical question.
-
-Enter password: </result>
+&gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-2210"></child>
         </children>
     </item>
     <item nodeId="node-2210">
         <command xml:space="preserve">no</command>
-        <result xml:space="preserve">DreamlandNo
-Over in the corner your computer monitor blinks wearily. You must've forgotten to turn it off. 
+        <result xml:space="preserve">That was a rhetorical question.
 
-On the computer is an USB.
-
-An flyer lies wrinkled on the floor.
-
-
-*** Run-time problem P40: Attempt to splice a snippet value which is currently invalid: words 0 to -1.
-
-That was a rhetorical question.
-
-Enter password: </result>
+&gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-2211"></child>
         </children>
     </item>
     <item nodeId="node-2211">
         <command xml:space="preserve">yes</command>
-        <result xml:space="preserve">Dreamland
+        <result xml:space="preserve">That was a rhetorical question.
 
-*** Run-time problem P40: Attempt to splice a snippet value which is currently invalid: words 0 to -1.
-
-That was a rhetorical question.
-
-Enter password: </result>
+&gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-2212"></child>
         </children>
     </item>
     <item nodeId="node-2212">
         <command xml:space="preserve">.</command>
-        <result xml:space="preserve">DreamlandNo
-Over in the corner your computer monitor blinks wearily. You must've forgotten to turn it off. 
+        <result xml:space="preserve">That's not a verb I recognise.
 
-On the computer is an USB.
-
-An flyer lies wrinkled on the floor.
-
-
-*** Run-time problem P40: Attempt to splice a snippet value which is currently invalid: words 0 to -1.
-
-That's not a verb I recognise.
-
-Enter password: </result>
+&gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-2213"></child>
         </children>
     </item>
     <item nodeId="node-2213">
         <command xml:space="preserve">.</command>
-        <result xml:space="preserve">DreamlandNo
-Over in the corner your computer monitor blinks wearily. You must've forgotten to turn it off. 
+        <result xml:space="preserve">That's not a verb I recognise.
 
-On the computer is an USB.
-
-An flyer lies wrinkled on the floor.
-
-
-*** Run-time problem P40: Attempt to splice a snippet value which is currently invalid: words 0 to -1.
-
-That's not a verb I recognise.
-
-Enter password: </result>
+&gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-2214"></child>
         </children>
     </item>
     <item nodeId="node-2214">
         <command xml:space="preserve">no</command>
-        <result xml:space="preserve">DreamlandNo
-Over in the corner your computer monitor blinks wearily. You must've forgotten to turn it off. 
+        <result xml:space="preserve">That was a rhetorical question.
 
-On the computer is an USB.
-
-An flyer lies wrinkled on the floor.
-
-
-*** Run-time problem P40: Attempt to splice a snippet value which is currently invalid: words 0 to -1.
-
-That was a rhetorical question.
-
-Enter password: </result>
+&gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-2215"></child>
         </children>
     </item>
     <item nodeId="node-2215">
         <command xml:space="preserve">nin'</command>
-        <result xml:space="preserve">DreamlandNo
-Over in the corner your computer monitor blinks wearily. You must've forgotten to turn it off. 
+        <result xml:space="preserve">That's not a verb I recognise.
 
-On the computer is an USB.
-
-An flyer lies wrinkled on the floor.
-
-
-*** Run-time problem P40: Attempt to splice a snippet value which is currently invalid: words 0 to -1.
-
-That's not a verb I recognise.
-
-Enter password: </result>
+&gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-2216">
         <command xml:space="preserve">n</command>
-        <result xml:space="preserve">You can't go that way.
+        <result xml:space="preserve">
+Closet
+The closet is small and cramped, with a single cardboard box in the corner. It's dimly lit, and you can smell a faint musty odor, as if the space hasn't been opened in years. The walls are lined with old, forgotten coats, and the ceiling is low, making the space feel claustrophobic.
+
+You can see a suitcase (closed) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16507,7 +18319,21 @@ Enter password: </result>
     </item>
     <item nodeId="node-2217">
         <command xml:space="preserve">s</command>
-        <result xml:space="preserve">You can't go that way.
+        <result xml:space="preserve">
+Bedroom
+ .   \_/       .:"    .:"    .:"
+ -=(_)=- /\ ||    /\||    /\||
+ .   / \     //\\|   //\\|   //\\|
+ .          //  \\  //  \\  //  \\
+ .         //    \ ^/    \^/    \\
+ .         |  ( )  ||  ( ) || ( ) |
+ .         |       ||      ||      |%
+ &amp;%&amp;--==--&amp;%-==--%&amp;
+
+
+Your bedroom is unadorned. The walls are chalky and the ground bare. The only decoration is a poster of The Killers. A lightbulb hangs from the ceiling. A tiny window is opened a crack, and the sound of faint static comes through..
+
+In the corner your monitor blinks wearily. You must've forgotten to turn it off.  Beside you is a worn out drawer. To the south your kitchen fridge hums. To the north is a cramped closet. 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16525,20 +18351,7 @@ Enter password: </result>
     </item>
     <item nodeId="node-2219">
         <command xml:space="preserve">leave emma</command>
-        <result xml:space="preserve">Bedroom
- .   \_/       .:"    .:"    .:"
- -=(_)=- /\ ||    /\||    /\||
- .   / \     //\\|   //\\|   //\\|
- .          //  \\  //  \\  //  \\
- .         //    \ ^/    \^/    \\
- .         |  ( )  ||  ( ) || ( ) |
- .         |       ||      ||      |%
- &amp;%&amp;--==--&amp;%-==--%&amp;
-
-
-Your bedroom is unadorned. The walls are chalky and the ground bare. The only decoration is a poster of The Killers. A lightbulb hangs from the ceiling. A tiny window is opened a crack, and the sound of faint static comes through. In the distance your kitchen fridge hums.
-
-In the corner your monitor blinks wearily. You must've forgotten to turn it off.  Beside you is a worn out drawer. To the left is a cramped closet. 
+        <result xml:space="preserve">I only understood you as far as wanting to leave.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16554,10 +18367,7 @@ In the corner your monitor blinks wearily. You must've forgotten to turn it off.
     </item>
     <item nodeId="node-2221">
         <command xml:space="preserve">draw lion on newsprint</command>
-        <result xml:space="preserve">
-*** Run-time problem P10: Since nothing is not allowed the property "doodle", it is against the rules to try to use it.
-
-You doodle a lion on it. Looks cute.
+        <result xml:space="preserve">I didn't understand that sentence.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16566,10 +18376,7 @@ You doodle a lion on it. Looks cute.
     </item>
     <item nodeId="node-2222">
         <command xml:space="preserve">draw bunny on newsprint</command>
-        <result xml:space="preserve">
-*** Run-time problem P10: Since nothing is not allowed the property "doodle", it is against the rules to try to use it.
-
-You doodle a bunny on it. Looks cute.
+        <result xml:space="preserve">I didn't understand that sentence.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16587,8 +18394,7 @@ You doodle a bunny on it. Looks cute.
     </item>
     <item nodeId="node-2224">
         <command xml:space="preserve">take all</command>
-        <result xml:space="preserve">newsprint (with a bunny on it): Taken.
-ballpoint pen: Taken.
+        <result xml:space="preserve">There are none at all available!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16615,9 +18421,7 @@ ballpoint pen: Taken.
     </item>
     <item nodeId="node-2227">
         <command xml:space="preserve">i</command>
-        <result xml:space="preserve">You are carrying:
-  a ballpoint pen
-  a newsprint (with a bunny on it)
+        <result xml:space="preserve">You are carrying nothing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16626,10 +18430,7 @@ ballpoint pen: Taken.
     </item>
     <item nodeId="node-2228">
         <command xml:space="preserve">draw lion on newsprint</command>
-        <result xml:space="preserve">
-*** Run-time problem P10: Since nothing is not allowed the property "doodle", it is against the rules to try to use it.
-
-You doodle a lion on it. Looks cute.
+        <result xml:space="preserve">I didn't understand that sentence.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16638,9 +18439,7 @@ You doodle a lion on it. Looks cute.
     </item>
     <item nodeId="node-2229">
         <command xml:space="preserve">i</command>
-        <result xml:space="preserve">You are carrying:
-  a ballpoint pen
-  a newsprint (with a bunny on it)
+        <result xml:space="preserve">You are carrying nothing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16649,10 +18448,7 @@ You doodle a lion on it. Looks cute.
     </item>
     <item nodeId="node-2230">
         <command xml:space="preserve">draw lion on newsprint</command>
-        <result xml:space="preserve">
-*** Run-time problem P10: Since nothing is not allowed the property "doodle", it is against the rules to try to use it.
-
-You doodle a lion on it. Looks cute.
+        <result xml:space="preserve">I didn't understand that sentence.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16661,9 +18457,7 @@ You doodle a lion on it. Looks cute.
     </item>
     <item nodeId="node-2231">
         <command xml:space="preserve">i</command>
-        <result xml:space="preserve">You are carrying:
-  a ballpoint pen
-  a newsprint (with a bunny on it)
+        <result xml:space="preserve">You are carrying nothing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16672,7 +18466,7 @@ You doodle a lion on it. Looks cute.
     </item>
     <item nodeId="node-2232">
         <command xml:space="preserve">draw lion on book</command>
-        <result xml:space="preserve">You can't see any such thing.
+        <result xml:space="preserve">I didn't understand that sentence.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16681,7 +18475,7 @@ You doodle a lion on it. Looks cute.
     </item>
     <item nodeId="node-2233">
         <command xml:space="preserve">open nightstand</command>
-        <result xml:space="preserve">You pull open the drawer. A book, a box of crayons, and a housekey lies inside.
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16690,9 +18484,7 @@ You doodle a lion on it. Looks cute.
     </item>
     <item nodeId="node-2234">
         <command xml:space="preserve">take all</command>
-        <result xml:space="preserve">book (with a bunny on it): Taken.
-crayons: Taken.
-housekey: Taken.
+        <result xml:space="preserve">There are none at all available!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16701,10 +18493,7 @@ housekey: Taken.
     </item>
     <item nodeId="node-2235">
         <command xml:space="preserve">draw lion on book</command>
-        <result xml:space="preserve">
-*** Run-time problem P10: Since nothing is not allowed the property "doodle", it is against the rules to try to use it.
-
-You doodle a lion on it. Looks cute.
+        <result xml:space="preserve">I didn't understand that sentence.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16722,19 +18511,14 @@ You doodle a lion on it. Looks cute.
     </item>
     <item nodeId="node-2237">
         <command xml:space="preserve">i</command>
-        <result xml:space="preserve">You are carrying:
-  a housekey
-  crayons
-  a book (with a bunny on it) (closed and locked)
-  a ballpoint pen
-  a newsprint (with a bunny on it)
+        <result xml:space="preserve">You are carrying nothing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-2238">
         <command xml:space="preserve">draw</command>
-        <result xml:space="preserve">You may not name an object.
+        <result xml:space="preserve">What do you want to draw on?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16743,7 +18527,7 @@ You doodle a lion on it. Looks cute.
     </item>
     <item nodeId="node-2239">
         <command xml:space="preserve">draw</command>
-        <result xml:space="preserve">You may not name an object.
+        <result xml:space="preserve">What do you want to draw on?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16752,7 +18536,7 @@ You doodle a lion on it. Looks cute.
     </item>
     <item nodeId="node-2240">
         <command xml:space="preserve">open nightstand</command>
-        <result xml:space="preserve">You pull open the drawer. A book, a box of crayons, and a housekey lies inside.
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16761,11 +18545,7 @@ You doodle a lion on it. Looks cute.
     </item>
     <item nodeId="node-2241">
         <command xml:space="preserve">take all</command>
-        <result xml:space="preserve">newsprint (with a bunny on it): Taken.
-book: Taken.
-crayons: Taken.
-housekey: Taken.
-ballpoint pen: Taken.
+        <result xml:space="preserve">There are none at all available!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16774,7 +18554,7 @@ ballpoint pen: Taken.
     </item>
     <item nodeId="node-2242">
         <command xml:space="preserve">draw bunny on book</command>
-        <result xml:space="preserve">You doodle a bunny on it. Looks cute.
+        <result xml:space="preserve">I didn't understand that sentence.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16783,7 +18563,7 @@ ballpoint pen: Taken.
     </item>
     <item nodeId="node-2243">
         <command xml:space="preserve">x book</command>
-        <result xml:space="preserve">A worn out journal in which you've taken to scrawling your dreams.
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16792,7 +18572,7 @@ ballpoint pen: Taken.
     </item>
     <item nodeId="node-2244">
         <command xml:space="preserve">draw bunny on newsprint</command>
-        <result xml:space="preserve">You doodle a bunny on it. Looks cute.
+        <result xml:space="preserve">I didn't understand that sentence.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16810,12 +18590,7 @@ ballpoint pen: Taken.
     </item>
     <item nodeId="node-2246">
         <command xml:space="preserve">i</command>
-        <result xml:space="preserve">You are carrying:
-  a ballpoint pen
-  a housekey
-  crayons
-  a book (closed and locked)
-  a newsprint (with a bunny on it)
+        <result xml:space="preserve">You are carrying nothing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16824,7 +18599,7 @@ ballpoint pen: Taken.
     </item>
     <item nodeId="node-2247">
         <command xml:space="preserve">draw sdf on newsprint</command>
-        <result xml:space="preserve">I only understood you as far as wanting to draw.
+        <result xml:space="preserve">I didn't understand that sentence.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16833,7 +18608,7 @@ ballpoint pen: Taken.
     </item>
     <item nodeId="node-2248">
         <command xml:space="preserve">x crayons</command>
-        <result xml:space="preserve">A bright yellow box. On it are instructions on how to draw certain shapes: a bunny, a lion, a narwhal, and a unicorn.
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16851,7 +18626,7 @@ ballpoint pen: Taken.
     </item>
     <item nodeId="node-2250">
         <command xml:space="preserve">draw bunny on newsprint</command>
-        <result xml:space="preserve">You doodle a bunny on it. Looks cute.
+        <result xml:space="preserve">I didn't understand that sentence.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16869,12 +18644,7 @@ ballpoint pen: Taken.
     </item>
     <item nodeId="node-2252">
         <command xml:space="preserve">i</command>
-        <result xml:space="preserve">You are carrying:
-  a ballpoint pen
-  a housekey
-  crayons
-  a book (closed and locked)
-  a newsprint (with a bunny on it)
+        <result xml:space="preserve">You are carrying nothing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16883,12 +18653,7 @@ ballpoint pen: Taken.
     </item>
     <item nodeId="node-2253">
         <command xml:space="preserve">i</command>
-        <result xml:space="preserve">You are carrying:
-  a ballpoint pen
-  a housekey
-  crayons
-  a book (closed and locked)
-  a newsprint (with a bunny on it)
+        <result xml:space="preserve">You are carrying nothing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16897,7 +18662,7 @@ ballpoint pen: Taken.
     </item>
     <item nodeId="node-2254">
         <command xml:space="preserve">draw bunny on book</command>
-        <result xml:space="preserve">You doodle a bunny on it. Looks cute.
+        <result xml:space="preserve">I didn't understand that sentence.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16906,7 +18671,7 @@ ballpoint pen: Taken.
     </item>
     <item nodeId="node-2255">
         <command xml:space="preserve">draw narwhal on book</command>
-        <result xml:space="preserve">I only understood you as far as wanting to draw.
+        <result xml:space="preserve">I didn't understand that sentence.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16915,14 +18680,14 @@ ballpoint pen: Taken.
     </item>
     <item nodeId="node-2256">
         <command xml:space="preserve">draw narwhal on newsprint</command>
-        <result xml:space="preserve">I only understood you as far as wanting to draw.
+        <result xml:space="preserve">I didn't understand that sentence.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-2257">
         <command xml:space="preserve">ask emma to get up</command>
-        <result xml:space="preserve">Emma won't listen to you. Tears are running down her face. "Leave me", she chokes out. "Run away from here".
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16931,7 +18696,7 @@ ballpoint pen: Taken.
     </item>
     <item nodeId="node-2258">
         <command xml:space="preserve">say hi to emma</command>
-        <result xml:space="preserve">Emma won't listen to you. Tears are running down her face. "Leave me", she chokes out. "Run away from here".
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16940,7 +18705,7 @@ ballpoint pen: Taken.
     </item>
     <item nodeId="node-2259">
         <command xml:space="preserve">ask emma about to get up</command>
-        <result xml:space="preserve">Emma won't listen to you. Tears are running down her face. "Leave me", she chokes out. "Run away from here".
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16958,7 +18723,11 @@ ballpoint pen: Taken.
     </item>
     <item nodeId="node-2261">
         <command xml:space="preserve">s</command>
-        <result xml:space="preserve">You can't go that way.
+        <result xml:space="preserve">
+Kitchen
+Your kitchen has seen better days. A fridge lies in one corner. Near the door is a row of plants with yellowing leaves. At the north corner is a door that leads onto the street.
+
+You can see a jug, a plant, a note and a fridge (closed) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -16985,17 +18754,7 @@ ballpoint pen: Taken.
     </item>
     <item nodeId="node-2264">
         <command xml:space="preserve">n</command>
-        <result xml:space="preserve">You can't go that way.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2265"></child>
-        </children>
-    </item>
-    <item nodeId="node-2265">
-        <command xml:space="preserve">leave emma</command>
-        <result xml:space="preserve">You feel like you're being sucked out of this world. You feel a whirlwind of crying, of pain, of grief, of everything crashing down on you in that moment. When the whirling stops you find yourself in your bedroom. Wake up.
-
+        <result xml:space="preserve">
 Bedroom
  .   \_/       .:"    .:"    .:"
  -=(_)=- /\ ||    /\||    /\||
@@ -17007,9 +18766,18 @@ Bedroom
  &amp;%&amp;--==--&amp;%-==--%&amp;
 
 
-Your bedroom is unadorned. The walls are chalky and the ground bare. The only decoration is a poster of The Killers. A lightbulb hangs from the ceiling. A tiny window is opened a crack, and the sound of faint static comes through. In the distance your kitchen fridge hums.
+Your bedroom is unadorned. The walls are chalky and the ground bare. The only decoration is a poster of The Killers. A lightbulb hangs from the ceiling. A tiny window is opened a crack, and the sound of faint static comes through..
 
-In the corner your monitor blinks wearily. You must've forgotten to turn it off.  Beside you is a worn out drawer. To the left is a cramped closet. 
+In the corner your monitor blinks wearily. You must've forgotten to turn it off.  Beside you is a worn out drawer. To the south your kitchen fridge hums. To the north is a cramped closet. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2265"></child>
+        </children>
+    </item>
+    <item nodeId="node-2265">
+        <command xml:space="preserve">leave emma</command>
+        <result xml:space="preserve">I only understood you as far as wanting to leave.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -17018,11 +18786,7 @@ In the corner your monitor blinks wearily. You must've forgotten to turn it off.
     </item>
     <item nodeId="node-2266">
         <command xml:space="preserve">w</command>
-        <result xml:space="preserve">
-Kitchen
-Your kitchen has seen better days. A fridge lies in one corner. Near the door is a row of plants with yellowing leaves. At the north corner is a door that leads onto the street.
-
-You can see a note and a fridge (closed) here.
+        <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -17031,8 +18795,7 @@ You can see a note and a fridge (closed) here.
     </item>
     <item nodeId="node-2267">
         <command xml:space="preserve">open fridge</command>
-        <result xml:space="preserve">The fridge contains ?????? ??? ?? ????? ??????? ??????? ?? ????
- and curiously, a piece of candy. The candy beckons to you.
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -17041,14 +18804,7 @@ You can see a note and a fridge (closed) here.
     </item>
     <item nodeId="node-2268">
         <command xml:space="preserve">eat candy</command>
-        <result xml:space="preserve">(first taking the candy)
-You pocket the candy. It feels heavy, like nostalgia.
-
-You unwrap the candy and pop it in your mouth. It tastes of a strange medley of flavours - vanilla custard, citrus, a hint of buttered toast. Delightful.
-
-A sudden prickling rips through your throat, like you've swallowed something you shouldn't have. You double over, coughing, clutching the counter for balance. There's something lodged in your throat.
-
-Clang! Out comes a small piece of metal. You pick it up, bewildered. It's a small key.
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -17066,21 +18822,7 @@ Clang! Out comes a small piece of metal. You pick it up, bewildered. It's a smal
     </item>
     <item nodeId="node-2270">
         <command xml:space="preserve">e</command>
-        <result xml:space="preserve">
-Bedroom
- .   \_/       .:"    .:"    .:"
- -=(_)=- /\ ||    /\||    /\||
- .   / \     //\\|   //\\|   //\\|
- .          //  \\  //  \\  //  \\
- .         //    \ ^/    \^/    \\
- .         |  ( )  ||  ( ) || ( ) |
- .         |       ||      ||      |%
- &amp;%&amp;--==--&amp;%-==--%&amp;
-
-
-You step into the bedroom and are flooded with emotion. Every inch of its surface now looks as if it's been dipped in iridescence. The walls are pulsating and warm, shifting from blue to red to violet. The scent of lilacs fill the air.  In the distance your kitchen fridge hums.
-
-Lo-fi indie is playing from your computer. You notice movement on the screen. Beside you is a worn out drawer. To the left is a cramped closet. 
+        <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -17098,7 +18840,7 @@ Lo-fi indie is playing from your computer. You notice movement on the screen. Be
     </item>
     <item nodeId="node-2272">
         <command xml:space="preserve">unlock drawer with key</command>
-        <result xml:space="preserve">You unlock the drawer.
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -17107,7 +18849,7 @@ Lo-fi indie is playing from your computer. You notice movement on the screen. Be
     </item>
     <item nodeId="node-2273">
         <command xml:space="preserve">open drawer</command>
-        <result xml:space="preserve">You pull open the drawer. A journal, a box of crayons, and a pair of glasses lies inside. The journal beckons to you.
+        <result xml:space="preserve">It seems to be locked.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -17116,15 +18858,7 @@ Lo-fi indie is playing from your computer. You notice movement on the screen. Be
     </item>
     <item nodeId="node-2274">
         <command xml:space="preserve">take all</command>
-        <result xml:space="preserve">newsprint: Taken. You straighten out the sheet of newspaper, handling it delicately.  The page contains two girls playing in a sandbox. The smaller of the two is labouring over a crudely formed sand sculpture. The other is carelessly sprawled across the sand, her body covered in dust. You study the small stature, the neat braids, the wrinkled clothing. They look around preschool age. 
-
-¯¯̿̿¯̿̿"̿̿̿̿̿̿̿"̿̿"̿̿̿̿̿"̿̿̿)͇̿̿)̿̿̿̿ "̿̿̿̿̿̿\̵͇̿̿\=(•̪̀●́)=o/̵͇̿̿/. You can't make out the caption.
-
-journal: Taken. A worn out journal in which you've taken to scrawling your dreams.
-
-crayons: Taken. A bright yellow box. On it are instructions on how to draw certain shapes: a bunny, a lion, a narwhal, and a unicorn.
-
-glasses: Taken. You see nothing special about glasses.
+        <result xml:space="preserve">There are none at all available!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -17133,11 +18867,7 @@ glasses: Taken. You see nothing special about glasses.
     </item>
     <item nodeId="node-2275">
         <command xml:space="preserve">read journal</command>
-        <result xml:space="preserve">You flip the pages randomly and arrive at page 2:
-
-A thunderous crack cuts through the air. Everything begins to spin. You watch as everything around you dissolves and reforms until your eyes begin to burn from the distortion. 2. "???????"
-
-Toybox Dreamland
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
