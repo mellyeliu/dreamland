@@ -2672,6 +2672,8 @@ Constant anchor_U405 = 1105;
 Constant anchor_U406 = 1105;
 Constant anchor_U407 = 1105;
 Constant anchor_U408 = 1105;
+Constant anchor_U409 = 1105;
+Constant anchor_U410 = 1105;
 Constant property_id_U95 = 41;
 Constant property_id_U96 = 42;
 Constant property_id_U97 = 43;
@@ -3966,7 +3968,7 @@ Constant Computed_Constant_Value_0_U4 = 1;
 Constant EMPTY_TEXT_PACKED = "";
 Constant I7_FULL_VERSION_NUMBER = "10.1.2";
 Constant I7_VERSION_NUMBER = "10.1.2";
-Serial "240908";
+Serial "240916";
 Constant alphabetised_text_0 = ">";
 Constant alphabetised_text_1 = "> ";
 Constant alphabetised_text_2 = "> Befriend Emma? Y/N";
@@ -4000,48 +4002,47 @@ Constant alphabetised_text_29 = "It's covered with a layer of dust and lined wit
 Constant alphabetised_text_30 = "Kitchen";
 Constant alphabetised_text_31 = "Melissa Liu";
 Constant alphabetised_text_32 = "Narwhal";
-Constant alphabetised_text_33 = "PLUSHIELAND";
-Constant alphabetised_text_34 = "Plushieland";
-Constant alphabetised_text_35 = "QUIT";
-Constant alphabetised_text_36 = "RESTART";
-Constant alphabetised_text_37 = "RESTORE a saved game";
-Constant alphabetised_text_38 = "Record player";
-Constant alphabetised_text_39 = "TOYBOX";
-Constant alphabetised_text_40 = "The closet is small and cramped, with a single cardboard box in the corner. It's dimly lit, and you can smell a faint musty odor, as if the space hasn't been opened in years. The walls are lined with old, forgotten coats, and the ceiling is low, making the space feel claustrophobic.";
-Constant alphabetised_text_41 = "The ladder leans against the tree, but some of its rungs are missing.";
-Constant alphabetised_text_42 = "Toybox (Dreamland)";
-Constant alphabetised_text_43 = "Treehouse";
-Constant alphabetised_text_44 = "UNDO the last command";
-Constant alphabetised_text_45 = "You have entered a cozy treehouse. It has a wooden floor, a small table with some board games, a hammock, and a girl named Emma who is sitting on a bean bag chair. There's a window with a view of the forest below.";
-Constant alphabetised_text_46 = "You wake up in world of cotton. Everything you see is rendered in a shade of pastel - the turgid river, the sky, the meadows in front of you. A girl around the age of seven is digging up flowers. Surrounding you are ";
-Constant alphabetised_text_47 = "You're bizarrely attached to your fridge. It's charming in its age, rickedy, humming in a contented manner. It's covered with  and a note is pinned to it.";
-Constant alphabetised_text_48 = "Your kitchen has seen better days. A fridge lies in one corner. Near the door is a row of plants with yellowing leaves. At the north corner is a door that leads onto the street.";
-Constant alphabetised_text_49 = "Yourself";
+Constant alphabetised_text_33 = "Plushieland";
+Constant alphabetised_text_34 = "QUIT";
+Constant alphabetised_text_35 = "RESTART";
+Constant alphabetised_text_36 = "RESTORE a saved game";
+Constant alphabetised_text_37 = "Record player";
+Constant alphabetised_text_38 = "TOYBOX";
+Constant alphabetised_text_39 = "The closet is small and cramped, with a single cardboard box in the corner. It's dimly lit, and you can smell a faint musty odor, as if the space hasn't been opened in years. The walls are lined with old, forgotten coats, and the ceiling is low, making the space feel claustrophobic.";
+Constant alphabetised_text_40 = "The ladder leans against the tree, but some of its rungs are missing.";
+Constant alphabetised_text_41 = "Toybox (Dreamland)";
+Constant alphabetised_text_42 = "Treehouse";
+Constant alphabetised_text_43 = "UNDO the last command";
+Constant alphabetised_text_44 = "You have entered a cozy treehouse. It has a wooden floor, a small table with some board games, a hammock, and a girl named Emma who is sitting on a bean bag chair. There's a window with a view of the forest below.";
+Constant alphabetised_text_45 = "You wake up in world of cotton. Everything you see is rendered in a shade of pastel - the turgid river, the sky, the meadows in front of you. A girl around the age of seven is digging up flowers. Surrounding you are ";
+Constant alphabetised_text_46 = "You're bizarrely attached to your fridge. It's charming in its age, rickedy, humming in a contented manner. It's covered with  and a note is pinned to it.";
+Constant alphabetised_text_47 = "Your kitchen has seen better days. A fridge lies in one corner. Near the door is a row of plants with yellowing leaves. At the north corner is a door that leads onto the street.";
+Constant alphabetised_text_48 = "Yourself";
 Constant outcome_allow_access_U1 = "allow access";
 Constant outcome_allow_startup_U1 = "allow startup";
-Constant alphabetised_text_50 = "animals";
-Constant alphabetised_text_51 = "backdrops";
-Constant alphabetised_text_52 = "ballpoint pen";
-Constant alphabetised_text_53 = "bunny";
-Constant alphabetised_text_54 = "candy";
-Constant alphabetised_text_55 = "clover";
-Constant alphabetised_text_56 = "computer";
-Constant alphabetised_text_57 = "containers";
-Constant alphabetised_text_58 = "crayola key";
-Constant alphabetised_text_59 = "crayons";
-Constant alphabetised_text_60 = "dandelion";
+Constant alphabetised_text_49 = "animals";
+Constant alphabetised_text_50 = "backdrops";
+Constant alphabetised_text_51 = "ballpoint pen";
+Constant alphabetised_text_52 = "bunny";
+Constant alphabetised_text_53 = "candy";
+Constant alphabetised_text_54 = "clover";
+Constant alphabetised_text_55 = "computer";
+Constant alphabetised_text_56 = "containers";
+Constant alphabetised_text_57 = "crayola key";
+Constant alphabetised_text_58 = "crayons";
+Constant alphabetised_text_59 = "dandelion";
 Constant outcome_deny_access_U1 = "deny access";
 Constant outcome_deny_startup_U1 = "deny startup";
-Constant alphabetised_text_61 = "desk";
-Constant alphabetised_text_62 = "devices";
-Constant alphabetised_text_63 = "directions";
-Constant alphabetised_text_64 = "doors";
-Constant alphabetised_text_65 = "down";
-Constant alphabetised_text_66 = "drawer";
-Constant alphabetised_text_67 = "east";
-Constant alphabetised_text_68 = "fridge";
-Constant alphabetised_text_69 = "glasses";
-Constant alphabetised_text_70 = "inside";
+Constant alphabetised_text_60 = "desk";
+Constant alphabetised_text_61 = "devices";
+Constant alphabetised_text_62 = "directions";
+Constant alphabetised_text_63 = "doors";
+Constant alphabetised_text_64 = "down";
+Constant alphabetised_text_65 = "drawer";
+Constant alphabetised_text_66 = "east";
+Constant alphabetised_text_67 = "fridge";
+Constant alphabetised_text_68 = "glasses";
+Constant alphabetised_text_69 = "inside";
 Constant outcome_it_does_U1 = "it does";
 Constant outcome_it_does_not_U1 = "it does not";
 Constant outcome_it_is_likely_U1 = "it is likely";
@@ -4049,87 +4050,87 @@ Constant outcome_it_is_possible_U1 = "it is possible";
 Constant outcome_it_is_unlikely_U1 = "it is unlikely";
 Constant outcome_it_is_very_likely_U1 = "it is very likely";
 Constant outcome_it_is_very_unlikely_U1 = "it is very unlikely";
-Constant alphabetised_text_71 = "journal";
-Constant alphabetised_text_72 = "jug";
-Constant alphabetised_text_73 = "ladder";
-Constant alphabetised_text_74 = "lightbulb";
-Constant alphabetised_text_75 = "men";
-Constant alphabetised_text_76 = "narwhal";
-Constant alphabetised_text_77 = "newsprint";
-Constant alphabetised_text_78 = "north";
-Constant alphabetised_text_79 = "northeast";
-Constant alphabetised_text_80 = "northwest";
-Constant alphabetised_text_81 = "note";
-Constant alphabetised_text_82 = "outside";
-Constant alphabetised_text_83 = "people";
+Constant alphabetised_text_70 = "journal";
+Constant alphabetised_text_71 = "jug";
+Constant alphabetised_text_72 = "ladder";
+Constant alphabetised_text_73 = "lightbulb";
+Constant alphabetised_text_74 = "men";
+Constant alphabetised_text_75 = "narwhal";
+Constant alphabetised_text_76 = "newsprint";
+Constant alphabetised_text_77 = "north";
+Constant alphabetised_text_78 = "northeast";
+Constant alphabetised_text_79 = "northwest";
+Constant alphabetised_text_80 = "note";
+Constant alphabetised_text_81 = "outside";
+Constant alphabetised_text_82 = "people";
 Constant outcome_persuasion_fails_U1 = "persuasion fails";
 Constant outcome_persuasion_succeeds_U1 = "persuasion succeeds";
-Constant alphabetised_text_84 = "plant";
-Constant alphabetised_text_85 = "player's holdalls";
-Constant alphabetised_text_86 = "poster";
-Constant alphabetised_text_87 = "record player";
-Constant alphabetised_text_88 = "regions";
-Constant alphabetised_text_89 = "see some suggestions for AMUSING things to do";
-Constant alphabetised_text_90 = "silver key";
-Constant alphabetised_text_91 = "south";
-Constant alphabetised_text_92 = "southeast";
-Constant alphabetised_text_93 = "southwest";
-Constant alphabetised_text_94 = "suitcase";
-Constant alphabetised_text_95 = "supporters";
-Constant alphabetised_text_96 = "the";
+Constant alphabetised_text_83 = "plant";
+Constant alphabetised_text_84 = "player's holdalls";
+Constant alphabetised_text_85 = "poster";
+Constant alphabetised_text_86 = "record player";
+Constant alphabetised_text_87 = "regions";
+Constant alphabetised_text_88 = "see some suggestions for AMUSING things to do";
+Constant alphabetised_text_89 = "silver key";
+Constant alphabetised_text_90 = "south";
+Constant alphabetised_text_91 = "southeast";
+Constant alphabetised_text_92 = "southwest";
+Constant alphabetised_text_93 = "suitcase";
+Constant alphabetised_text_94 = "supporters";
+Constant alphabetised_text_95 = "the";
 Constant outcome_there_is_insufficien_U1 = "there is insufficient light";
 Constant outcome_there_is_sufficient__U1 = "there is sufficient light";
-Constant alphabetised_text_97 = "tree";
-Constant alphabetised_text_98 = "up";
-Constant alphabetised_text_99 = "vehicles";
-Constant alphabetised_text_100 = "west";
-Constant alphabetised_text_101 = "women";
-Constant alphabetised_text_102 = "yearbook";
-Constant alphabetised_text_103 = "yourself";
+Constant alphabetised_text_96 = "tree";
+Constant alphabetised_text_97 = "up";
+Constant alphabetised_text_98 = "vehicles";
+Constant alphabetised_text_99 = "west";
+Constant alphabetised_text_100 = "women";
+Constant alphabetised_text_101 = "yearbook";
+Constant alphabetised_text_102 = "yourself";
 Constant V1_starting_the_virtual_mach = activity_id_U1;
 Constant V2_printing_the_name = activity_id_U2;
 Constant V3_printing_the_plural_name = activity_id_U3;
-Constant text_U1 = alphabetised_text_78;
-Constant text_U2 = alphabetised_text_96;
-Constant text_U3 = alphabetised_text_63;
-Constant text_U4 = alphabetised_text_79;
-Constant text_U5 = alphabetised_text_96;
-Constant text_U6 = alphabetised_text_63;
-Constant text_U7 = alphabetised_text_80;
-Constant text_U8 = alphabetised_text_96;
-Constant text_U9 = alphabetised_text_63;
-Constant text_U10 = alphabetised_text_91;
-Constant text_U11 = alphabetised_text_96;
-Constant text_U12 = alphabetised_text_63;
-Constant text_U13 = alphabetised_text_92;
-Constant text_U14 = alphabetised_text_96;
-Constant text_U15 = alphabetised_text_63;
-Constant text_U16 = alphabetised_text_93;
-Constant text_U17 = alphabetised_text_96;
-Constant text_U18 = alphabetised_text_63;
-Constant text_U19 = alphabetised_text_67;
-Constant text_U20 = alphabetised_text_96;
-Constant text_U21 = alphabetised_text_63;
-Constant text_U22 = alphabetised_text_100;
-Constant text_U23 = alphabetised_text_96;
-Constant text_U24 = alphabetised_text_63;
-Constant text_U25 = alphabetised_text_98;
-Constant text_U26 = alphabetised_text_96;
-Constant text_U27 = alphabetised_text_63;
-Constant text_U28 = alphabetised_text_65;
-Constant text_U29 = alphabetised_text_96;
-Constant text_U30 = alphabetised_text_63;
-Constant text_U31 = alphabetised_text_70;
-Constant text_U32 = alphabetised_text_96;
-Constant text_U33 = alphabetised_text_63;
-Constant text_U34 = alphabetised_text_82;
-Constant text_U35 = alphabetised_text_96;
-Constant text_U36 = alphabetised_text_63;
-Constant text_U37 = alphabetised_text_103;
+Constant text_U1 = alphabetised_text_77;
+Constant text_U2 = alphabetised_text_95;
+Constant text_U3 = alphabetised_text_62;
+Constant text_U4 = alphabetised_text_78;
+Constant text_U5 = alphabetised_text_95;
+Constant text_U6 = alphabetised_text_62;
+Constant text_U7 = alphabetised_text_79;
+Constant text_U8 = alphabetised_text_95;
+Constant text_U9 = alphabetised_text_62;
+Constant text_U10 = alphabetised_text_90;
+Constant text_U11 = alphabetised_text_95;
+Constant text_U12 = alphabetised_text_62;
+Constant text_U13 = alphabetised_text_91;
+Constant text_U14 = alphabetised_text_95;
+Constant text_U15 = alphabetised_text_62;
+Constant text_U16 = alphabetised_text_92;
+Constant text_U17 = alphabetised_text_95;
+Constant text_U18 = alphabetised_text_62;
+Constant text_U19 = alphabetised_text_66;
+Constant text_U20 = alphabetised_text_95;
+Constant text_U21 = alphabetised_text_62;
+Constant text_U22 = alphabetised_text_99;
+Constant text_U23 = alphabetised_text_95;
+Constant text_U24 = alphabetised_text_62;
+Constant text_U25 = alphabetised_text_97;
+Constant text_U26 = alphabetised_text_95;
+Constant text_U27 = alphabetised_text_62;
+Constant text_U28 = alphabetised_text_64;
+Constant text_U29 = alphabetised_text_95;
+Constant text_U30 = alphabetised_text_62;
+Constant text_U31 = alphabetised_text_69;
+Constant text_U32 = alphabetised_text_95;
+Constant text_U33 = alphabetised_text_62;
+Constant text_U34 = alphabetised_text_81;
+Constant text_U35 = alphabetised_text_95;
+Constant text_U36 = alphabetised_text_62;
+Constant text_U37 = alphabetised_text_102;
 Constant text_U38 = alphabetised_text_18;
-Constant text_U39 = alphabetised_text_49;
-Constant text_U40 = alphabetised_text_103;
-Constant text_U41 = alphabetised_text_83;
+Constant text_U39 = alphabetised_text_48;
+Constant text_U40 = alphabetised_text_102;
+Constant text_U41 = alphabetised_text_82;
 Constant RBNO0_OUTCOME_U1 = outcome_it_is_very_unlikely_U1;
 Constant RBNO4_OUTCOME_U1 = outcome_it_is_very_likely_U1;
 Constant RBNO3_OUTCOME_U1 = outcome_it_is_likely_U1;
@@ -4166,36 +4167,36 @@ Constant V31_handling_the_final_questi = activity_id_U31;
 Constant V32_printing_the_locale_descr = activity_id_U32;
 Constant V33_choosing_notable_locale_o = activity_id_U33;
 Constant V34_printing_a_locale_paragra = activity_id_U34;
-Constant text_U42 = alphabetised_text_63;
+Constant text_U42 = alphabetised_text_62;
 Constant K4_door_First = nothing;
-Constant text_U43 = alphabetised_text_64;
-Constant text_U44 = alphabetised_text_57;
-Constant text_U45 = alphabetised_text_95;
+Constant text_U43 = alphabetised_text_63;
+Constant text_U44 = alphabetised_text_56;
+Constant text_U45 = alphabetised_text_94;
 Constant K7_backdrop_First = nothing;
-Constant text_U46 = alphabetised_text_51;
-Constant text_U47 = alphabetised_text_83;
-Constant text_U48 = alphabetised_text_88;
+Constant text_U46 = alphabetised_text_50;
+Constant text_U47 = alphabetised_text_82;
+Constant text_U48 = alphabetised_text_87;
 Constant K10_man_First = nothing;
-Constant text_U49 = alphabetised_text_75;
+Constant text_U49 = alphabetised_text_74;
 Constant K11_woman_First = nothing;
-Constant text_U50 = alphabetised_text_101;
+Constant text_U50 = alphabetised_text_100;
 Constant K12_animal_First = nothing;
-Constant text_U51 = alphabetised_text_50;
-Constant text_U52 = alphabetised_text_62;
+Constant text_U51 = alphabetised_text_49;
+Constant text_U52 = alphabetised_text_61;
 Constant K14_vehicle_First = nothing;
-Constant text_U53 = alphabetised_text_99;
+Constant text_U53 = alphabetised_text_98;
 Constant K15_player_s_holdall_First = nothing;
-Constant text_U54 = alphabetised_text_85;
+Constant text_U54 = alphabetised_text_84;
 Constant text_U55 = alphabetised_text_0;
 Constant text_U56 = alphabetised_text_31;
 Constant text_U57 = alphabetised_text_16;
 Constant text_U58 = alphabetised_text_24;
 Constant column_identity_U1 = table_column_id_U1;
-Constant text_U59 = alphabetised_text_36;
-Constant text_U60 = alphabetised_text_37;
-Constant text_U61 = alphabetised_text_89;
-Constant text_U62 = alphabetised_text_35;
-Constant text_U63 = alphabetised_text_44;
+Constant text_U59 = alphabetised_text_35;
+Constant text_U60 = alphabetised_text_36;
+Constant text_U61 = alphabetised_text_88;
+Constant text_U62 = alphabetised_text_34;
+Constant text_U63 = alphabetised_text_43;
 Constant column_identity_U2 = table_column_id_U2;
 Constant column_identity_U3 = table_column_id_U3;
 Constant column_identity_U4 = table_column_id_U4;
@@ -4203,95 +4204,95 @@ Constant column_identity_U5 = table_column_id_U5;
 Constant column_identity_U6 = table_column_id_U6;
 Constant column_identity_U7 = table_column_id_U7;
 Constant text_U64 = alphabetised_text_26;
-Constant text_U65 = alphabetised_text_88;
+Constant text_U65 = alphabetised_text_87;
 Constant text_U66 = alphabetised_text_19;
 Constant text_U67 = alphabetised_text_30;
-Constant text_U68 = alphabetised_text_48;
-Constant text_U69 = alphabetised_text_86;
+Constant text_U68 = alphabetised_text_47;
+Constant text_U69 = alphabetised_text_85;
 Constant text_U70 = alphabetised_text_11;
-Constant text_U71 = alphabetised_text_74;
+Constant text_U71 = alphabetised_text_73;
 Constant text_U72 = alphabetised_text_12;
-Constant text_U73 = alphabetised_text_62;
-Constant text_U74 = alphabetised_text_66;
+Constant text_U73 = alphabetised_text_61;
+Constant text_U74 = alphabetised_text_65;
 Constant text_U75 = alphabetised_text_29;
-Constant text_U76 = alphabetised_text_57;
-Constant text_U77 = alphabetised_text_71;
-Constant text_U78 = alphabetised_text_57;
-Constant text_U79 = alphabetised_text_59;
+Constant text_U76 = alphabetised_text_56;
+Constant text_U77 = alphabetised_text_70;
+Constant text_U78 = alphabetised_text_56;
+Constant text_U79 = alphabetised_text_58;
 Constant text_U80 = alphabetised_text_7;
 Constant text_U81 = alphabetised_text_21;
-Constant text_U82 = alphabetised_text_69;
+Constant text_U82 = alphabetised_text_68;
 Constant text_U83 = alphabetised_text_25;
-Constant text_U84 = alphabetised_text_61;
-Constant text_U85 = alphabetised_text_95;
-Constant text_U86 = alphabetised_text_52;
-Constant text_U87 = alphabetised_text_56;
-Constant text_U88 = alphabetised_text_62;
-Constant text_U89 = alphabetised_text_77;
+Constant text_U84 = alphabetised_text_60;
+Constant text_U85 = alphabetised_text_94;
+Constant text_U86 = alphabetised_text_51;
+Constant text_U87 = alphabetised_text_55;
+Constant text_U88 = alphabetised_text_61;
+Constant text_U89 = alphabetised_text_76;
 Constant text_U90 = alphabetised_text_8;
 Constant text_U91 = alphabetised_text_20;
-Constant text_U92 = alphabetised_text_40;
-Constant text_U93 = alphabetised_text_94;
-Constant text_U94 = alphabetised_text_57;
-Constant text_U95 = alphabetised_text_102;
-Constant text_U96 = alphabetised_text_57;
-Constant text_U97 = alphabetised_text_87;
+Constant text_U92 = alphabetised_text_39;
+Constant text_U93 = alphabetised_text_93;
+Constant text_U94 = alphabetised_text_56;
+Constant text_U95 = alphabetised_text_101;
+Constant text_U96 = alphabetised_text_56;
+Constant text_U97 = alphabetised_text_86;
 Constant text_U98 = alphabetised_text_15;
-Constant text_U99 = alphabetised_text_38;
-Constant text_U100 = alphabetised_text_62;
-Constant text_U101 = alphabetised_text_76;
+Constant text_U99 = alphabetised_text_37;
+Constant text_U100 = alphabetised_text_61;
+Constant text_U101 = alphabetised_text_75;
 Constant text_U102 = alphabetised_text_17;
 Constant text_U103 = alphabetised_text_32;
-Constant text_U104 = alphabetised_text_90;
+Constant text_U104 = alphabetised_text_89;
 Constant text_U105 = alphabetised_text_14;
-Constant text_U106 = alphabetised_text_72;
-Constant text_U107 = alphabetised_text_84;
-Constant text_U108 = alphabetised_text_81;
-Constant text_U109 = alphabetised_text_68;
-Constant text_U110 = alphabetised_text_47;
-Constant text_U111 = alphabetised_text_57;
-Constant text_U112 = alphabetised_text_54;
+Constant text_U106 = alphabetised_text_71;
+Constant text_U107 = alphabetised_text_83;
+Constant text_U108 = alphabetised_text_80;
+Constant text_U109 = alphabetised_text_67;
+Constant text_U110 = alphabetised_text_46;
+Constant text_U111 = alphabetised_text_56;
+Constant text_U112 = alphabetised_text_53;
 Constant text_U113 = alphabetised_text_10;
-Constant text_U114 = alphabetised_text_42;
-Constant text_U115 = alphabetised_text_97;
+Constant text_U114 = alphabetised_text_41;
+Constant text_U115 = alphabetised_text_96;
 Constant text_U116 = alphabetised_text_9;
-Constant text_U117 = alphabetised_text_53;
-Constant text_U118 = alphabetised_text_55;
-Constant text_U119 = alphabetised_text_60;
-Constant text_U120 = alphabetised_text_43;
-Constant text_U121 = alphabetised_text_45;
-Constant text_U122 = alphabetised_text_73;
-Constant text_U123 = alphabetised_text_41;
-Constant text_U124 = alphabetised_text_95;
+Constant text_U117 = alphabetised_text_52;
+Constant text_U118 = alphabetised_text_54;
+Constant text_U119 = alphabetised_text_59;
+Constant text_U120 = alphabetised_text_42;
+Constant text_U121 = alphabetised_text_44;
+Constant text_U122 = alphabetised_text_72;
+Constant text_U123 = alphabetised_text_40;
+Constant text_U124 = alphabetised_text_94;
 Constant text_U125 = alphabetised_text_23;
 Constant text_U126 = alphabetised_text_13;
-Constant text_U127 = alphabetised_text_83;
-Constant text_U128 = alphabetised_text_58;
-Constant text_U129 = alphabetised_text_34;
-Constant text_U130 = alphabetised_text_46;
+Constant text_U127 = alphabetised_text_82;
+Constant text_U128 = alphabetised_text_57;
+Constant text_U129 = alphabetised_text_33;
+Constant text_U130 = alphabetised_text_45;
 Constant text_U131 = alphabetised_text_4;
 Constant text_U132 = alphabetised_text_4;
 Constant text_U133 = alphabetised_text_1;
 Constant text_U134 = alphabetised_text_4;
 Constant text_U135 = alphabetised_text_5;
 Constant text_U136 = alphabetised_text_5;
-Constant text_U137 = alphabetised_text_0;
+Constant text_U137 = alphabetised_text_5;
 Constant text_U138 = alphabetised_text_0;
-Constant text_U139 = alphabetised_text_2;
+Constant text_U139 = alphabetised_text_0;
 Constant text_U140 = alphabetised_text_2;
-Constant text_U141 = alphabetised_text_0;
-Constant text_U142 = alphabetised_text_2;
-Constant text_U143 = alphabetised_text_3;
+Constant text_U141 = alphabetised_text_2;
+Constant text_U142 = alphabetised_text_0;
+Constant text_U143 = alphabetised_text_2;
 Constant text_U144 = alphabetised_text_3;
-Constant text_U145 = alphabetised_text_0;
+Constant text_U145 = alphabetised_text_3;
+Constant text_U146 = alphabetised_text_0;
 Constant column_identity_U8 = table_column_id_U3;
 Constant column_identity_U9 = table_column_id_U8;
-Constant text_U146 = alphabetised_text_27;
-Constant text_U147 = alphabetised_text_28;
+Constant text_U147 = alphabetised_text_27;
+Constant text_U148 = alphabetised_text_28;
 Constant column_identity_U10 = table_column_id_U9;
 Constant column_identity_U11 = table_column_id_U10;
-Constant text_U148 = alphabetised_text_39;
-Constant text_U149 = alphabetised_text_33;
+Constant text_U149 = alphabetised_text_38;
 Constant text_U150 = alphabetised_text_6;
 Constant text_U151 = alphabetised_text_6;
 Constant abilities_U3 = (RELS_TEST);
@@ -4555,7 +4556,7 @@ Array activity_var_creators --> [ 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0
 Array TimedEventsTable table [ 0; 0; ];
 Array TimedEventTimesTable table [ 0; 0; ];
 Array PastActionsI6Routines --> [ PAPR1; 0; 0; ];
-Array TableOfVerbs --> [ call_U133; call_U134; call_U135; call_U136; call_U137; call_U138; call_U139; call_U140; call_U141; call_U142; call_U143; call_U144; call_U145; call_U146; call_U147; call_U148; call_U149; call_U150; call_U151; call_U1869; call_U1870; call_U1871; call_U1872; call_U1873; call_U1874; call_U1875; call_U1876; call_U1877; call_U1878; call_U1879; call_U1880; call_U1881; call_U1882; call_U1883; call_U1884; call_U1885; call_U1886; call_U1887; call_U1888; call_U1889; call_U1890; call_U1891; call_U1892; call_U1893; call_U1894; call_U1895; call_U1896; call_U1897; call_U1898; call_U1899; call_U1900; call_U1901; call_U1902; call_U1903; call_U1904; call_U1905; call_U1906; call_U1907; call_U1908; call_U1909; call_U1910; call_U1911; call_U1912; call_U1913; call_U1914; call_U1915; call_U1916; call_U1917; call_U1918; call_U1919; call_U1920; call_U1921; call_U1922; call_U1923; call_U1924; call_U1925; call_U1926; call_U1927; call_U1928; call_U1929; call_U1930; call_U1931; call_U1932; call_U1933; call_U1934; call_U1935; call_U1936; call_U1937; call_U1938; call_U1939; call_U204; call_U205; call_U206; call_U207; call_U208; call_U209; call_U2053; call_U2054; call_U2055; call_U2056; call_U2057; call_U2058; 0; ];
+Array TableOfVerbs --> [ call_U133; call_U134; call_U135; call_U136; call_U137; call_U138; call_U139; call_U140; call_U141; call_U142; call_U143; call_U144; call_U145; call_U146; call_U147; call_U148; call_U149; call_U150; call_U151; call_U1869; call_U1870; call_U1871; call_U1872; call_U1873; call_U1874; call_U1875; call_U1876; call_U1877; call_U1878; call_U1879; call_U1880; call_U1881; call_U1882; call_U1883; call_U1884; call_U1885; call_U1886; call_U1887; call_U1888; call_U1889; call_U1890; call_U1891; call_U1892; call_U1893; call_U1894; call_U1895; call_U1896; call_U1897; call_U1898; call_U1899; call_U1900; call_U1901; call_U1902; call_U1903; call_U1904; call_U1905; call_U1906; call_U1907; call_U1908; call_U1909; call_U1910; call_U1911; call_U1912; call_U1913; call_U1914; call_U1915; call_U1916; call_U1917; call_U1918; call_U1919; call_U1920; call_U1921; call_U1922; call_U1923; call_U1924; call_U1925; call_U1926; call_U1927; call_U1928; call_U1929; call_U1930; call_U1931; call_U1932; call_U1933; call_U1934; call_U1935; call_U1936; call_U1937; call_U1938; call_U1939; call_U204; call_U205; call_U206; call_U207; call_U208; call_U209; call_U2055; call_U2056; call_U2057; call_U2058; call_U2059; call_U2060; 0; ];
 Array KindHierarchy --> [ K0_kind; 0; K1_room; 0; K2_thing; 0; K3_direction; 0; K4_door; 2; K5_container; 2; K6_supporter; 2; K7_backdrop; 2; K8_person; 2; K9_region; 0; K10_man; 8; K11_woman; 8; K12_animal; 8; K13_device; 2; K14_vehicle; 5; K15_player_s_holdall; 5; ];
 Array ResourceIDsOfFigures --> [ 0; 1; 0; ];
 Array ResourceIDsOfSounds --> [ 0; 0; ];
@@ -5798,6 +5799,7 @@ Array bc_U364 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U142; ];
 Array bc_U365 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U143; ];
 Array bc_U366 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U144; ];
 Array bc_U367 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U145; ];
+Array bc_U368 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U146; ];
 Array DK1_rule --> [ RULE_TY; 2; ACTION_NAME_TY; VOID_TY; ];
 Array DK2_activity_on_objects --> [ ACTIVITY_TY; 1; OBJECT_TY; ];
 Array DK3_phrase_real_number____re --> [ PHRASE_TY; 2; REAL_NUMBER_TY; ];
@@ -5808,33 +5810,33 @@ Array DK7_relation_of_supporters_t --> [ RELATION_TY; 2; OBJECT_TY; OBJECT_TY; ]
 Array DK8_relation_of_things --> [ RELATION_TY; 2; OBJECT_TY; OBJECT_TY; ];
 Array DK9_relation_of_people_to_th --> [ RELATION_TY; 2; OBJECT_TY; OBJECT_TY; ];
 Array column_data_U8 table [ column_bits_U8; column_blanks_U7; Consult_Grammar6; Consult_Grammar7; ];
-Array column_data_U9 table [ column_bits_U9; column_blanks_U8; bc_U368; bc_U369; ];
-Array bc_U368 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U146; ];
+Array column_data_U9 table [ column_bits_U9; column_blanks_U8; bc_U369; bc_U370; ];
 Array bc_U369 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U147; ];
+Array bc_U370 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U148; ];
 Array table_data_U3 table [ column_data_U8; column_data_U9; ];
 Array column_data_U10 table [ column_bits_U10; column_blanks_U9; 1; 2; 3; 4; ];
-Array column_data_U11 table [ column_bits_U11; column_blanks_U10; bc_U370; bc_U371; bc_U372; bc_U373; ];
-Array bc_U370 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U148; ];
+Array column_data_U11 table [ column_bits_U11; column_blanks_U10; bc_U371; ts_array_U403; bc_U372; bc_U373; ];
 Array bc_U371 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U149; ];
+Array ts_array_U403 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U2061; ];
 Array bc_U372 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U150; ];
 Array bc_U373 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U151; ];
 Array table_data_U4 table [ column_data_U10; column_data_U11; ];
-Array Rel_Record3 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "equality relation"; abilities_U3; 0; DK5_relation_of_values; call_U2059; "is"; ];
-Array Rel_Record4 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "meaning relation"; abilities_U4; 0; DK6_relation_of_objects; call_U2060; "means"; ];
-Array Rel_Record5 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "possession relation"; abilities_U5; 0; DK6_relation_of_objects; call_U2061; "has"; ];
-Array Rel_Record6 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "universal relation"; abilities_U6; 0; DK6_relation_of_objects; call_U2062; "relates"; ];
-Array Rel_Record7 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "provision relation"; abilities_U7; 0; DK6_relation_of_objects; call_U2063; "provides"; ];
-Array Rel_Record8 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "containment relation"; abilities_U8; 0; DK6_relation_of_objects; call_U2064; "contains"; ];
-Array Rel_Record9 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "support relation"; abilities_U9; 0; DK7_relation_of_supporters_t; call_U2065; "supports"; ];
-Array Rel_Record10 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "incorporation relation"; abilities_U10; 0; DK8_relation_of_things; call_U2066; "incorporates"; ];
-Array Rel_Record11 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "enclosure relation"; abilities_U11; 0; DK6_relation_of_objects; call_U2067; "encloses"; ];
-Array Rel_Record12 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "carrying relation"; abilities_U12; 0; DK9_relation_of_people_to_th; call_U2068; "carries"; ];
-Array Rel_Record13 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "holding relation"; abilities_U13; 0; DK9_relation_of_people_to_th; call_U2069; "holds"; ];
-Array Rel_Record14 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "wearing relation"; abilities_U14; 0; DK9_relation_of_people_to_th; call_U2070; "wears"; ];
-Array Rel_Record15 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "visibility relation"; abilities_U15; 0; DK8_relation_of_things; call_U2071; "can-see"; ];
-Array Rel_Record16 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "touchability relation"; abilities_U16; 0; DK8_relation_of_things; call_U2072; "can-touch"; ];
-Array Rel_Record17 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "concealment relation"; abilities_U17; 0; DK8_relation_of_things; call_U2073; "conceals"; ];
-Array Rel_Record18 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "never-holding relation"; abilities_U18; 0; DK5_relation_of_values; call_U2074; "is"; ];
+Array Rel_Record3 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "equality relation"; abilities_U3; 0; DK5_relation_of_values; call_U2062; "is"; ];
+Array Rel_Record4 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "meaning relation"; abilities_U4; 0; DK6_relation_of_objects; call_U2063; "means"; ];
+Array Rel_Record5 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "possession relation"; abilities_U5; 0; DK6_relation_of_objects; call_U2064; "has"; ];
+Array Rel_Record6 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "universal relation"; abilities_U6; 0; DK6_relation_of_objects; call_U2065; "relates"; ];
+Array Rel_Record7 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "provision relation"; abilities_U7; 0; DK6_relation_of_objects; call_U2066; "provides"; ];
+Array Rel_Record8 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "containment relation"; abilities_U8; 0; DK6_relation_of_objects; call_U2067; "contains"; ];
+Array Rel_Record9 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "support relation"; abilities_U9; 0; DK7_relation_of_supporters_t; call_U2068; "supports"; ];
+Array Rel_Record10 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "incorporation relation"; abilities_U10; 0; DK8_relation_of_things; call_U2069; "incorporates"; ];
+Array Rel_Record11 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "enclosure relation"; abilities_U11; 0; DK6_relation_of_objects; call_U2070; "encloses"; ];
+Array Rel_Record12 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "carrying relation"; abilities_U12; 0; DK9_relation_of_people_to_th; call_U2071; "carries"; ];
+Array Rel_Record13 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "holding relation"; abilities_U13; 0; DK9_relation_of_people_to_th; call_U2072; "holds"; ];
+Array Rel_Record14 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "wearing relation"; abilities_U14; 0; DK9_relation_of_people_to_th; call_U2073; "wears"; ];
+Array Rel_Record15 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "visibility relation"; abilities_U15; 0; DK8_relation_of_things; call_U2074; "can-see"; ];
+Array Rel_Record16 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "touchability relation"; abilities_U16; 0; DK8_relation_of_things; call_U2075; "can-touch"; ];
+Array Rel_Record17 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "concealment relation"; abilities_U17; 0; DK8_relation_of_things; call_U2076; "conceals"; ];
+Array Rel_Record18 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "never-holding relation"; abilities_U18; 0; DK5_relation_of_values; call_U2077; "is"; ];
 Array bc_U374 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U152; ];
 Array bc_U375 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U153; ];
 Array bc_U376 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U154; ];
@@ -9634,182 +9636,190 @@ Global max_z_object;
             rtrue;
         }
         if ((R == call_U2007)) {
-            print "Instead of opening the suitcase";
+            print "Instead of unlocking the suitcase with the key";
             rtrue;
         }
         if ((R == call_U2008)) {
-            print "After reading a command when the command prompt is @@126@{3e} This suitcase requires a passcode: @@126";
+            print "Instead of opening the suitcase";
             rtrue;
         }
         if ((R == call_U2009)) {
-            print "After watering the plant";
+            print "After reading a command when the command prompt is @@126@{3e} This suitcase requires a passcode: @@126";
             rtrue;
         }
         if ((R == call_U2010)) {
-            print "After opening the fridge";
+            print "After unlocking the drawer with the silver key";
             rtrue;
         }
         if ((R == call_U2011)) {
-            print "After taking the candy";
+            print "After watering the plant";
             rtrue;
         }
         if ((R == call_U2012)) {
-            print "After eating the candy";
+            print "After opening the fridge";
             rtrue;
         }
         if ((R == call_U2013)) {
-            print "Check drawing";
+            print "After taking the candy";
             rtrue;
         }
         if ((R == call_U2014)) {
-            print "Carry out drawing";
+            print "After eating the candy";
             rtrue;
         }
         if ((R == call_U2015)) {
-            print "Rule for printing the locale description of Toybox";
+            print "Check drawing";
             rtrue;
         }
         if ((R == call_U2016)) {
-            print "Instead of climbing the ladder when the ladder is broken";
+            print "Carry out drawing";
             rtrue;
         }
         if ((R == call_U2017)) {
-            print "Check drawing on the ladder with the crayons";
+            print "Rule for printing the locale description of Toybox";
             rtrue;
         }
         if ((R == call_U2018)) {
-            print "Carry out drawing on the ladder with the crayons";
+            print "Instead of climbing the ladder when the ladder is broken";
             rtrue;
         }
         if ((R == call_U2019)) {
-            print "Report drawing on the ladder with the crayons";
+            print "Check drawing on the ladder with the crayons";
             rtrue;
         }
         if ((R == call_U2020)) {
-            print "Instead of climbing the ladder when the ladder is fixed";
+            print "Carry out drawing on the ladder with the crayons";
             rtrue;
         }
         if ((R == call_U2021)) {
-            print "After going to the Treehouse for the first time";
+            print "Report drawing on the ladder with the crayons";
             rtrue;
         }
         if ((R == call_U2022)) {
-            print "Instead of telling someone about something";
+            print "Instead of climbing the ladder when the ladder is fixed";
             rtrue;
         }
         if ((R == call_U2023)) {
-            print "Instead of answering the noun that something";
+            print "After going to the Treehouse for the first time";
             rtrue;
         }
         if ((R == call_U2024)) {
-            print "Carry out giving something about someone";
+            print "Instead of telling someone about something";
             rtrue;
         }
         if ((R == call_U2025)) {
-            print "Instead of giving narwhal to Emma";
+            print "Instead of answering the noun that something";
             rtrue;
         }
         if ((R == call_U2026)) {
-            print "Instead of giving dandelion to Emma";
+            print "Carry out giving something about someone";
             rtrue;
         }
         if ((R == call_U2027)) {
-            print "After reading a command when the command prompt is @@126@{3e} Befriend Emma? Y/N@@126";
+            print "Instead of giving narwhal to Emma";
             rtrue;
         }
         if ((R == call_U2028)) {
-            print "Instead of kissing Emma";
+            print "Instead of giving dandelion to Emma";
             rtrue;
         }
         if ((R == call_U2029)) {
-            print "Instead of asking Emma about @@126@{65}mma@@126";
+            print "After reading a command when the command prompt is @@126@{3e} Befriend Emma? Y/N@@126";
             rtrue;
         }
         if ((R == call_U2030)) {
-            print "Instead of asking Emma about @@126@{66}riends@@126";
+            print "Instead of kissing Emma";
             rtrue;
         }
         if ((R == call_U2031)) {
-            print "Instead of asking Emma about @@126@{6e}ame@@126";
+            print "Instead of asking Emma about @@126@{65}mma@@126";
             rtrue;
         }
         if ((R == call_U2032)) {
-            print "Instead of asking Emma about @@126@{64}ream/dreaming@@126";
+            print "Instead of asking Emma about @@126@{66}riends@@126";
             rtrue;
         }
         if ((R == call_U2033)) {
-            print "Instead of asking Emma about @@126@{68}i@@126";
+            print "Instead of asking Emma about @@126@{6e}ame@@126";
             rtrue;
         }
         if ((R == call_U2034)) {
-            print "Instead of asking Emma about @@126@{64}rawing/draw/art/doodle/@@126";
+            print "Instead of asking Emma about @@126@{64}ream/dreaming@@126";
             rtrue;
         }
         if ((R == call_U2035)) {
-            print "Instead of asking Emma about @@126@{63}rayons@@126";
+            print "Instead of asking Emma about @@126@{68}i@@126";
             rtrue;
         }
         if ((R == call_U2036)) {
-            print "Instead of asking Emma about @@126@{77}ish/magic@@126";
+            print "Instead of asking Emma about @@126@{64}rawing/draw/art/doodle/@@126";
             rtrue;
         }
         if ((R == call_U2037)) {
-            print "Instead of asking Emma about @@126@{6c}ooking/find/doing/grass/stem/meadow@@126";
+            print "Instead of asking Emma about @@126@{63}rayons@@126";
             rtrue;
         }
         if ((R == call_U2038)) {
-            print "Instead of asking Emma about @@126@{77}ish/what her wish is/wishes@@126";
+            print "Instead of asking Emma about @@126@{77}ish/magic@@126";
             rtrue;
         }
         if ((R == call_U2039)) {
-            print "Instead of asking Emma about @@126@{64}andelions/flowers/dandelion@@126";
+            print "Instead of asking Emma about @@126@{6c}ooking/find/doing/grass/stem/meadow@@126";
             rtrue;
         }
         if ((R == call_U2040)) {
-            print "Instead of asking Emma about @@126@{70}arents@@126";
+            print "Instead of asking Emma about @@126@{77}ish/what her wish is/wishes@@126";
             rtrue;
         }
         if ((R == call_U2041)) {
-            print "Instead of asking Emma about @@126@{66}uck/shit/bitch/ass/cunt/penis/boobs@@126";
+            print "Instead of asking Emma about @@126@{64}andelions/flowers/dandelion@@126";
             rtrue;
         }
         if ((R == call_U2042)) {
-            print "Instead of asking Emma about something";
+            print "Instead of asking Emma about @@126@{70}arents@@126";
             rtrue;
         }
         if ((R == call_U2043)) {
-            print "Instead of asking Emma about @@126@{77}orld/where/toybox/notebook/paper@@126";
+            print "Instead of asking Emma about @@126@{66}uck/shit/bitch/ass/cunt/penis/boobs@@126";
             rtrue;
         }
         if ((R == call_U2044)) {
-            print "Check reading journal";
+            print "Instead of asking Emma about something";
             rtrue;
         }
         if ((R == call_U2045)) {
-            print "Carry out reading it in";
+            print "Instead of asking Emma about @@126@{77}orld/where/toybox/notebook/paper@@126";
             rtrue;
         }
         if ((R == call_U2046)) {
-            print "Carry out reading";
+            print "Check reading journal";
             rtrue;
         }
         if ((R == call_U2047)) {
-            print "After writing journal";
+            print "Carry out reading it in";
             rtrue;
         }
         if ((R == call_U2048)) {
-            print "After playing record player";
+            print "Carry out reading";
             rtrue;
         }
         if ((R == call_U2049)) {
-            print "After reading a command when the command prompt is @@126@{3e} Select a song: @@126";
+            print "After writing journal";
             rtrue;
         }
         if ((R == call_U2050)) {
-            print "After opening suitcase";
+            print "After playing record player";
             rtrue;
         }
         if ((R == call_U2051)) {
+            print "After reading a command when the command prompt is @@126@{3e} Select a song: @@126";
+            rtrue;
+        }
+        if ((R == call_U2052)) {
+            print "After opening suitcase";
+            rtrue;
+        }
+        if ((R == call_U2053)) {
             print "Every turn when record player is switched on";
             rtrue;
         }
@@ -27206,12 +27216,12 @@ Global max_z_object;
     rfalse;
 ];
 [ call_U386 forbid_breaks rv;
-    (rv = (call_U2051)());
+    (rv = (call_U2053)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U2051;
+        return call_U2053;
     }
     ((latest_rule_result-->(0)) = 0);
     rfalse;
@@ -27723,12 +27733,12 @@ Global max_z_object;
 [ call_U400 forbid_breaks rv original_deadflag;
     (original_deadflag = deadflag);
     if ((action == ##Climb)) {
-        (rv = (call_U2016)());
+        (rv = (call_U2018)());
         if (rv) {
             if ((rv == 2)) {
                 return reason_the_action_failed;
             }
-            return call_U2016;
+            return call_U2018;
         }
         ((latest_rule_result-->(0)) = 0);
         if ((original_deadflag ~= deadflag)) {
@@ -27737,12 +27747,32 @@ Global max_z_object;
         if (say__p) {
             RulebookParBreak(forbid_breaks);
         }
-        (rv = (call_U2020)());
+        (rv = (call_U2022)());
         if (rv) {
             if ((rv == 2)) {
                 return reason_the_action_failed;
             }
-            return call_U2020;
+            return call_U2022;
+        }
+        ((latest_rule_result-->(0)) = 0);
+    } else {
+        if (say__p) {
+            RulebookParBreak(forbid_breaks);
+        }
+    }
+    if ((action == ##Unlock)) {
+        if ((original_deadflag ~= deadflag)) {
+            rfalse;
+        }
+        if (say__p) {
+            RulebookParBreak(forbid_breaks);
+        }
+        (rv = (call_U2007)());
+        if (rv) {
+            if ((rv == 2)) {
+                return reason_the_action_failed;
+            }
+            return call_U2007;
         }
         ((latest_rule_result-->(0)) = 0);
     } else {
@@ -27757,12 +27787,12 @@ Global max_z_object;
         if (say__p) {
             RulebookParBreak(forbid_breaks);
         }
-        (rv = (call_U2025)());
+        (rv = (call_U2027)());
         if (rv) {
             if ((rv == 2)) {
                 return reason_the_action_failed;
             }
-            return call_U2025;
+            return call_U2027;
         }
         ((latest_rule_result-->(0)) = 0);
         if ((original_deadflag ~= deadflag)) {
@@ -27771,12 +27801,12 @@ Global max_z_object;
         if (say__p) {
             RulebookParBreak(forbid_breaks);
         }
-        (rv = (call_U2026)());
+        (rv = (call_U2028)());
         if (rv) {
             if ((rv == 2)) {
                 return reason_the_action_failed;
             }
-            return call_U2026;
+            return call_U2028;
         }
         ((latest_rule_result-->(0)) = 0);
     } else {
@@ -27785,34 +27815,6 @@ Global max_z_object;
         }
     }
     if ((action == ##Ask)) {
-        if ((original_deadflag ~= deadflag)) {
-            rfalse;
-        }
-        if (say__p) {
-            RulebookParBreak(forbid_breaks);
-        }
-        (rv = (call_U2029)());
-        if (rv) {
-            if ((rv == 2)) {
-                return reason_the_action_failed;
-            }
-            return call_U2029;
-        }
-        ((latest_rule_result-->(0)) = 0);
-        if ((original_deadflag ~= deadflag)) {
-            rfalse;
-        }
-        if (say__p) {
-            RulebookParBreak(forbid_breaks);
-        }
-        (rv = (call_U2030)());
-        if (rv) {
-            if ((rv == 2)) {
-                return reason_the_action_failed;
-            }
-            return call_U2030;
-        }
-        ((latest_rule_result-->(0)) = 0);
         if ((original_deadflag ~= deadflag)) {
             rfalse;
         }
@@ -27995,6 +27997,34 @@ Global max_z_object;
             return call_U2043;
         }
         ((latest_rule_result-->(0)) = 0);
+        if ((original_deadflag ~= deadflag)) {
+            rfalse;
+        }
+        if (say__p) {
+            RulebookParBreak(forbid_breaks);
+        }
+        (rv = (call_U2044)());
+        if (rv) {
+            if ((rv == 2)) {
+                return reason_the_action_failed;
+            }
+            return call_U2044;
+        }
+        ((latest_rule_result-->(0)) = 0);
+        if ((original_deadflag ~= deadflag)) {
+            rfalse;
+        }
+        if (say__p) {
+            RulebookParBreak(forbid_breaks);
+        }
+        (rv = (call_U2045)());
+        if (rv) {
+            if ((rv == 2)) {
+                return reason_the_action_failed;
+            }
+            return call_U2045;
+        }
+        ((latest_rule_result-->(0)) = 0);
     } else {
         if (say__p) {
             RulebookParBreak(forbid_breaks);
@@ -28007,12 +28037,12 @@ Global max_z_object;
         if (say__p) {
             RulebookParBreak(forbid_breaks);
         }
-        (rv = (call_U2023)());
+        (rv = (call_U2025)());
         if (rv) {
             if ((rv == 2)) {
                 return reason_the_action_failed;
             }
-            return call_U2023;
+            return call_U2025;
         }
         ((latest_rule_result-->(0)) = 0);
     } else {
@@ -28027,12 +28057,12 @@ Global max_z_object;
         if (say__p) {
             RulebookParBreak(forbid_breaks);
         }
-        (rv = (call_U2022)());
+        (rv = (call_U2024)());
         if (rv) {
             if ((rv == 2)) {
                 return reason_the_action_failed;
             }
-            return call_U2022;
+            return call_U2024;
         }
         ((latest_rule_result-->(0)) = 0);
     } else {
@@ -28067,12 +28097,12 @@ Global max_z_object;
         if (say__p) {
             RulebookParBreak(forbid_breaks);
         }
-        (rv = (call_U2007)());
+        (rv = (call_U2008)());
         if (rv) {
             if ((rv == 2)) {
                 return reason_the_action_failed;
             }
-            return call_U2007;
+            return call_U2008;
         }
         ((latest_rule_result-->(0)) = 0);
     } else {
@@ -28087,12 +28117,12 @@ Global max_z_object;
         if (say__p) {
             RulebookParBreak(forbid_breaks);
         }
-        (rv = (call_U2028)());
+        (rv = (call_U2030)());
         if (rv) {
             if ((rv == 2)) {
                 return reason_the_action_failed;
             }
-            return call_U2028;
+            return call_U2030;
         }
         ((latest_rule_result-->(0)) = 0);
     } else {
@@ -28105,12 +28135,32 @@ Global max_z_object;
 [ call_U403 forbid_breaks rv original_deadflag;
     (original_deadflag = deadflag);
     if ((action == ##Go)) {
-        (rv = (call_U2021)());
+        (rv = (call_U2023)());
         if (rv) {
             if ((rv == 2)) {
                 return reason_the_action_failed;
             }
-            return call_U2021;
+            return call_U2023;
+        }
+        ((latest_rule_result-->(0)) = 0);
+    } else {
+        if (say__p) {
+            RulebookParBreak(forbid_breaks);
+        }
+    }
+    if ((action == ##Unlock)) {
+        if ((original_deadflag ~= deadflag)) {
+            rfalse;
+        }
+        if (say__p) {
+            RulebookParBreak(forbid_breaks);
+        }
+        (rv = (call_U2010)());
+        if (rv) {
+            if ((rv == 2)) {
+                return reason_the_action_failed;
+            }
+            return call_U2010;
         }
         ((latest_rule_result-->(0)) = 0);
     } else {
@@ -28165,46 +28215,6 @@ Global max_z_object;
         if (say__p) {
             RulebookParBreak(forbid_breaks);
         }
-        (rv = (call_U2009)());
-        if (rv) {
-            if ((rv == 2)) {
-                return reason_the_action_failed;
-            }
-            return call_U2009;
-        }
-        ((latest_rule_result-->(0)) = 0);
-    } else {
-        if (say__p) {
-            RulebookParBreak(forbid_breaks);
-        }
-    }
-    if ((action == ##Open)) {
-        if ((original_deadflag ~= deadflag)) {
-            rfalse;
-        }
-        if (say__p) {
-            RulebookParBreak(forbid_breaks);
-        }
-        (rv = (call_U2010)());
-        if (rv) {
-            if ((rv == 2)) {
-                return reason_the_action_failed;
-            }
-            return call_U2010;
-        }
-        ((latest_rule_result-->(0)) = 0);
-    } else {
-        if (say__p) {
-            RulebookParBreak(forbid_breaks);
-        }
-    }
-    if ((action == ##Take)) {
-        if ((original_deadflag ~= deadflag)) {
-            rfalse;
-        }
-        if (say__p) {
-            RulebookParBreak(forbid_breaks);
-        }
         (rv = (call_U2011)());
         if (rv) {
             if ((rv == 2)) {
@@ -28218,7 +28228,7 @@ Global max_z_object;
             RulebookParBreak(forbid_breaks);
         }
     }
-    if ((action == ##Eat)) {
+    if ((action == ##Open)) {
         if ((original_deadflag ~= deadflag)) {
             rfalse;
         }
@@ -28238,6 +28248,46 @@ Global max_z_object;
             RulebookParBreak(forbid_breaks);
         }
     }
+    if ((action == ##Take)) {
+        if ((original_deadflag ~= deadflag)) {
+            rfalse;
+        }
+        if (say__p) {
+            RulebookParBreak(forbid_breaks);
+        }
+        (rv = (call_U2013)());
+        if (rv) {
+            if ((rv == 2)) {
+                return reason_the_action_failed;
+            }
+            return call_U2013;
+        }
+        ((latest_rule_result-->(0)) = 0);
+    } else {
+        if (say__p) {
+            RulebookParBreak(forbid_breaks);
+        }
+    }
+    if ((action == ##Eat)) {
+        if ((original_deadflag ~= deadflag)) {
+            rfalse;
+        }
+        if (say__p) {
+            RulebookParBreak(forbid_breaks);
+        }
+        (rv = (call_U2014)());
+        if (rv) {
+            if ((rv == 2)) {
+                return reason_the_action_failed;
+            }
+            return call_U2014;
+        }
+        ((latest_rule_result-->(0)) = 0);
+    } else {
+        if (say__p) {
+            RulebookParBreak(forbid_breaks);
+        }
+    }
     if ((action == ##A_writing)) {
         if ((original_deadflag ~= deadflag)) {
             rfalse;
@@ -28245,12 +28295,12 @@ Global max_z_object;
         if (say__p) {
             RulebookParBreak(forbid_breaks);
         }
-        (rv = (call_U2047)());
+        (rv = (call_U2049)());
         if (rv) {
             if ((rv == 2)) {
                 return reason_the_action_failed;
             }
-            return call_U2047;
+            return call_U2049;
         }
         ((latest_rule_result-->(0)) = 0);
     } else {
@@ -28265,12 +28315,12 @@ Global max_z_object;
         if (say__p) {
             RulebookParBreak(forbid_breaks);
         }
-        (rv = (call_U2048)());
+        (rv = (call_U2050)());
         if (rv) {
             if ((rv == 2)) {
                 return reason_the_action_failed;
             }
-            return call_U2048;
+            return call_U2050;
         }
         ((latest_rule_result-->(0)) = 0);
     } else {
@@ -28285,12 +28335,12 @@ Global max_z_object;
         if (say__p) {
             RulebookParBreak(forbid_breaks);
         }
-        (rv = (call_U2050)());
+        (rv = (call_U2052)());
         if (rv) {
             if ((rv == 2)) {
                 return reason_the_action_failed;
             }
-            return call_U2050;
+            return call_U2052;
         }
         ((latest_rule_result-->(0)) = 0);
     } else {
@@ -28435,12 +28485,12 @@ Global max_z_object;
         RulebookParBreak(forbid_breaks);
     }
     (parameter_value = p);
-    (rv = (call_U2008)());
+    (rv = (call_U2009)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U2008;
+        return call_U2009;
     }
     ((latest_rule_result-->(0)) = 0);
     if ((original_deadflag ~= deadflag)) {
@@ -28450,12 +28500,12 @@ Global max_z_object;
         RulebookParBreak(forbid_breaks);
     }
     (parameter_value = p);
-    (rv = (call_U2027)());
+    (rv = (call_U2029)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U2027;
+        return call_U2029;
     }
     ((latest_rule_result-->(0)) = 0);
     if ((original_deadflag ~= deadflag)) {
@@ -28465,12 +28515,12 @@ Global max_z_object;
         RulebookParBreak(forbid_breaks);
     }
     (parameter_value = p);
-    (rv = (call_U2049)());
+    (rv = (call_U2051)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U2049;
+        return call_U2051;
     }
     ((latest_rule_result-->(0)) = 0);
     rfalse;
@@ -28785,12 +28835,12 @@ Global max_z_object;
         RulebookParBreak(forbid_breaks);
     }
     (parameter_value = p);
-    (rv = (call_U2015)());
+    (rv = (call_U2017)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U2015;
+        return call_U2017;
     }
     ((latest_rule_result-->(0)) = 0);
     if ((original_deadflag ~= deadflag)) {
@@ -34726,7 +34776,7 @@ Global max_z_object;
     ParaContent();
     print " ";
     ParaContent();
-    (call_U2053)(CV_POS,I_third_person_plural_U1,story_tense);
+    (call_U2055)(CV_POS,I_third_person_plural_U1,story_tense);
     ParaContent();
     print " none at all available!";
     rtrue;
@@ -58411,23 +58461,23 @@ Global max_z_object;
     }
 ];
 [ call_U1949 forbid_breaks rv;
-    (rv = (call_U2013)());
+    (rv = (call_U2015)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U2013;
+        return call_U2015;
     }
     ((latest_rule_result-->(0)) = 0);
     rfalse;
 ];
 [ call_U1950 forbid_breaks rv;
-    (rv = (call_U2014)());
+    (rv = (call_U2016)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U2014;
+        return call_U2016;
     }
     ((latest_rule_result-->(0)) = 0);
     rfalse;
@@ -58443,34 +58493,34 @@ Global max_z_object;
     }
 ];
 [ call_U1952 forbid_breaks rv;
-    (rv = (call_U2017)());
-    if (rv) {
-        if ((rv == 2)) {
-            return reason_the_action_failed;
-        }
-        return call_U2017;
-    }
-    ((latest_rule_result-->(0)) = 0);
-    rfalse;
-];
-[ call_U1953 forbid_breaks rv;
-    (rv = (call_U2018)());
-    if (rv) {
-        if ((rv == 2)) {
-            return reason_the_action_failed;
-        }
-        return call_U2018;
-    }
-    ((latest_rule_result-->(0)) = 0);
-    rfalse;
-];
-[ call_U1954 forbid_breaks rv;
     (rv = (call_U2019)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
         return call_U2019;
+    }
+    ((latest_rule_result-->(0)) = 0);
+    rfalse;
+];
+[ call_U1953 forbid_breaks rv;
+    (rv = (call_U2020)());
+    if (rv) {
+        if ((rv == 2)) {
+            return reason_the_action_failed;
+        }
+        return call_U2020;
+    }
+    ((latest_rule_result-->(0)) = 0);
+    rfalse;
+];
+[ call_U1954 forbid_breaks rv;
+    (rv = (call_U2021)());
+    if (rv) {
+        if ((rv == 2)) {
+            return reason_the_action_failed;
+        }
+        return call_U2021;
     }
     ((latest_rule_result-->(0)) = 0);
     rfalse;
@@ -58494,12 +58544,12 @@ Global max_z_object;
     }
 ];
 [ call_U1956 forbid_breaks rv;
-    (rv = (call_U2024)());
+    (rv = (call_U2026)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U2024;
+        return call_U2026;
     }
     ((latest_rule_result-->(0)) = 0);
     rfalse;
@@ -58523,23 +58573,23 @@ Global max_z_object;
     }
 ];
 [ call_U1958 forbid_breaks rv;
-    (rv = (call_U2044)());
-    if (rv) {
-        if ((rv == 2)) {
-            return reason_the_action_failed;
-        }
-        return call_U2044;
-    }
-    ((latest_rule_result-->(0)) = 0);
-    rfalse;
-];
-[ call_U1959 forbid_breaks rv;
     (rv = (call_U2046)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
         return call_U2046;
+    }
+    ((latest_rule_result-->(0)) = 0);
+    rfalse;
+];
+[ call_U1959 forbid_breaks rv;
+    (rv = (call_U2048)());
+    if (rv) {
+        if ((rv == 2)) {
+            return reason_the_action_failed;
+        }
+        return call_U2048;
     }
     ((latest_rule_result-->(0)) = 0);
     rfalse;
@@ -58565,12 +58615,12 @@ Global max_z_object;
     }
 ];
 [ call_U1965 forbid_breaks rv;
-    (rv = (call_U2045)());
+    (rv = (call_U2047)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U2045;
+        return call_U2047;
     }
     ((latest_rule_result-->(0)) = 0);
     rfalse;
@@ -58612,7 +58662,7 @@ Global max_z_object;
 [ call_U1970;
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~^.   @{5C}_/       .:'    .:'    .:'[line break]^-=(_)=- /@{5C} ||    /@{5C}||    /@{5C}||[line break]^.   / @{5C}     //@{5C}@{5C}|   //@{5C}@{5C}|   //@{5C}@{5C}|[line break]^.          //  @{5C}@{5C}  //  @{5C}@{5C}  //  @{5C}@{5C}[line break]^.         //    @{5C} @@94@{2f}    @{5C}@@94@{2f}    @{5C}@{5C}[line break]^.         |  ( )  ||  ( ) || ( ) |[line break]^.         |       ||      ||      |%[line break]^&%&--==--&%-==--%&[line break]^^[if roomCount is 0]Your bedroom is unadorned. The walls are chalky and the ground bare. The only decoration is a poster of The Killers. A lightbulb hangs from the ceiling. A tiny window is opened a crack, and the sound of faint static comes through.[else if roomCount is 1]You step into the bedroom and are flooded with emotion. Every inch of its surface now looks as if it's been dipped in. The walls are pulsating and warm, shifting from blue to red to violet. [else if roomCount is 2] It's weird to see things in 3D now. Your room has gone back to normal. There's an odd humming coming from your computer, though. [end if] To the south your kitchen fridge hums.^^[if roomCount is 0]In the corner your monitor blinks wearily. You must've forgotten to turn it off. [else if roomCount is 1]Lo-fi indie is playing from your computer. You notice movement on the screen.[end if] Beside you is a worn out drawer. To the north is a cramped closet.^~";
+            print "~^.   @{5C}_/       .:'    .:'    .:'[line break]^-=(_)=- /@{5C} ||    /@{5C}||    /@{5C}||[line break]^.   / @{5C}     //@{5C}@{5C}|   //@{5C}@{5C}|   //@{5C}@{5C}|[line break]^.          //  @{5C}@{5C}  //  @{5C}@{5C}  //  @{5C}@{5C}[line break]^.         //    @{5C} @@94@{2f}    @{5C}@@94@{2f}    @{5C}@{5C}[line break]^.         |  ( )  ||  ( ) || ( ) |[line break]^.         |       ||      ||      |%[line break]^&%&--==--&%-==--%&[line break]^^[if roomCount is 0]Your bedroom is unadorned. The walls are chalky and the ground bare. The only decoration is a poster of The Killers. A lightbulb hangs from the ceiling. A tiny window is opened a crack, and the sound of faint static comes through.[else if roomCount is 1]You step into the bedroom and are flooded with emotion. Every inch of its surface now looks as if it's been dipped in. The walls are pulsating and warm, shifting from blue to red to violet. [else if roomCount is 2] It's weird to see things in 3D now. Your room has gone back to normal. There's an odd humming coming from your computer, though. [end if].^^[if roomCount is 0]In the corner your monitor blinks wearily. You must've forgotten to turn it off. [else if roomCount is 1]Lo-fi indie is playing from your computer. You notice movement on the screen.[end if] Beside you is a worn out drawer. To the south your kitchen fridge hums. To the north is a cramped closet.^~";
             rtrue;
         }
     #endif;
@@ -58675,7 +58725,7 @@ Global max_z_object;
     .L_Say2;
     .L_SayX0;
     ParaContent();
-    print " To the south your kitchen fridge hums.^^";
+    print ".^^";
     if ((~~(((Global_Vars-->43) == 0)))) {
         jump L_Say3;
     }
@@ -58692,7 +58742,7 @@ Global max_z_object;
     .L_Say4;
     .L_SayX1;
     ParaContent();
-    print " Beside you is a worn out drawer. To the north is a cramped closet. ";
+    print " Beside you is a worn out drawer. To the south your kitchen fridge hums. To the north is a cramped closet. ";
     rtrue;
 ];
 [ call_U1971 which na t_0;
@@ -58715,7 +58765,7 @@ Global max_z_object;
 [ call_U1972;
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~A worn out journal in which you've taken to scrawling your dreams.^^TABLE OF CONTENTS:[line break]^1  TOYBOX[line break]^2  ??????????[line break]^3  ??????????[line break]~";
+            print "~A worn out journal in which you've taken to scrawling your dreams.^^TABLE OF CONTENTS:[line break]^1  TOYBOX[line break]^2  [if the player is carrying the narwhal]PLUSHIELAND[else]?????[end if][line break]^3  [if the player is carrying the narwhal]TERMINAL[else]?????[line break]~";
             rtrue;
         }
     #endif;
@@ -58729,13 +58779,33 @@ Global max_z_object;
     ParaContent();
     print "^";
     ParaContent();
-    print " 2  ??????????";
+    print " 2  ";
+    if ((~~((player == CarrierOf(I_narwhal_U1))))) {
+        jump L_Say0;
+    }
+    ParaContent();
+    print "PLUSHIELAND";
+    jump L_SayX0;
+    .L_Say0;
+    ParaContent();
+    print "?????";
+    .L_SayX0;
     ParaContent();
     print "^";
     ParaContent();
-    print " 3  ??????????";
+    print " 3  ";
+    if ((~~((player == CarrierOf(I_narwhal_U1))))) {
+        jump L_Say2;
+    }
+    ParaContent();
+    print "TERMINAL";
+    jump L_SayX1;
+    .L_Say2;
+    ParaContent();
+    print "?????";
     ParaContent();
     print "^";
+    .L_SayX1;
     rtrue;
 ];
 [ call_U1973;
@@ -59002,7 +59072,7 @@ Global max_z_object;
 [ call_U1976;
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~[if the suitcase is closed] A small black suitcase with a tag that reads '[italic type]My favourite ice cream[roman type]' and a keypad on the side. It looks like it requires a passcode to open. [else] Inside the suitcase is a collection of random objects, a yearbook, a record player, and a narwhal~";
+            print "~[if the suitcase is closed] A small black suitcase with a tag that reads '[italic type]My favourite neopet[roman type]' and a keypad on the side. It looks like it requires a passcode to open. [else] Inside the suitcase is a collection of random objects, a yearbook, a record player, and a narwhal~";
             rtrue;
         }
     #endif;
@@ -59015,7 +59085,7 @@ Global max_z_object;
     ParaContent();
     style underline;
     ParaContent();
-    print "My favourite ice cream";
+    print "My favourite neopet";
     ParaContent();
     style roman;
     ParaContent();
@@ -59360,7 +59430,7 @@ Global max_z_object;
         if (((Global_Vars-->43) == 2)) {
             (say__p = 1);
             ParaContent();
-            print "The screen displays five unread emails. You can select an email to read by typing a number from 1 to 5.";
+            print "The browser is open to your email inbox. You have 5 unread emails. You can select an email to read by typing a number from 1 to 5 or type `exit` to leave.";
             print "^";
             BlkValueCopy((Global_Vars-->17), bc_U353);
         }
@@ -59386,7 +59456,7 @@ Global max_z_object;
             DivideParagraphPoint();
             print "^";
             ParaContent();
-            print "Hi! I made you a word search. Try to find the words Jubjub, Poogle, and Kacheek! It'll be fun. (Hint: look horizontally, vertically, and diagonally.)";
+            print "Hi! I made you a word search. It contains all my favourite neopets! It'll be fun.";
             print "^";
             RulebookFails();
             rtrue;
@@ -59585,7 +59655,7 @@ Global max_z_object;
     rfalse;
 ];
 [ call_U2007;
-    if ((((action == ##Open)) && ((((actor == player)) && ((noun == I_suitcase_U1)))))) {
+    if ((((action == ##Unlock)) && ((((actor == player)) && ((((noun == I_suitcase_U1)) && ((second == I_silver_key_U1)))))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2007, 814, 0);
@@ -59601,38 +59671,69 @@ Global max_z_object;
     rfalse;
 ];
 [ call_U2008;
-    if (((BlkValueCompare)((Global_Vars-->17),bc_U358) == 0)) {
+    if ((((action == ##Open)) && ((((actor == player)) && ((noun == I_suitcase_U1)))))) {
+        (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2008, 815, 0);
         }
-        if (SnippetMatches(players_command, Consult_Grammar17)) {
-            call_U305(I_suitcase_U1);
-            BlkValueCopy((Global_Vars-->17), bc_U359);
-            (say__p = 1);
-            ParaContent();
-            print "The suitcase clicks open as the passcode is accepted.";
-            print "^";
-        } else {
-            (say__p = 1);
-            ParaContent();
-            print "The suitcase beeps. The passcode is incorrect.";
-            print "^";
-            BlkValueCopy((Global_Vars-->17), bc_U360);
-        }
-        RulebookFails();
+        BlkValueCopy((Global_Vars-->17), bc_U358);
+        RulebookFails(0, 0);
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2008, 815, 4);
+            DB_Rule(call_U2008, 815, 2);
         }
     }
     rfalse;
 ];
 [ call_U2009;
+    if (((BlkValueCompare)((Global_Vars-->17),bc_U359) == 0)) {
+        if (debug_rules) {
+            DB_Rule(call_U2009, 816, 0);
+        }
+        if (SnippetMatches(players_command, Consult_Grammar17)) {
+            call_U305(I_suitcase_U1);
+            BlkValueCopy((Global_Vars-->17), bc_U360);
+            (say__p = 1);
+            ParaContent();
+            print "The suitcase clicks open. Inside the suitcase is a collection of random objects, a yearbook, a record player, and a narwhal";
+        } else {
+            (say__p = 1);
+            ParaContent();
+            print "The suitcase beeps. The passcode is incorrect.";
+            print "^";
+            BlkValueCopy((Global_Vars-->17), bc_U361);
+        }
+        RulebookFails();
+        rtrue;
+    } else {
+        if ((debug_rules > 1)) {
+            DB_Rule(call_U2009, 816, 4);
+        }
+    }
+    rfalse;
+];
+[ call_U2010;
+    if ((((action == ##Unlock)) && ((((actor == player)) && ((((noun == I_drawer_U1)) && ((second == I_silver_key_U1)))))))) {
+        (self = noun);
+        if (debug_rules) {
+            DB_Rule(call_U2010, 817, 0);
+        }
+        call_U305(I_drawer_U1);
+        RulebookSucceeds(0, 0);
+        rtrue;
+    } else {
+        if ((debug_rules > 1)) {
+            DB_Rule(call_U2010, 817, 2);
+        }
+    }
+    rfalse;
+];
+[ call_U2011;
     if ((((action == ##A_watering)) && ((((actor == player)) && ((noun == I_plant_U1)))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2009, 816, 0);
+            DB_Rule(call_U2011, 818, 0);
         }
         if ((player == CarrierOf(I_jug_U1))) {
             (say__p = 1);
@@ -59644,16 +59745,16 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2009, 816, 2);
+            DB_Rule(call_U2011, 818, 2);
         }
     }
     rfalse;
 ];
-[ call_U2010;
+[ call_U2012;
     if ((((action == ##Open)) && ((((actor == player)) && ((noun == I_fridge_U1)))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2010, 817, 0);
+            DB_Rule(call_U2012, 819, 0);
         }
         (say__p = 1);
         ParaContent();
@@ -59663,16 +59764,16 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2010, 817, 2);
+            DB_Rule(call_U2012, 819, 2);
         }
     }
     rfalse;
 ];
-[ call_U2011;
+[ call_U2013;
     if ((((action == ##Take)) && ((((actor == player)) && ((noun == I_candy_U1)))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2011, 818, 0);
+            DB_Rule(call_U2013, 820, 0);
         }
         (say__p = 1);
         ParaContent();
@@ -59682,16 +59783,16 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2011, 818, 2);
+            DB_Rule(call_U2013, 820, 2);
         }
     }
     rfalse;
 ];
-[ call_U2012;
+[ call_U2014;
     if ((((action == ##Eat)) && ((((actor == player)) && ((noun == I_candy_U1)))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2012, 819, 0);
+            DB_Rule(call_U2014, 821, 0);
         }
         (say__p = 1);
         ParaContent();
@@ -59711,15 +59812,15 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2012, 819, 2);
+            DB_Rule(call_U2014, 821, 2);
         }
     }
     rfalse;
 ];
-[ call_U2013;
+[ call_U2015;
     if ((actor == player)) {
         if (debug_rules) {
-            DB_Rule(call_U2013, 820, 0);
+            DB_Rule(call_U2015, 822, 0);
         }
         if ((~~((second == I_crayons_U1)))) {
             (say__p = 1);
@@ -59737,15 +59838,15 @@ Global max_z_object;
         }
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2013, 820, 3);
+            DB_Rule(call_U2015, 822, 3);
         }
     }
     rfalse;
 ];
-[ call_U2014;
+[ call_U2016;
     if ((actor == player)) {
         if (debug_rules) {
-            DB_Rule(call_U2014, 821, 0);
+            DB_Rule(call_U2016, 823, 0);
         }
         if (SnippetMatches(parsed_number, Consult_Grammar18)) {
             MoveObject(I_dandelion_U1, player);
@@ -59778,31 +59879,31 @@ Global max_z_object;
         }
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2014, 821, 3);
+            DB_Rule(call_U2016, 823, 3);
         }
     }
     rfalse;
 ];
-[ call_U2015;
+[ call_U2017;
     if ((parameter_value == I_toybox_U1)) {
         if (debug_rules) {
-            DB_Rule(call_U2015, 822, 0);
+            DB_Rule(call_U2017, 824, 0);
         }
         rtrue;
         RulebookSucceeds(0, 0);
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2015, 822, 2);
+            DB_Rule(call_U2017, 824, 2);
         }
     }
     rfalse;
 ];
-[ call_U2016;
+[ call_U2018;
     if ((((action == ##Climb)) && ((((actor == player)) && ((((noun == I_ladder_U1)) && (((((self = actor),1)) && (call_U1990(I_ladder_U1)))))))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2016, 823, 0);
+            DB_Rule(call_U2018, 825, 0);
         }
         (say__p = 1);
         ParaContent();
@@ -59812,16 +59913,16 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2016, 823, 2);
+            DB_Rule(call_U2018, 825, 2);
         }
     }
     rfalse;
 ];
-[ call_U2017;
+[ call_U2019;
     if ((((actor == player)) && ((((noun == I_ladder_U1)) && ((second == I_crayons_U1)))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2017, 824, 0);
+            DB_Rule(call_U2019, 826, 0);
         }
         if ((~~((player == CarrierOf(I_crayons_U1))))) {
             (say__p = 1);
@@ -59839,30 +59940,30 @@ Global max_z_object;
         }
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2017, 824, 2);
+            DB_Rule(call_U2019, 826, 2);
         }
     }
     rfalse;
 ];
-[ call_U2018;
+[ call_U2020;
     if ((((actor == player)) && ((((noun == I_ladder_U1)) && ((second == I_crayons_U1)))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2018, 825, 0);
+            DB_Rule(call_U2020, 827, 0);
         }
         call_U1988(I_ladder_U1);
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2018, 825, 2);
+            DB_Rule(call_U2020, 827, 2);
         }
     }
     rfalse;
 ];
-[ call_U2019;
+[ call_U2021;
     if ((((actor == player)) && ((((noun == I_ladder_U1)) && ((second == I_crayons_U1)))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2019, 826, 0);
+            DB_Rule(call_U2021, 828, 0);
         }
         (say__p = 1);
         ParaContent();
@@ -59870,16 +59971,16 @@ Global max_z_object;
         print "^";
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2019, 826, 2);
+            DB_Rule(call_U2021, 828, 2);
         }
     }
     rfalse;
 ];
-[ call_U2020;
+[ call_U2022;
     if ((((action == ##Climb)) && ((((actor == player)) && ((((noun == I_ladder_U1)) && (((((self = actor),1)) && (call_U1987(I_ladder_U1)))))))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2020, 827, 0);
+            DB_Rule(call_U2022, 829, 0);
         }
         (say__p = 1);
         ParaContent();
@@ -59890,16 +59991,16 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2020, 827, 2);
+            DB_Rule(call_U2022, 829, 2);
         }
     }
     rfalse;
 ];
-[ call_U2021;
+[ call_U2023;
     if ((((PAPR1)()) && (((((TimesActionHasHappened-->(ahc_id_U1)) == 1)) && ((ActionCurrentlyHappeningFlag->(ahc_id_U1))))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2021, 828, 0);
+            DB_Rule(call_U2023, 830, 0);
         }
         (say__p = 1);
         ParaContent();
@@ -59909,48 +60010,48 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2021, 828, 2);
-        }
-    }
-    rfalse;
-];
-[ call_U2022;
-    if ((((action == ##Tell)) && ((((actor == player)) && ((noun ofclass K8_person)))))) {
-        (self = noun);
-        if (debug_rules) {
-            DB_Rule(call_U2022, 829, 0);
-        }
-        TryAction(0, player, ##Ask, noun, 0);
-        RulebookFails(0, 0);
-        rtrue;
-    } else {
-        if ((debug_rules > 1)) {
-            DB_Rule(call_U2022, 829, 2);
-        }
-    }
-    rfalse;
-];
-[ call_U2023;
-    if ((((action == ##Answer)) && ((((actor == player)) && ((noun == noun)))))) {
-        (self = noun);
-        if (debug_rules) {
-            DB_Rule(call_U2023, 830, 0);
-        }
-        TryAction(0, player, ##Ask, noun, 0);
-        RulebookFails(0, 0);
-        rtrue;
-    } else {
-        if ((debug_rules > 1)) {
             DB_Rule(call_U2023, 830, 2);
         }
     }
     rfalse;
 ];
 [ call_U2024;
-    if ((((actor == player)) && ((((noun ofclass K2_thing)) && ((second ofclass K8_person)))))) {
+    if ((((action == ##Tell)) && ((((actor == player)) && ((noun ofclass K8_person)))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2024, 831, 0);
+        }
+        TryAction(0, player, ##Ask, noun, 0);
+        RulebookFails(0, 0);
+        rtrue;
+    } else {
+        if ((debug_rules > 1)) {
+            DB_Rule(call_U2024, 831, 2);
+        }
+    }
+    rfalse;
+];
+[ call_U2025;
+    if ((((action == ##Answer)) && ((((actor == player)) && ((noun == noun)))))) {
+        (self = noun);
+        if (debug_rules) {
+            DB_Rule(call_U2025, 832, 0);
+        }
+        TryAction(0, player, ##Ask, noun, 0);
+        RulebookFails(0, 0);
+        rtrue;
+    } else {
+        if ((debug_rules > 1)) {
+            DB_Rule(call_U2025, 832, 2);
+        }
+    }
+    rfalse;
+];
+[ call_U2026;
+    if ((((actor == player)) && ((((noun ofclass K2_thing)) && ((second ofclass K8_person)))))) {
+        (self = noun);
+        if (debug_rules) {
+            DB_Rule(call_U2026, 833, 0);
         }
         (say__p = 1);
         ParaContent();
@@ -59962,16 +60063,16 @@ Global max_z_object;
         print "^";
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2024, 831, 2);
+            DB_Rule(call_U2026, 833, 2);
         }
     }
     rfalse;
 ];
-[ call_U2025;
+[ call_U2027;
     if ((((action == ##Give)) && ((((actor == player)) && ((((noun == I_narwhal_U1)) && ((second == I_emma_U1)))))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2025, 832, 0);
+            DB_Rule(call_U2027, 834, 0);
         }
         (say__p = 1);
         ParaContent();
@@ -59981,35 +60082,37 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2025, 832, 2);
+            DB_Rule(call_U2027, 834, 2);
         }
     }
     rfalse;
 ];
-[ call_U2026;
+[ call_U2028;
     if ((((action == ##Give)) && ((((actor == player)) && ((((noun == I_dandelion_U1)) && ((second == I_emma_U1)))))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2026, 833, 0);
+            DB_Rule(call_U2028, 835, 0);
         }
         (say__p = 1);
         ParaContent();
         print "Emma looks up at you in wonder. ~A dandelion~, she whispers reverentially. ~I've never seen one before.~^^You tell her they're commonplace where you're from. ~That can't be right,~ she says. ~My grandma says they went extinct long ago. They were killed, you know. For being too resilient. She cups the fluffy white thing delicately. ~C'mon! Let's wish together.~^^You put your heads together and your breaths create a flurry of white as the spores release into the air. You stare at this strange girl, wide-eyed with awe, twirling the empty stem in her hands. You're drawn to her uncomplicated joy.^^~I wished for a friend,~ she says abruptly. She gazes at you in wonder. ~I've never had a friend. Will you be my friend?";
         print "^";
-        BlkValueCopy((Global_Vars-->17), bc_U361);
+        BlkValueCopy((Global_Vars-->17), bc_U362);
+        RulebookFails();
+        rtrue;
         RulebookFails(0, 0);
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2026, 833, 2);
+            DB_Rule(call_U2028, 835, 2);
         }
     }
     rfalse;
 ];
-[ call_U2027;
-    if (((BlkValueCompare)((Global_Vars-->17),bc_U362) == 0)) {
+[ call_U2029;
+    if (((BlkValueCompare)((Global_Vars-->17),bc_U363) == 0)) {
         if (debug_rules) {
-            DB_Rule(call_U2027, 834, 0);
+            DB_Rule(call_U2029, 836, 0);
         }
         if (SnippetMatches(players_command, Consult_Grammar21)) {
             (say__p = 1);
@@ -60034,62 +60137,24 @@ Global max_z_object;
                 print "^";
             }
         }
-        BlkValueCopy((Global_Vars-->17), bc_U363);
+        BlkValueCopy((Global_Vars-->17), bc_U364);
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2027, 834, 4);
-        }
-    }
-    rfalse;
-];
-[ call_U2028;
-    if ((((action == ##Kiss)) && ((((actor == player)) && ((noun == I_emma_U1)))))) {
-        (self = noun);
-        if (debug_rules) {
-            DB_Rule(call_U2028, 835, 0);
-        }
-        (say__p = 1);
-        ParaContent();
-        print "Emma turns bright red. Whadya doing?";
-        print "^";
-        RulebookFails(0, 0);
-        rtrue;
-    } else {
-        if ((debug_rules > 1)) {
-            DB_Rule(call_U2028, 835, 2);
-        }
-    }
-    rfalse;
-];
-[ call_U2029;
-    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar23)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
-        (self = noun);
-        if (debug_rules) {
-            DB_Rule(call_U2029, 836, 0);
-        }
-        ((Global_Vars-->47) = 1);
-        (say__p = 1);
-        ParaContent();
-        print "She brightens. That's me!";
-        print "^";
-        RulebookFails(0, 0);
-        rtrue;
-    } else {
-        if ((debug_rules > 1)) {
-            DB_Rule(call_U2029, 836, 2);
+            DB_Rule(call_U2029, 836, 4);
         }
     }
     rfalse;
 ];
 [ call_U2030;
-    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar24)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
+    if ((((action == ##Kiss)) && ((((actor == player)) && ((noun == I_emma_U1)))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2030, 837, 0);
         }
-        if ((I_emma_U1 == CarrierOf(I_dandelion_U1))) {
-            BlkValueCopy((Global_Vars-->17), bc_U364);
-        }
+        (say__p = 1);
+        ParaContent();
+        print "Emma turns bright red. Whadya doing?";
+        print "^";
         RulebookFails(0, 0);
         rtrue;
     } else {
@@ -60100,7 +60165,7 @@ Global max_z_object;
     rfalse;
 ];
 [ call_U2031;
-    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar25)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
+    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar23)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2031, 838, 0);
@@ -60108,7 +60173,7 @@ Global max_z_object;
         ((Global_Vars-->47) = 1);
         (say__p = 1);
         ParaContent();
-        print "Huuuh? I'm Emma, silly. Did you hit your head on the way down here?";
+        print "She brightens. That's me!";
         print "^";
         RulebookFails(0, 0);
         rtrue;
@@ -60120,10 +60185,48 @@ Global max_z_object;
     rfalse;
 ];
 [ call_U2032;
-    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar26)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
+    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar24)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2032, 839, 0);
+        }
+        if ((I_emma_U1 == CarrierOf(I_dandelion_U1))) {
+            BlkValueCopy((Global_Vars-->17), bc_U365);
+        }
+        RulebookFails(0, 0);
+        rtrue;
+    } else {
+        if ((debug_rules > 1)) {
+            DB_Rule(call_U2032, 839, 2);
+        }
+    }
+    rfalse;
+];
+[ call_U2033;
+    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar25)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
+        (self = noun);
+        if (debug_rules) {
+            DB_Rule(call_U2033, 840, 0);
+        }
+        ((Global_Vars-->47) = 1);
+        (say__p = 1);
+        ParaContent();
+        print "Huuuh? I'm Emma, silly. Did you hit your head on the way down here?";
+        print "^";
+        RulebookFails(0, 0);
+        rtrue;
+    } else {
+        if ((debug_rules > 1)) {
+            DB_Rule(call_U2033, 840, 2);
+        }
+    }
+    rfalse;
+];
+[ call_U2034;
+    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar26)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
+        (self = noun);
+        if (debug_rules) {
+            DB_Rule(call_U2034, 841, 0);
         }
         (say__p = 1);
         if ((~~(((Global_Vars-->47) == 1)))) {
@@ -60143,16 +60246,16 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2032, 839, 2);
+            DB_Rule(call_U2034, 841, 2);
         }
     }
     rfalse;
 ];
-[ call_U2033;
+[ call_U2035;
     if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar27)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2033, 840, 0);
+            DB_Rule(call_U2035, 842, 0);
         }
         (say__p = 1);
         if ((~~(((Global_Vars-->47) == 1)))) {
@@ -60172,16 +60275,16 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2033, 840, 2);
+            DB_Rule(call_U2035, 842, 2);
         }
     }
     rfalse;
 ];
-[ call_U2034;
+[ call_U2036;
     if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar28)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2034, 841, 0);
+            DB_Rule(call_U2036, 843, 0);
         }
         (say__p = 1);
         ParaContent();
@@ -60191,16 +60294,16 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2034, 841, 2);
+            DB_Rule(call_U2036, 843, 2);
         }
     }
     rfalse;
 ];
-[ call_U2035;
+[ call_U2037;
     if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar29)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2035, 842, 0);
+            DB_Rule(call_U2037, 844, 0);
         }
         (say__p = 1);
         ParaContent();
@@ -60210,16 +60313,16 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2035, 842, 2);
+            DB_Rule(call_U2037, 844, 2);
         }
     }
     rfalse;
 ];
-[ call_U2036;
+[ call_U2038;
     if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar30)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2036, 843, 0);
+            DB_Rule(call_U2038, 845, 0);
         }
         (say__p = 1);
         ParaContent();
@@ -60241,16 +60344,16 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2036, 843, 2);
+            DB_Rule(call_U2038, 845, 2);
         }
     }
     rfalse;
 ];
-[ call_U2037;
+[ call_U2039;
     if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar31)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2037, 844, 0);
+            DB_Rule(call_U2039, 846, 0);
         }
         (say__p = 1);
         if ((~~(((Global_Vars-->47) == 1)))) {
@@ -60278,16 +60381,16 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2037, 844, 2);
+            DB_Rule(call_U2039, 846, 2);
         }
     }
     rfalse;
 ];
-[ call_U2038;
+[ call_U2040;
     if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar32)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2038, 845, 0);
+            DB_Rule(call_U2040, 847, 0);
         }
         (say__p = 1);
         ParaContent();
@@ -60297,16 +60400,16 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2038, 845, 2);
+            DB_Rule(call_U2040, 847, 2);
         }
     }
     rfalse;
 ];
-[ call_U2039;
+[ call_U2041;
     if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar33)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2039, 846, 0);
+            DB_Rule(call_U2041, 848, 0);
         }
         (say__p = 1);
         if ((~~(((Global_Vars-->47) == 1)))) {
@@ -60326,16 +60429,16 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2039, 846, 2);
+            DB_Rule(call_U2041, 848, 2);
         }
     }
     rfalse;
 ];
-[ call_U2040;
+[ call_U2042;
     if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar34)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2040, 847, 0);
+            DB_Rule(call_U2042, 849, 0);
         }
         (say__p = 1);
         if ((~~(((Global_Vars-->47) == 1)))) {
@@ -60355,16 +60458,16 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2040, 847, 2);
+            DB_Rule(call_U2042, 849, 2);
         }
     }
     rfalse;
 ];
-[ call_U2041;
+[ call_U2043;
     if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar35)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2041, 848, 0);
+            DB_Rule(call_U2043, 850, 0);
         }
         (say__p = 1);
         if ((~~(((Global_Vars-->47) == 1)))) {
@@ -60384,16 +60487,16 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2041, 848, 2);
+            DB_Rule(call_U2043, 850, 2);
         }
     }
     rfalse;
 ];
-[ call_U2042;
+[ call_U2044;
     if ((((action == ##Ask)) && ((((actor == player)) && ((noun == I_emma_U1)))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2042, 849, 0);
+            DB_Rule(call_U2044, 851, 0);
         }
         if (((Global_Vars-->50) == 1)) {
             (say__p = 1);
@@ -60420,16 +60523,16 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2042, 849, 2);
+            DB_Rule(call_U2044, 851, 2);
         }
     }
     rfalse;
 ];
-[ call_U2043;
+[ call_U2045;
     if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar36)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2043, 850, 0);
+            DB_Rule(call_U2045, 852, 0);
         }
         (say__p = 1);
         ParaContent();
@@ -60439,16 +60542,16 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2043, 850, 2);
+            DB_Rule(call_U2045, 852, 2);
         }
     }
     rfalse;
 ];
-[ call_U2044;
+[ call_U2046;
     if ((((actor == player)) && ((noun == I_journal_U1)))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2044, 851, 0);
+            DB_Rule(call_U2046, 853, 0);
         }
         if ((~~((player == CarrierOf(I_journal_U1))))) {
             (say__p = 1);
@@ -60459,28 +60562,28 @@ Global max_z_object;
         }
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2044, 851, 2);
+            DB_Rule(call_U2046, 853, 2);
         }
     }
     rfalse;
 ];
-[ call_U2045;
+[ call_U2047;
     if ((actor == player)) {
         if (debug_rules) {
-            DB_Rule(call_U2045, 852, 0);
+            DB_Rule(call_U2047, 854, 0);
         }
-        call_U2052(parsed_number);
+        call_U2054(parsed_number);
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2045, 852, 3);
+            DB_Rule(call_U2047, 854, 3);
         }
     }
     rfalse;
 ];
-[ call_U2046 tmp_0;
+[ call_U2048 tmp_0;
     if ((actor == player)) {
         if (debug_rules) {
-            DB_Rule(call_U2046, 853, 0);
+            DB_Rule(call_U2048, 855, 0);
         }
         (tmp_0 = (GenerateRandomNumber)(1,4));
         (parsed_number = tmp_0);
@@ -60497,16 +60600,16 @@ Global max_z_object;
         TryAction(0, player, ##A_reading_it_in, parsed_number, I_journal_U1);
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2046, 853, 3);
+            DB_Rule(call_U2048, 855, 3);
         }
     }
     rfalse;
 ];
-[ call_U2047;
+[ call_U2049;
     if ((((action == ##A_writing)) && ((((actor == player)) && ((noun == I_journal_U1)))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2047, 855, 0);
+            DB_Rule(call_U2049, 857, 0);
         }
         ((Global_Vars-->46) = 1);
         (say__p = 1);
@@ -60517,31 +60620,31 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2047, 855, 2);
+            DB_Rule(call_U2049, 857, 2);
         }
     }
     rfalse;
 ];
-[ call_U2048;
+[ call_U2050;
     if ((((action == ##A_playing)) && ((((actor == player)) && ((noun == I_record_player_U1)))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2048, 856, 0);
+            DB_Rule(call_U2050, 858, 0);
         }
-        BlkValueCopy((Global_Vars-->17), bc_U365);
+        BlkValueCopy((Global_Vars-->17), bc_U366);
         RulebookSucceeds(0, 0);
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2048, 856, 2);
+            DB_Rule(call_U2050, 858, 2);
         }
     }
     rfalse;
 ];
-[ call_U2049;
-    if (((BlkValueCompare)((Global_Vars-->17),bc_U366) == 0)) {
+[ call_U2051;
+    if (((BlkValueCompare)((Global_Vars-->17),bc_U367) == 0)) {
         if (debug_rules) {
-            DB_Rule(call_U2049, 857, 0);
+            DB_Rule(call_U2051, 859, 0);
         }
         if (SnippetMatches(players_command, Consult_Grammar37)) {
             (say__p = 1);
@@ -60587,19 +60690,19 @@ Global max_z_object;
                 }
             }
         }
-        BlkValueCopy((Global_Vars-->17), bc_U367);
+        BlkValueCopy((Global_Vars-->17), bc_U368);
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2049, 857, 4);
+            DB_Rule(call_U2051, 859, 4);
         }
     }
     rfalse;
 ];
-[ call_U2050;
+[ call_U2052;
     if ((((action == ##Open)) && ((((actor == player)) && ((noun == I_suitcase_U1)))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2050, 858, 0);
+            DB_Rule(call_U2052, 860, 0);
         }
         (say__p = 1);
         ParaContent();
@@ -60613,15 +60716,15 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2050, 858, 2);
+            DB_Rule(call_U2052, 860, 2);
         }
     }
     rfalse;
 ];
-[ call_U2051;
+[ call_U2053;
     if (call_U334(I_record_player_U1)) {
         if (debug_rules) {
-            DB_Rule(call_U2051, 859, 0);
+            DB_Rule(call_U2053, 861, 0);
         }
         if ((LocationOf(player) == LocationOf(I_record_player_U1))) {
             if (((Global_Vars-->44) == 0)) {
@@ -60682,12 +60785,12 @@ Global max_z_object;
         }
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2051, 859, 4);
+            DB_Rule(call_U2053, 861, 4);
         }
     }
     rfalse;
 ];
-[ call_U2052 t_0 ct_0 ct_1;
+[ call_U2054 t_0 ct_0 ct_1;
     if (ExistsTableLookUpCorr(table_data_U4, table_column_id_U10, table_column_id_U9, t_0)) {
         (ct_0 = table_data_U4);
         (ct_1 = TableRowCorr(ct_0, table_column_id_U9, t_0));
@@ -60709,21 +60812,33 @@ Global max_z_object;
             MoveObject(player, I_toybox_U1, 0, 0);
         }
         if ((t_0 == 2)) {
-            (say__p = 1);
-            ParaContent();
-            print "A thunderous crack cuts through the air. Everything begins to spin. You watch as everything around you dissolves and reforms until your eyes begin to burn from the distortion. ";
-            ParaContent();
-            print (say__n = t_0);
-            ParaContent();
-            print ". ~";
-            ParaContent();
-            TEXT_TY_Say(TableLookUpEntry(ct_0, table_column_id_U10, ct_1));
-            ParaContent();
-            print "~";
-            ParaContent();
-            DivideParagraphPoint();
-            print "^";
-            MoveObject(player, I_plushieland_U1, 0, 0);
+            if ((player == CarrierOf(I_narwhal_U1))) {
+                (say__p = 1);
+                ParaContent();
+                print "A thunderous crack cuts through the air. Everything begins to spin. You watch as everything around you dissolves and reforms until your eyes begin to burn from the distortion. ";
+                ParaContent();
+                print (say__n = t_0);
+                ParaContent();
+                print ". ~";
+                ParaContent();
+                TEXT_TY_Say(TableLookUpEntry(ct_0, table_column_id_U10, ct_1));
+                ParaContent();
+                print "~";
+                ParaContent();
+                DivideParagraphPoint();
+                print "^";
+                MoveObject(I_emma_U1, I_plushieland_U1, 0, 0);
+                MoveObject(player, I_plushieland_U1, 0, 0);
+            } else {
+                (say__p = 1);
+                ParaContent();
+                print "Page ";
+                ParaContent();
+                print (say__n = t_0);
+                ParaContent();
+                print " appears to be blank.";
+                print "^";
+            }
         }
     } else {
         (say__p = 1);
@@ -60878,7 +60993,7 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U2053 fn vp t modal_to;
+[ call_U2055 fn vp t modal_to;
     (t = ConjugateVerb1(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
@@ -61007,7 +61122,7 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U2054 fn vp t modal_to;
+[ call_U2056 fn vp t modal_to;
     (t = ConjugateVerb59(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
@@ -61089,24 +61204,6 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U2055 fn vp t modal_to;
-    (t = ConjugateVerb60(fn, vp, t, modal_to));
-    if ((fn == CV_MODAL)) {
-        return t;
-    }
-    if ((fn == CV_MEANING)) {
-        return MEANINGLESS_RR;
-    }
-];
-[ call_U2056 fn vp t modal_to;
-    (t = ConjugateVerb60(fn, vp, t, modal_to));
-    if ((fn == CV_MODAL)) {
-        return t;
-    }
-    if ((fn == CV_MEANING)) {
-        return MEANINGLESS_RR;
-    }
-];
 [ call_U2057 fn vp t modal_to;
     (t = ConjugateVerb60(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
@@ -61125,13 +61222,51 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
+[ call_U2059 fn vp t modal_to;
+    (t = ConjugateVerb60(fn, vp, t, modal_to));
+    if ((fn == CV_MODAL)) {
+        return t;
+    }
+    if ((fn == CV_MEANING)) {
+        return MEANINGLESS_RR;
+    }
+];
+[ call_U2060 fn vp t modal_to;
+    (t = ConjugateVerb60(fn, vp, t, modal_to));
+    if ((fn == CV_MODAL)) {
+        return t;
+    }
+    if ((fn == CV_MEANING)) {
+        return MEANINGLESS_RR;
+    }
+];
+[ call_U2061;
+    #ifdef DEBUG;
+        if (suppress_text_substitution) {
+            print "~[if the player is carrying the narwhal]PLUSHIELAND[else]?????~";
+            rtrue;
+        }
+    #endif;
+    (say__p = 1);
+    if ((~~((player == CarrierOf(I_narwhal_U1))))) {
+        jump L_Say0;
+    }
+    ParaContent();
+    print "PLUSHIELAND";
+    jump L_SayX0;
+    .L_Say0;
+    ParaContent();
+    print "?????";
+    .L_SayX0;
+    rtrue;
+];
 [ PAPR1;
     if ((((action == ##Go)) && ((((actor == player)) && (((MStack-->(MstVON(var_id_U42, 1))) == I_treehouse_U1)))))) {
         rtrue;
     }
     rfalse;
 ];
-[ call_U2059 rr task X Y Z1 Z2 Z3 Z4;
+[ call_U2062 rr task X Y Z1 Z2 Z3 Z4;
     switch (task) {
         RELS_TEST:
             if ((X == Y)) {
@@ -61145,7 +61280,7 @@ Global max_z_object;
     }
     rfalse;
 ];
-[ call_U2060 rr task X Y Z1 Z2 Z3 Z4;
+[ call_U2063 rr task X Y Z1 Z2 Z3 Z4;
     switch (task) {
         RELS_TEST:
             if ((BlkValueCompare((X)(CV_MEANING), Y) == 0)) {
@@ -61159,7 +61294,7 @@ Global max_z_object;
     }
     rfalse;
 ];
-[ call_U2061 rr task X Y Z1 Z2 Z3 Z4;
+[ call_U2064 rr task X Y Z1 Z2 Z3 Z4;
     switch (task) {
         RELS_TEST:
             if ((X == OwnerOf(Y))) {
@@ -61213,7 +61348,7 @@ Global max_z_object;
     }
     rfalse;
 ];
-[ call_U2062 rr task X Y Z1 Z2 Z3 Z4;
+[ call_U2065 rr task X Y Z1 Z2 Z3 Z4;
     switch (task) {
         RELS_TEST:
             if ((RlnGetF(X, RR_HANDLER))(X,RELS_TEST,Y,0)) {
@@ -61227,7 +61362,7 @@ Global max_z_object;
     }
     rfalse;
 ];
-[ call_U2063 rr task X Y Z1 Z2 Z3 Z4;
+[ call_U2066 rr task X Y Z1 Z2 Z3 Z4;
     switch (task) {
         RELS_TEST:
             if (0) {
@@ -61241,310 +61376,10 @@ Global max_z_object;
     }
     rfalse;
 ];
-[ call_U2064 rr task X Y Z1 Z2 Z3 Z4;
-    switch (task) {
-        RELS_TEST:
-            if ((X == ContainerOf(Y))) {
-                rtrue;
-            }
-            rfalse;
-            ;
-        RELS_LOOKUP_ANY:
-            if ((((Y == RLANY_GET_X)) || ((Y == RLANY_CAN_GET_X)))) {
-                objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
-                    if ((call_U2064)(rr,RELS_TEST,Z1,X)) {
-                        if ((Y == RLANY_CAN_GET_X)) {
-                            rtrue;
-                        }
-                        if ((Y == RLANY_CAN_GET_Y)) {
-                            rtrue;
-                        }
-                        return Z1;
-                    }
-                }
-                if ((Y == RLANY_CAN_GET_X)) {
-                    rfalse;
-                }
-                if ((Y == RLANY_CAN_GET_Y)) {
-                    rfalse;
-                }
-                return DefaultValueOfKOV(OBJECT_TY);
-            } else {
-                objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
-                    if ((call_U2064)(rr,RELS_TEST,X,Z1)) {
-                        if ((Y == RLANY_CAN_GET_X)) {
-                            rtrue;
-                        }
-                        if ((Y == RLANY_CAN_GET_Y)) {
-                            rtrue;
-                        }
-                        return Z1;
-                    }
-                }
-                if ((Y == RLANY_CAN_GET_X)) {
-                    rfalse;
-                }
-                if ((Y == RLANY_CAN_GET_Y)) {
-                    rfalse;
-                }
-                return DefaultValueOfKOV(OBJECT_TY);
-            }
-            ;
-        RELS_LOOKUP_ALL_X:
-            LIST_OF_TY_SetLength(Y, 0);
-            objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
-                if ((call_U2064)(rr,RELS_TEST,Z1,X)) {
-                    LIST_OF_TY_InsertItem(Y, Z1);
-                }
-            }
-            return Y;
-            ;
-        RELS_LOOKUP_ALL_Y:
-            LIST_OF_TY_SetLength(Y, 0);
-            objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
-                if ((call_U2064)(rr,RELS_TEST,X,Z1)) {
-                    LIST_OF_TY_InsertItem(Y, Z1);
-                }
-            }
-            return Y;
-            ;
-        RELS_LIST:
-            LIST_OF_TY_SetLength(X, 0);
-            if ((Y == RLIST_ALL_X)) {
-                objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
-                    objectloop (Z3 ofclass Object && (Z3 ofclass Object)) {
-                        if ((call_U2064)(rr,RELS_TEST,Z1,Z3)) {
-                            LIST_OF_TY_InsertItem(X, Z1, 0, 0, 1);
-                        }
-                    }
-                }
-            } else {
-                if ((Y == RLIST_ALL_Y)) {
-                    objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
-                        objectloop (Z3 ofclass Object && (Z3 ofclass Object)) {
-                            if ((call_U2064)(rr,RELS_TEST,Z1,Z3)) {
-                                LIST_OF_TY_InsertItem(X, Z3, 0, 0, 1);
-                            }
-                        }
-                    }
-                }
-            }
-            return X;
-            ;
-        RELS_ASSERT_TRUE:
-            MoveObject(Y, X);
-            rtrue;
-            ;
-        RELS_ASSERT_FALSE:
-            rfalse;
-            ;
-    }
-    rfalse;
-];
-[ call_U2065 rr task X Y Z1 Z2 Z3 Z4;
-    switch (task) {
-        RELS_TEST:
-            if ((X == SupporterOf(Y))) {
-                rtrue;
-            }
-            rfalse;
-            ;
-        RELS_LOOKUP_ANY:
-            if ((((Y == RLANY_GET_X)) || ((Y == RLANY_CAN_GET_X)))) {
-                for ((Z1 = K6_supporter_First):Z1:(Z1 = (Z1.K6_supporter_Next))) {
-                    if ((call_U2065)(rr,RELS_TEST,Z1,X)) {
-                        if ((Y == RLANY_CAN_GET_X)) {
-                            rtrue;
-                        }
-                        if ((Y == RLANY_CAN_GET_Y)) {
-                            rtrue;
-                        }
-                        return Z1;
-                    }
-                }
-                if ((Y == RLANY_CAN_GET_X)) {
-                    rfalse;
-                }
-                if ((Y == RLANY_CAN_GET_Y)) {
-                    rfalse;
-                }
-                return DefaultValueOfKOV(OBJECT_TY);
-            } else {
-                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
-                    if ((call_U2065)(rr,RELS_TEST,X,Z1)) {
-                        if ((Y == RLANY_CAN_GET_X)) {
-                            rtrue;
-                        }
-                        if ((Y == RLANY_CAN_GET_Y)) {
-                            rtrue;
-                        }
-                        return Z1;
-                    }
-                }
-                if ((Y == RLANY_CAN_GET_X)) {
-                    rfalse;
-                }
-                if ((Y == RLANY_CAN_GET_Y)) {
-                    rfalse;
-                }
-                return DefaultValueOfKOV(OBJECT_TY);
-            }
-            ;
-        RELS_LOOKUP_ALL_X:
-            LIST_OF_TY_SetLength(Y, 0);
-            for ((Z1 = K6_supporter_First):Z1:(Z1 = (Z1.K6_supporter_Next))) {
-                if ((call_U2065)(rr,RELS_TEST,Z1,X)) {
-                    LIST_OF_TY_InsertItem(Y, Z1);
-                }
-            }
-            return Y;
-            ;
-        RELS_LOOKUP_ALL_Y:
-            LIST_OF_TY_SetLength(Y, 0);
-            for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
-                if ((call_U2065)(rr,RELS_TEST,X,Z1)) {
-                    LIST_OF_TY_InsertItem(Y, Z1);
-                }
-            }
-            return Y;
-            ;
-        RELS_LIST:
-            LIST_OF_TY_SetLength(X, 0);
-            if ((Y == RLIST_ALL_X)) {
-                for ((Z1 = K6_supporter_First):Z1:(Z1 = (Z1.K6_supporter_Next))) {
-                    for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
-                        if ((call_U2065)(rr,RELS_TEST,Z1,Z3)) {
-                            LIST_OF_TY_InsertItem(X, Z1, 0, 0, 1);
-                        }
-                    }
-                }
-            } else {
-                if ((Y == RLIST_ALL_Y)) {
-                    for ((Z1 = K6_supporter_First):Z1:(Z1 = (Z1.K6_supporter_Next))) {
-                        for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
-                            if ((call_U2065)(rr,RELS_TEST,Z1,Z3)) {
-                                LIST_OF_TY_InsertItem(X, Z3, 0, 0, 1);
-                            }
-                        }
-                    }
-                }
-            }
-            return X;
-            ;
-        RELS_ASSERT_TRUE:
-            MoveObject(Y, X);
-            rtrue;
-            ;
-        RELS_ASSERT_FALSE:
-            rfalse;
-            ;
-    }
-    rfalse;
-];
-[ call_U2066 rr task X Y Z1 Z2 Z3 Z4;
-    switch (task) {
-        RELS_TEST:
-            if ((X == PartOf(Y))) {
-                rtrue;
-            }
-            rfalse;
-            ;
-        RELS_LOOKUP_ANY:
-            if ((((Y == RLANY_GET_X)) || ((Y == RLANY_CAN_GET_X)))) {
-                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
-                    if ((call_U2066)(rr,RELS_TEST,Z1,X)) {
-                        if ((Y == RLANY_CAN_GET_X)) {
-                            rtrue;
-                        }
-                        if ((Y == RLANY_CAN_GET_Y)) {
-                            rtrue;
-                        }
-                        return Z1;
-                    }
-                }
-                if ((Y == RLANY_CAN_GET_X)) {
-                    rfalse;
-                }
-                if ((Y == RLANY_CAN_GET_Y)) {
-                    rfalse;
-                }
-                return DefaultValueOfKOV(OBJECT_TY);
-            } else {
-                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
-                    if ((call_U2066)(rr,RELS_TEST,X,Z1)) {
-                        if ((Y == RLANY_CAN_GET_X)) {
-                            rtrue;
-                        }
-                        if ((Y == RLANY_CAN_GET_Y)) {
-                            rtrue;
-                        }
-                        return Z1;
-                    }
-                }
-                if ((Y == RLANY_CAN_GET_X)) {
-                    rfalse;
-                }
-                if ((Y == RLANY_CAN_GET_Y)) {
-                    rfalse;
-                }
-                return DefaultValueOfKOV(OBJECT_TY);
-            }
-            ;
-        RELS_LOOKUP_ALL_X:
-            LIST_OF_TY_SetLength(Y, 0);
-            for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
-                if ((call_U2066)(rr,RELS_TEST,Z1,X)) {
-                    LIST_OF_TY_InsertItem(Y, Z1);
-                }
-            }
-            return Y;
-            ;
-        RELS_LOOKUP_ALL_Y:
-            LIST_OF_TY_SetLength(Y, 0);
-            for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
-                if ((call_U2066)(rr,RELS_TEST,X,Z1)) {
-                    LIST_OF_TY_InsertItem(Y, Z1);
-                }
-            }
-            return Y;
-            ;
-        RELS_LIST:
-            LIST_OF_TY_SetLength(X, 0);
-            if ((Y == RLIST_ALL_X)) {
-                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
-                    for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
-                        if ((call_U2066)(rr,RELS_TEST,Z1,Z3)) {
-                            LIST_OF_TY_InsertItem(X, Z1, 0, 0, 1);
-                        }
-                    }
-                }
-            } else {
-                if ((Y == RLIST_ALL_Y)) {
-                    for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
-                        for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
-                            if ((call_U2066)(rr,RELS_TEST,Z1,Z3)) {
-                                LIST_OF_TY_InsertItem(X, Z3, 0, 0, 1);
-                            }
-                        }
-                    }
-                }
-            }
-            return X;
-            ;
-        RELS_ASSERT_TRUE:
-            MakePart(Y, X);
-            rtrue;
-            ;
-        RELS_ASSERT_FALSE:
-            rfalse;
-            ;
-    }
-    rfalse;
-];
 [ call_U2067 rr task X Y Z1 Z2 Z3 Z4;
     switch (task) {
         RELS_TEST:
-            if (IndirectlyContains(X, Y)) {
+            if ((X == ContainerOf(Y))) {
                 rtrue;
             }
             rfalse;
@@ -61631,20 +61466,27 @@ Global max_z_object;
             }
             return X;
             ;
+        RELS_ASSERT_TRUE:
+            MoveObject(Y, X);
+            rtrue;
+            ;
+        RELS_ASSERT_FALSE:
+            rfalse;
+            ;
     }
     rfalse;
 ];
 [ call_U2068 rr task X Y Z1 Z2 Z3 Z4;
     switch (task) {
         RELS_TEST:
-            if ((X == CarrierOf(Y))) {
+            if ((X == SupporterOf(Y))) {
                 rtrue;
             }
             rfalse;
             ;
         RELS_LOOKUP_ANY:
             if ((((Y == RLANY_GET_X)) || ((Y == RLANY_CAN_GET_X)))) {
-                for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
+                for ((Z1 = K6_supporter_First):Z1:(Z1 = (Z1.K6_supporter_Next))) {
                     if ((call_U2068)(rr,RELS_TEST,Z1,X)) {
                         if ((Y == RLANY_CAN_GET_X)) {
                             rtrue;
@@ -61685,7 +61527,7 @@ Global max_z_object;
             ;
         RELS_LOOKUP_ALL_X:
             LIST_OF_TY_SetLength(Y, 0);
-            for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
+            for ((Z1 = K6_supporter_First):Z1:(Z1 = (Z1.K6_supporter_Next))) {
                 if ((call_U2068)(rr,RELS_TEST,Z1,X)) {
                     LIST_OF_TY_InsertItem(Y, Z1);
                 }
@@ -61704,7 +61546,7 @@ Global max_z_object;
         RELS_LIST:
             LIST_OF_TY_SetLength(X, 0);
             if ((Y == RLIST_ALL_X)) {
-                for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
+                for ((Z1 = K6_supporter_First):Z1:(Z1 = (Z1.K6_supporter_Next))) {
                     for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
                         if ((call_U2068)(rr,RELS_TEST,Z1,Z3)) {
                             LIST_OF_TY_InsertItem(X, Z1, 0, 0, 1);
@@ -61713,7 +61555,7 @@ Global max_z_object;
                 }
             } else {
                 if ((Y == RLIST_ALL_Y)) {
-                    for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
+                    for ((Z1 = K6_supporter_First):Z1:(Z1 = (Z1.K6_supporter_Next))) {
                         for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
                             if ((call_U2068)(rr,RELS_TEST,Z1,Z3)) {
                                 LIST_OF_TY_InsertItem(X, Z3, 0, 0, 1);
@@ -61737,14 +61579,14 @@ Global max_z_object;
 [ call_U2069 rr task X Y Z1 Z2 Z3 Z4;
     switch (task) {
         RELS_TEST:
-            if ((X == HolderOf(Y))) {
+            if ((X == PartOf(Y))) {
                 rtrue;
             }
             rfalse;
             ;
         RELS_LOOKUP_ANY:
             if ((((Y == RLANY_GET_X)) || ((Y == RLANY_CAN_GET_X)))) {
-                for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
+                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
                     if ((call_U2069)(rr,RELS_TEST,Z1,X)) {
                         if ((Y == RLANY_CAN_GET_X)) {
                             rtrue;
@@ -61785,7 +61627,7 @@ Global max_z_object;
             ;
         RELS_LOOKUP_ALL_X:
             LIST_OF_TY_SetLength(Y, 0);
-            for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
+            for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
                 if ((call_U2069)(rr,RELS_TEST,Z1,X)) {
                     LIST_OF_TY_InsertItem(Y, Z1);
                 }
@@ -61804,7 +61646,7 @@ Global max_z_object;
         RELS_LIST:
             LIST_OF_TY_SetLength(X, 0);
             if ((Y == RLIST_ALL_X)) {
-                for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
+                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
                     for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
                         if ((call_U2069)(rr,RELS_TEST,Z1,Z3)) {
                             LIST_OF_TY_InsertItem(X, Z1, 0, 0, 1);
@@ -61813,7 +61655,7 @@ Global max_z_object;
                 }
             } else {
                 if ((Y == RLIST_ALL_Y)) {
-                    for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
+                    for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
                         for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
                             if ((call_U2069)(rr,RELS_TEST,Z1,Z3)) {
                                 LIST_OF_TY_InsertItem(X, Z3, 0, 0, 1);
@@ -61825,7 +61667,7 @@ Global max_z_object;
             return X;
             ;
         RELS_ASSERT_TRUE:
-            MoveObject(Y, X);
+            MakePart(Y, X);
             rtrue;
             ;
         RELS_ASSERT_FALSE:
@@ -61837,14 +61679,14 @@ Global max_z_object;
 [ call_U2070 rr task X Y Z1 Z2 Z3 Z4;
     switch (task) {
         RELS_TEST:
-            if ((X == WearerOf(Y))) {
+            if (IndirectlyContains(X, Y)) {
                 rtrue;
             }
             rfalse;
             ;
         RELS_LOOKUP_ANY:
             if ((((Y == RLANY_GET_X)) || ((Y == RLANY_CAN_GET_X)))) {
-                for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
+                objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
                     if ((call_U2070)(rr,RELS_TEST,Z1,X)) {
                         if ((Y == RLANY_CAN_GET_X)) {
                             rtrue;
@@ -61863,7 +61705,7 @@ Global max_z_object;
                 }
                 return DefaultValueOfKOV(OBJECT_TY);
             } else {
-                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
                     if ((call_U2070)(rr,RELS_TEST,X,Z1)) {
                         if ((Y == RLANY_CAN_GET_X)) {
                             rtrue;
@@ -61885,7 +61727,7 @@ Global max_z_object;
             ;
         RELS_LOOKUP_ALL_X:
             LIST_OF_TY_SetLength(Y, 0);
-            for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
+            objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
                 if ((call_U2070)(rr,RELS_TEST,Z1,X)) {
                     LIST_OF_TY_InsertItem(Y, Z1);
                 }
@@ -61894,7 +61736,7 @@ Global max_z_object;
             ;
         RELS_LOOKUP_ALL_Y:
             LIST_OF_TY_SetLength(Y, 0);
-            for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+            objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
                 if ((call_U2070)(rr,RELS_TEST,X,Z1)) {
                     LIST_OF_TY_InsertItem(Y, Z1);
                 }
@@ -61904,8 +61746,8 @@ Global max_z_object;
         RELS_LIST:
             LIST_OF_TY_SetLength(X, 0);
             if ((Y == RLIST_ALL_X)) {
-                for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
-                    for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
+                objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
+                    objectloop (Z3 ofclass Object && (Z3 ofclass Object)) {
                         if ((call_U2070)(rr,RELS_TEST,Z1,Z3)) {
                             LIST_OF_TY_InsertItem(X, Z1, 0, 0, 1);
                         }
@@ -61913,8 +61755,8 @@ Global max_z_object;
                 }
             } else {
                 if ((Y == RLIST_ALL_Y)) {
-                    for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
-                        for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
+                    objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
+                        objectloop (Z3 ofclass Object && (Z3 ofclass Object)) {
                             if ((call_U2070)(rr,RELS_TEST,Z1,Z3)) {
                                 LIST_OF_TY_InsertItem(X, Z3, 0, 0, 1);
                             }
@@ -61924,27 +61766,20 @@ Global max_z_object;
             }
             return X;
             ;
-        RELS_ASSERT_TRUE:
-            WearObject(Y, X);
-            rtrue;
-            ;
-        RELS_ASSERT_FALSE:
-            rfalse;
-            ;
     }
     rfalse;
 ];
 [ call_U2071 rr task X Y Z1 Z2 Z3 Z4;
     switch (task) {
         RELS_TEST:
-            if (TestVisibility(X, Y)) {
+            if ((X == CarrierOf(Y))) {
                 rtrue;
             }
             rfalse;
             ;
         RELS_LOOKUP_ANY:
             if ((((Y == RLANY_GET_X)) || ((Y == RLANY_CAN_GET_X)))) {
-                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
                     if ((call_U2071)(rr,RELS_TEST,Z1,X)) {
                         if ((Y == RLANY_CAN_GET_X)) {
                             rtrue;
@@ -61985,7 +61820,7 @@ Global max_z_object;
             ;
         RELS_LOOKUP_ALL_X:
             LIST_OF_TY_SetLength(Y, 0);
-            for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+            for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
                 if ((call_U2071)(rr,RELS_TEST,Z1,X)) {
                     LIST_OF_TY_InsertItem(Y, Z1);
                 }
@@ -62004,7 +61839,7 @@ Global max_z_object;
         RELS_LIST:
             LIST_OF_TY_SetLength(X, 0);
             if ((Y == RLIST_ALL_X)) {
-                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
                     for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
                         if ((call_U2071)(rr,RELS_TEST,Z1,Z3)) {
                             LIST_OF_TY_InsertItem(X, Z1, 0, 0, 1);
@@ -62013,7 +61848,7 @@ Global max_z_object;
                 }
             } else {
                 if ((Y == RLIST_ALL_Y)) {
-                    for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                    for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
                         for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
                             if ((call_U2071)(rr,RELS_TEST,Z1,Z3)) {
                                 LIST_OF_TY_InsertItem(X, Z3, 0, 0, 1);
@@ -62024,20 +61859,27 @@ Global max_z_object;
             }
             return X;
             ;
+        RELS_ASSERT_TRUE:
+            MoveObject(Y, X);
+            rtrue;
+            ;
+        RELS_ASSERT_FALSE:
+            rfalse;
+            ;
     }
     rfalse;
 ];
 [ call_U2072 rr task X Y Z1 Z2 Z3 Z4;
     switch (task) {
         RELS_TEST:
-            if (TestTouchability(X, Y)) {
+            if ((X == HolderOf(Y))) {
                 rtrue;
             }
             rfalse;
             ;
         RELS_LOOKUP_ANY:
             if ((((Y == RLANY_GET_X)) || ((Y == RLANY_CAN_GET_X)))) {
-                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
                     if ((call_U2072)(rr,RELS_TEST,Z1,X)) {
                         if ((Y == RLANY_CAN_GET_X)) {
                             rtrue;
@@ -62078,7 +61920,7 @@ Global max_z_object;
             ;
         RELS_LOOKUP_ALL_X:
             LIST_OF_TY_SetLength(Y, 0);
-            for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+            for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
                 if ((call_U2072)(rr,RELS_TEST,Z1,X)) {
                     LIST_OF_TY_InsertItem(Y, Z1);
                 }
@@ -62097,7 +61939,7 @@ Global max_z_object;
         RELS_LIST:
             LIST_OF_TY_SetLength(X, 0);
             if ((Y == RLIST_ALL_X)) {
-                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
                     for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
                         if ((call_U2072)(rr,RELS_TEST,Z1,Z3)) {
                             LIST_OF_TY_InsertItem(X, Z1, 0, 0, 1);
@@ -62106,7 +61948,7 @@ Global max_z_object;
                 }
             } else {
                 if ((Y == RLIST_ALL_Y)) {
-                    for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                    for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
                         for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
                             if ((call_U2072)(rr,RELS_TEST,Z1,Z3)) {
                                 LIST_OF_TY_InsertItem(X, Z3, 0, 0, 1);
@@ -62117,20 +61959,27 @@ Global max_z_object;
             }
             return X;
             ;
+        RELS_ASSERT_TRUE:
+            MoveObject(Y, X);
+            rtrue;
+            ;
+        RELS_ASSERT_FALSE:
+            rfalse;
+            ;
     }
     rfalse;
 ];
 [ call_U2073 rr task X Y Z1 Z2 Z3 Z4;
     switch (task) {
         RELS_TEST:
-            if (TestConcealment(X, Y)) {
+            if ((X == WearerOf(Y))) {
                 rtrue;
             }
             rfalse;
             ;
         RELS_LOOKUP_ANY:
             if ((((Y == RLANY_GET_X)) || ((Y == RLANY_CAN_GET_X)))) {
-                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
                     if ((call_U2073)(rr,RELS_TEST,Z1,X)) {
                         if ((Y == RLANY_CAN_GET_X)) {
                             rtrue;
@@ -62171,7 +62020,7 @@ Global max_z_object;
             ;
         RELS_LOOKUP_ALL_X:
             LIST_OF_TY_SetLength(Y, 0);
-            for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+            for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
                 if ((call_U2073)(rr,RELS_TEST,Z1,X)) {
                     LIST_OF_TY_InsertItem(Y, Z1);
                 }
@@ -62190,7 +62039,7 @@ Global max_z_object;
         RELS_LIST:
             LIST_OF_TY_SetLength(X, 0);
             if ((Y == RLIST_ALL_X)) {
-                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
                     for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
                         if ((call_U2073)(rr,RELS_TEST,Z1,Z3)) {
                             LIST_OF_TY_InsertItem(X, Z1, 0, 0, 1);
@@ -62199,9 +62048,109 @@ Global max_z_object;
                 }
             } else {
                 if ((Y == RLIST_ALL_Y)) {
-                    for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                    for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
                         for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
                             if ((call_U2073)(rr,RELS_TEST,Z1,Z3)) {
+                                LIST_OF_TY_InsertItem(X, Z3, 0, 0, 1);
+                            }
+                        }
+                    }
+                }
+            }
+            return X;
+            ;
+        RELS_ASSERT_TRUE:
+            WearObject(Y, X);
+            rtrue;
+            ;
+        RELS_ASSERT_FALSE:
+            rfalse;
+            ;
+    }
+    rfalse;
+];
+[ call_U2074 rr task X Y Z1 Z2 Z3 Z4;
+    switch (task) {
+        RELS_TEST:
+            if (TestVisibility(X, Y)) {
+                rtrue;
+            }
+            rfalse;
+            ;
+        RELS_LOOKUP_ANY:
+            if ((((Y == RLANY_GET_X)) || ((Y == RLANY_CAN_GET_X)))) {
+                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                    if ((call_U2074)(rr,RELS_TEST,Z1,X)) {
+                        if ((Y == RLANY_CAN_GET_X)) {
+                            rtrue;
+                        }
+                        if ((Y == RLANY_CAN_GET_Y)) {
+                            rtrue;
+                        }
+                        return Z1;
+                    }
+                }
+                if ((Y == RLANY_CAN_GET_X)) {
+                    rfalse;
+                }
+                if ((Y == RLANY_CAN_GET_Y)) {
+                    rfalse;
+                }
+                return DefaultValueOfKOV(OBJECT_TY);
+            } else {
+                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                    if ((call_U2074)(rr,RELS_TEST,X,Z1)) {
+                        if ((Y == RLANY_CAN_GET_X)) {
+                            rtrue;
+                        }
+                        if ((Y == RLANY_CAN_GET_Y)) {
+                            rtrue;
+                        }
+                        return Z1;
+                    }
+                }
+                if ((Y == RLANY_CAN_GET_X)) {
+                    rfalse;
+                }
+                if ((Y == RLANY_CAN_GET_Y)) {
+                    rfalse;
+                }
+                return DefaultValueOfKOV(OBJECT_TY);
+            }
+            ;
+        RELS_LOOKUP_ALL_X:
+            LIST_OF_TY_SetLength(Y, 0);
+            for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                if ((call_U2074)(rr,RELS_TEST,Z1,X)) {
+                    LIST_OF_TY_InsertItem(Y, Z1);
+                }
+            }
+            return Y;
+            ;
+        RELS_LOOKUP_ALL_Y:
+            LIST_OF_TY_SetLength(Y, 0);
+            for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                if ((call_U2074)(rr,RELS_TEST,X,Z1)) {
+                    LIST_OF_TY_InsertItem(Y, Z1);
+                }
+            }
+            return Y;
+            ;
+        RELS_LIST:
+            LIST_OF_TY_SetLength(X, 0);
+            if ((Y == RLIST_ALL_X)) {
+                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                    for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
+                        if ((call_U2074)(rr,RELS_TEST,Z1,Z3)) {
+                            LIST_OF_TY_InsertItem(X, Z1, 0, 0, 1);
+                        }
+                    }
+                }
+            } else {
+                if ((Y == RLIST_ALL_Y)) {
+                    for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                        for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
+                            if ((call_U2074)(rr,RELS_TEST,Z1,Z3)) {
                                 LIST_OF_TY_InsertItem(X, Z3, 0, 0, 1);
                             }
                         }
@@ -62213,7 +62162,193 @@ Global max_z_object;
     }
     rfalse;
 ];
-[ call_U2074 rr task X Y Z1 Z2 Z3 Z4;
+[ call_U2075 rr task X Y Z1 Z2 Z3 Z4;
+    switch (task) {
+        RELS_TEST:
+            if (TestTouchability(X, Y)) {
+                rtrue;
+            }
+            rfalse;
+            ;
+        RELS_LOOKUP_ANY:
+            if ((((Y == RLANY_GET_X)) || ((Y == RLANY_CAN_GET_X)))) {
+                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                    if ((call_U2075)(rr,RELS_TEST,Z1,X)) {
+                        if ((Y == RLANY_CAN_GET_X)) {
+                            rtrue;
+                        }
+                        if ((Y == RLANY_CAN_GET_Y)) {
+                            rtrue;
+                        }
+                        return Z1;
+                    }
+                }
+                if ((Y == RLANY_CAN_GET_X)) {
+                    rfalse;
+                }
+                if ((Y == RLANY_CAN_GET_Y)) {
+                    rfalse;
+                }
+                return DefaultValueOfKOV(OBJECT_TY);
+            } else {
+                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                    if ((call_U2075)(rr,RELS_TEST,X,Z1)) {
+                        if ((Y == RLANY_CAN_GET_X)) {
+                            rtrue;
+                        }
+                        if ((Y == RLANY_CAN_GET_Y)) {
+                            rtrue;
+                        }
+                        return Z1;
+                    }
+                }
+                if ((Y == RLANY_CAN_GET_X)) {
+                    rfalse;
+                }
+                if ((Y == RLANY_CAN_GET_Y)) {
+                    rfalse;
+                }
+                return DefaultValueOfKOV(OBJECT_TY);
+            }
+            ;
+        RELS_LOOKUP_ALL_X:
+            LIST_OF_TY_SetLength(Y, 0);
+            for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                if ((call_U2075)(rr,RELS_TEST,Z1,X)) {
+                    LIST_OF_TY_InsertItem(Y, Z1);
+                }
+            }
+            return Y;
+            ;
+        RELS_LOOKUP_ALL_Y:
+            LIST_OF_TY_SetLength(Y, 0);
+            for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                if ((call_U2075)(rr,RELS_TEST,X,Z1)) {
+                    LIST_OF_TY_InsertItem(Y, Z1);
+                }
+            }
+            return Y;
+            ;
+        RELS_LIST:
+            LIST_OF_TY_SetLength(X, 0);
+            if ((Y == RLIST_ALL_X)) {
+                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                    for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
+                        if ((call_U2075)(rr,RELS_TEST,Z1,Z3)) {
+                            LIST_OF_TY_InsertItem(X, Z1, 0, 0, 1);
+                        }
+                    }
+                }
+            } else {
+                if ((Y == RLIST_ALL_Y)) {
+                    for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                        for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
+                            if ((call_U2075)(rr,RELS_TEST,Z1,Z3)) {
+                                LIST_OF_TY_InsertItem(X, Z3, 0, 0, 1);
+                            }
+                        }
+                    }
+                }
+            }
+            return X;
+            ;
+    }
+    rfalse;
+];
+[ call_U2076 rr task X Y Z1 Z2 Z3 Z4;
+    switch (task) {
+        RELS_TEST:
+            if (TestConcealment(X, Y)) {
+                rtrue;
+            }
+            rfalse;
+            ;
+        RELS_LOOKUP_ANY:
+            if ((((Y == RLANY_GET_X)) || ((Y == RLANY_CAN_GET_X)))) {
+                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                    if ((call_U2076)(rr,RELS_TEST,Z1,X)) {
+                        if ((Y == RLANY_CAN_GET_X)) {
+                            rtrue;
+                        }
+                        if ((Y == RLANY_CAN_GET_Y)) {
+                            rtrue;
+                        }
+                        return Z1;
+                    }
+                }
+                if ((Y == RLANY_CAN_GET_X)) {
+                    rfalse;
+                }
+                if ((Y == RLANY_CAN_GET_Y)) {
+                    rfalse;
+                }
+                return DefaultValueOfKOV(OBJECT_TY);
+            } else {
+                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                    if ((call_U2076)(rr,RELS_TEST,X,Z1)) {
+                        if ((Y == RLANY_CAN_GET_X)) {
+                            rtrue;
+                        }
+                        if ((Y == RLANY_CAN_GET_Y)) {
+                            rtrue;
+                        }
+                        return Z1;
+                    }
+                }
+                if ((Y == RLANY_CAN_GET_X)) {
+                    rfalse;
+                }
+                if ((Y == RLANY_CAN_GET_Y)) {
+                    rfalse;
+                }
+                return DefaultValueOfKOV(OBJECT_TY);
+            }
+            ;
+        RELS_LOOKUP_ALL_X:
+            LIST_OF_TY_SetLength(Y, 0);
+            for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                if ((call_U2076)(rr,RELS_TEST,Z1,X)) {
+                    LIST_OF_TY_InsertItem(Y, Z1);
+                }
+            }
+            return Y;
+            ;
+        RELS_LOOKUP_ALL_Y:
+            LIST_OF_TY_SetLength(Y, 0);
+            for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                if ((call_U2076)(rr,RELS_TEST,X,Z1)) {
+                    LIST_OF_TY_InsertItem(Y, Z1);
+                }
+            }
+            return Y;
+            ;
+        RELS_LIST:
+            LIST_OF_TY_SetLength(X, 0);
+            if ((Y == RLIST_ALL_X)) {
+                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                    for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
+                        if ((call_U2076)(rr,RELS_TEST,Z1,Z3)) {
+                            LIST_OF_TY_InsertItem(X, Z1, 0, 0, 1);
+                        }
+                    }
+                }
+            } else {
+                if ((Y == RLIST_ALL_Y)) {
+                    for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                        for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
+                            if ((call_U2076)(rr,RELS_TEST,Z1,Z3)) {
+                                LIST_OF_TY_InsertItem(X, Z3, 0, 0, 1);
+                            }
+                        }
+                    }
+                }
+            }
+            return X;
+            ;
+    }
+    rfalse;
+];
+[ call_U2077 rr task X Y Z1 Z2 Z3 Z4;
     switch (task) {
         RELS_TEST:
             if (0) {
@@ -63784,7 +63919,7 @@ Global max_z_object;
     (wn = range_from);
     (original_wn = wn);
     (rv = GPR_PREPOSITION);
-    if ((NextWordStopped() ~= '1//')) {
+    if ((NextWordStopped() ~= '5//')) {
         jump Fail_1;
     }
     if ((((range_words == 0)) || (((wn - range_from) == range_words)))) {
@@ -63844,7 +63979,7 @@ Global max_z_object;
     (wn = range_from);
     (original_wn = wn);
     (rv = GPR_PREPOSITION);
-    if ((NextWordStopped() ~= '5//')) {
+    if ((NextWordStopped() ~= '1//')) {
         jump Fail_1;
     }
     if ((((range_words == 0)) || (((wn - range_from) == range_words)))) {
@@ -63874,7 +64009,7 @@ Global max_z_object;
     (wn = range_from);
     (original_wn = wn);
     (rv = GPR_PREPOSITION);
-    if ((NextWordStopped() ~= '1234')) {
+    if ((NextWordStopped() ~= 'jubjub')) {
         jump Fail_1;
     }
     if ((((range_words == 0)) || (((wn - range_from) == range_words)))) {

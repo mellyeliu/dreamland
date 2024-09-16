@@ -125,9 +125,9 @@ The Bedroom is a room. "
 .         |       ||      ||      |%[line break]
   &%&--==--&%-==--%&[line break]
 
-[if roomCount is 0]Your bedroom is unadorned. The walls are chalky and the ground bare. The only decoration is a poster of The Killers. A lightbulb hangs from the ceiling. A tiny window is opened a crack, and the sound of faint static comes through.[else if roomCount is 1]You step into the bedroom and are flooded with emotion. Every inch of its surface now looks as if it's been dipped in. The walls are pulsating and warm, shifting from blue to red to violet. [else if roomCount is 2] It's weird to see things in 3D now. Your room has gone back to normal. There's an odd humming coming from your computer, though. [end if] To the south your kitchen fridge hums.
+[if roomCount is 0]Your bedroom is unadorned. The walls are chalky and the ground bare. The only decoration is a poster of The Killers. A lightbulb hangs from the ceiling. A tiny window is opened a crack, and the sound of faint static comes through.[else if roomCount is 1]You step into the bedroom and are flooded with emotion. Every inch of its surface now looks as if it's been dipped in. The walls are pulsating and warm, shifting from blue to red to violet. [else if roomCount is 2] It's weird to see things in 3D now. Your room has gone back to normal. There's an odd humming coming from your computer, though. [end if].
 
-[if roomCount is 0]In the corner your monitor blinks wearily. You must've forgotten to turn it off. [else if roomCount is 1]Lo-fi indie is playing from your computer. You notice movement on the screen.[end if] Beside you is a worn out drawer. To the north is a cramped closet.
+[if roomCount is 0]In the corner your monitor blinks wearily. You must've forgotten to turn it off. [else if roomCount is 1]Lo-fi indie is playing from your computer. You notice movement on the screen.[end if] Beside you is a worn out drawer. To the south your kitchen fridge hums. To the north is a cramped closet.
 ".
 
 A poster is here. It is fixed in place. A lightbulb is here. It is fixed in place. It is a device. It is switched off. A drawer is here. It is a container. It is openable. It is closed. It is locked. It is fixed in place. A journal, crayons, and glasses is inside the drawer. The glasses is wearable.
@@ -149,12 +149,12 @@ A browser is open to an email inbox. You have several unread emails.
 
 Instead of examining the computer:
 	if roomCount is 2:
-		say "The screen displays five unread emails. You can select an email to read by typing a number from 1 to 5.";
+		say "The browser is open to your email inbox. You have 5 unread emails. You can select an email to read by typing a number from 1 to 5 or type `exit` to leave.";
 		now the command prompt is "> Select an email to read: ".
 
 After reading a command when the command prompt is "> Select an email to read: ":
-	if the player's command matches "1":
-		say "From: Emma - Word Search from Emma[paragraph break]Hi! I made you a word search. Try to find the words Jubjub, Poogle, and Kacheek! It’ll be fun. (Hint: look horizontally, vertically, and diagonally.)";
+	if the player's command matches "5":
+		say "From: Emma - Word Search from Emma[paragraph break]Hi! I made you a word search. It contains all my favourite neopets! It’ll be fun.";
 		reject the player's command;
 	else if the player's command matches "2":
 		say "From: Mr. Anderson - Welcome to 5th Grade![paragraph break]Dear Student, Welcome to 5th grade! We are excited to have you. Make sure to bring your materials on the first day. Your new teacher, Mr. Anderson.";
@@ -165,7 +165,7 @@ After reading a command when the command prompt is "> Select an email to read: "
 	else if the player's command matches "4":
 		say "From: School Admin - Field Trip to the Science Museum[paragraph break]Parents and Guardians, We are planning a field trip to the Science Museum next month. Please submit the signed permission slip by Friday.";
 		reject the player's command;
-	else if the player's command matches "5":
+	else if the player's command matches "1":
 		say "From: Art Class Reminder - Reminder: Bring Your Crayons to Art Class![paragraph break]This is a reminder to bring your crayons to art class next week. We’ll be doing a special drawing activity.";
 		reject the player's command;
 	else if the player's command matches "exit":
@@ -217,17 +217,21 @@ Section 2 - Closet
 
 The Closet is north of the Bedroom. "The closet is small and cramped, with a single cardboard box in the corner. It's dimly lit, and you can smell a faint musty odor, as if the space hasn’t been opened in years. The walls are lined with old, forgotten coats, and the ceiling is low, making the space feel claustrophobic."
 
-A suitcase is here. The description of the suitcase is "[if the suitcase is closed] A small black suitcase with a tag that reads '[italic type]My favourite ice cream[roman type]' and a keypad on the side. It looks like it requires a passcode to open. [else] Inside the suitcase is a collection of random objects, a yearbook, a record player, and a narwhal". A suitcase is locked and closed. The suitcase is a container. It is fixed in place. A yearbook, record player, and narwhal is in the suitcase.
+A suitcase is here. The description of the suitcase is "[if the suitcase is closed] A small black suitcase with a tag that reads '[italic type]My favourite neopet[roman type]' and a keypad on the side. It looks like it requires a passcode to open. [else] Inside the suitcase is a collection of random objects, a yearbook, a record player, and a narwhal". A suitcase is locked and closed. The suitcase is a container. It is fixed in place. A yearbook, record player, and narwhal is in the suitcase.
 
+Instead of unlocking the suitcase with the key:
+	now the command prompt is "> This suitcase requires a passcode: ";
+
+	
 Instead of opening the suitcase:
 	now the command prompt is "> This suitcase requires a passcode: ";
 
 
 After reading a command when the command prompt is "> This suitcase requires a passcode: ":
-	if the player's command matches "1234":
+	if the player's command matches "jubjub":
 		now the suitcase is open;
 		now the command prompt is ">";
-		say "The suitcase clicks open as the passcode is accepted.";
+		say "The suitcase clicks open. Inside the suitcase is a collection of random objects, a yearbook, a record player, and a narwhal";
 	otherwise:
 		say "The suitcase beeps. The passcode is incorrect.";
 		now the command prompt is ">";
@@ -242,6 +246,9 @@ Section 2 - KITCHEN
 The Kitchen is south of the Bedroom. "Your kitchen has seen better days. A fridge lies in one corner. Near the door is a row of plants with yellowing leaves. At the north corner is a door that leads onto the street."
 
 The silver key is a thing. The description is “A stainless steel key, slightly bigger than your thumb. It's wet with your saliva.” The matching key of the drawer is the silver key. The silver key is nowhere.
+
+After unlocking the drawer with the silver key:
+	now the drawer is open;
 
 A jug is here. 
 
@@ -402,6 +409,7 @@ Instead of giving dandelion to Emma:
 
 	'I wished for a friend,' she says abruptly. She gazes at you in wonder. 'I've never had a friend. Will you be my friend?";
 	now the command prompt is "> Befriend Emma? Y/N";
+	reject the player's command.
 
 The crayola key is nowhere. It is fixed in place.
 
@@ -514,8 +522,8 @@ A journal is a thing. It is portable. The description of the journal is "A worn 
 
 TABLE OF CONTENTS:[line break]
 	1  TOYBOX[line break]
-	2  ??????????[line break]
-	3  ??????????[line break]".
+	2  [if the player is carrying the narwhal]PLUSHIELAND[else]?????[end if][line break]
+	3  [if the player is carrying the narwhal]TERMINAL[else]?????[line break]".
 	
 The journal is an openable closed container. A journal has a number called the last page read.
 
@@ -534,7 +542,7 @@ Carry out reading:
 Table of Book Contents
 page	content
 1	"TOYBOX"
-2	"PLUSHIELAND"
+2	"[if the player is carrying the narwhal]PLUSHIELAND[else]?????"
 3	"??????"
 4	"??????"
 
@@ -545,8 +553,12 @@ To read page (N - a number):
 			say "A thunderous crack cuts through the air. Everything begins to spin. You watch as everything around you dissolves and reforms until your eyes begin to burn from the distortion. [N]. '[content entry]'[paragraph break]";
 			move player to Toybox;
 		if N is 2:	
-			say "A thunderous crack cuts through the air. Everything begins to spin. You watch as everything around you dissolves and reforms until your eyes begin to burn from the distortion. [N]. '[content entry]'[paragraph break]";
-			move player to Plushieland;
+			if the player is carrying the narwhal:
+				say "A thunderous crack cuts through the air. Everything begins to spin. You watch as everything around you dissolves and reforms until your eyes begin to burn from the distortion. [N]. '[content entry]'[paragraph break]";
+				move Emma to Plushieland;
+				move player to Plushieland;
+			else: 
+				say "Page [N] appears to be blank.";
 	otherwise:
 		say "Page [N] appears to be blank."
 
