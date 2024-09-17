@@ -151,10 +151,12 @@ After looking in the Bedroom:
 	now helpInstructions is 1;
 
 A window is here. It is fixed in place. The description of window is "North facing. Not a lot of light coming in.".A poster is here. It is fixed in place. A lightbulb is here. It is fixed in place. It is a device. It is switched off. A drawer is here. It is a container. It is openable. It is closed. It is locked. It is fixed in place. A journal, crayons, and glasses is inside the drawer. The glasses is wearable.
-The description of drawer is "It's covered with a layer of dust and lined with faint scratches. You can make out a tiny keyhole in the upper right corner.".
+The description of drawer is "It's covered with a layer of dust and lined with faint scratches. You can make out a tiny keyhole in the upper right corner.". A keyhole is here. It is scenery. The description of keyhole is "A standard keyhole.".
 The description of lightbulb is "A single lightbulb. A string dangles.".
 The description of poster is "A relic of your emo era. The corners have frayed over the years. ".
-The description of crayons is "A bright yellow box. On it are instructions on how to draw certain shapes: a bunny, a lion, a narwhal, and a unicorn. Good for fixing things, if you're in the right place."
+The description of crayons is "A bright yellow box. On it are instructions on how to draw certain shapes: a bunny, a lion, a narwhal, and a unicorn. Good for fixing things, if you're in the right place.
+
+[italic type]To draw something with the crayons, type: draw `object` with crayons[roman type].".
 The description of glasses is "A wacky looking pair of with black frames and blue-purple swirling lenses. On the side are the words [italic type] Sentence Scrambler."
 
 After opening the drawer:
@@ -169,7 +171,7 @@ A browser is open to an email inbox. You have several unread emails.
 
 After examining the computer:
 	if roomCount is 2:
-		say "The browser is open to your email inbox. You have 5 unread emails. You can select an email to read by typing a number from 1 to 5 or type `exit` to leave.";
+		say "The browser is open to your email inbox. You have 5 unread emails. [italic type]You can select an email to read by typing a number from 1 to 5. You can type `exit` to leave.[roman type]";
 		now the command prompt is "> Select an email to read: ".
 
 After reading a command when the command prompt is "> Select an email to read: ":
@@ -259,7 +261,7 @@ Carry out examining something:
 
 Section 2 - Closet
 
-The Closet is south of the Bedroom. "The closet is small and cramped, with a single cardboard box in the corner. It's dimly lit, and you can smell a faint musty odor, as if the space hasn’t been opened in years. The walls are lined with old, forgotten coats, and the ceiling is low, making the space feel claustrophobic."
+The Closet is south of the Bedroom. "The closet is small and cramped, with a suitcase in the corner. It's dimly lit, and you can smell a faint musty odor, as if the space hasn’t been opened in years. The walls are lined with old, forgotten coats, and the ceiling is low, making the space feel claustrophobic."
 
 A suitcase is here. The description of the suitcase is "[if the suitcase is closed] A small black suitcase and a keypad on the side. It looks like it requires a passcode to open. [else] Inside the suitcase is a collection of random objects, a yearbook, a record player, and a narwhal". A suitcase is locked and closed. The suitcase is a container. It is fixed in place. A yearbook, record player, and narwhal is in the suitcase. A keypad is here. It is fixed in place. The description is "A numeric keypad, a little old fashioned. The tag reads '[italic type]My favourite neopet[roman type]'.".
 
@@ -295,7 +297,7 @@ After unlocking the drawer with the silver key:
 	say "The drawer yawns open lazily. In it are a journal, crayons and glasses.";
 	now the drawer is open;
 
-A jug is here. The description is "Filled with water."
+A jug is here. The description is "It's filled with water."
 
 The plant is a thing. It is here. It is fixed in place. The description is "It looks parched.".
 Understand "water [something]" as watering. Watering is an action applying to one thing.
@@ -303,7 +305,7 @@ Understand "water [something]" as watering. Watering is an action applying to on
 After watering the plant:
 	if the player is carrying the jug:
 		say "You water the plant with the jug. The plant perks up a little.";
-		now the description of the plant is "It's standing a bit taller now";
+		now the description of the plant is "It's standing a bit taller now.";
 	else: 
 		say "You don't have anything to water it with.".
 
@@ -404,7 +406,7 @@ Section 3,1 - EMMA
 
 The Treehouse is a room. "You have entered a cozy treehouse. It has a wooden floor, a small table with some board games, a hammock, and a small girl around the age of 6. There's a window with a view of the forest below.
 
-The girl is doodling furiously. It's some sort of composition of flowers. Every moment she pauses to wipe her wax-covered hands on her skirt. When she sees you, she cries out in delight. 
+The girl is doodling furiously. It's some sort of composition of flowers. Every now and then she pauses to wipe her wax-covered hands on her skirt. When she sees you, she cries out in delight. 
 
 'I see you managed to fix the ladder,' she says. I was getting bored up here. What took you so long?'"
 
@@ -445,7 +447,7 @@ After going to the Treehouse for the first time:
 
 emmaTalk is a number that varies. emmaTalk is 1.
 
-Emma is a person in the Treehouse. The description of Emma is "[if Emma is in Treehouse]A small girl wearing a checkered dress. Her hair is in neat plaits and her socks are mismatched. She looks familiar. [else] Emma looks bigger than you remember. She's fiddling with a sewing needle.[end if]
+Emma is a person in the Treehouse. The description of Emma is "[if Emma is in Treehouse]A small girl wearing a checkered dress. Her hair is in neat plaits and her socks are mismatched. She looks familiar. [else] Emma looks taller than you remember. She's fiddling with a sewing needle.[end if]
 
 [italic type]You can interact with her by typing: ask [if emmaName is 1]Emma[else]girl[end if] about `topic`. The topic should be a singular word.[roman type]". Understand "girl" or "child" or "kid" as Emma.
 
@@ -508,6 +510,10 @@ Instead of asking Emma about "hi":
     say "[if emmaName is 1]Emma[else]She[end if] crushes you in a hug. You found me!".
 Instead of asking Emma about "drawing":
     say "'C'mon! Let's draw together', she cries.".
+Instead of asking Emma about "doodle":
+    say "'C'mon! Let's draw together', she cries.".
+Instead of asking Emma about "drawing":
+    say "'C'mon! Let's draw together', she cries.".
 Instead of asking Emma about "crayons":
     say "Her eyes go wide. 'Waahhhh! Crayons! Can I eat one?' she cries. 'Just kidding. But I wonder if you could help me out with my wish.'".
 Instead of asking Emma about "wish":
@@ -557,6 +563,7 @@ A journal is a thing. It is portable. The description of the journal is "A worn 
 
 
 TABLE OF CONTENTS:[line break]
+	0. BEDROOM [line break]
 	1.  TOYBOX[line break]
 	2.  [if the player is carrying the narwhal]PLUSHIELAND[else]?????[end if][line break]
 	3. ?????
@@ -578,28 +585,31 @@ Carry out reading:
 
 Table of Book Contents
 page	content
+0	"BEDROOM"
 1	"TOYBOX"
 2	"[if the player is carrying the narwhal]PLUSHIELAND[else]?????"
 3	"??????"
 4	"??????"
 
 To read page (N - a number):
-	if there is a content corresponding to a page of N in the Table of Book Contents:
-		choose row with a page of N in the Table of Book Contents;
-		if N is 1:
+	if N is 0:
+		say "A thunderous crack cuts through the air. Everything begins to spin. You watch as everything around you dissolves and reforms until your eyes begin to burn from the distortion.";
+		move player to Bedroom;
+		reject the player's command;
+	if N is 1:
+		say "A thunderous crack cuts through the air. Everything begins to spin. You watch as everything around you dissolves and reforms until your eyes begin to burn from the distortion.";
+		move player to Toybox;
+		reject the player's command;
+	if N is 2:	
+		if the player is carrying the narwhal:
 			say "A thunderous crack cuts through the air. Everything begins to spin. You watch as everything around you dissolves and reforms until your eyes begin to burn from the distortion.";
-			move player to Toybox;
-		if N is 2:	
-			if the player is carrying the narwhal:
-				say "A thunderous crack cuts through the air. Everything begins to spin. You watch as everything around you dissolves and reforms until your eyes begin to burn from the distortion. [N]. '[content entry]'[paragraph break]";
-				move Emma to Plushieland;
-				move player to Plushieland;
-			else: 
-				say "Page [N] appears to be blank.";
-		if N > 2:
+			move Emma to Plushieland;
+			move player to Plushieland;
+			reject the player's command;
+		otherwise: 
 			say "Page [N] appears to be blank.";
-	otherwise:
-		say "Page [N] appears to be blank."
+	else:
+		say "Page [N] appears to be blank.".
 
 Understand the command "read" as something new.
 Understand the command "write" as something new.

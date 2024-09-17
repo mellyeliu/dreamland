@@ -13548,6 +13548,348 @@ In the corner your monitor blinks wearily. You must've forgotten to turn it off.
  
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7169"></child>
+        </children>
+    </item>
+    <item nodeId="node-7169">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Closet
+The closet is small and cramped, with a single cardboard box in the corner. It's dimly lit, and you can smell a faint musty odor, as if the space hasn't been opened in years. The walls are lined with old, forgotten coats, and the ceiling is low, making the space feel claustrophobic.
+
+You can see a suitcase (closed) and a keypad here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7170"></child>
+        </children>
+    </item>
+    <item nodeId="node-7170">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Bedroom
+ .   \_/       .:"    .:"    .:"
+ -=(_)=- /\ ||    /\||    /\||
+ .   / \     //\\|   //\\|   //\\|
+ .          //  \\  //  \\  //  \\
+ .         //    \ ^/    \^/    \\
+ .         |  ( )  ||  ( ) || ( ) |
+ .         |       ||      ||      |%
+ &amp;%&amp;--==--&amp;%-==--%&amp;
+
+
+Your bedroom is unadorned. The walls are chalky and the ground bare. The only decoration is a poster of The Killers. A lightbulb hangs from the ceiling. A tiny window is opened a crack, and the sound of faint static comes through.
+
+In the corner your monitor blinks wearily. You must've forgotten to turn it off.  Beside you is a worn out drawer. To the north your kitchen fridge hums. To the south is a cramped closet.  
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7171"></child>
+        </children>
+    </item>
+    <item nodeId="node-7171">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Kitchen
+Your kitchen has seen better days. A fridge lies in one corner. Near the door is a row of plants with yellowing leaves.
+
+You can see a jug, a plant, a note and a fridge (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7172"></child>
+        </children>
+    </item>
+    <item nodeId="node-7172">
+        <command xml:space="preserve">open fridge</command>
+        <result xml:space="preserve">The fridge contains a jug and a piece of candy. The candy beckons to you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7173"></child>
+        </children>
+    </item>
+    <item nodeId="node-7173">
+        <command xml:space="preserve">eat candy</command>
+        <result xml:space="preserve">(first taking the candy)
+You pocket the candy. It feels heavy, like nostalgia.
+
+You unwrap the candy and pop it in your mouth. It tastes of a strange medley of flavours - vanilla custard, citrus, a hint of buttered toast. Delightful.
+
+A sudden prickling rips through your throat, like you've swallowed something you shouldn't have. You double over, coughing, clutching the counter for balance. There's something lodged in your throat.
+
+Clang! Out comes a small piece of metal. You pick it up, bewildered. It's a small key.
+
+You can press i to view your inventory.
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7183"></child>
+        </children>
+    </item>
+    <item nodeId="node-7183">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a silver key
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7184"></child>
+        </children>
+    </item>
+    <item nodeId="node-7184">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Bedroom
+ .   \_/       .:"    .:"    .:"
+ -=(_)=- /\ ||    /\||    /\||
+ .   / \     //\\|   //\\|   //\\|
+ .          //  \\  //  \\  //  \\
+ .         //    \ ^/    \^/    \\
+ .         |  ( )  ||  ( ) || ( ) |
+ .         |       ||      ||      |%
+ &amp;%&amp;--==--&amp;%-==--%&amp;
+
+
+You step into the bedroom and are flooded with emotion. Every inch of its surface now looks as if it's been dipped in. The walls are pulsating and warm, shifting from blue to red to violet. 
+
+Lo-fi indie is playing from your computer. You notice movement on the screen. Beside you is a worn out drawer. To the north your kitchen fridge hums. To the south is a cramped closet.  
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7185"></child>
+        </children>
+    </item>
+    <item nodeId="node-7185">
+        <command xml:space="preserve">open drawer</command>
+        <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7186"></child>
+        </children>
+    </item>
+    <item nodeId="node-7186">
+        <command xml:space="preserve">open drawer with key</command>
+        <result xml:space="preserve">The drawer yawns open lazily. In it are a journal, crayons and glasses.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7187"></child>
+        </children>
+    </item>
+    <item nodeId="node-7187">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">journal: Taken. A worn out journal in which you've taken to scrawling your dreams.
+
+
+TABLE OF CONTENTS:
+ 0. BEDROOM 
+ 1.  TOYBOX
+ 2.  ?????
+ 3. ?????
+
+You can read the journal by typing: read page N of journal.
+
+crayons: Taken. A bright yellow box. On it are instructions on how to draw certain shapes: a bunny, a lion, a narwhal, and a unicorn. Good for fixing things, if you're in the right place.
+
+To draw something with the crayons, type: draw `object` with crayons.
+
+glasses: Taken. A wacky looking pair of with black frames and blue-purple swirling lenses. On the side are the words  Sentence Scrambler.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7188"></child>
+        </children>
+    </item>
+    <item nodeId="node-7188">
+        <command xml:space="preserve">read page 1 of journal</command>
+        <result xml:space="preserve">A thunderous crack cuts through the air. Everything begins to spin. You watch as everything around you dissolves and reforms until your eyes begin to burn from the distortion.
+
+Toybox (Dreamland)
+ |                  /\   
+ |                 / | \ 
+ |                / | | \ 
+ |               /_|_|_|_
+ |                |     / /
+ |__    __    __ |    / /__    __    __
+ |  |__|  |__|  |.   / /|  |__|  |__|  |
+ |__            ____/ /___           __|
+ |          / .------  )         |
+ |         / /        /          |  TOYBOX
+ |        / /        /           |
+ ~~~~~~~~~~~~-----------~~~~~~~~
+
+
+You open your eyes to pure whiteness. Every bit of empty space is blue lines, pink margins...
+
+Margins! That's it. The world you're in is rendered on notebook paper. Objects are flat, paperlike, outlined in waxy lines. You look down at your hands and suppress a cry of shock. You're wearing a triangular smock of purple and your body is composed of black lines. You unfurl your fingers and watch as the lines retract and relax.
+
+You take in the rest of your surroundings. You seem to be in a playground of sorts. There's a set of swings and a playstructure in a garish primary colours. In the distance is a forest, the paper trees swaying in the wind. One of the trees stands proudly in the center, a broken ladder propped against it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7189"></child>
+        </children>
+    </item>
+    <item nodeId="node-7189">
+        <command xml:space="preserve">read page 0 of journal</command>
+        <result xml:space="preserve">A thunderous crack cuts through the air. Everything begins to spin. You watch as everything around you dissolves and reforms until your eyes begin to burn from the distortion.
+
+Bedroom
+ .   \_/       .:"    .:"    .:"
+ -=(_)=- /\ ||    /\||    /\||
+ .   / \     //\\|   //\\|   //\\|
+ .          //  \\  //  \\  //  \\
+ .         //    \ ^/    \^/    \\
+ .         |  ( )  ||  ( ) || ( ) |
+ .         |       ||      ||      |%
+ &amp;%&amp;--==--&amp;%-==--%&amp;
+
+
+You step into the bedroom and are flooded with emotion. Every inch of its surface now looks as if it's been dipped in. The walls are pulsating and warm, shifting from blue to red to violet. 
+
+Lo-fi indie is playing from your computer. You notice movement on the screen. Beside you is a worn out drawer. To the north your kitchen fridge hums. To the south is a cramped closet.  
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7254"></child>
+        </children>
+    </item>
+    <item nodeId="node-7254">
+        <command xml:space="preserve">read page 1 of journal</command>
+        <result xml:space="preserve">A thunderous crack cuts through the air. Everything begins to spin. You watch as everything around you dissolves and reforms until your eyes begin to burn from the distortion.
+
+Toybox (Dreamland)
+ |                  /\   
+ |                 / | \ 
+ |                / | | \ 
+ |               /_|_|_|_
+ |                |     / /
+ |__    __    __ |    / /__    __    __
+ |  |__|  |__|  |.   / /|  |__|  |__|  |
+ |__            ____/ /___           __|
+ |          / .------  )         |
+ |         / /        /          |  TOYBOX
+ |        / /        /           |
+ ~~~~~~~~~~~~-----------~~~~~~~~
+
+
+You open your eyes to pure whiteness. Every bit of empty space is blue lines, pink margins...
+
+Margins! That's it. The world you're in is rendered on notebook paper. Objects are flat, paperlike, outlined in waxy lines. You look down at your hands and suppress a cry of shock. You're wearing a triangular smock of purple and your body is composed of black lines. You unfurl your fingers and watch as the lines retract and relax.
+
+You take in the rest of your surroundings. You seem to be in a playground of sorts. There's a set of swings and a playstructure in a garish primary colours. In the distance is a forest, the paper trees swaying in the wind. One of the trees stands proudly in the center, a broken ladder propped against it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7255"></child>
+        </children>
+    </item>
+    <item nodeId="node-7255">
+        <command xml:space="preserve">x crayons</command>
+        <result xml:space="preserve">A bright yellow box. On it are instructions on how to draw certain shapes: a bunny, a lion, a narwhal, and a unicorn. Good for fixing things, if you're in the right place.
+
+To draw something with the crayons, type: draw `object` with crayons.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7256"></child>
+        </children>
+    </item>
+    <item nodeId="node-7256">
+        <command xml:space="preserve">draw bunny with crayons</command>
+        <result xml:space="preserve">You doodle a cute bunny on the page. Its long ears and fluffy tail make it look adorable.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7257"></child>
+        </children>
+    </item>
+    <item nodeId="node-7257">
+        <command xml:space="preserve">draw dolphin with crayons</command>
+        <result xml:space="preserve">You draw dolphin with your crayons. It looks decent, but it's not your best work.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7258"></child>
+        </children>
+    </item>
+    <item nodeId="node-7258">
+        <command xml:space="preserve">draw do with crayons</command>
+        <result xml:space="preserve">You draw do with your crayons. It looks decent, but it's not your best work.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7259"></child>
+        </children>
+    </item>
+    <item nodeId="node-7259">
+        <command xml:space="preserve">draw lion with crayons</command>
+        <result xml:space="preserve">You draw lion with your crayons. It looks decent, but it's not your best work.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7260"></child>
+        </children>
+    </item>
+    <item nodeId="node-7260">
+        <command xml:space="preserve">draw penius with crayons</command>
+        <result xml:space="preserve">You draw penius with your crayons. It looks decent, but it's not your best work.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7261"></child>
+        </children>
+    </item>
+    <item nodeId="node-7261">
+        <command xml:space="preserve">draw penus with crayons</command>
+        <result xml:space="preserve">You draw penus with your crayons. It looks decent, but it's not your best work.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7262"></child>
+        </children>
+    </item>
+    <item nodeId="node-7262">
+        <command xml:space="preserve">draw ladder with crayons</command>
+        <result xml:space="preserve">You draw ladder with your crayons. It looks decent, but it's not your best work.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7263"></child>
+        </children>
+    </item>
+    <item nodeId="node-7263">
+        <command xml:space="preserve">helpd</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7264"></child>
+        </children>
+    </item>
+    <item nodeId="node-7264">
+        <command xml:space="preserve">draw on ladder with crayons</command>
+        <result xml:space="preserve">You color in the missing gaps with the silver crayon. Good as new.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7292"></child>
+        </children>
+    </item>
+    <item nodeId="node-7292">
+        <command xml:space="preserve">climb ladder</command>
+        <result xml:space="preserve">You climb the ladder.
+
+Treehouse
+You have entered a cozy treehouse. It has a wooden floor, a small table with some board games, a hammock, and a small girl around the age of 6. There's a window with a view of the forest below.
+
+The girl is doodling furiously. It's some sort of composition of flowers. Every moment she pauses to wipe her wax-covered hands on her skirt. When she sees you, she cries out in delight.
+
+"I see you managed to fix the ladder," she says. I was getting bored up here. What took you so long?"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-3138">
         <command xml:space="preserve">go to toybox</command>
