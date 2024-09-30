@@ -2688,6 +2688,7 @@ Constant anchor_U419 = 1105;
 Constant anchor_U420 = 1105;
 Constant anchor_U421 = 1105;
 Constant anchor_U422 = 1105;
+Constant anchor_U423 = 1105;
 Constant property_id_U95 = 41;
 Constant property_id_U96 = 42;
 Constant property_id_U97 = 43;
@@ -2968,6 +2969,11 @@ Constant line_ref_U234 = 561;
 Constant line_ref_U235 = 561;
 Constant line_ref_U236 = 561;
 Constant line_ref_U237 = 561;
+Constant line_ref_U238 = 561;
+Constant line_ref_U239 = 561;
+Constant line_ref_U240 = 561;
+Constant line_ref_U241 = 561;
+Constant line_ref_U242 = 561;
 Constant KIT_CONFIGURATION_BITMAP = 256;
 Constant KIT_CONFIGURATION_LOOKMODE = 2;
 Constant MAX_FRAME_SIZE_NEEDED = 6;
@@ -3966,7 +3972,7 @@ Constant Computed_Constant_Value_0_U4 = 1;
 Constant EMPTY_TEXT_PACKED = "";
 Constant I7_VERSION_NUMBER = "10.1.2";
 Constant I7_FULL_VERSION_NUMBER = "10.1.2";
-Serial "240916";
+Serial "240928";
 Constant alphabetised_text_0 = ">";
 Constant alphabetised_text_1 = "> ";
 Constant alphabetised_text_2 = "> Befriend Emma? Y/N";
@@ -4019,7 +4025,7 @@ Constant alphabetised_text_48 = "Treehouse";
 Constant alphabetised_text_49 = "UNDO the last command";
 Constant alphabetised_text_50 = "Warped plastics. Doesn't look safe to visit.";
 Constant alphabetised_text_51 = "You have entered a cozy treehouse. It has a wooden floor, a small table with some board games, a hammock, and a small girl around the age of 6. There's a window with a view of the forest below.^^The girl is doodling furiously. It's some sort of composition of flowers. Every now and then she pauses to wipe her wax-covered hands on her skirt. When she sees you, she cries out in delight.^^~I see you managed to fix the ladder,~ she says. I was getting bored up here. What took you so long?~";
-Constant alphabetised_text_52 = "You wake up in world of cotton. Everything you see is rendered in a shade of pastel - the turgid river, the sky, the meadows in front of you. Before you are a medley of anthropomorphic plushies. You spot a jubjub, hedgehog, and even a djungelskog. A girl around the age of seven is playing with the stuffed animals.";
+Constant alphabetised_text_52 = "You wake up in world of cotton. Everything you see is rendered in a shade of pastel - the turgid river, the sky, the meadows in front of you. You reach out a hand, tentatively. The cotton is soft.^^Before you are a medley of anthropomorphic plushies. You spot a jubjub, hedgehog, and even a djungelskog. A girl around the age of seven is playing with the stuffed animals.";
 Constant alphabetised_text_53 = "You're bizarrely attached to your fridge. It's charming in its age, rickedy, humming in a contented manner. It's covered with  and a note is pinned to it.";
 Constant alphabetised_text_54 = "Your kitchen has seen better days. A fridge lies in one corner. Near the door is a row of plants with yellowing leaves.";
 Constant alphabetised_text_55 = "Yourself";
@@ -4577,7 +4583,7 @@ Array activity_var_creators --> [ 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0
 Array TimedEventsTable table [ 0; 0; ];
 Array TimedEventTimesTable table [ 0; 0; ];
 Array PastActionsI6Routines --> [ PAPR1; 0; 0; ];
-Array TableOfVerbs --> [ call_U133; call_U134; call_U135; call_U136; call_U137; call_U138; call_U139; call_U140; call_U141; call_U142; call_U143; call_U144; call_U145; call_U146; call_U147; call_U148; call_U149; call_U150; call_U151; call_U1869; call_U1870; call_U1871; call_U1872; call_U1873; call_U1874; call_U1875; call_U1876; call_U1877; call_U1878; call_U1879; call_U1880; call_U1881; call_U1882; call_U1883; call_U1884; call_U1885; call_U1886; call_U1887; call_U1888; call_U1889; call_U1890; call_U1891; call_U1892; call_U1893; call_U1894; call_U1895; call_U1896; call_U1897; call_U1898; call_U1899; call_U1900; call_U1901; call_U1902; call_U1903; call_U1904; call_U1905; call_U1906; call_U1907; call_U1908; call_U1909; call_U1910; call_U1911; call_U1912; call_U1913; call_U1914; call_U1915; call_U1916; call_U1917; call_U1918; call_U1919; call_U1920; call_U1921; call_U1922; call_U1923; call_U1924; call_U1925; call_U1926; call_U1927; call_U1928; call_U1929; call_U1930; call_U1931; call_U1932; call_U1933; call_U1934; call_U1935; call_U1936; call_U1937; call_U1938; call_U1939; call_U204; call_U205; call_U206; call_U207; call_U208; call_U209; call_U2074; call_U2075; call_U2076; call_U2077; call_U2078; call_U2079; 0; ];
+Array TableOfVerbs --> [ call_U133; call_U134; call_U135; call_U136; call_U137; call_U138; call_U139; call_U140; call_U141; call_U142; call_U143; call_U144; call_U145; call_U146; call_U147; call_U148; call_U149; call_U150; call_U151; call_U1869; call_U1870; call_U1871; call_U1872; call_U1873; call_U1874; call_U1875; call_U1876; call_U1877; call_U1878; call_U1879; call_U1880; call_U1881; call_U1882; call_U1883; call_U1884; call_U1885; call_U1886; call_U1887; call_U1888; call_U1889; call_U1890; call_U1891; call_U1892; call_U1893; call_U1894; call_U1895; call_U1896; call_U1897; call_U1898; call_U1899; call_U1900; call_U1901; call_U1902; call_U1903; call_U1904; call_U1905; call_U1906; call_U1907; call_U1908; call_U1909; call_U1910; call_U1911; call_U1912; call_U1913; call_U1914; call_U1915; call_U1916; call_U1917; call_U1918; call_U1919; call_U1920; call_U1921; call_U1922; call_U1923; call_U1924; call_U1925; call_U1926; call_U1927; call_U1928; call_U1929; call_U1930; call_U1931; call_U1932; call_U1933; call_U1934; call_U1935; call_U1936; call_U1937; call_U1938; call_U1939; call_U204; call_U205; call_U206; call_U207; call_U208; call_U209; call_U2075; call_U2076; call_U2077; call_U2078; call_U2079; call_U2080; 0; ];
 Array KindHierarchy --> [ K0_kind; 0; K1_room; 0; K2_thing; 0; K3_direction; 0; K4_door; 2; K5_container; 2; K6_supporter; 2; K7_backdrop; 2; K8_person; 2; K9_region; 0; K10_man; 8; K11_woman; 8; K12_animal; 8; K13_device; 2; K14_vehicle; 5; K15_player_s_holdall; 5; ];
 Array ResourceIDsOfFigures --> [ 0; 1; 0; ];
 Array ResourceIDsOfSounds --> [ 0; 0; ];
@@ -5876,26 +5882,26 @@ Array column_data_U10 table [ column_bits_U10; column_blanks_U9; 0; 1; 2; 3; 4; 
 Array column_data_U11 table [ column_bits_U11; column_blanks_U10; bc_U399; bc_U400; ts_array_U407; bc_U401; bc_U402; ];
 Array bc_U399 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U159; ];
 Array bc_U400 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U160; ];
-Array ts_array_U407 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U2080; ];
+Array ts_array_U407 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U2081; ];
 Array bc_U401 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U161; ];
 Array bc_U402 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U162; ];
 Array table_data_U4 table [ column_data_U10; column_data_U11; ];
-Array Rel_Record3 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "equality relation"; abilities_U3; 0; DK5_relation_of_values; call_U2081; "is"; ];
-Array Rel_Record4 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "meaning relation"; abilities_U4; 0; DK6_relation_of_objects; call_U2082; "means"; ];
-Array Rel_Record5 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "possession relation"; abilities_U5; 0; DK6_relation_of_objects; call_U2083; "has"; ];
-Array Rel_Record6 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "universal relation"; abilities_U6; 0; DK6_relation_of_objects; call_U2084; "relates"; ];
-Array Rel_Record7 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "provision relation"; abilities_U7; 0; DK6_relation_of_objects; call_U2085; "provides"; ];
-Array Rel_Record8 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "containment relation"; abilities_U8; 0; DK6_relation_of_objects; call_U2086; "contains"; ];
-Array Rel_Record9 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "support relation"; abilities_U9; 0; DK7_relation_of_supporters_t; call_U2087; "supports"; ];
-Array Rel_Record10 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "incorporation relation"; abilities_U10; 0; DK8_relation_of_things; call_U2088; "incorporates"; ];
-Array Rel_Record11 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "enclosure relation"; abilities_U11; 0; DK6_relation_of_objects; call_U2089; "encloses"; ];
-Array Rel_Record12 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "carrying relation"; abilities_U12; 0; DK9_relation_of_people_to_th; call_U2090; "carries"; ];
-Array Rel_Record13 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "holding relation"; abilities_U13; 0; DK9_relation_of_people_to_th; call_U2091; "holds"; ];
-Array Rel_Record14 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "wearing relation"; abilities_U14; 0; DK9_relation_of_people_to_th; call_U2092; "wears"; ];
-Array Rel_Record15 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "visibility relation"; abilities_U15; 0; DK8_relation_of_things; call_U2093; "can-see"; ];
-Array Rel_Record16 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "touchability relation"; abilities_U16; 0; DK8_relation_of_things; call_U2094; "can-touch"; ];
-Array Rel_Record17 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "concealment relation"; abilities_U17; 0; DK8_relation_of_things; call_U2095; "conceals"; ];
-Array Rel_Record18 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "never-holding relation"; abilities_U18; 0; DK5_relation_of_values; call_U2096; "is"; ];
+Array Rel_Record3 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "equality relation"; abilities_U3; 0; DK5_relation_of_values; call_U2082; "is"; ];
+Array Rel_Record4 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "meaning relation"; abilities_U4; 0; DK6_relation_of_objects; call_U2083; "means"; ];
+Array Rel_Record5 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "possession relation"; abilities_U5; 0; DK6_relation_of_objects; call_U2084; "has"; ];
+Array Rel_Record6 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "universal relation"; abilities_U6; 0; DK6_relation_of_objects; call_U2085; "relates"; ];
+Array Rel_Record7 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "provision relation"; abilities_U7; 0; DK6_relation_of_objects; call_U2086; "provides"; ];
+Array Rel_Record8 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "containment relation"; abilities_U8; 0; DK6_relation_of_objects; call_U2087; "contains"; ];
+Array Rel_Record9 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "support relation"; abilities_U9; 0; DK7_relation_of_supporters_t; call_U2088; "supports"; ];
+Array Rel_Record10 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "incorporation relation"; abilities_U10; 0; DK8_relation_of_things; call_U2089; "incorporates"; ];
+Array Rel_Record11 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "enclosure relation"; abilities_U11; 0; DK6_relation_of_objects; call_U2090; "encloses"; ];
+Array Rel_Record12 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "carrying relation"; abilities_U12; 0; DK9_relation_of_people_to_th; call_U2091; "carries"; ];
+Array Rel_Record13 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "holding relation"; abilities_U13; 0; DK9_relation_of_people_to_th; call_U2092; "holds"; ];
+Array Rel_Record14 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "wearing relation"; abilities_U14; 0; DK9_relation_of_people_to_th; call_U2093; "wears"; ];
+Array Rel_Record15 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "visibility relation"; abilities_U15; 0; DK8_relation_of_things; call_U2094; "can-see"; ];
+Array Rel_Record16 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "touchability relation"; abilities_U16; 0; DK8_relation_of_things; call_U2095; "can-touch"; ];
+Array Rel_Record17 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "concealment relation"; abilities_U17; 0; DK8_relation_of_things; call_U2096; "conceals"; ];
+Array Rel_Record18 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "never-holding relation"; abilities_U18; 0; DK5_relation_of_values; call_U2097; "is"; ];
 Array bc_U403 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U163; ];
 Array bc_U404 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U164; ];
 Array bc_U405 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U165; ];
@@ -6628,7 +6634,7 @@ K2_thing -> -> I_ballpoint_pen_U1    with short_name bc_U228
 K13_device -> -> I_computer_U1    with short_name bc_U234
     with description ts_array_U398
     has static
-    has ~on
+    has on
     with vector 0
     has mark_as_thing
     has switchable
@@ -9780,7 +9786,7 @@ Global max_z_object;
             rtrue;
         }
         if ((R == call_U2013)) {
-            print "Carry out switching on computer";
+            print "After switching on computer";
             rtrue;
         }
         if ((R == call_U2014)) {
@@ -9788,75 +9794,75 @@ Global max_z_object;
             rtrue;
         }
         if ((R == call_U2015)) {
-            print "After switching on the computer";
-            rtrue;
-        }
-        if ((R == call_U2016)) {
-            print "After switching off the computer";
-            rtrue;
-        }
-        if ((R == call_U2017)) {
             print "After taking something unexamined";
             rtrue;
         }
-        if ((R == call_U2018)) {
+        if ((R == call_U2016)) {
             print "Carry out examining something";
             rtrue;
         }
-        if ((R == call_U2019)) {
+        if ((R == call_U2017)) {
             print "Instead of unlocking the suitcase with the key";
             rtrue;
         }
-        if ((R == call_U2020)) {
+        if ((R == call_U2018)) {
             print "Instead of opening the suitcase";
             rtrue;
         }
-        if ((R == call_U2021)) {
+        if ((R == call_U2019)) {
             print "After reading a command when the command prompt is @@126@{3e} This suitcase requires a passcode: @@126";
             rtrue;
         }
-        if ((R == call_U2022)) {
+        if ((R == call_U2020)) {
             print "After unlocking the drawer with the silver key";
             rtrue;
         }
-        if ((R == call_U2023)) {
+        if ((R == call_U2021)) {
             print "After watering the plant";
             rtrue;
         }
-        if ((R == call_U2024)) {
+        if ((R == call_U2022)) {
             print "After opening the fridge";
             rtrue;
         }
-        if ((R == call_U2025)) {
+        if ((R == call_U2023)) {
             print "After taking the candy";
             rtrue;
         }
-        if ((R == call_U2026)) {
+        if ((R == call_U2024)) {
             print "After eating the candy";
             rtrue;
         }
-        if ((R == call_U2027)) {
+        if ((R == call_U2025)) {
             print "Check drawing";
             rtrue;
         }
-        if ((R == call_U2028)) {
+        if ((R == call_U2026)) {
             print "Carry out drawing";
             rtrue;
         }
-        if ((R == call_U2029)) {
+        if ((R == call_U2027)) {
             print "Rule for printing the locale description of Toybox";
             rtrue;
         }
-        if ((R == call_U2030)) {
+        if ((R == call_U2028)) {
             print "Rule for printing the locale description of the Treehouse";
             rtrue;
         }
-        if ((R == call_U2031)) {
+        if ((R == call_U2029)) {
             print "Instead of climbing the ladder when the ladder is broken";
             rtrue;
         }
-        if ((R == call_U2032)) {
+        if ((R == call_U2030)) {
             print "Check drawing on the ladder with the crayons";
+            rtrue;
+        }
+        if ((R == call_U2031)) {
+            print "Carry out drawing on the ladder with the crayons";
+            rtrue;
+        }
+        if ((R == call_U2032)) {
+            print "Report drawing on the ladder with the crayons";
             rtrue;
         }
         if ((R == call_U2033)) {
@@ -9952,66 +9958,70 @@ Global max_z_object;
             rtrue;
         }
         if ((R == call_U2057)) {
-            print "Instead of asking Emma about @@126@{66}lowers@@126";
+            print "Instead of asking Emma about @@126@{74}reehouse@@126";
             rtrue;
         }
         if ((R == call_U2058)) {
-            print "Instead of asking Emma about @@126@{64}andelion@@126";
+            print "Instead of asking Emma about @@126@{66}lowers@@126";
             rtrue;
         }
         if ((R == call_U2059)) {
-            print "Instead of asking Emma about @@126@{6e}arwhal@@126";
+            print "Instead of asking Emma about @@126@{64}andelion@@126";
             rtrue;
         }
         if ((R == call_U2060)) {
-            print "Instead of asking Emma about @@126@{70}arents@@126";
+            print "Instead of asking Emma about @@126@{6e}arwhal@@126";
             rtrue;
         }
         if ((R == call_U2061)) {
-            print "Instead of asking Emma about @@126@{66}uck@@126";
+            print "Instead of asking Emma about @@126@{70}arents@@126";
             rtrue;
         }
         if ((R == call_U2062)) {
-            print "Instead of asking Emma about something";
+            print "Instead of asking Emma about @@126@{66}uck@@126";
             rtrue;
         }
         if ((R == call_U2063)) {
-            print "Instead of asking Emma about @@126@{77}orld/where/toybox/notebook/paper@@126";
+            print "Instead of asking Emma about something";
             rtrue;
         }
         if ((R == call_U2064)) {
-            print "Check reading journal";
+            print "Instead of asking Emma about @@126@{77}orld/where/toybox/notebook/paper@@126";
             rtrue;
         }
         if ((R == call_U2065)) {
-            print "Carry out reading it in";
+            print "Check reading journal";
             rtrue;
         }
         if ((R == call_U2066)) {
-            print "Carry out reading";
+            print "Carry out reading it in";
             rtrue;
         }
         if ((R == call_U2067)) {
-            print "After writing journal";
+            print "Carry out reading";
             rtrue;
         }
         if ((R == call_U2068)) {
-            print "After playing record player";
+            print "After writing journal";
             rtrue;
         }
         if ((R == call_U2069)) {
-            print "After taking the narwhal";
+            print "After playing record player";
             rtrue;
         }
         if ((R == call_U2070)) {
-            print "After reading a command when the command prompt is @@126@{3e} Select a song: @@126";
+            print "After taking the narwhal";
             rtrue;
         }
         if ((R == call_U2071)) {
-            print "After opening suitcase";
+            print "After reading a command when the command prompt is @@126@{3e} Select a song: @@126";
             rtrue;
         }
         if ((R == call_U2072)) {
+            print "After opening suitcase";
+            rtrue;
+        }
+        if ((R == call_U2073)) {
             print "Every turn when record player is switched on";
             rtrue;
         }
@@ -27408,12 +27418,12 @@ Global max_z_object;
     rfalse;
 ];
 [ call_U386 forbid_breaks rv;
-    (rv = (call_U2072)());
+    (rv = (call_U2073)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U2072;
+        return call_U2073;
     }
     ((latest_rule_result-->(0)) = 0);
     rfalse;
@@ -27957,12 +27967,12 @@ Global max_z_object;
 [ call_U400 forbid_breaks rv original_deadflag;
     (original_deadflag = deadflag);
     if ((action == ##Climb)) {
-        (rv = (call_U2031)());
+        (rv = (call_U2029)());
         if (rv) {
             if ((rv == 2)) {
                 return reason_the_action_failed;
             }
-            return call_U2031;
+            return call_U2029;
         }
         ((latest_rule_result-->(0)) = 0);
         if ((original_deadflag ~= deadflag)) {
@@ -27991,12 +28001,12 @@ Global max_z_object;
         if (say__p) {
             RulebookParBreak(forbid_breaks);
         }
-        (rv = (call_U2019)());
+        (rv = (call_U2017)());
         if (rv) {
             if ((rv == 2)) {
                 return reason_the_action_failed;
             }
-            return call_U2019;
+            return call_U2017;
         }
         ((latest_rule_result-->(0)) = 0);
     } else {
@@ -28271,6 +28281,20 @@ Global max_z_object;
             return call_U2063;
         }
         ((latest_rule_result-->(0)) = 0);
+        if ((original_deadflag ~= deadflag)) {
+            rfalse;
+        }
+        if (say__p) {
+            RulebookParBreak(forbid_breaks);
+        }
+        (rv = (call_U2064)());
+        if (rv) {
+            if ((rv == 2)) {
+                return reason_the_action_failed;
+            }
+            return call_U2064;
+        }
+        ((latest_rule_result-->(0)) = 0);
     } else {
         if (say__p) {
             RulebookParBreak(forbid_breaks);
@@ -28323,12 +28347,12 @@ Global max_z_object;
         if (say__p) {
             RulebookParBreak(forbid_breaks);
         }
-        (rv = (call_U2020)());
+        (rv = (call_U2018)());
         if (rv) {
             if ((rv == 2)) {
                 return reason_the_action_failed;
             }
-            return call_U2020;
+            return call_U2018;
         }
         ((latest_rule_result-->(0)) = 0);
     } else {
@@ -28401,12 +28425,12 @@ Global max_z_object;
         if (say__p) {
             RulebookParBreak(forbid_breaks);
         }
-        (rv = (call_U2022)());
+        (rv = (call_U2020)());
         if (rv) {
             if ((rv == 2)) {
                 return reason_the_action_failed;
             }
-            return call_U2022;
+            return call_U2020;
         }
         ((latest_rule_result-->(0)) = 0);
     } else {
@@ -28521,32 +28545,12 @@ Global max_z_object;
         if (say__p) {
             RulebookParBreak(forbid_breaks);
         }
-        (rv = (call_U2015)());
+        (rv = (call_U2013)());
         if (rv) {
             if ((rv == 2)) {
                 return reason_the_action_failed;
             }
-            return call_U2015;
-        }
-        ((latest_rule_result-->(0)) = 0);
-    } else {
-        if (say__p) {
-            RulebookParBreak(forbid_breaks);
-        }
-    }
-    if ((action == ##SwitchOff)) {
-        if ((original_deadflag ~= deadflag)) {
-            rfalse;
-        }
-        if (say__p) {
-            RulebookParBreak(forbid_breaks);
-        }
-        (rv = (call_U2016)());
-        if (rv) {
-            if ((rv == 2)) {
-                return reason_the_action_failed;
-            }
-            return call_U2016;
+            return call_U2013;
         }
         ((latest_rule_result-->(0)) = 0);
     } else {
@@ -28555,6 +28559,46 @@ Global max_z_object;
         }
     }
     if ((action == ##A_watering)) {
+        if ((original_deadflag ~= deadflag)) {
+            rfalse;
+        }
+        if (say__p) {
+            RulebookParBreak(forbid_breaks);
+        }
+        (rv = (call_U2021)());
+        if (rv) {
+            if ((rv == 2)) {
+                return reason_the_action_failed;
+            }
+            return call_U2021;
+        }
+        ((latest_rule_result-->(0)) = 0);
+    } else {
+        if (say__p) {
+            RulebookParBreak(forbid_breaks);
+        }
+    }
+    if ((action == ##Open)) {
+        if ((original_deadflag ~= deadflag)) {
+            rfalse;
+        }
+        if (say__p) {
+            RulebookParBreak(forbid_breaks);
+        }
+        (rv = (call_U2022)());
+        if (rv) {
+            if ((rv == 2)) {
+                return reason_the_action_failed;
+            }
+            return call_U2022;
+        }
+        ((latest_rule_result-->(0)) = 0);
+    } else {
+        if (say__p) {
+            RulebookParBreak(forbid_breaks);
+        }
+    }
+    if ((action == ##Take)) {
         if ((original_deadflag ~= deadflag)) {
             rfalse;
         }
@@ -28574,7 +28618,7 @@ Global max_z_object;
             RulebookParBreak(forbid_breaks);
         }
     }
-    if ((action == ##Open)) {
+    if ((action == ##Eat)) {
         if ((original_deadflag ~= deadflag)) {
             rfalse;
         }
@@ -28594,67 +28638,7 @@ Global max_z_object;
             RulebookParBreak(forbid_breaks);
         }
     }
-    if ((action == ##Take)) {
-        if ((original_deadflag ~= deadflag)) {
-            rfalse;
-        }
-        if (say__p) {
-            RulebookParBreak(forbid_breaks);
-        }
-        (rv = (call_U2025)());
-        if (rv) {
-            if ((rv == 2)) {
-                return reason_the_action_failed;
-            }
-            return call_U2025;
-        }
-        ((latest_rule_result-->(0)) = 0);
-    } else {
-        if (say__p) {
-            RulebookParBreak(forbid_breaks);
-        }
-    }
-    if ((action == ##Eat)) {
-        if ((original_deadflag ~= deadflag)) {
-            rfalse;
-        }
-        if (say__p) {
-            RulebookParBreak(forbid_breaks);
-        }
-        (rv = (call_U2026)());
-        if (rv) {
-            if ((rv == 2)) {
-                return reason_the_action_failed;
-            }
-            return call_U2026;
-        }
-        ((latest_rule_result-->(0)) = 0);
-    } else {
-        if (say__p) {
-            RulebookParBreak(forbid_breaks);
-        }
-    }
     if ((action == ##A_writing)) {
-        if ((original_deadflag ~= deadflag)) {
-            rfalse;
-        }
-        if (say__p) {
-            RulebookParBreak(forbid_breaks);
-        }
-        (rv = (call_U2067)());
-        if (rv) {
-            if ((rv == 2)) {
-                return reason_the_action_failed;
-            }
-            return call_U2067;
-        }
-        ((latest_rule_result-->(0)) = 0);
-    } else {
-        if (say__p) {
-            RulebookParBreak(forbid_breaks);
-        }
-    }
-    if ((action == ##A_playing)) {
         if ((original_deadflag ~= deadflag)) {
             rfalse;
         }
@@ -28674,7 +28658,7 @@ Global max_z_object;
             RulebookParBreak(forbid_breaks);
         }
     }
-    if ((action == ##Take)) {
+    if ((action == ##A_playing)) {
         if ((original_deadflag ~= deadflag)) {
             rfalse;
         }
@@ -28694,6 +28678,26 @@ Global max_z_object;
             RulebookParBreak(forbid_breaks);
         }
     }
+    if ((action == ##Take)) {
+        if ((original_deadflag ~= deadflag)) {
+            rfalse;
+        }
+        if (say__p) {
+            RulebookParBreak(forbid_breaks);
+        }
+        (rv = (call_U2070)());
+        if (rv) {
+            if ((rv == 2)) {
+                return reason_the_action_failed;
+            }
+            return call_U2070;
+        }
+        ((latest_rule_result-->(0)) = 0);
+    } else {
+        if (say__p) {
+            RulebookParBreak(forbid_breaks);
+        }
+    }
     if ((action == ##Open)) {
         if ((original_deadflag ~= deadflag)) {
             rfalse;
@@ -28701,12 +28705,12 @@ Global max_z_object;
         if (say__p) {
             RulebookParBreak(forbid_breaks);
         }
-        (rv = (call_U2071)());
+        (rv = (call_U2072)());
         if (rv) {
             if ((rv == 2)) {
                 return reason_the_action_failed;
             }
-            return call_U2071;
+            return call_U2072;
         }
         ((latest_rule_result-->(0)) = 0);
     } else {
@@ -28721,12 +28725,12 @@ Global max_z_object;
         if (say__p) {
             RulebookParBreak(forbid_breaks);
         }
-        (rv = (call_U2017)());
+        (rv = (call_U2015)());
         if (rv) {
             if ((rv == 2)) {
                 return reason_the_action_failed;
             }
-            return call_U2017;
+            return call_U2015;
         }
         ((latest_rule_result-->(0)) = 0);
     } else {
@@ -28851,12 +28855,12 @@ Global max_z_object;
         RulebookParBreak(forbid_breaks);
     }
     (parameter_value = p);
-    (rv = (call_U2021)());
+    (rv = (call_U2019)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U2021;
+        return call_U2019;
     }
     ((latest_rule_result-->(0)) = 0);
     if ((original_deadflag ~= deadflag)) {
@@ -28881,12 +28885,12 @@ Global max_z_object;
         RulebookParBreak(forbid_breaks);
     }
     (parameter_value = p);
-    (rv = (call_U2070)());
+    (rv = (call_U2071)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U2070;
+        return call_U2071;
     }
     ((latest_rule_result-->(0)) = 0);
     rfalse;
@@ -29201,12 +29205,12 @@ Global max_z_object;
         RulebookParBreak(forbid_breaks);
     }
     (parameter_value = p);
-    (rv = (call_U2029)());
+    (rv = (call_U2027)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U2029;
+        return call_U2027;
     }
     ((latest_rule_result-->(0)) = 0);
     if ((original_deadflag ~= deadflag)) {
@@ -29216,12 +29220,12 @@ Global max_z_object;
         RulebookParBreak(forbid_breaks);
     }
     (parameter_value = p);
-    (rv = (call_U2030)());
+    (rv = (call_U2028)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U2030;
+        return call_U2028;
     }
     ((latest_rule_result-->(0)) = 0);
     if ((original_deadflag ~= deadflag)) {
@@ -30808,12 +30812,12 @@ Global max_z_object;
 ];
 [ call_U542 forbid_breaks rv original_deadflag;
     (original_deadflag = deadflag);
-    (rv = (call_U2018)());
+    (rv = (call_U2016)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U2018;
+        return call_U2016;
     }
     ((latest_rule_result-->(0)) = 0);
     if ((original_deadflag ~= deadflag)) {
@@ -31277,20 +31281,6 @@ Global max_z_object;
             return reason_the_action_failed;
         }
         return call_U2009;
-    }
-    ((latest_rule_result-->(0)) = 0);
-    if ((original_deadflag ~= deadflag)) {
-        rfalse;
-    }
-    if (say__p) {
-        RulebookParBreak(forbid_breaks);
-    }
-    (rv = (call_U2013)());
-    if (rv) {
-        if ((rv == 2)) {
-            return reason_the_action_failed;
-        }
-        return call_U2013;
     }
     ((latest_rule_result-->(0)) = 0);
     if ((original_deadflag ~= deadflag)) {
@@ -34719,7 +34709,7 @@ Global max_z_object;
     ParaContent();
     print " ";
     ParaContent();
-    (call_U2074)(CV_POS,I_third_person_plural_U1,story_tense);
+    (call_U2075)(CV_POS,I_third_person_plural_U1,story_tense);
     ParaContent();
     print " none at all available!";
     rtrue;
@@ -56501,23 +56491,23 @@ Global max_z_object;
     }
 ];
 [ call_U1952 forbid_breaks rv;
-    (rv = (call_U2027)());
+    (rv = (call_U2025)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U2027;
+        return call_U2025;
     }
     ((latest_rule_result-->(0)) = 0);
     rfalse;
 ];
 [ call_U1953 forbid_breaks rv;
-    (rv = (call_U2028)());
+    (rv = (call_U2026)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U2028;
+        return call_U2026;
     }
     ((latest_rule_result-->(0)) = 0);
     rfalse;
@@ -56533,17 +56523,32 @@ Global max_z_object;
     }
 ];
 [ call_U1955 forbid_breaks rv;
-    (rv = (call_U2032)());
+    (rv = (call_U2030)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U2032;
+        return call_U2030;
     }
     ((latest_rule_result-->(0)) = 0);
     rfalse;
 ];
-[ call_U1956 forbid_breaks rv;
+[ call_U1956 forbid_breaks rv original_deadflag;
+    (original_deadflag = deadflag);
+    (rv = (call_U2031)());
+    if (rv) {
+        if ((rv == 2)) {
+            return reason_the_action_failed;
+        }
+        return call_U2031;
+    }
+    ((latest_rule_result-->(0)) = 0);
+    if ((original_deadflag ~= deadflag)) {
+        rfalse;
+    }
+    if (say__p) {
+        RulebookParBreak(forbid_breaks);
+    }
     (rv = (call_U2033)());
     if (rv) {
         if ((rv == 2)) {
@@ -56554,7 +56559,22 @@ Global max_z_object;
     ((latest_rule_result-->(0)) = 0);
     rfalse;
 ];
-[ call_U1957 forbid_breaks rv;
+[ call_U1957 forbid_breaks rv original_deadflag;
+    (original_deadflag = deadflag);
+    (rv = (call_U2032)());
+    if (rv) {
+        if ((rv == 2)) {
+            return reason_the_action_failed;
+        }
+        return call_U2032;
+    }
+    ((latest_rule_result-->(0)) = 0);
+    if ((original_deadflag ~= deadflag)) {
+        rfalse;
+    }
+    if (say__p) {
+        RulebookParBreak(forbid_breaks);
+    }
     (rv = (call_U2034)());
     if (rv) {
         if ((rv == 2)) {
@@ -56613,23 +56633,23 @@ Global max_z_object;
     }
 ];
 [ call_U1961 forbid_breaks rv;
-    (rv = (call_U2064)());
+    (rv = (call_U2065)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U2064;
+        return call_U2065;
     }
     ((latest_rule_result-->(0)) = 0);
     rfalse;
 ];
 [ call_U1962 forbid_breaks rv;
-    (rv = (call_U2066)());
+    (rv = (call_U2067)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U2066;
+        return call_U2067;
     }
     ((latest_rule_result-->(0)) = 0);
     rfalse;
@@ -56655,12 +56675,12 @@ Global max_z_object;
     }
 ];
 [ call_U1968 forbid_breaks rv;
-    (rv = (call_U2065)());
+    (rv = (call_U2066)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U2065;
+        return call_U2066;
     }
     ((latest_rule_result-->(0)) = 0);
     rfalse;
@@ -57793,14 +57813,18 @@ Global max_z_object;
     rfalse;
 ];
 [ call_U2013;
-    if ((((actor == player)) && ((noun == I_computer_U1)))) {
+    if ((((action == ##SwitchOn)) && ((((actor == player)) && ((noun == I_computer_U1)))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2013, 814, 0);
         }
         (say__p = 1);
         ParaContent();
-        print "The monitor lights up with a staticky pop. ";
+        print "The monitor lights up with a staticky pop.";
+        print "^";
+        TryAction(0, player, ##Examine, I_computer_U1, 0);
+        RulebookSucceeds(0, 0);
+        rtrue;
     } else {
         if ((debug_rules > 1)) {
             DB_Rule(call_U2013, 814, 2);
@@ -57826,42 +57850,10 @@ Global max_z_object;
     rfalse;
 ];
 [ call_U2015;
-    if ((((action == ##SwitchOn)) && ((((actor == player)) && ((noun == I_computer_U1)))))) {
-        (self = noun);
-        if (debug_rules) {
-            DB_Rule(call_U2015, 816, 0);
-        }
-        rtrue;
-        RulebookSucceeds(0, 0);
-        rtrue;
-    } else {
-        if ((debug_rules > 1)) {
-            DB_Rule(call_U2015, 816, 2);
-        }
-    }
-    rfalse;
-];
-[ call_U2016;
-    if ((((action == ##SwitchOff)) && ((((actor == player)) && ((noun == I_computer_U1)))))) {
-        (self = noun);
-        if (debug_rules) {
-            DB_Rule(call_U2016, 817, 0);
-        }
-        rtrue;
-        RulebookSucceeds(0, 0);
-        rtrue;
-    } else {
-        if ((debug_rules > 1)) {
-            DB_Rule(call_U2016, 817, 2);
-        }
-    }
-    rfalse;
-];
-[ call_U2017;
     if ((((action == ##Take)) && ((((actor == player)) && ((((noun ofclass K2_thing)) && (call_U1990(noun)))))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2017, 818, 0);
+            DB_Rule(call_U2015, 816, 0);
         }
         (say__p = 1);
         ParaContent();
@@ -57873,18 +57865,50 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
+            DB_Rule(call_U2015, 816, 2);
+        }
+    }
+    rfalse;
+];
+[ call_U2016;
+    if ((((actor == player)) && ((noun ofclass K2_thing)))) {
+        (self = noun);
+        if (debug_rules) {
+            DB_Rule(call_U2016, 817, 0);
+        }
+        call_U1988(noun);
+    } else {
+        if ((debug_rules > 1)) {
+            DB_Rule(call_U2016, 817, 2);
+        }
+    }
+    rfalse;
+];
+[ call_U2017;
+    if ((((action == ##Unlock)) && ((((actor == player)) && ((((noun == I_suitcase_U1)) && ((second == I_silver_key_U1)))))))) {
+        (self = noun);
+        if (debug_rules) {
+            DB_Rule(call_U2017, 818, 0);
+        }
+        BlkValueCopy((Global_Vars-->17), bc_U384);
+        RulebookFails(0, 0);
+        rtrue;
+    } else {
+        if ((debug_rules > 1)) {
             DB_Rule(call_U2017, 818, 2);
         }
     }
     rfalse;
 ];
 [ call_U2018;
-    if ((((actor == player)) && ((noun ofclass K2_thing)))) {
+    if ((((action == ##Open)) && ((((actor == player)) && ((noun == I_suitcase_U1)))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2018, 819, 0);
         }
-        call_U1988(noun);
+        BlkValueCopy((Global_Vars-->17), bc_U385);
+        RulebookFails(0, 0);
+        rtrue;
     } else {
         if ((debug_rules > 1)) {
             DB_Rule(call_U2018, 819, 2);
@@ -57893,41 +57917,9 @@ Global max_z_object;
     rfalse;
 ];
 [ call_U2019;
-    if ((((action == ##Unlock)) && ((((actor == player)) && ((((noun == I_suitcase_U1)) && ((second == I_silver_key_U1)))))))) {
-        (self = noun);
-        if (debug_rules) {
-            DB_Rule(call_U2019, 820, 0);
-        }
-        BlkValueCopy((Global_Vars-->17), bc_U384);
-        RulebookFails(0, 0);
-        rtrue;
-    } else {
-        if ((debug_rules > 1)) {
-            DB_Rule(call_U2019, 820, 2);
-        }
-    }
-    rfalse;
-];
-[ call_U2020;
-    if ((((action == ##Open)) && ((((actor == player)) && ((noun == I_suitcase_U1)))))) {
-        (self = noun);
-        if (debug_rules) {
-            DB_Rule(call_U2020, 821, 0);
-        }
-        BlkValueCopy((Global_Vars-->17), bc_U385);
-        RulebookFails(0, 0);
-        rtrue;
-    } else {
-        if ((debug_rules > 1)) {
-            DB_Rule(call_U2020, 821, 2);
-        }
-    }
-    rfalse;
-];
-[ call_U2021;
     if (((BlkValueCompare)((Global_Vars-->17),bc_U386) == 0)) {
         if (debug_rules) {
-            DB_Rule(call_U2021, 822, 0);
+            DB_Rule(call_U2019, 820, 0);
         }
         if (SnippetMatches(players_command, Consult_Grammar17)) {
             call_U305(I_suitcase_U1);
@@ -57946,16 +57938,16 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2021, 822, 4);
+            DB_Rule(call_U2019, 820, 4);
         }
     }
     rfalse;
 ];
-[ call_U2022;
+[ call_U2020;
     if ((((action == ##Unlock)) && ((((actor == player)) && ((((noun == I_drawer_U1)) && ((second == I_silver_key_U1)))))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2022, 823, 0);
+            DB_Rule(call_U2020, 821, 0);
         }
         (say__p = 1);
         ParaContent();
@@ -57966,16 +57958,16 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2022, 823, 2);
+            DB_Rule(call_U2020, 821, 2);
         }
     }
     rfalse;
 ];
-[ call_U2023;
+[ call_U2021;
     if ((((action == ##A_watering)) && ((((actor == player)) && ((noun == I_plant_U1)))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2023, 824, 0);
+            DB_Rule(call_U2021, 822, 0);
         }
         if ((player == CarrierOf(I_jug_U1))) {
             (say__p = 1);
@@ -57993,16 +57985,16 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2023, 824, 2);
+            DB_Rule(call_U2021, 822, 2);
         }
     }
     rfalse;
 ];
-[ call_U2024;
+[ call_U2022;
     if ((((action == ##Open)) && ((((actor == player)) && ((noun == I_fridge_U1)))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2024, 825, 0);
+            DB_Rule(call_U2022, 823, 0);
         }
         (say__p = 1);
         ParaContent();
@@ -58012,16 +58004,16 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2024, 825, 2);
+            DB_Rule(call_U2022, 823, 2);
         }
     }
     rfalse;
 ];
-[ call_U2025;
+[ call_U2023;
     if ((((action == ##Take)) && ((((actor == player)) && ((noun == I_candy_U1)))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2025, 826, 0);
+            DB_Rule(call_U2023, 824, 0);
         }
         (say__p = 1);
         ParaContent();
@@ -58031,16 +58023,16 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2025, 826, 2);
+            DB_Rule(call_U2023, 824, 2);
         }
     }
     rfalse;
 ];
-[ call_U2026;
+[ call_U2024;
     if ((((action == ##Eat)) && ((((actor == player)) && ((noun == I_candy_U1)))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2026, 827, 0);
+            DB_Rule(call_U2024, 825, 0);
         }
         (say__p = 1);
         ParaContent();
@@ -58065,15 +58057,15 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2026, 827, 2);
+            DB_Rule(call_U2024, 825, 2);
         }
     }
     rfalse;
 ];
-[ call_U2027;
+[ call_U2025;
     if ((actor == player)) {
         if (debug_rules) {
-            DB_Rule(call_U2027, 828, 0);
+            DB_Rule(call_U2025, 826, 0);
         }
         if ((~~((second == I_crayons_U1)))) {
             (say__p = 1);
@@ -58091,15 +58083,15 @@ Global max_z_object;
         }
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2027, 828, 3);
+            DB_Rule(call_U2025, 826, 3);
         }
     }
     rfalse;
 ];
-[ call_U2028;
+[ call_U2026;
     if ((actor == player)) {
         if (debug_rules) {
-            DB_Rule(call_U2028, 829, 0);
+            DB_Rule(call_U2026, 827, 0);
         }
         if (SnippetMatches(parsed_number, Consult_Grammar18)) {
             MoveObject(I_dandelion_U1, player);
@@ -58114,64 +58106,72 @@ Global max_z_object;
                 print "^";
             } else {
                 if (SnippetMatches(parsed_number, Consult_Grammar20)) {
+                    call_U1994(I_ladder_U1);
                     (say__p = 1);
                     ParaContent();
-                    print "You carefully sketch a majestic unicorn with your crayons. Its flowing mane and shiny horn are drawn with great detail.";
+                    print "You color in the missing gaps with the silver crayon. Good as new.";
                     print "^";
                 } else {
-                    (say__p = 1);
-                    ParaContent();
-                    print "You draw ";
-                    ParaContent();
-                    PrintSnippet(parsed_number);
-                    ParaContent();
-                    print " with your crayons. It looks decent, but it's not your best work.";
-                    print "^";
+                    if (SnippetMatches(parsed_number, Consult_Grammar21)) {
+                        (say__p = 1);
+                        ParaContent();
+                        print "You carefully sketch a majestic unicorn with your crayons. Its flowing mane and shiny horn are drawn with great detail.";
+                        print "^";
+                    } else {
+                        (say__p = 1);
+                        ParaContent();
+                        print "You draw ";
+                        ParaContent();
+                        PrintSnippet(parsed_number);
+                        ParaContent();
+                        print " with your crayons. It looks decent, but it's not your best work.";
+                        print "^";
+                    }
                 }
             }
         }
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2028, 829, 3);
+            DB_Rule(call_U2026, 827, 3);
+        }
+    }
+    rfalse;
+];
+[ call_U2027;
+    if ((parameter_value == I_toybox_U1)) {
+        if (debug_rules) {
+            DB_Rule(call_U2027, 828, 0);
+        }
+        rtrue;
+        RulebookSucceeds(0, 0);
+        rtrue;
+    } else {
+        if ((debug_rules > 1)) {
+            DB_Rule(call_U2027, 828, 2);
+        }
+    }
+    rfalse;
+];
+[ call_U2028;
+    if ((parameter_value == I_treehouse_U1)) {
+        if (debug_rules) {
+            DB_Rule(call_U2028, 829, 0);
+        }
+        rtrue;
+        RulebookSucceeds(0, 0);
+        rtrue;
+    } else {
+        if ((debug_rules > 1)) {
+            DB_Rule(call_U2028, 829, 2);
         }
     }
     rfalse;
 ];
 [ call_U2029;
-    if ((parameter_value == I_toybox_U1)) {
-        if (debug_rules) {
-            DB_Rule(call_U2029, 830, 0);
-        }
-        rtrue;
-        RulebookSucceeds(0, 0);
-        rtrue;
-    } else {
-        if ((debug_rules > 1)) {
-            DB_Rule(call_U2029, 830, 2);
-        }
-    }
-    rfalse;
-];
-[ call_U2030;
-    if ((parameter_value == I_treehouse_U1)) {
-        if (debug_rules) {
-            DB_Rule(call_U2030, 831, 0);
-        }
-        rtrue;
-        RulebookSucceeds(0, 0);
-        rtrue;
-    } else {
-        if ((debug_rules > 1)) {
-            DB_Rule(call_U2030, 831, 2);
-        }
-    }
-    rfalse;
-];
-[ call_U2031;
     if ((((action == ##Climb)) && ((((actor == player)) && ((((noun == I_ladder_U1)) && (((((self = actor),1)) && (call_U1996(I_ladder_U1)))))))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2031, 832, 0);
+            DB_Rule(call_U2029, 830, 0);
         }
         (say__p = 1);
         ParaContent();
@@ -58181,16 +58181,16 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2031, 832, 2);
+            DB_Rule(call_U2029, 830, 2);
         }
     }
     rfalse;
 ];
-[ call_U2032;
+[ call_U2030;
     if ((((actor == player)) && ((((noun == I_ladder_U1)) && ((second == I_crayons_U1)))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2032, 833, 0);
+            DB_Rule(call_U2030, 831, 0);
         }
         if ((~~((player == CarrierOf(I_crayons_U1))))) {
             (say__p = 1);
@@ -58206,6 +58206,37 @@ Global max_z_object;
             print "^";
             rtrue;
         }
+    } else {
+        if ((debug_rules > 1)) {
+            DB_Rule(call_U2030, 831, 2);
+        }
+    }
+    rfalse;
+];
+[ call_U2031;
+    if ((((actor == player)) && ((((noun == I_ladder_U1)) && ((second == I_crayons_U1)))))) {
+        (self = noun);
+        if (debug_rules) {
+            DB_Rule(call_U2031, 832, 0);
+        }
+        call_U1994(I_ladder_U1);
+    } else {
+        if ((debug_rules > 1)) {
+            DB_Rule(call_U2031, 832, 2);
+        }
+    }
+    rfalse;
+];
+[ call_U2032;
+    if ((((actor == player)) && ((((noun == I_ladder_U1)) && ((second == I_crayons_U1)))))) {
+        (self = noun);
+        if (debug_rules) {
+            DB_Rule(call_U2032, 833, 0);
+        }
+        (say__p = 1);
+        ParaContent();
+        print "You color in the missing gaps with the silver crayon. Good as new.";
+        print "^";
     } else {
         if ((debug_rules > 1)) {
             DB_Rule(call_U2032, 833, 2);
@@ -58425,7 +58456,7 @@ Global max_z_object;
         if (debug_rules) {
             DB_Rule(call_U2043, 843, 0);
         }
-        if (SnippetMatches(players_command, Consult_Grammar21)) {
+        if (SnippetMatches(players_command, Consult_Grammar22)) {
             (say__p = 1);
             ParaContent();
             print "Her face blooms with delight. ~YAAAAY~, she cries. ~We can all be friends now. Me, you, Mr. Narkins.^^Her face darkens for a second. ~Have you seen him, by the way? He's a sea unicorn.~ You feel suction around you, like you're going through a vacuum. Everything blurs.";
@@ -58434,7 +58465,7 @@ Global max_z_object;
             ((Global_Vars-->43) = 2);
             MoveObject(player, I_bedroom_U1, 0, 0);
         } else {
-            if (SnippetMatches(players_command, Consult_Grammar22)) {
+            if (SnippetMatches(players_command, Consult_Grammar23)) {
                 (say__p = 1);
                 ParaContent();
                 print "Emma deflates for just a second. Then she shrugs it off, and says, ~That's okay.~";
@@ -58476,7 +58507,7 @@ Global max_z_object;
     rfalse;
 ];
 [ call_U2045;
-    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar23)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
+    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar24)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2045, 845, 0);
@@ -58496,7 +58527,7 @@ Global max_z_object;
     rfalse;
 ];
 [ call_U2046;
-    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar24)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
+    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar25)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2046, 846, 0);
@@ -58514,7 +58545,7 @@ Global max_z_object;
     rfalse;
 ];
 [ call_U2047;
-    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar25)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
+    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar26)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2047, 847, 0);
@@ -58534,7 +58565,7 @@ Global max_z_object;
     rfalse;
 ];
 [ call_U2048;
-    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar26)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
+    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar27)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2048, 848, 0);
@@ -58563,7 +58594,7 @@ Global max_z_object;
     rfalse;
 ];
 [ call_U2049;
-    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar27)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
+    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar28)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2049, 849, 0);
@@ -58592,14 +58623,14 @@ Global max_z_object;
     rfalse;
 ];
 [ call_U2050;
-    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar28)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
+    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar29)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2050, 850, 0);
         }
         (say__p = 1);
         ParaContent();
-        print "~C'mon! Let's draw together~, she cries.";
+        print "~C'mon! Let's draw together~, she cries. There's something I'm trying to draw...";
         print "^";
         RulebookFails(0, 0);
         rtrue;
@@ -58611,14 +58642,14 @@ Global max_z_object;
     rfalse;
 ];
 [ call_U2051;
-    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar29)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
+    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar30)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2051, 851, 0);
         }
         (say__p = 1);
         ParaContent();
-        print "~C'mon! Let's draw together~, she cries.";
+        print "~C'mon! Let's draw together~, she cries. There's something I'm trying to draw...";
         print "^";
         RulebookFails(0, 0);
         rtrue;
@@ -58630,14 +58661,14 @@ Global max_z_object;
     rfalse;
 ];
 [ call_U2052;
-    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar30)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
+    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar31)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2052, 852, 0);
         }
         (say__p = 1);
         ParaContent();
-        print "~C'mon! Let's draw together~, she cries.";
+        print "~C'mon! Let's draw together~, she cries. There's something I'm trying to draw...";
         print "^";
         RulebookFails(0, 0);
         rtrue;
@@ -58649,7 +58680,7 @@ Global max_z_object;
     rfalse;
 ];
 [ call_U2053;
-    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar31)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
+    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar32)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2053, 853, 0);
@@ -58668,7 +58699,7 @@ Global max_z_object;
     rfalse;
 ];
 [ call_U2054;
-    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar32)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
+    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar33)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2054, 854, 0);
@@ -58699,7 +58730,7 @@ Global max_z_object;
     rfalse;
 ];
 [ call_U2055;
-    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar33)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
+    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar34)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2055, 855, 0);
@@ -58736,7 +58767,7 @@ Global max_z_object;
     rfalse;
 ];
 [ call_U2056;
-    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar34)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
+    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar35)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2056, 856, 0);
@@ -58755,10 +58786,39 @@ Global max_z_object;
     rfalse;
 ];
 [ call_U2057;
-    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar35)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
+    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar36)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2057, 857, 0);
+        }
+        (say__p = 1);
+        if ((~~(((Global_Vars-->47) == 1)))) {
+            jump L_Say0;
+        }
+        ParaContent();
+        print "Emma";
+        jump L_SayX0;
+        .L_Say0;
+        ParaContent();
+        print "The girl";
+        .L_SayX0;
+        ParaContent();
+        print " smiles. I spent a while on it! Used the brown crayon and the green crayon and lots of other things... I'm trying to decorate it with flowers.~";
+        print "^";
+        RulebookFails(0, 0);
+        rtrue;
+    } else {
+        if ((debug_rules > 1)) {
+            DB_Rule(call_U2057, 857, 2);
+        }
+    }
+    rfalse;
+];
+[ call_U2058;
+    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar37)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
+        (self = noun);
+        if (debug_rules) {
+            DB_Rule(call_U2058, 858, 0);
         }
         (say__p = 1);
         if ((~~(((Global_Vars-->47) == 1)))) {
@@ -58778,16 +58838,16 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2057, 857, 2);
+            DB_Rule(call_U2058, 858, 2);
         }
     }
     rfalse;
 ];
-[ call_U2058;
-    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar36)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
+[ call_U2059;
+    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar38)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2058, 858, 0);
+            DB_Rule(call_U2059, 859, 0);
         }
         (say__p = 1);
         if ((~~(((Global_Vars-->47) == 1)))) {
@@ -58807,16 +58867,16 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2058, 858, 2);
+            DB_Rule(call_U2059, 859, 2);
         }
     }
     rfalse;
 ];
-[ call_U2059;
-    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar37)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
+[ call_U2060;
+    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar39)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2059, 859, 0);
+            DB_Rule(call_U2060, 860, 0);
         }
         (say__p = 1);
         ParaContent();
@@ -58826,16 +58886,16 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2059, 859, 2);
+            DB_Rule(call_U2060, 860, 2);
         }
     }
     rfalse;
 ];
-[ call_U2060;
-    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar38)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
+[ call_U2061;
+    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar40)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2060, 860, 0);
+            DB_Rule(call_U2061, 861, 0);
         }
         (say__p = 1);
         if ((~~(((Global_Vars-->47) == 1)))) {
@@ -58855,16 +58915,16 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2060, 860, 2);
+            DB_Rule(call_U2061, 861, 2);
         }
     }
     rfalse;
 ];
-[ call_U2061;
-    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar39)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
+[ call_U2062;
+    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar41)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2061, 861, 0);
+            DB_Rule(call_U2062, 862, 0);
         }
         (say__p = 1);
         if ((~~(((Global_Vars-->47) == 1)))) {
@@ -58884,16 +58944,16 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2061, 861, 2);
+            DB_Rule(call_U2062, 862, 2);
         }
     }
     rfalse;
 ];
-[ call_U2062;
+[ call_U2063;
     if ((((action == ##Ask)) && ((((actor == player)) && ((noun == I_emma_U1)))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2062, 862, 0);
+            DB_Rule(call_U2063, 863, 0);
         }
         if (((Global_Vars-->51) == 1)) {
             (say__p = 1);
@@ -58920,16 +58980,16 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2062, 862, 2);
+            DB_Rule(call_U2063, 863, 2);
         }
     }
     rfalse;
 ];
-[ call_U2063;
-    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar40)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
+[ call_U2064;
+    if ((((action == ##Ask)) && ((((actor == player)) && ((((noun == I_emma_U1)) && (((Consult_Grammar42)(consult_from,consult_words) ~= GPR_FAIL)))))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2063, 863, 0);
+            DB_Rule(call_U2064, 864, 0);
         }
         (say__p = 1);
         ParaContent();
@@ -58939,16 +58999,16 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2063, 863, 2);
+            DB_Rule(call_U2064, 864, 2);
         }
     }
     rfalse;
 ];
-[ call_U2064;
+[ call_U2065;
     if ((((actor == player)) && ((noun == I_journal_U1)))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2064, 864, 0);
+            DB_Rule(call_U2065, 865, 0);
         }
         if ((~~((player == CarrierOf(I_journal_U1))))) {
             (say__p = 1);
@@ -58959,20 +59019,7 @@ Global max_z_object;
         }
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2064, 864, 2);
-        }
-    }
-    rfalse;
-];
-[ call_U2065;
-    if ((actor == player)) {
-        if (debug_rules) {
-            DB_Rule(call_U2065, 865, 0);
-        }
-        call_U2073(parsed_number);
-    } else {
-        if ((debug_rules > 1)) {
-            DB_Rule(call_U2065, 865, 3);
+            DB_Rule(call_U2065, 865, 2);
         }
     }
     rfalse;
@@ -58982,10 +59029,7 @@ Global max_z_object;
         if (debug_rules) {
             DB_Rule(call_U2066, 866, 0);
         }
-        (say__p = 1);
-        ParaContent();
-        print "You need to specify a page to read.";
-        print "^";
+        call_U2074(parsed_number);
     } else {
         if ((debug_rules > 1)) {
             DB_Rule(call_U2066, 866, 3);
@@ -58994,10 +59038,26 @@ Global max_z_object;
     rfalse;
 ];
 [ call_U2067;
+    if ((actor == player)) {
+        if (debug_rules) {
+            DB_Rule(call_U2067, 867, 0);
+        }
+        (say__p = 1);
+        ParaContent();
+        print "You need to specify a page to read.";
+        print "^";
+    } else {
+        if ((debug_rules > 1)) {
+            DB_Rule(call_U2067, 867, 3);
+        }
+    }
+    rfalse;
+];
+[ call_U2068;
     if ((((action == ##A_writing)) && ((((actor == player)) && ((noun == I_journal_U1)))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2067, 868, 0);
+            DB_Rule(call_U2068, 869, 0);
         }
         ((Global_Vars-->46) = 1);
         (say__p = 1);
@@ -59008,37 +59068,18 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2067, 868, 2);
-        }
-    }
-    rfalse;
-];
-[ call_U2068;
-    if ((((action == ##A_playing)) && ((((actor == player)) && ((noun == I_record_player_U1)))))) {
-        (self = noun);
-        if (debug_rules) {
-            DB_Rule(call_U2068, 869, 0);
-        }
-        BlkValueCopy((Global_Vars-->17), bc_U394);
-        RulebookSucceeds(0, 0);
-        rtrue;
-    } else {
-        if ((debug_rules > 1)) {
             DB_Rule(call_U2068, 869, 2);
         }
     }
     rfalse;
 ];
 [ call_U2069;
-    if ((((action == ##Take)) && ((((actor == player)) && ((noun == I_narwhal_U1)))))) {
+    if ((((action == ##A_playing)) && ((((actor == player)) && ((noun == I_record_player_U1)))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2069, 870, 0);
         }
-        (say__p = 1);
-        ParaContent();
-        print "It's a ragged thing. An old hurt vibrates through you. You can't place why. From faraway, the journal vibrates.";
-        print "^";
+        BlkValueCopy((Global_Vars-->17), bc_U394);
         RulebookSucceeds(0, 0);
         rtrue;
     } else {
@@ -59049,11 +59090,30 @@ Global max_z_object;
     rfalse;
 ];
 [ call_U2070;
-    if (((BlkValueCompare)((Global_Vars-->17),bc_U395) == 0)) {
+    if ((((action == ##Take)) && ((((actor == player)) && ((noun == I_narwhal_U1)))))) {
+        (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2070, 871, 0);
         }
-        if (SnippetMatches(players_command, Consult_Grammar41)) {
+        (say__p = 1);
+        ParaContent();
+        print "It's a ragged thing. An old hurt vibrates through you. You can't place why. From faraway, the journal vibrates.";
+        print "^";
+        RulebookSucceeds(0, 0);
+        rtrue;
+    } else {
+        if ((debug_rules > 1)) {
+            DB_Rule(call_U2070, 871, 2);
+        }
+    }
+    rfalse;
+];
+[ call_U2071;
+    if (((BlkValueCompare)((Global_Vars-->17),bc_U395) == 0)) {
+        if (debug_rules) {
+            DB_Rule(call_U2071, 872, 0);
+        }
+        if (SnippetMatches(players_command, Consult_Grammar43)) {
             (say__p = 1);
             ParaContent();
             style underline;
@@ -59061,7 +59121,7 @@ Global max_z_object;
             print "Phoebe Bridgers fills the room.";
             print "^";
         } else {
-            if (SnippetMatches(players_command, Consult_Grammar42)) {
+            if (SnippetMatches(players_command, Consult_Grammar44)) {
                 (say__p = 1);
                 ParaContent();
                 style underline;
@@ -59069,7 +59129,7 @@ Global max_z_object;
                 print "Fall Out Boy fills the room.";
                 print "^";
             } else {
-                if (SnippetMatches(players_command, Consult_Grammar43)) {
+                if (SnippetMatches(players_command, Consult_Grammar45)) {
                     (say__p = 1);
                     ParaContent();
                     style underline;
@@ -59077,7 +59137,7 @@ Global max_z_object;
                     print "Pussy Riot fills the room.";
                     print "^";
                 } else {
-                    if (SnippetMatches(players_command, Consult_Grammar44)) {
+                    if (SnippetMatches(players_command, Consult_Grammar46)) {
                         (say__p = 1);
                         ParaContent();
                         style underline;
@@ -59085,7 +59145,7 @@ Global max_z_object;
                         print "Twice fills the room.";
                         print "^";
                     } else {
-                        if (SnippetMatches(players_command, Consult_Grammar45)) {
+                        if (SnippetMatches(players_command, Consult_Grammar47)) {
                             (say__p = 1);
                             ParaContent();
                             style underline;
@@ -59100,16 +59160,16 @@ Global max_z_object;
         BlkValueCopy((Global_Vars-->17), bc_U396);
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2070, 871, 4);
+            DB_Rule(call_U2071, 872, 4);
         }
     }
     rfalse;
 ];
-[ call_U2071;
+[ call_U2072;
     if ((((action == ##Open)) && ((((actor == player)) && ((noun == I_suitcase_U1)))))) {
         (self = noun);
         if (debug_rules) {
-            DB_Rule(call_U2071, 872, 0);
+            DB_Rule(call_U2072, 873, 0);
         }
         (say__p = 1);
         ParaContent();
@@ -59123,15 +59183,15 @@ Global max_z_object;
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2071, 872, 2);
+            DB_Rule(call_U2072, 873, 2);
         }
     }
     rfalse;
 ];
-[ call_U2072;
+[ call_U2073;
     if (call_U334(I_record_player_U1)) {
         if (debug_rules) {
-            DB_Rule(call_U2072, 873, 0);
+            DB_Rule(call_U2073, 874, 0);
         }
         if ((LocationOf(player) == LocationOf(I_record_player_U1))) {
             if (((Global_Vars-->44) == 0)) {
@@ -59192,12 +59252,12 @@ Global max_z_object;
         }
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U2072, 873, 4);
+            DB_Rule(call_U2073, 874, 4);
         }
     }
     rfalse;
 ];
-[ call_U2073 t_0;
+[ call_U2074 t_0;
     if ((t_0 == 0)) {
         (say__p = 1);
         ParaContent();
@@ -59389,7 +59449,7 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U2074 fn vp t modal_to;
+[ call_U2075 fn vp t modal_to;
     (t = ConjugateVerb1(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
@@ -59518,7 +59578,7 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U2075 fn vp t modal_to;
+[ call_U2076 fn vp t modal_to;
     (t = ConjugateVerb59(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
@@ -59600,15 +59660,6 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U2076 fn vp t modal_to;
-    (t = ConjugateVerb60(fn, vp, t, modal_to));
-    if ((fn == CV_MODAL)) {
-        return t;
-    }
-    if ((fn == CV_MEANING)) {
-        return MEANINGLESS_RR;
-    }
-];
 [ call_U2077 fn vp t modal_to;
     (t = ConjugateVerb60(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
@@ -59636,7 +59687,16 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ call_U2080;
+[ call_U2080 fn vp t modal_to;
+    (t = ConjugateVerb60(fn, vp, t, modal_to));
+    if ((fn == CV_MODAL)) {
+        return t;
+    }
+    if ((fn == CV_MEANING)) {
+        return MEANINGLESS_RR;
+    }
+];
+[ call_U2081;
     (say__p = 1);
     if ((~~((player == CarrierOf(I_narwhal_U1))))) {
         jump L_Say0;
@@ -59656,7 +59716,7 @@ Global max_z_object;
     }
     rfalse;
 ];
-[ call_U2081 rr task X Y Z1 Z2 Z3 Z4;
+[ call_U2082 rr task X Y Z1 Z2 Z3 Z4;
     switch (task) {
         RELS_TEST:
             if ((X == Y)) {
@@ -59670,7 +59730,7 @@ Global max_z_object;
     }
     rfalse;
 ];
-[ call_U2082 rr task X Y Z1 Z2 Z3 Z4;
+[ call_U2083 rr task X Y Z1 Z2 Z3 Z4;
     switch (task) {
         RELS_TEST:
             if ((BlkValueCompare((X)(CV_MEANING), Y) == 0)) {
@@ -59684,7 +59744,7 @@ Global max_z_object;
     }
     rfalse;
 ];
-[ call_U2083 rr task X Y Z1 Z2 Z3 Z4;
+[ call_U2084 rr task X Y Z1 Z2 Z3 Z4;
     switch (task) {
         RELS_TEST:
             if ((X == OwnerOf(Y))) {
@@ -59738,7 +59798,7 @@ Global max_z_object;
     }
     rfalse;
 ];
-[ call_U2084 rr task X Y Z1 Z2 Z3 Z4;
+[ call_U2085 rr task X Y Z1 Z2 Z3 Z4;
     switch (task) {
         RELS_TEST:
             if ((RlnGetF(X, RR_HANDLER))(X,RELS_TEST,Y,0)) {
@@ -59752,7 +59812,7 @@ Global max_z_object;
     }
     rfalse;
 ];
-[ call_U2085 rr task X Y Z1 Z2 Z3 Z4;
+[ call_U2086 rr task X Y Z1 Z2 Z3 Z4;
     switch (task) {
         RELS_TEST:
             if (0) {
@@ -59766,7 +59826,7 @@ Global max_z_object;
     }
     rfalse;
 ];
-[ call_U2086 rr task X Y Z1 Z2 Z3 Z4;
+[ call_U2087 rr task X Y Z1 Z2 Z3 Z4;
     switch (task) {
         RELS_TEST:
             if ((X == ContainerOf(Y))) {
@@ -59777,106 +59837,6 @@ Global max_z_object;
         RELS_LOOKUP_ANY:
             if ((((Y == RLANY_GET_X)) || ((Y == RLANY_CAN_GET_X)))) {
                 objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
-                    if ((call_U2086)(rr,RELS_TEST,Z1,X)) {
-                        if ((Y == RLANY_CAN_GET_X)) {
-                            rtrue;
-                        }
-                        if ((Y == RLANY_CAN_GET_Y)) {
-                            rtrue;
-                        }
-                        return Z1;
-                    }
-                }
-                if ((Y == RLANY_CAN_GET_X)) {
-                    rfalse;
-                }
-                if ((Y == RLANY_CAN_GET_Y)) {
-                    rfalse;
-                }
-                return DefaultValueOfKOV(OBJECT_TY);
-            } else {
-                objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
-                    if ((call_U2086)(rr,RELS_TEST,X,Z1)) {
-                        if ((Y == RLANY_CAN_GET_X)) {
-                            rtrue;
-                        }
-                        if ((Y == RLANY_CAN_GET_Y)) {
-                            rtrue;
-                        }
-                        return Z1;
-                    }
-                }
-                if ((Y == RLANY_CAN_GET_X)) {
-                    rfalse;
-                }
-                if ((Y == RLANY_CAN_GET_Y)) {
-                    rfalse;
-                }
-                return DefaultValueOfKOV(OBJECT_TY);
-            }
-            ;
-        RELS_LOOKUP_ALL_X:
-            LIST_OF_TY_SetLength(Y, 0);
-            objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
-                if ((call_U2086)(rr,RELS_TEST,Z1,X)) {
-                    LIST_OF_TY_InsertItem(Y, Z1);
-                }
-            }
-            return Y;
-            ;
-        RELS_LOOKUP_ALL_Y:
-            LIST_OF_TY_SetLength(Y, 0);
-            objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
-                if ((call_U2086)(rr,RELS_TEST,X,Z1)) {
-                    LIST_OF_TY_InsertItem(Y, Z1);
-                }
-            }
-            return Y;
-            ;
-        RELS_LIST:
-            LIST_OF_TY_SetLength(X, 0);
-            if ((Y == RLIST_ALL_X)) {
-                objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
-                    objectloop (Z3 ofclass Object && (Z3 ofclass Object)) {
-                        if ((call_U2086)(rr,RELS_TEST,Z1,Z3)) {
-                            LIST_OF_TY_InsertItem(X, Z1, 0, 0, 1);
-                        }
-                    }
-                }
-            } else {
-                if ((Y == RLIST_ALL_Y)) {
-                    objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
-                        objectloop (Z3 ofclass Object && (Z3 ofclass Object)) {
-                            if ((call_U2086)(rr,RELS_TEST,Z1,Z3)) {
-                                LIST_OF_TY_InsertItem(X, Z3, 0, 0, 1);
-                            }
-                        }
-                    }
-                }
-            }
-            return X;
-            ;
-        RELS_ASSERT_TRUE:
-            MoveObject(Y, X);
-            rtrue;
-            ;
-        RELS_ASSERT_FALSE:
-            rfalse;
-            ;
-    }
-    rfalse;
-];
-[ call_U2087 rr task X Y Z1 Z2 Z3 Z4;
-    switch (task) {
-        RELS_TEST:
-            if ((X == SupporterOf(Y))) {
-                rtrue;
-            }
-            rfalse;
-            ;
-        RELS_LOOKUP_ANY:
-            if ((((Y == RLANY_GET_X)) || ((Y == RLANY_CAN_GET_X)))) {
-                for ((Z1 = K6_supporter_First):Z1:(Z1 = (Z1.K6_supporter_Next))) {
                     if ((call_U2087)(rr,RELS_TEST,Z1,X)) {
                         if ((Y == RLANY_CAN_GET_X)) {
                             rtrue;
@@ -59895,7 +59855,7 @@ Global max_z_object;
                 }
                 return DefaultValueOfKOV(OBJECT_TY);
             } else {
-                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
                     if ((call_U2087)(rr,RELS_TEST,X,Z1)) {
                         if ((Y == RLANY_CAN_GET_X)) {
                             rtrue;
@@ -59917,7 +59877,7 @@ Global max_z_object;
             ;
         RELS_LOOKUP_ALL_X:
             LIST_OF_TY_SetLength(Y, 0);
-            for ((Z1 = K6_supporter_First):Z1:(Z1 = (Z1.K6_supporter_Next))) {
+            objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
                 if ((call_U2087)(rr,RELS_TEST,Z1,X)) {
                     LIST_OF_TY_InsertItem(Y, Z1);
                 }
@@ -59926,7 +59886,7 @@ Global max_z_object;
             ;
         RELS_LOOKUP_ALL_Y:
             LIST_OF_TY_SetLength(Y, 0);
-            for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+            objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
                 if ((call_U2087)(rr,RELS_TEST,X,Z1)) {
                     LIST_OF_TY_InsertItem(Y, Z1);
                 }
@@ -59936,8 +59896,8 @@ Global max_z_object;
         RELS_LIST:
             LIST_OF_TY_SetLength(X, 0);
             if ((Y == RLIST_ALL_X)) {
-                for ((Z1 = K6_supporter_First):Z1:(Z1 = (Z1.K6_supporter_Next))) {
-                    for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
+                objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
+                    objectloop (Z3 ofclass Object && (Z3 ofclass Object)) {
                         if ((call_U2087)(rr,RELS_TEST,Z1,Z3)) {
                             LIST_OF_TY_InsertItem(X, Z1, 0, 0, 1);
                         }
@@ -59945,8 +59905,8 @@ Global max_z_object;
                 }
             } else {
                 if ((Y == RLIST_ALL_Y)) {
-                    for ((Z1 = K6_supporter_First):Z1:(Z1 = (Z1.K6_supporter_Next))) {
-                        for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
+                    objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
+                        objectloop (Z3 ofclass Object && (Z3 ofclass Object)) {
                             if ((call_U2087)(rr,RELS_TEST,Z1,Z3)) {
                                 LIST_OF_TY_InsertItem(X, Z3, 0, 0, 1);
                             }
@@ -59969,14 +59929,14 @@ Global max_z_object;
 [ call_U2088 rr task X Y Z1 Z2 Z3 Z4;
     switch (task) {
         RELS_TEST:
-            if ((X == PartOf(Y))) {
+            if ((X == SupporterOf(Y))) {
                 rtrue;
             }
             rfalse;
             ;
         RELS_LOOKUP_ANY:
             if ((((Y == RLANY_GET_X)) || ((Y == RLANY_CAN_GET_X)))) {
-                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                for ((Z1 = K6_supporter_First):Z1:(Z1 = (Z1.K6_supporter_Next))) {
                     if ((call_U2088)(rr,RELS_TEST,Z1,X)) {
                         if ((Y == RLANY_CAN_GET_X)) {
                             rtrue;
@@ -60017,7 +59977,7 @@ Global max_z_object;
             ;
         RELS_LOOKUP_ALL_X:
             LIST_OF_TY_SetLength(Y, 0);
-            for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+            for ((Z1 = K6_supporter_First):Z1:(Z1 = (Z1.K6_supporter_Next))) {
                 if ((call_U2088)(rr,RELS_TEST,Z1,X)) {
                     LIST_OF_TY_InsertItem(Y, Z1);
                 }
@@ -60036,7 +59996,7 @@ Global max_z_object;
         RELS_LIST:
             LIST_OF_TY_SetLength(X, 0);
             if ((Y == RLIST_ALL_X)) {
-                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                for ((Z1 = K6_supporter_First):Z1:(Z1 = (Z1.K6_supporter_Next))) {
                     for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
                         if ((call_U2088)(rr,RELS_TEST,Z1,Z3)) {
                             LIST_OF_TY_InsertItem(X, Z1, 0, 0, 1);
@@ -60045,7 +60005,7 @@ Global max_z_object;
                 }
             } else {
                 if ((Y == RLIST_ALL_Y)) {
-                    for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                    for ((Z1 = K6_supporter_First):Z1:(Z1 = (Z1.K6_supporter_Next))) {
                         for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
                             if ((call_U2088)(rr,RELS_TEST,Z1,Z3)) {
                                 LIST_OF_TY_InsertItem(X, Z3, 0, 0, 1);
@@ -60057,7 +60017,7 @@ Global max_z_object;
             return X;
             ;
         RELS_ASSERT_TRUE:
-            MakePart(Y, X);
+            MoveObject(Y, X);
             rtrue;
             ;
         RELS_ASSERT_FALSE:
@@ -60069,14 +60029,14 @@ Global max_z_object;
 [ call_U2089 rr task X Y Z1 Z2 Z3 Z4;
     switch (task) {
         RELS_TEST:
-            if (IndirectlyContains(X, Y)) {
+            if ((X == PartOf(Y))) {
                 rtrue;
             }
             rfalse;
             ;
         RELS_LOOKUP_ANY:
             if ((((Y == RLANY_GET_X)) || ((Y == RLANY_CAN_GET_X)))) {
-                objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
+                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
                     if ((call_U2089)(rr,RELS_TEST,Z1,X)) {
                         if ((Y == RLANY_CAN_GET_X)) {
                             rtrue;
@@ -60095,7 +60055,7 @@ Global max_z_object;
                 }
                 return DefaultValueOfKOV(OBJECT_TY);
             } else {
-                objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
+                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
                     if ((call_U2089)(rr,RELS_TEST,X,Z1)) {
                         if ((Y == RLANY_CAN_GET_X)) {
                             rtrue;
@@ -60117,7 +60077,7 @@ Global max_z_object;
             ;
         RELS_LOOKUP_ALL_X:
             LIST_OF_TY_SetLength(Y, 0);
-            objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
+            for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
                 if ((call_U2089)(rr,RELS_TEST,Z1,X)) {
                     LIST_OF_TY_InsertItem(Y, Z1);
                 }
@@ -60126,7 +60086,7 @@ Global max_z_object;
             ;
         RELS_LOOKUP_ALL_Y:
             LIST_OF_TY_SetLength(Y, 0);
-            objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
+            for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
                 if ((call_U2089)(rr,RELS_TEST,X,Z1)) {
                     LIST_OF_TY_InsertItem(Y, Z1);
                 }
@@ -60136,8 +60096,8 @@ Global max_z_object;
         RELS_LIST:
             LIST_OF_TY_SetLength(X, 0);
             if ((Y == RLIST_ALL_X)) {
-                objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
-                    objectloop (Z3 ofclass Object && (Z3 ofclass Object)) {
+                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                    for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
                         if ((call_U2089)(rr,RELS_TEST,Z1,Z3)) {
                             LIST_OF_TY_InsertItem(X, Z1, 0, 0, 1);
                         }
@@ -60145,8 +60105,8 @@ Global max_z_object;
                 }
             } else {
                 if ((Y == RLIST_ALL_Y)) {
-                    objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
-                        objectloop (Z3 ofclass Object && (Z3 ofclass Object)) {
+                    for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                        for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
                             if ((call_U2089)(rr,RELS_TEST,Z1,Z3)) {
                                 LIST_OF_TY_InsertItem(X, Z3, 0, 0, 1);
                             }
@@ -60156,20 +60116,27 @@ Global max_z_object;
             }
             return X;
             ;
+        RELS_ASSERT_TRUE:
+            MakePart(Y, X);
+            rtrue;
+            ;
+        RELS_ASSERT_FALSE:
+            rfalse;
+            ;
     }
     rfalse;
 ];
 [ call_U2090 rr task X Y Z1 Z2 Z3 Z4;
     switch (task) {
         RELS_TEST:
-            if ((X == CarrierOf(Y))) {
+            if (IndirectlyContains(X, Y)) {
                 rtrue;
             }
             rfalse;
             ;
         RELS_LOOKUP_ANY:
             if ((((Y == RLANY_GET_X)) || ((Y == RLANY_CAN_GET_X)))) {
-                for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
+                objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
                     if ((call_U2090)(rr,RELS_TEST,Z1,X)) {
                         if ((Y == RLANY_CAN_GET_X)) {
                             rtrue;
@@ -60188,7 +60155,7 @@ Global max_z_object;
                 }
                 return DefaultValueOfKOV(OBJECT_TY);
             } else {
-                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
                     if ((call_U2090)(rr,RELS_TEST,X,Z1)) {
                         if ((Y == RLANY_CAN_GET_X)) {
                             rtrue;
@@ -60210,7 +60177,7 @@ Global max_z_object;
             ;
         RELS_LOOKUP_ALL_X:
             LIST_OF_TY_SetLength(Y, 0);
-            for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
+            objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
                 if ((call_U2090)(rr,RELS_TEST,Z1,X)) {
                     LIST_OF_TY_InsertItem(Y, Z1);
                 }
@@ -60219,7 +60186,7 @@ Global max_z_object;
             ;
         RELS_LOOKUP_ALL_Y:
             LIST_OF_TY_SetLength(Y, 0);
-            for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+            objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
                 if ((call_U2090)(rr,RELS_TEST,X,Z1)) {
                     LIST_OF_TY_InsertItem(Y, Z1);
                 }
@@ -60229,8 +60196,8 @@ Global max_z_object;
         RELS_LIST:
             LIST_OF_TY_SetLength(X, 0);
             if ((Y == RLIST_ALL_X)) {
-                for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
-                    for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
+                objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
+                    objectloop (Z3 ofclass Object && (Z3 ofclass Object)) {
                         if ((call_U2090)(rr,RELS_TEST,Z1,Z3)) {
                             LIST_OF_TY_InsertItem(X, Z1, 0, 0, 1);
                         }
@@ -60238,8 +60205,8 @@ Global max_z_object;
                 }
             } else {
                 if ((Y == RLIST_ALL_Y)) {
-                    for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
-                        for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
+                    objectloop (Z1 ofclass Object && (Z1 ofclass Object)) {
+                        objectloop (Z3 ofclass Object && (Z3 ofclass Object)) {
                             if ((call_U2090)(rr,RELS_TEST,Z1,Z3)) {
                                 LIST_OF_TY_InsertItem(X, Z3, 0, 0, 1);
                             }
@@ -60249,20 +60216,13 @@ Global max_z_object;
             }
             return X;
             ;
-        RELS_ASSERT_TRUE:
-            MoveObject(Y, X);
-            rtrue;
-            ;
-        RELS_ASSERT_FALSE:
-            rfalse;
-            ;
     }
     rfalse;
 ];
 [ call_U2091 rr task X Y Z1 Z2 Z3 Z4;
     switch (task) {
         RELS_TEST:
-            if ((X == HolderOf(Y))) {
+            if ((X == CarrierOf(Y))) {
                 rtrue;
             }
             rfalse;
@@ -60362,7 +60322,7 @@ Global max_z_object;
 [ call_U2092 rr task X Y Z1 Z2 Z3 Z4;
     switch (task) {
         RELS_TEST:
-            if ((X == WearerOf(Y))) {
+            if ((X == HolderOf(Y))) {
                 rtrue;
             }
             rfalse;
@@ -60450,7 +60410,7 @@ Global max_z_object;
             return X;
             ;
         RELS_ASSERT_TRUE:
-            WearObject(Y, X);
+            MoveObject(Y, X);
             rtrue;
             ;
         RELS_ASSERT_FALSE:
@@ -60462,14 +60422,14 @@ Global max_z_object;
 [ call_U2093 rr task X Y Z1 Z2 Z3 Z4;
     switch (task) {
         RELS_TEST:
-            if (TestVisibility(X, Y)) {
+            if ((X == WearerOf(Y))) {
                 rtrue;
             }
             rfalse;
             ;
         RELS_LOOKUP_ANY:
             if ((((Y == RLANY_GET_X)) || ((Y == RLANY_CAN_GET_X)))) {
-                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
                     if ((call_U2093)(rr,RELS_TEST,Z1,X)) {
                         if ((Y == RLANY_CAN_GET_X)) {
                             rtrue;
@@ -60510,7 +60470,7 @@ Global max_z_object;
             ;
         RELS_LOOKUP_ALL_X:
             LIST_OF_TY_SetLength(Y, 0);
-            for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+            for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
                 if ((call_U2093)(rr,RELS_TEST,Z1,X)) {
                     LIST_OF_TY_InsertItem(Y, Z1);
                 }
@@ -60529,7 +60489,7 @@ Global max_z_object;
         RELS_LIST:
             LIST_OF_TY_SetLength(X, 0);
             if ((Y == RLIST_ALL_X)) {
-                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
                     for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
                         if ((call_U2093)(rr,RELS_TEST,Z1,Z3)) {
                             LIST_OF_TY_InsertItem(X, Z1, 0, 0, 1);
@@ -60538,7 +60498,7 @@ Global max_z_object;
                 }
             } else {
                 if ((Y == RLIST_ALL_Y)) {
-                    for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                    for ((Z1 = K8_person_First):Z1:(Z1 = (Z1.K8_person_Next))) {
                         for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
                             if ((call_U2093)(rr,RELS_TEST,Z1,Z3)) {
                                 LIST_OF_TY_InsertItem(X, Z3, 0, 0, 1);
@@ -60549,13 +60509,20 @@ Global max_z_object;
             }
             return X;
             ;
+        RELS_ASSERT_TRUE:
+            WearObject(Y, X);
+            rtrue;
+            ;
+        RELS_ASSERT_FALSE:
+            rfalse;
+            ;
     }
     rfalse;
 ];
 [ call_U2094 rr task X Y Z1 Z2 Z3 Z4;
     switch (task) {
         RELS_TEST:
-            if (TestTouchability(X, Y)) {
+            if (TestVisibility(X, Y)) {
                 rtrue;
             }
             rfalse;
@@ -60648,7 +60615,7 @@ Global max_z_object;
 [ call_U2095 rr task X Y Z1 Z2 Z3 Z4;
     switch (task) {
         RELS_TEST:
-            if (TestConcealment(X, Y)) {
+            if (TestTouchability(X, Y)) {
                 rtrue;
             }
             rfalse;
@@ -60739,6 +60706,99 @@ Global max_z_object;
     rfalse;
 ];
 [ call_U2096 rr task X Y Z1 Z2 Z3 Z4;
+    switch (task) {
+        RELS_TEST:
+            if (TestConcealment(X, Y)) {
+                rtrue;
+            }
+            rfalse;
+            ;
+        RELS_LOOKUP_ANY:
+            if ((((Y == RLANY_GET_X)) || ((Y == RLANY_CAN_GET_X)))) {
+                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                    if ((call_U2096)(rr,RELS_TEST,Z1,X)) {
+                        if ((Y == RLANY_CAN_GET_X)) {
+                            rtrue;
+                        }
+                        if ((Y == RLANY_CAN_GET_Y)) {
+                            rtrue;
+                        }
+                        return Z1;
+                    }
+                }
+                if ((Y == RLANY_CAN_GET_X)) {
+                    rfalse;
+                }
+                if ((Y == RLANY_CAN_GET_Y)) {
+                    rfalse;
+                }
+                return DefaultValueOfKOV(OBJECT_TY);
+            } else {
+                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                    if ((call_U2096)(rr,RELS_TEST,X,Z1)) {
+                        if ((Y == RLANY_CAN_GET_X)) {
+                            rtrue;
+                        }
+                        if ((Y == RLANY_CAN_GET_Y)) {
+                            rtrue;
+                        }
+                        return Z1;
+                    }
+                }
+                if ((Y == RLANY_CAN_GET_X)) {
+                    rfalse;
+                }
+                if ((Y == RLANY_CAN_GET_Y)) {
+                    rfalse;
+                }
+                return DefaultValueOfKOV(OBJECT_TY);
+            }
+            ;
+        RELS_LOOKUP_ALL_X:
+            LIST_OF_TY_SetLength(Y, 0);
+            for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                if ((call_U2096)(rr,RELS_TEST,Z1,X)) {
+                    LIST_OF_TY_InsertItem(Y, Z1);
+                }
+            }
+            return Y;
+            ;
+        RELS_LOOKUP_ALL_Y:
+            LIST_OF_TY_SetLength(Y, 0);
+            for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                if ((call_U2096)(rr,RELS_TEST,X,Z1)) {
+                    LIST_OF_TY_InsertItem(Y, Z1);
+                }
+            }
+            return Y;
+            ;
+        RELS_LIST:
+            LIST_OF_TY_SetLength(X, 0);
+            if ((Y == RLIST_ALL_X)) {
+                for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                    for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
+                        if ((call_U2096)(rr,RELS_TEST,Z1,Z3)) {
+                            LIST_OF_TY_InsertItem(X, Z1, 0, 0, 1);
+                        }
+                    }
+                }
+            } else {
+                if ((Y == RLIST_ALL_Y)) {
+                    for ((Z1 = K2_thing_First):Z1:(Z1 = (Z1.K2_thing_Next))) {
+                        for ((Z3 = K2_thing_First):Z3:(Z3 = (Z3.K2_thing_Next))) {
+                            if ((call_U2096)(rr,RELS_TEST,Z1,Z3)) {
+                                LIST_OF_TY_InsertItem(X, Z3, 0, 0, 1);
+                            }
+                        }
+                    }
+                }
+            }
+            return X;
+            ;
+    }
+    rfalse;
+];
+[ call_U2097 rr task X Y Z1 Z2 Z3 Z4;
     switch (task) {
         RELS_TEST:
             if (0) {
@@ -61872,6 +61932,17 @@ Global max_z_object;
                 (wn)--;
                 (try_from_wn = wn);
             }
+            if ((NextWordStopped() ~= 'killers')) {
+                jump Fail_1;
+            }
+            if ((NextWordStopped() ~= 'poster')) {
+                jump Fail_1;
+            }
+            (try_from_wn = wn);
+            (f = 1);
+            continue;
+            .Fail_1;
+            (wn = try_from_wn);
             break;
         }
         while (WordInProperty(NextWordStopped(), self, A_name)) {
@@ -62590,7 +62661,7 @@ Global max_z_object;
     (wn = range_from);
     (original_wn = wn);
     (rv = GPR_PREPOSITION);
-    if ((NextWordStopped() ~= 'unicorn')) {
+    if ((NextWordStopped() ~= 'ladder')) {
         jump Fail_1;
     }
     if ((((range_words == 0)) || (((wn - range_from) == range_words)))) {
@@ -62605,7 +62676,7 @@ Global max_z_object;
     (wn = range_from);
     (original_wn = wn);
     (rv = GPR_PREPOSITION);
-    if ((NextWordStopped() ~= 'y//')) {
+    if ((NextWordStopped() ~= 'unicorn')) {
         jump Fail_1;
     }
     if ((((range_words == 0)) || (((wn - range_from) == range_words)))) {
@@ -62620,7 +62691,7 @@ Global max_z_object;
     (wn = range_from);
     (original_wn = wn);
     (rv = GPR_PREPOSITION);
-    if ((NextWordStopped() ~= 'n//')) {
+    if ((NextWordStopped() ~= 'y//')) {
         jump Fail_1;
     }
     if ((((range_words == 0)) || (((wn - range_from) == range_words)))) {
@@ -62635,7 +62706,7 @@ Global max_z_object;
     (wn = range_from);
     (original_wn = wn);
     (rv = GPR_PREPOSITION);
-    if ((NextWordStopped() ~= 'emma')) {
+    if ((NextWordStopped() ~= 'n//')) {
         jump Fail_1;
     }
     if ((((range_words == 0)) || (((wn - range_from) == range_words)))) {
@@ -62650,7 +62721,7 @@ Global max_z_object;
     (wn = range_from);
     (original_wn = wn);
     (rv = GPR_PREPOSITION);
-    if ((NextWordStopped() ~= 'friends')) {
+    if ((NextWordStopped() ~= 'emma')) {
         jump Fail_1;
     }
     if ((((range_words == 0)) || (((wn - range_from) == range_words)))) {
@@ -62665,7 +62736,7 @@ Global max_z_object;
     (wn = range_from);
     (original_wn = wn);
     (rv = GPR_PREPOSITION);
-    if ((NextWordStopped() ~= 'name')) {
+    if ((NextWordStopped() ~= 'friends')) {
         jump Fail_1;
     }
     if ((((range_words == 0)) || (((wn - range_from) == range_words)))) {
@@ -62680,7 +62751,7 @@ Global max_z_object;
     (wn = range_from);
     (original_wn = wn);
     (rv = GPR_PREPOSITION);
-    if ((NextWordStopped() ~= 'dream')) {
+    if ((NextWordStopped() ~= 'name')) {
         jump Fail_1;
     }
     if ((((range_words == 0)) || (((wn - range_from) == range_words)))) {
@@ -62695,7 +62766,7 @@ Global max_z_object;
     (wn = range_from);
     (original_wn = wn);
     (rv = GPR_PREPOSITION);
-    if ((NextWordStopped() ~= 'hi')) {
+    if ((NextWordStopped() ~= 'dream')) {
         jump Fail_1;
     }
     if ((((range_words == 0)) || (((wn - range_from) == range_words)))) {
@@ -62710,7 +62781,7 @@ Global max_z_object;
     (wn = range_from);
     (original_wn = wn);
     (rv = GPR_PREPOSITION);
-    if ((NextWordStopped() ~= 'drawing')) {
+    if ((NextWordStopped() ~= 'hi')) {
         jump Fail_1;
     }
     if ((((range_words == 0)) || (((wn - range_from) == range_words)))) {
@@ -62725,7 +62796,7 @@ Global max_z_object;
     (wn = range_from);
     (original_wn = wn);
     (rv = GPR_PREPOSITION);
-    if ((NextWordStopped() ~= 'doodle')) {
+    if ((NextWordStopped() ~= 'drawing')) {
         jump Fail_1;
     }
     if ((((range_words == 0)) || (((wn - range_from) == range_words)))) {
@@ -62740,7 +62811,7 @@ Global max_z_object;
     (wn = range_from);
     (original_wn = wn);
     (rv = GPR_PREPOSITION);
-    if ((NextWordStopped() ~= 'drawing')) {
+    if ((NextWordStopped() ~= 'doodle')) {
         jump Fail_1;
     }
     if ((((range_words == 0)) || (((wn - range_from) == range_words)))) {
@@ -62755,7 +62826,7 @@ Global max_z_object;
     (wn = range_from);
     (original_wn = wn);
     (rv = GPR_PREPOSITION);
-    if ((NextWordStopped() ~= 'crayons')) {
+    if ((NextWordStopped() ~= 'drawing')) {
         jump Fail_1;
     }
     if ((((range_words == 0)) || (((wn - range_from) == range_words)))) {
@@ -62770,7 +62841,7 @@ Global max_z_object;
     (wn = range_from);
     (original_wn = wn);
     (rv = GPR_PREPOSITION);
-    if ((NextWordStopped() ~= 'wish')) {
+    if ((NextWordStopped() ~= 'crayons')) {
         jump Fail_1;
     }
     if ((((range_words == 0)) || (((wn - range_from) == range_words)))) {
@@ -62782,6 +62853,21 @@ Global max_z_object;
     return GPR_FAIL;
 ];
 [ Consult_Grammar33 range_from range_words original_wn group_wn v w rv;
+    (wn = range_from);
+    (original_wn = wn);
+    (rv = GPR_PREPOSITION);
+    if ((NextWordStopped() ~= 'wish')) {
+        jump Fail_1;
+    }
+    if ((((range_words == 0)) || (((wn - range_from) == range_words)))) {
+        return rv;
+    }
+    .Fail_1;
+    (rv = GPR_PREPOSITION);
+    (wn = original_wn);
+    return GPR_FAIL;
+];
+[ Consult_Grammar34 range_from range_words original_wn group_wn v w rv;
     (wn = range_from);
     (original_wn = wn);
     (rv = GPR_PREPOSITION);
@@ -62829,7 +62915,7 @@ Global max_z_object;
     (wn = original_wn);
     return GPR_FAIL;
 ];
-[ Consult_Grammar34 range_from range_words original_wn group_wn v w rv;
+[ Consult_Grammar35 range_from range_words original_wn group_wn v w rv;
     (wn = range_from);
     (original_wn = wn);
     (rv = GPR_PREPOSITION);
@@ -62871,26 +62957,11 @@ Global max_z_object;
     (wn = original_wn);
     return GPR_FAIL;
 ];
-[ Consult_Grammar35 range_from range_words original_wn group_wn v w rv;
-    (wn = range_from);
-    (original_wn = wn);
-    (rv = GPR_PREPOSITION);
-    if ((NextWordStopped() ~= 'flowers')) {
-        jump Fail_1;
-    }
-    if ((((range_words == 0)) || (((wn - range_from) == range_words)))) {
-        return rv;
-    }
-    .Fail_1;
-    (rv = GPR_PREPOSITION);
-    (wn = original_wn);
-    return GPR_FAIL;
-];
 [ Consult_Grammar36 range_from range_words original_wn group_wn v w rv;
     (wn = range_from);
     (original_wn = wn);
     (rv = GPR_PREPOSITION);
-    if ((NextWordStopped() ~= 'dandelion')) {
+    if ((NextWordStopped() ~= 'treehouse')) {
         jump Fail_1;
     }
     if ((((range_words == 0)) || (((wn - range_from) == range_words)))) {
@@ -62905,7 +62976,7 @@ Global max_z_object;
     (wn = range_from);
     (original_wn = wn);
     (rv = GPR_PREPOSITION);
-    if ((NextWordStopped() ~= 'narwhal')) {
+    if ((NextWordStopped() ~= 'flowers')) {
         jump Fail_1;
     }
     if ((((range_words == 0)) || (((wn - range_from) == range_words)))) {
@@ -62920,7 +62991,7 @@ Global max_z_object;
     (wn = range_from);
     (original_wn = wn);
     (rv = GPR_PREPOSITION);
-    if ((NextWordStopped() ~= 'parents')) {
+    if ((NextWordStopped() ~= 'dandelion')) {
         jump Fail_1;
     }
     if ((((range_words == 0)) || (((wn - range_from) == range_words)))) {
@@ -62935,7 +63006,7 @@ Global max_z_object;
     (wn = range_from);
     (original_wn = wn);
     (rv = GPR_PREPOSITION);
-    if ((NextWordStopped() ~= 'fuck')) {
+    if ((NextWordStopped() ~= 'narwhal')) {
         jump Fail_1;
     }
     if ((((range_words == 0)) || (((wn - range_from) == range_words)))) {
@@ -62947,6 +63018,36 @@ Global max_z_object;
     return GPR_FAIL;
 ];
 [ Consult_Grammar40 range_from range_words original_wn group_wn v w rv;
+    (wn = range_from);
+    (original_wn = wn);
+    (rv = GPR_PREPOSITION);
+    if ((NextWordStopped() ~= 'parents')) {
+        jump Fail_1;
+    }
+    if ((((range_words == 0)) || (((wn - range_from) == range_words)))) {
+        return rv;
+    }
+    .Fail_1;
+    (rv = GPR_PREPOSITION);
+    (wn = original_wn);
+    return GPR_FAIL;
+];
+[ Consult_Grammar41 range_from range_words original_wn group_wn v w rv;
+    (wn = range_from);
+    (original_wn = wn);
+    (rv = GPR_PREPOSITION);
+    if ((NextWordStopped() ~= 'fuck')) {
+        jump Fail_1;
+    }
+    if ((((range_words == 0)) || (((wn - range_from) == range_words)))) {
+        return rv;
+    }
+    .Fail_1;
+    (rv = GPR_PREPOSITION);
+    (wn = original_wn);
+    return GPR_FAIL;
+];
+[ Consult_Grammar42 range_from range_words original_wn group_wn v w rv;
     (wn = range_from);
     (original_wn = wn);
     (rv = GPR_PREPOSITION);
@@ -62988,7 +63089,7 @@ Global max_z_object;
     (wn = original_wn);
     return GPR_FAIL;
 ];
-[ Consult_Grammar41 range_from range_words original_wn group_wn v w rv;
+[ Consult_Grammar43 range_from range_words original_wn group_wn v w rv;
     (wn = range_from);
     (original_wn = wn);
     (rv = GPR_PREPOSITION);
@@ -63003,7 +63104,7 @@ Global max_z_object;
     (wn = original_wn);
     return GPR_FAIL;
 ];
-[ Consult_Grammar42 range_from range_words original_wn group_wn v w rv;
+[ Consult_Grammar44 range_from range_words original_wn group_wn v w rv;
     (wn = range_from);
     (original_wn = wn);
     (rv = GPR_PREPOSITION);
@@ -63018,7 +63119,7 @@ Global max_z_object;
     (wn = original_wn);
     return GPR_FAIL;
 ];
-[ Consult_Grammar43 range_from range_words original_wn group_wn v w rv;
+[ Consult_Grammar45 range_from range_words original_wn group_wn v w rv;
     (wn = range_from);
     (original_wn = wn);
     (rv = GPR_PREPOSITION);
@@ -63033,7 +63134,7 @@ Global max_z_object;
     (wn = original_wn);
     return GPR_FAIL;
 ];
-[ Consult_Grammar44 range_from range_words original_wn group_wn v w rv;
+[ Consult_Grammar46 range_from range_words original_wn group_wn v w rv;
     (wn = range_from);
     (original_wn = wn);
     (rv = GPR_PREPOSITION);
@@ -63048,7 +63149,7 @@ Global max_z_object;
     (wn = original_wn);
     return GPR_FAIL;
 ];
-[ Consult_Grammar45 range_from range_words original_wn group_wn v w rv;
+[ Consult_Grammar47 range_from range_words original_wn group_wn v w rv;
     (wn = range_from);
     (original_wn = wn);
     (rv = GPR_PREPOSITION);
@@ -84100,7 +84201,10 @@ Verb 'notify'
 Verb 'help' 
 	* -> A_helping;
 Verb 'water' 
-	* noun -> A_watering;
+	* noun -> A_watering 
+	* noun 'with' 'jug' -> A_watering;
+Verb 'pour' 
+	* 'water' 'on' noun -> A_watering;
 Verb 'draw' 
 	* 'on' noun 'with' noun -> A_drawing_on_it_with 
 	* topic 'with' noun -> A_drawing;

@@ -158,16 +158,17 @@ The description of crayons is "A bright yellow box. On it are instructions on ho
 
 [italic type]To draw something with the crayons, type: draw `object` with crayons[roman type].".
 The description of glasses is "A wacky looking pair of with black frames and blue-purple swirling lenses. On the side are the words [italic type] Sentence Scrambler."
-
+	
 After opening the drawer:
 	say "You pull open the drawer. A journal, a box of crayons, and a pair of glasses	 lies inside. The journal beckons to you.".
 
 After putting on glasses:
 	say "You put on the pair of glasses and the world turns all sorts of odd colours. Guess you need to change your prescription.".
 
-A desk is here. It is a supporter. It is fixed in place. A ballpoint pen is on the desk. It is fixed in place. A computer is on the desk. A computer is a device. It is switched off. It is fixed in place. The description is "[if noun is switched off]A yellowing Windows XP that's seen better days.[else if roomCount is 0]The computer is open to a game development software. You feel unsettled, like you're being watched.[else if roomCount is 1]Your screen is being populated with a barrage of popups. The same message is written on them. 'Your dreams await. \( ^^)/'.[else if roomCount is 2]
+A desk is here. It is a supporter. It is fixed in place. A ballpoint pen is on the desk. It is fixed in place. A computer is on the desk. A computer is a device. It is switched on. It is fixed in place. The description is "[if noun is switched off]A yellowing Windows XP that's seen better days.[else if roomCount is 0]The computer is open to a game development software. You feel unsettled, like you're being watched.[else if roomCount is 1]Your screen is being populated with a barrage of popups. The same message is written on them. 'Your dreams await. \( ^^)/'.[else if roomCount is 2]
 A browser is open to an email inbox. You have several unread emails.
 [end if] "
+
 
 After examining the computer:
 	if roomCount is 2:
@@ -214,7 +215,7 @@ Reading email is an action applying to one number. Understand "read email [numbe
 
 Understand "monitor" or "laptop" as computer.
 Understand "lamp" or "light" as lightbulb.
-Understand "Killers" or "wall" as poster.
+Understand "Killers" or "Killers poster" or "wall" as poster.
 
 
 Rule for printing the locale description of Bedroom: stop.
@@ -231,18 +232,13 @@ After switching on the lightbulb:
 After switching off the lightbulb:
     stop the action.
 
-Carry out switching on computer:
-	say "The monitor lights up with a staticky pop. ".
+After switching on computer:
+	say "The monitor lights up with a staticky pop.";
+	try examining the computer.
 
 Carry out switching off computer:
 	say "The monitor shuts off. The fan goes silent.".
 	
-After switching on the computer:
-    stop the action.
-
-After switching off the computer:
-    stop the action.
-
 A newsprint is here. "A crumpled newsprint lies wrinkled on the floor." It is fixed in place. The description is "You straighten out the sheet of newspaper, handling it delicately. [if roomCount is 0]You can't quite make out the words. Your head is spinning.[else if roomCount is 1] The page contains two girls playing in a sandbox. The smaller of the two is labouring over a crudely formed sand sculpture. The other is carelessly sprawled across the sand, her body covered in dust. You study the small stature, the neat braids, the wrinkled clothing. They look around preschool age. [paragraph break]¯¯̿̿¯̿̿'̿̿̿̿̿̿̿'̿̿'̿̿̿̿̿'̿̿̿)͇̿̿)̿̿̿̿ '̿̿̿̿̿̿\̵͇̿̿\=(•̪̀●́)=o/̵͇̿̿/. You can't make out the caption.[end if]".
 
 [A paper is a kind of thing. A paper has a doodle. After printing the name of a paper: say " (with a [doodle] on it)". Understand the doodle property as describing a paper.]
@@ -300,7 +296,7 @@ After unlocking the drawer with the silver key:
 A jug is here. The description is "It's filled with water."
 
 The plant is a thing. It is here. It is fixed in place. The description is "It looks parched.".
-Understand "water [something]" as watering. Watering is an action applying to one thing.
+Understand "water [something]" or "water [something] with jug" or "pour water on [something]" as watering. Watering is an action applying to one thing.
 
 After watering the plant:
 	if the player is carrying the jug:
@@ -376,29 +372,13 @@ Carry out drawing:
 		The air sizzles, and with a pop, something drops in your pocket";
 	else if the topic understood matches "bunny":
 		say "You doodle a cute bunny on the page. Its long ears and fluffy tail make it look adorable.";
+	else if the topic understood matches "ladder":
+		now the ladder is fixed;
+		say "You color in the missing gaps with the silver crayon. Good as new.";
 	else if the topic understood matches "unicorn":
 		say "You carefully sketch a majestic unicorn with your crayons. Its flowing mane and shiny horn are drawn with great detail.";
 	else:
 		say "You draw [the topic understood] with your crayons. It looks decent, but it's not your best work.";
-
-[Understand "draw [something]" or "draw a [something]" as drawing. Drawing is an action applying to one thing.
-
-Understand "draw [text]" as drawrandoming. Drawrandoming is an action applying to one topic.
-
-Check drawing:
-	If the player is not carrying the crayons, say "You don't have anything to draw with." instead.
-	
-Report drawing:
-	now the noun is in Toybox;
-	now the player is carrying the noun;
-	say "(with the crayons) You doodle a [noun]. Looks cute. The air sizzles, and with a pop, the [noun] is splits from its surroundings. Something drops in your pocket.".
-
-Check drawrandoming:
-	If the player is not carrying the crayons:
-		 say "You don't have anything to draw with" instead.
-
-Carry out drawrandoming:
-	say "(with the crayons) You doodle a [the topic understood]. Looks cute.".]
 
 Rule for printing the locale description of Toybox: stop.
 
@@ -431,6 +411,12 @@ Check drawing on the ladder with the crayons:
 	if the ladder is fixed:
 		say "You have already fixed the ladder." instead.
 
+Carry out drawing on the ladder with the crayons:
+	now the ladder is fixed.	
+
+Report drawing on the ladder with the crayons:
+	say "You color in the missing gaps with the silver crayon. Good as new."
+	
 Carry out drawing on the ladder with the crayons:
 	now the ladder is fixed.
 
@@ -509,11 +495,11 @@ Instead of asking Emma about "dream":
 Instead of asking Emma about "hi":
     say "[if emmaName is 1]Emma[else]She[end if] crushes you in a hug. You found me!".
 Instead of asking Emma about "drawing":
-    say "'C'mon! Let's draw together', she cries.".
+    say "'C'mon! Let's draw together', she cries. There's something I'm trying to draw...".
 Instead of asking Emma about "doodle":
-    say "'C'mon! Let's draw together', she cries.".
+    say "'C'mon! Let's draw together', she cries. There's something I'm trying to draw...".
 Instead of asking Emma about "drawing":
-    say "'C'mon! Let's draw together', she cries.".
+    say "'C'mon! Let's draw together', she cries. There's something I'm trying to draw...".
 Instead of asking Emma about "crayons":
     say "Her eyes go wide. 'Waahhhh! Crayons! Can I eat one?' she cries. 'Just kidding. But I wonder if you could help me out with my wish.'".
 Instead of asking Emma about "wish":
@@ -522,6 +508,8 @@ Instead of asking Emma about "looking/find/doing/grass/stem/meadow":
     say "[if emmaName is 1]Emma[else]The girl[end if] looks solemn, 'I'm looking for something. It's a [italic type]special[roman type] plant. My grandma told me it's got special powers, and I need it to make a wish.".
 Instead of asking Emma about "wish/what her wish is/wishes":
     say "Huuuh? I can't tell you! 'Cause if I did, it wouldn't come true!".
+Instead of asking Emma about "treehouse":
+    say "[if emmaName is 1]Emma[else]The girl[end if] smiles. I spent a while on it! Used the brown crayon and the green crayon and lots of other things... I'm trying to decorate it with flowers.'".
 Instead of asking Emma about "flowers":
     say "[if emmaName is 1]Emma[else]The girl[end if] brightens up. 'Yes! I'm trying to draw a specific flower... for a wish. It's yellow, and then not yellow. When it's old it becomes a puffball.'".
 Instead of asking Emma about "dandelion":
@@ -544,7 +532,9 @@ Instead of asking Emma about "world/where/toybox/notebook/paper", say "She looks
 
 Section 4 - Plushieland
 
-Plushieland is a room. "You wake up in world of cotton. Everything you see is rendered in a shade of pastel - the turgid river, the sky, the meadows in front of you. Before you are a medley of anthropomorphic plushies. You spot a jubjub, hedgehog, and even a djungelskog. A girl around the age of seven is playing with the stuffed animals."
+Plushieland is a room. "You wake up in world of cotton. Everything you see is rendered in a shade of pastel - the turgid river, the sky, the meadows in front of you. You reach out a hand, tentatively. The cotton is soft.
+
+Before you are a medley of anthropomorphic plushies. You spot a jubjub, hedgehog, and even a djungelskog. A girl around the age of seven is playing with the stuffed animals."
 
 Table of Conversation
 Topic	Response
