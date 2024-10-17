@@ -53,6 +53,20 @@ physical symptoms of drug withdrawal
 manuscript is visible on a desk
 traumatic chapter 10 times to get the content out
 
+terminal illness due to lack of belief? how to keep her alive:
+	- bits of her body start fading
+	- collect various objects for cure?
+	- each toy world is you granting her a wish, you sharing in belief
+	- multiple endings: 
+		- maladaptive daydreaming? too much absorption in the world 
+		- she dies - sterile corporate present day
+		- imaginary world as muse
+		
+toybox (doodles)
+plushieland (cotton plushies)
+pure diary? world of pure text (nothing appears? everything is represented by their text form OR journal that you can write in chamber of secrets style)
+video game rendering world (3d greyscale)
+
 
 dream: early 2000s
 high school 
@@ -305,7 +319,7 @@ After watering the plant:
 	else: 
 		say "You don't have anything to water it with.".
 
-A note is here. It is fixed in place. A fridge is here. The fridge is fixed in place.  The description of the fridge is "You're bizarrely attached to your fridge. It's charming in its age, rickedy, humming in a contented manner. It's covered with  and a note is pinned to it." It is a container. It is openable. It is closed. The description of the note is "There's a note stuck to the fridge. It reads [if the player is not wearing the glasses] ??? ??? ????????? ???? You can't make out the text [else] 'Where did you go? Come play with me in Dreamland /( ^^)/[end if].'".
+A note is here. It is fixed in place. A fridge is here. The fridge is fixed in place.  The description of the fridge is "You're bizarrely attached to your fridge. It's charming in its age, rickedy, humming in a contented manner. It's covered with  and a note is pinned to it." It is a container. It is openable. It is closed. The description of the note is "There's a note stuck to the fridge. It reads [if the player is not wearing the glasses] ??? ??? ????????? ????. You can't make out the text[else] 'Where did you go? Come play with me in Dreamland /( ^^)/[end if].'".
 
 After opening the fridge, say "The fridge contains a jug and a piece of candy. The candy beckons to you."
 
@@ -503,17 +517,21 @@ Instead of asking Emma about "drawing":
 Instead of asking Emma about "crayons":
     say "Her eyes go wide. 'Waahhhh! Crayons! Can I eat one?' she cries. 'Just kidding. But I wonder if you could help me out with my wish.'".
 Instead of asking Emma about "wish":
-    say "You feel it too, don't you? whispers [if emmaName is 1]Emma[else]the girl[end if]. This is a magic place.".
+    say "You feel it too, don't you? whispers [if emmaName is 1]Emma[else]the girl[end if]. This is a magic place. I'm looking for a flower that'll make things come true...".
 Instead of asking Emma about "looking/find/doing/grass/stem/meadow":
     say "[if emmaName is 1]Emma[else]The girl[end if] looks solemn, 'I'm looking for something. It's a [italic type]special[roman type] plant. My grandma told me it's got special powers, and I need it to make a wish.".
 Instead of asking Emma about "wish/what her wish is/wishes":
     say "Huuuh? I can't tell you! 'Cause if I did, it wouldn't come true!".
 Instead of asking Emma about "treehouse":
     say "[if emmaName is 1]Emma[else]The girl[end if] smiles. I spent a while on it! Used the brown crayon and the green crayon and lots of other things... I'm trying to decorate it with flowers.'".
+Instead of asking Emma about "flower":
+    say "[if emmaName is 1]Emma[else]The girl[end if] brightens up. 'Yes! I'm trying to draw a specific flower... for a wish. It's yellow, and then not yellow. When it's old it becomes a puffball.'".
 Instead of asking Emma about "flowers":
     say "[if emmaName is 1]Emma[else]The girl[end if] brightens up. 'Yes! I'm trying to draw a specific flower... for a wish. It's yellow, and then not yellow. When it's old it becomes a puffball.'".
 Instead of asking Emma about "dandelion":
     say "[if emmaName is 1]Emma[else]The girl[end if] looks up at you in wonder. So you do know the story! Could'ya help me find one? Pretty please!".
+Instead of asking Emma about "clover":
+    say "[if emmaName is 1]Emma[else]The girl[end if] shakes her head. Those don't work. ".
 Instead of asking Emma about "narwhal":
     say "'Mr. Narkins!' she cries.".
 Instead of asking Emma about "parents":
@@ -528,7 +546,8 @@ Instead of asking Emma about something:
 	else if emmaTalk is 3:
 		say "Emma is humming to herself.";
 	now emmaTalk is a random number from 1 to 3.
-Instead of asking Emma about "world/where/toybox/notebook/paper", say "She looks at you quizzickly. 'Whatdya mean? You don't remember?'".
+Instead of asking Emma about "world", say "She looks at you quizzickly. 'Whatdya mean? You don't remember?'".
+Instead of asking Emma about "toybox", say "She looks at you quizzickly. 'Whatdya mean? You don't remember?'".
 
 Section 4 - Plushieland
 
