@@ -13,7 +13,7 @@ You wake up to the ringing of your alarm. Images of a strange dream drift throug
 (´｡• ᵕ •｡`) ♡ 
 Dreamland
 An Interactive Fiction by Melissa Liu
-Release 1 / Serial number 240922 / Inform 7 v10.1.2 / D
+Release 1 / Serial number 241028 / Inform 7 v10.1.2 / D
 
 Bedroom
  .   \_/       .:"    .:"    .:"
@@ -13586,12 +13586,12 @@ You can see a cardboard box (closed) here.
         <command xml:space="preserve">help</command>
         <result xml:space="preserve">
  Here are some instructions to get you started:
- - Use "look" to observe your surroundings.
- - Use "take item" to pick up items.
- - Use "inventory" or "i" to see what you're carrying.
- - Use "go direction" to move around (e.g., "go north" or simply "n" or "s").
- - For more details, try interacting with objects using "examine item" or "x item".
- - Visit: https://tinyurl.com/inform-cheatsheet for more commands. 
+ • Use "look" to observe your surroundings.
+ • Use "take item" to pick up items.
+ • Use "inventory" or "i" to see what you're carrying.
+ • Use "go direction" to move around (e.g., "go north" or simply "n" or "s").
+ • For more details, try interacting with objects using "examine item" or "x item".
+ • Visit: https://tinyurl.com/inform-cheatsheet for more commands. 
  
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

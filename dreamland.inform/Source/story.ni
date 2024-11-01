@@ -14,12 +14,12 @@ Understand "help" as helping.
 
 Carry out helping:
 	say "[line break]
-	[italic type]Here are some instructions to get you started:[line break]	- Use 'look' to observe your surroundings.[line break]
-    - Use 'take item' to pick up items.[line break]
-    - Use 'inventory' or 'i' to see what you're carrying.[line break]
-    - Use 'go direction' to move around (e.g., 'go north' or simply 'n' or 's').[line break]
-    - For more details, try interacting with objects using 'examine item' or 'x item'.[line break]
-- Visit: https://tinyurl.com/inform-cheatsheet for more commands.[roman type] [line break]
+	[italic type]Here are some instructions to get you started:[line break]	• Use 'look' to observe your surroundings.[line break]
+    • Use 'take item' to pick up items.[line break]
+    • Use 'inventory' or 'i' to see what you're carrying.[line break]
+    • Use 'go direction' to move around (e.g., 'go north' or simply 'n' or 's').[line break]
+    • For more details, try interacting with objects using 'examine item' or 'x item'.[line break]
+• Visit: https://tinyurl.com/inform-cheatsheet for more commands.[roman type] [line break]
 ";
 
 
@@ -554,6 +554,24 @@ Section 4 - Plushieland
 Plushieland is a room. "You wake up in world of cotton. Everything you see is rendered in a shade of pastel - the turgid river, the sky, the meadows in front of you. You reach out a hand, tentatively. The cotton is soft.
 
 Before you are a medley of anthropomorphic plushies. You spot a jubjub, hedgehog, and even a djungelskog. A girl around the age of seven is playing with the stuffed animals."
+
+A stuffed animal is a kind of thing.
+
+The jubjub is a stuffed animal in Plushieland. Understand "jubjub" as the jubjub.
+The description of the jubjub is "The jubjub has wide eyes and fuzzy fur, looking curious and somewhat shy."
+Instead of asking the jubjub about something:
+    say "'Oh, hello,' the jubjub whispers. 'It's... really nice to meet you.'"
+
+The hedgehog is a stuffed animal in Plushieland. Understand "hedgehog" as the hedgehog.
+The description of the hedgehog is "The hedgehog is covered in tiny, harmless quills, giving it a spiky yet soft appearance."
+Instead of asking the jubjub about something:
+    say "'I've been rolling around here forever!' the hedgehog giggles. 'Want to roll with me?'"
+
+The djungelskog is a stuffed animal in Plushieland. Understand "djungelskog" as the djungelskog.
+The description of the djungelskog is "A large, soft bear with a slightly slouched posture, as if it's ready for a cozy nap."
+Instead of asking the jubjub about something:
+    say "'Hello,' the djungelskog says in a slow, deep voice. 'Come sit, rest. There's room for everyone on my belly.'"
+
 
 Table of Conversation
 Topic	Response
