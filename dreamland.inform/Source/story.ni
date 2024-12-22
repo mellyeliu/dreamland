@@ -1,4 +1,4 @@
-"Dreamland" by Melissa Liu
+"Dreamland" by mellyeliu
 
 roomCount is a number that varies. roomCount is 0.
 songX is a number that varies. songX is 0.
@@ -12,14 +12,21 @@ helpInstructions is a number that varies. helpInstructions is 0.
 Helping is an action applying to nothing. 
 Understand "help" as helping.
 
+Abouting is an action applying to nothing. 
+Understand "about" as abouting.
+
 Carry out helping:
 	say "[line break]
 	[italic type]Here are some instructions to get you started:[line break]	• Use 'look' to observe your surroundings.[line break]
-    • Use 'take item' to pick up items.[line break]
+    • Use 'take item' or 'take all' to pick up items.[line break]
     • Use 'inventory' or 'i' to see what you're carrying.[line break]
     • Use 'go direction' to move around (e.g., 'go north' or simply 'n' or 's').[line break]
     • For more details, try interacting with objects using 'examine item' or 'x item'.[line break]
 • Visit: https://tinyurl.com/inform-cheatsheet for more commands.[roman type] [line break]
+";
+
+Carry out abouting:
+	say "[line break][italic type]This is a little demo of an interactive fiction game about dream journals and imaginary worlds. Please be patient as we work through any bugs ૮ ․ ․ ྀིა.[line break]
 ";
 
 
@@ -154,11 +161,10 @@ The Bedroom is a room. "
 .         |       ||      ||      |%[line break]
   &%&--==--&%-==--%&[line break]
 
-[if roomCount is 0]Your bedroom is unadorned. The walls are chalky and the ground bare. The only decoration is a poster of The Killers. A lightbulb hangs from the ceiling. A tiny window is opened a crack, and the sound of faint static comes through.[else if roomCount is 1]You step into the bedroom and are flooded with emotion. Every inch of its surface now looks as if it's been dipped in. The walls are pulsating and warm, shifting from blue to red to violet. [else if roomCount is 2] It's weird to see things in 3D now. Your room has gone back to normal. There's an odd humming coming from your computer, though. [end if]
+[if roomCount is 0]Your bedroom is unadorned. The walls are chalky and the ground bare. The only decoration is a poster of The Killers. A lightbulb hangs from the ceiling. A tiny window is opened a crack, and the sound of faint static comes through. A crumpled newsprint lies in the wastebin, forgotten.[else if roomCount is 1]You step into the bedroom and are flooded with emotion. Every inch of its surface now looks as if it's been dipped in. The walls are pulsating and warm, shifting from blue to red to violet. [else if roomCount is 2]It's weird to see things in 3D now. Your room has gone back to normal. There's an odd humming coming from your computer, though. [end if]
 
 [if roomCount is 0]In the corner your monitor blinks wearily. You must've forgotten to turn it off. [else if roomCount is 1]Lo-fi indie is playing from your computer. You notice movement on the screen.[end if] Beside you is a worn out drawer. To the north your kitchen fridge hums. To the south is a cramped closet.
-[if helpInstructions is 0][paragraph break]
-[italic type]If this is your first interactive fiction game, type [bold type]help[italic type] to get started.[roman type][end if]
+[if helpInstructions is 0][paragraph break][italic type]Type [bold type]help[italic type] or [bold type]about[italic type] to get started.[roman type][end if]
 ".
 
 After looking in the Bedroom:
@@ -229,16 +235,24 @@ Reading email is an action applying to one number. Understand "read email [numbe
 
 Understand "monitor" or "laptop" as computer.
 Understand "lamp" or "light" as lightbulb.
+Understand "pull string" as pulling the string.
+Pulling the string is an action applying to nothing.
 Understand "Killers" or "Killers poster" or "wall" as poster.
+
+Instead of pulling the string when the lightbulb is switched off:
+    try switching on the lightbulb.
+
+Instead of pulling the string when the lightbulb is switched on:
+    try switching off the lightbulb.
 
 
 Rule for printing the locale description of Bedroom: stop.
 
 Carry out switching on the lightbulb:
-	say "You pull on the lightbulb. Things seem a little brighter.".
+	say "You pull the string, and the lightbulb flickers to life.";
 
 Carry out switching off lightbulb:
-	say "The room dims.".
+	say "You pull the string, and the lightbulb goes dark.".
 
 After switching on the lightbulb:
     stop the action.
@@ -253,7 +267,7 @@ After switching on computer:
 Carry out switching off computer:
 	say "The monitor shuts off. The fan goes silent.".
 	
-A newsprint is here. "A crumpled newsprint lies wrinkled on the floor." It is fixed in place. The description is "You straighten out the sheet of newspaper, handling it delicately. [if roomCount is 0]You can't quite make out the words. Your head is spinning.[else if roomCount is 1] The page contains two girls playing in a sandbox. The smaller of the two is labouring over a crudely formed sand sculpture. The other is carelessly sprawled across the sand, her body covered in dust. You study the small stature, the neat braids, the wrinkled clothing. They look around preschool age. [paragraph break]¯¯̿̿¯̿̿'̿̿̿̿̿̿̿'̿̿'̿̿̿̿̿'̿̿̿)͇̿̿)̿̿̿̿ '̿̿̿̿̿̿\̵͇̿̿\=(•̪̀●́)=o/̵͇̿̿/. You can't make out the caption.[end if]".
+A newsprint is here. "A crumpled newsprint lies wrinkled on the floor." The description is "You straighten out the sheet of newspaper, handling it delicately. [if roomCount is 0]You can't quite make out the words. Your head is spinning.[else if roomCount is 1] The page contains two girls playing in a sandbox. The smaller of the two is labouring over a crudely formed sand sculpture. The other is carelessly sprawled across the sand, her body covered in dust. You study the small stature, the neat braids, the wrinkled clothing. They look around preschool age. [paragraph break]¯¯̿̿¯̿̿'̿̿̿̿̿̿̿'̿̿'̿̿̿̿̿'̿̿̿)͇̿̿)̿̿̿̿ '̿̿̿̿̿̿\̵͇̿̿\=(•̪̀●́)=o/̵͇̿̿/. You can't make out the caption.[end if]".
 
 [A paper is a kind of thing. A paper has a doodle. After printing the name of a paper: say " (with a [doodle] on it)". Understand the doodle property as describing a paper.]
 
@@ -316,12 +330,13 @@ After watering the plant:
 	if the player is carrying the jug:
 		say "You water the plant with the jug. The plant perks up a little.";
 		now the description of the plant is "It's standing a bit taller now.";
+		now the description of the jug is "An empty jug.";
 	else: 
 		say "You don't have anything to water it with.".
 
-A note is here. It is fixed in place. A fridge is here. The fridge is fixed in place.  The description of the fridge is "You're bizarrely attached to your fridge. It's charming in its age, rickedy, humming in a contented manner. It's covered with  and a note is pinned to it." It is a container. It is openable. It is closed. The description of the note is "There's a note stuck to the fridge. It reads [if the player is not wearing the glasses] ??? ??? ????????? ????. You can't make out the text[else] 'Where did you go? Come play with me in Dreamland /( ^^)/[end if].'".
+A note is here. It is fixed in place. A baking soda is here. It is fixed in place. The description is "Off-brand Great Value. Good for neutralizing odours.". A fridge is here. The fridge is fixed in place.  The description of the fridge is "You're bizarrely attached to your fridge. It's charming in its age, rickedy, humming in a contented manner. It's covered with  and a note is pinned to it." It is a container. It is openable. It is closed. The description of the note is "There's a note stuck to the fridge. It reads [if the player is not wearing the glasses]??? ??? ????????? ????. You can't make out the text[else] 'Where did you go? Come play with me in Dreamland /( ^^)/[end if].'".
 
-After opening the fridge, say "The fridge contains a jug and a piece of candy. The candy beckons to you."
+After opening the fridge, say "The fridge is empty except for a tub of baking soda and a piece of candy. The candy beckons to you."
 
 The candy is edible. The description is "A lychee sweet. It glows mysteriously."  The fridge contains candy.  
 
@@ -329,7 +344,7 @@ After taking the candy:
 	say "You pocket the candy. It feels heavy, like nostalgia."
 
 After eating the candy:
-	say "You unwrap the candy and pop it in your mouth. It tastes of a strange medley of flavours - vanilla custard, citrus, a hint of buttered toast. Delightful.
+	say "You unwrap the candy and pop it in your mouth. It tastes of a strange medley of flavours—vanilla custard, citrus, a hint of buttered toast. Delightful.
 
 A sudden prickling rips through your throat, like you've swallowed something you shouldn't have. You double over, coughing, clutching the counter for balance. There's something lodged in your throat.
 
@@ -367,7 +382,7 @@ Toybox is a room with printed name "Toybox (Dreamland)".
 [A doodlebox machine is in the Toybox. It is fixed in place and opaque. ]
 
 
-A playstructure is here. It is fixed in place. Understand "playground" or "park" as playstructure. The description of the playstructure is "Warped plastics. Doesn't look safe to visit.". A swing is here. It is fixed in place. Understand "swings" as swing. The description of the swing is "A rusted thing. Doesn't look safe to swing on.". A tree is here. It is fixed in place. The description of the tree is "A knotted looking thing with a thick trunk. Leaning on it is a worn out ladder. Nestled in the branches is a winding structure, a treehouse of sorts.". A bunny is here. It is fixed in place. A clover is here. It is fixed in place. A dandelion is here. It is fixed in place.
+A playstructure is here. It is fixed in place. Understand "playground" or "park" as playstructure. The description of the playstructure is "Warped plastics. Doesn't look safe to visit.". A swing is here. It is fixed in place. Understand "swings" as swing. The description of the swing is "A rusted thing. Doesn't look safe to swing on.". A tree is here. It is fixed in place. The description of the tree is "A knotted looking thing with a thick trunk. Leaning on it is a worn out ladder. Nestled in the branches is a winding structure, a treehouse of sorts.". A forest is here. It is scenery. The description of the forest is "A series of swaying paper trees. In the middle is a lush treehouse.". A bunny is here. It is fixed in place. A clover is here. It is fixed in place. A dandelion is here. It is fixed in place.
 
 Drawing is an action applying to one topic and one carried thing.
 Understand "draw [text] with [something]" as drawing.
@@ -439,7 +454,7 @@ Report drawing on the ladder with the crayons:
 	
 
 Instead of climbing the ladder when the ladder is fixed:
-	say "You climb the ladder.";
+	say "You grip the edges of the ladder cautiously, and hoist yourself up. Half of you expects the scribbled lines to give way, but they hold steady. After a few minutes of climbing, you are met with a trapdoor. You push on the latch.";
 move the player to the Treehouse.
 
 After going to the Treehouse for the first time:
@@ -447,7 +462,7 @@ After going to the Treehouse for the first time:
 
 emmaTalk is a number that varies. emmaTalk is 1.
 
-Emma is a person in the Treehouse. The description of Emma is "[if Emma is in Treehouse]A small girl wearing a checkered dress. Her hair is in neat plaits and her socks are mismatched. She looks familiar. [else] Emma looks taller than you remember. She's fiddling with a sewing needle.[end if]
+Emma is a person in the Treehouse. The description of Emma is "[if Emma is in Treehouse]A small girl wearing a checkered dress. Her hair is in neat plaits and her socks are mismatched. She looks familiar. [else]Emma looks taller than you remember. She's fiddling with a sewing needle.[end if]
 
 [italic type]You can interact with her by typing: ask [if emmaName is 1]Emma[else]girl[end if] about `topic`. The topic should be a singular word.[roman type]". Understand "girl" or "child" or "kid" as Emma.
 
@@ -467,11 +482,13 @@ Before giving narwhal to Emma:
 Before giving dandelion to Emma:
 	say "Emma looks up at you in wonder. 'A dandelion', she whispers reverentially. 'I've never seen one before.'
 
-	You tell her they're commonplace where you're from. 'That can't be right,' she says. 'My grandma says they went extinct long ago. They were killed, you know. For being too resilient. She cups the fluffy white thing delicately. 'C'mon! Let's wish together.'
+	You tell her they're commonplace where you're from. 'That can't be right,' she says. 'My grandma says they went extinct long ago. They were killed, you know. For being too resilient.' She cups the fluffy white thing delicately. 'C'mon! Let's wish together.'
 
 	You put your heads together and your breaths create a flurry of white as the spores release into the air. You stare at this strange girl, wide-eyed with awe, twirling the empty stem in her hands. You're drawn to her uncomplicated joy.
 
-	'I wished for a friend,' she says abruptly. She gazes at you in wonder. 'I've never had a friend. Will you be my friend?";
+	'I can't tell you what I wished for,' she says peevishly, as if anticipating your next question. 'Cause then it won't come true! But I do want to see you again. It gets lonely here, you know'.
+	
+	She gazes at you in wonder. 'I've never had a friend. Will you be my friend?";
 	now the command prompt is "> Befriend Emma? Y/N ";
 	reject the player's command.
 
@@ -553,8 +570,14 @@ Section 4 - Plushieland
 
 Plushieland is a room. "You wake up in world of cotton. Everything you see is rendered in a shade of pastel - the turgid river, the sky, the meadows in front of you. You reach out a hand, tentatively. The cotton is soft.
 
-Before you are a medley of anthropomorphic plushies. You spot a jubjub, hedgehog, and even a djungelskog. A girl around the age of seven is playing with the stuffed animals."
+Before you are a medley of anthropomorphic plushies. You spot a jubjub, hedgehog, and even a djungelskog. A girl around the age of seven is playing with the stuffed animals.
 
+To the north you see a yellow schoolhouse. To the south there is a vibrant meadow."
+
+A river is in Plushieland. "A turgid river, made of fluffy blue transparent cotton." It is scenery. A sky is in Plushieland. "A fluffy blue sky. The clouds are soft to touch." It is scenery. 
+
+A Schoolhouse is north of Plushieland. "Yellow brick." A meadow is south of Plushieland. "Lavender flowers."
+ 
 A stuffed animal is a kind of thing.
 
 The jubjub is a stuffed animal in Plushieland. Understand "jubjub" as the jubjub.

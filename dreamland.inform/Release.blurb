@@ -24,7 +24,7 @@ placeholder [IFID] = "4EA41E35-947D-4605-8C26-0D376D50192F"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2024"
 placeholder [TITLE] = "Dreamland"
-placeholder [AUTHOR] = "Melissa Liu"
+placeholder [AUTHOR] = "mellyeliu"
 placeholder [BLURB] = "A work of interactive fiction."
 
 ! Other material to release
@@ -49,7 +49,7 @@ template path "/Users/mellyeliu/Library/Inform/Templates"
 template path "/Applications/Inform.app/Contents/Resources/Internal/Templates"
 css
 website "Standard"
-status instruction ||&nbsp;<a href="source:story.ni#line707"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line730"><img border=0 src=inform:/doc_images/Reveal.png></a>||
 status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
 status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc399.html><img border=0 src=inform:/doc_images/help.png></a>||
 status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc410.html><img border=0 src=inform:/doc_images/help.png></a>||

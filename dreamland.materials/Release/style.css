@@ -4,17 +4,14 @@ Standard CSS file for use with Standard.html and Standard-Source.html.
 
 */
 
-
-body
-{
-	font-family: Georgia, Palatino, "Times New Roman", Times, serif;
-	font-size: 100%;
-	-webkit-text-size-adjust: none;
+body {
+  font-family: Georgia, Palatino, "Times New Roman", Times, serif;
+  font-size: 100%;
+  -webkit-text-size-adjust: none;
 }
 
-.container
-{
-	margin-top: 2em;
+.container {
+  margin-top: 2em;
 }
 
 /*
@@ -22,10 +19,9 @@ Paragraph features defined here apply without distinction to blurb and
 source paragraphs.
 */
 
-p
-{
-	font-size: 1em;
-	line-height: 1.4;
+p {
+  font-size: 1em;
+  line-height: 1.4;
 }
 
 /*
@@ -35,31 +31,27 @@ color scheme than the bright-blue HTML standard.
 Best color schemes are likely to vary depending on cover art.
 */
 
-a
-{
-	text-decoration: none;
-	color: #369;
+a {
+  text-decoration: none;
+  color: #369;
 }
 
-a:visited
-{
-	text-decoration: none;
-	color: #006;
+a:visited {
+  text-decoration: none;
+  color: #006;
 }
 
-a:hover
-{
-	text-decoration: none;
-	color: #33C;
+a:hover {
+  text-decoration: none;
+  color: #33c;
 }
 
-.coverimage
-{
-	display: none;
+.coverimage {
+  display: none;
 }
 
 .GridWindow {
-	background: black !important;
+  background: black !important;
 }
 
 /*
@@ -67,12 +59,11 @@ Here we make invisible the one-pixel border that currently goes around
 the cover image.
 */
 
-.coverimage a
-{
-	font-style: normal;
-	font-variant: normal;
-	font-weight: normal;
-	color: #FFF;
+.coverimage a {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #fff;
 }
 
 /*
@@ -87,13 +78,12 @@ To change the appearance of specific elements, tweak
 
 */
 
-.introduction
-{
-	padding-top: 2.4em;
-	margin-left: 15.4em;
-	width: 33em;
-	line-height: 1;
-	text-align: left;
+.introduction {
+  padding-top: 2.4em;
+  margin-left: 15.4em;
+  width: 33em;
+  line-height: 1;
+  text-align: left;
 }
 
 /*
@@ -107,17 +97,21 @@ to represent the game, we need only add the line "display: none;" to the
 definition of h1.
 
 */
-h1 { font-size: 2em;  }
-h2 { font-size: 1em; line-height: .25;}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1em;
+  line-height: 0.25;
+}
 
 /* The about formatting applies to blurb information. */
 
-.about
-{
-	margin-top: 2.8em;
-	margin-left: 15.4em;
-	width: 33em;
-	text-align: left;
+.about {
+  margin-top: 2.8em;
+  margin-left: 15.4em;
+  width: 33em;
+  text-align: left;
 }
 
 /*
@@ -126,28 +120,27 @@ blurb to be unindented but subsequent paragraphs to be indented a small
 distance.
 */
 
-.about p { margin-bottom: 0; }
+.about p {
+  margin-bottom: 0;
+}
 
-.about p + p
-{
-	text-indent: 1.4em;
-	margin-top: 0;
+.about p + p {
+  text-indent: 1.4em;
+  margin-top: 0;
 }
 
 /*
 Playinfo affects the paragraph at the bottom of the home-page that supplies
 the IFID for the game and suggests interpreters for the author to use. */
 
-.playinfo
-{
-	margin: 1em 0px 0px 15.4em;
-	width: 33em;
+.playinfo {
+  margin: 1em 0px 0px 15.4em;
+  width: 33em;
 }
 
 .playinfo p {
-	font-size: .75em;
+  font-size: 0.75em;
 }
-
 
 /*
 The links formatting applies to the story file and auxiliary links found
@@ -156,21 +149,19 @@ source pages. Here we arrange for them to appear in a column at the left
 side of the page.
 */
 
-.links
-{
-	/* width: 13em;
+.links {
+  /* width: 13em;
 	float: left;
 	clear: left;
 	text-align: right;
 	margin-top: 2.8em; */
-	display: none;
+  display: none;
 }
 
-.links li
-{
-	list-style-type: none;
-	list-style-position: default;
-	padding: .4 em;
+.links li {
+  list-style-type: none;
+  list-style-position: default;
+  padding: 0.4 em;
 }
 
 /*
@@ -180,50 +171,47 @@ surrounding text. In order to get rid of them entirely, we would add
 "display: none;" to our filetype definition.
 */
 
-span.filetype { font-size: .5em; }
+span.filetype {
+  font-size: 0.5em;
+}
 
 /*
 Source formatting applies to the source text on generated pages.
 */
 
-.source
-{
-	margin-top: 1.4em;
-	margin-left: 15.4em;
-	width: 33em;
-	line-height: 1.4;
+.source {
+  margin-top: 1.4em;
+  margin-left: 15.4em;
+  width: 33em;
+  line-height: 1.4;
 }
 
-.sourceintroduction
-{
-	margin-left: 15.4em;
-	width: 33em;
+.sourceintroduction {
+  margin-left: 15.4em;
+  width: 33em;
 }
 
-.sourceintroduction h1
-{
-	padding-top: 2.8em;
-	font-size: 1em;
-	line-height: 1;
-	text-align: right;
-	text-decoration: none;
-	font-weight: normal;
-	font-style: italic;
+.sourceintroduction h1 {
+  padding-top: 2.8em;
+  font-size: 1em;
+  line-height: 1;
+  text-align: right;
+  text-decoration: none;
+  font-weight: normal;
+  font-style: italic;
 }
 
-.sourceintroduction h2
-{
-	display: none;
+.sourceintroduction h2 {
+  display: none;
 }
 
-.sourcecoverimage
-{
-	width: 12.6em;
-	margin-top: 2em;
-	margin-left: 1em;
-	float: left;
-	clear: left;
-	text-align: right;
+.sourcecoverimage {
+  width: 12.6em;
+  margin-top: 2em;
+  margin-left: 1em;
+  float: left;
+  clear: left;
+  text-align: right;
 }
 
 /*
@@ -231,50 +219,51 @@ Here we make invisible the one-pixel border that currently goes around
 the cover image.
 */
 
-.sourcecoverimage a
-{
-	font-style: normal;
-	font-variant: normal;
-	font-weight: normal;
-	color: #FFF;
+.sourcecoverimage a {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #fff;
 }
 
-.sourcebibliography
-{
-	display: none;
+.sourcebibliography {
+  display: none;
 }
 
-span.quote { color: #369; }
+span.quote {
+  color: #369;
+}
 
 span.comment {
-	color: #390;}
-
-span.substitution
-{
-	color: #69B;
-	font-variant: small-caps;
+  color: #390;
 }
 
-span.i6code { color: #666; font-family: monospace; }
+span.substitution {
+  color: #69b;
+  font-variant: small-caps;
+}
+
+span.i6code {
+  color: #666;
+  font-family: monospace;
+}
 
 span.columnhead {
-	font-style: italic;
-	font-size: 1em;
+  font-style: italic;
+  font-size: 1em;
 }
 
-span.heading
-{
-	font-weight: bold;
+span.heading {
+  font-weight: bold;
 }
 
-.source td
-{
-	padding-top: .7em;
-	padding-bottom: .7em;
-	padding-right: 1.4em;
-	font-size: .75em;
-	text-align: left;
-	vertical-align: top;
+.source td {
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  padding-right: 1.4em;
+  font-size: 0.75em;
+  text-align: left;
+  vertical-align: top;
 }
 
 /*
@@ -283,10 +272,9 @@ text appear different from other links, but otherwise they will be the same
 color as other links -- which is fine as a default.
 */
 
-span.notecue
-{
-	font-size: .75em;
-	vertical-align: super;
+span.notecue {
+  font-size: 0.75em;
+  vertical-align: super;
 }
 
 /*
@@ -295,156 +283,151 @@ bullets because this tends to produce considerable visual clutter especially
 with large project files.
 */
 
-.source li
-{
-	list-style-type: none;
-	list-style-position: default;
+.source li {
+  list-style-type: none;
+  list-style-position: default;
 }
 
 /*
 Notes applies to footnotes on the source text.
 */
 
-.notes
-{
-	margin-left: 16.8em;
-	width: 33em;
+.notes {
+  margin-left: 16.8em;
+  width: 33em;
 }
 
-.notes p
-{
-	text-indent: -1.4em;
-	font-size: .75em;
+.notes p {
+  text-indent: -1.4em;
+  font-size: 0.75em;
 }
 
-.notesheading { font-style: italic; }
-
-p.indent0
-{	margin-bottom: 0;
+.notesheading {
+  font-style: italic;
 }
 
-p.indent1
-{
-	padding-left: 2.8em;
-	text-indent: -.7em;
-	margin-bottom: 0;
-	margin-top: 0;
+p.indent0 {
+  margin-bottom: 0;
 }
 
-p.indent2
-{	margin-bottom: 0;
-	padding-left: 5.6em;
-	text-indent: -.7em;
-	margin-top: 0;
+p.indent1 {
+  padding-left: 2.8em;
+  text-indent: -0.7em;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
-p.indent3
-{
-	padding-left: 8.4em;
-	text-indent: -.7em;
-	margin-bottom: 0;
-	margin-top: 0;
+p.indent2 {
+  margin-bottom: 0;
+  padding-left: 5.6em;
+  text-indent: -0.7em;
+  margin-top: 0;
 }
 
-p.indent4
-{	margin-bottom: 0;
-	padding-left: 11.2em;
-	text-indent: -.7em;
-	margin-top: 0;
+p.indent3 {
+  padding-left: 8.4em;
+  text-indent: -0.7em;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
-p.indent5
-{
-	padding-left: 14em;
-	text-indent: -.7em;
-	margin-bottom: 0;
-	margin-top: 0;
+p.indent4 {
+  margin-bottom: 0;
+  padding-left: 11.2em;
+  text-indent: -0.7em;
+  margin-top: 0;
 }
 
-p.indent6
-{	margin-bottom: 0;
-	padding-left: 16.8em;
-	text-indent: -.7em;
-	margin-top: 0;
+p.indent5 {
+  padding-left: 14em;
+  text-indent: -0.7em;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
-p.indent7
-{
-	padding-left: 19.6em;
-	text-indent: -.7em;
-	margin-bottom: 0;
-	margin-top: 0;
+p.indent6 {
+  margin-bottom: 0;
+  padding-left: 16.8em;
+  text-indent: -0.7em;
+  margin-top: 0;
 }
 
-
-p.indent8
-{	margin-bottom: 0;
-	padding-left: 22.4em;
-	text-indent: -.7em;
-	margin-top: 0;
+p.indent7 {
+  padding-left: 19.6em;
+  text-indent: -0.7em;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
-p.indent9
-{
-	padding-left: 25.2em;
-	text-indent: -.7em;
-	margin-bottom: 0;
-	margin-top: 0;
+p.indent8 {
+  margin-bottom: 0;
+  padding-left: 22.4em;
+  text-indent: -0.7em;
+  margin-top: 0;
+}
+
+p.indent9 {
+  padding-left: 25.2em;
+  text-indent: -0.7em;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 /*
 Styles for play.html
 */
-.play .coverimage
-{
-	position: fixed;
+.play .coverimage {
+  position: fixed;
 }
-.play .links
-{
-	margin-top: 200px;
-	position: fixed;
+.play .links {
+  margin-top: 200px;
+  position: fixed;
 }
 
-.interpretercredit
-{
-	bottom: 1em;
-	font-size: 80%;
-	position: fixed;
+.interpretercredit {
+  bottom: 1em;
+  font-size: 80%;
+  position: fixed;
 }
 
-#gameport
-{
-	background: white;
-	bottom: 0px;
-	left: 0px;
-	line-height: 1.4;
-	margin: 0px;
-	position: absolute;
-	right: 0px;
-	top: 0px;
+#gameport {
+  background: white;
+  bottom: 0px;
+  left: 0px;
+  line-height: 1.4;
+  margin: 0px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
 }
 
 /*
 Styles for mobile browsers: change to a one-column layout.
 */
 
-@media screen and (max-device-width: 480px)
-{
-	.coverimage, .introduction, .links, .about, .playinfo, .source, .sourceintroduction, .sourcecoverimage, .notes
-	{
-		float: none;
-		margin-left: 1em;
-		text-align: left;
-	}
+@media screen and (max-device-width: 480px) {
+  .coverimage,
+  .introduction,
+  .links,
+  .about,
+  .playinfo,
+  .source,
+  .sourceintroduction,
+  .sourcecoverimage,
+  .notes {
+    float: none;
+    margin-left: 1em;
+    text-align: left;
+  }
 
-	.play .coverimage, .play .links, .play .interpretercredit
-	{
-		display: none;
-	}
+  .play .coverimage,
+  .play .links,
+  .play .interpretercredit {
+    display: none;
+  }
 
-	#gameport
-	{
-		left: 0px;
-		width: auto;
-	}
+  #gameport {
+    left: 0px;
+    width: auto;
+  }
 }
