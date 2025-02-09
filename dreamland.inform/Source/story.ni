@@ -17,12 +17,13 @@ Understand "about" as abouting.
 
 Carry out helping:
 	say "[line break]
-	[italic type]Here are some instructions to get you started:[line break]	• Use 'look' to observe your surroundings.[line break]
-    • Use 'take item' or 'take all' to pick up items.[line break]
-    • Use 'inventory' or 'i' to see what you're carrying.[line break]
-    • Use 'go direction' to move around (e.g., 'go north' or simply 'n' or 's').[line break]
-    • For more details, try interacting with objects using 'examine item' or 'x item'.[line break]
-• Visit: https://tinyurl.com/inform-cheatsheet for more commands.[roman type] [line break]
+	[italic type]Here are some instructions to get you started:[line break]	• [bold type]look[roman type] to observe your surroundings[line break]
+• [bold type]examine item[roman type] or [bold type]x item[roman type] to look at any object[line break]
+    • [bold type]take item[roman type] or [bold type]take all[roman type] to pick up items[line break]
+    • [bold type]go to room[roman type] to teleport to a specified room[line break]
+    • [bold type]inventory[roman type] or [bold type]i[roman type] to see what you're carrying[line break]
+    • [bold type]go direction[roman type] to move around (e.g., [bold type]go north[roman type]  or simply [bold type]n[roman type]  or [bold type]s[roman type])[line break]
+• [bold type]https://tinyurl.com/inform-cheatsheet[roman type] for more commands.[roman type] [line break]
 ";
 
 Carry out abouting:
@@ -287,10 +288,7 @@ Section 2 - Closet
 
 The Closet is south of the Bedroom. "The closet is small and cramped, with a suitcase in the corner. It's dimly lit, and you can smell a faint musty odor, as if the space hasn’t been opened in years. The walls are lined with old, forgotten coats, and the ceiling is low, making the space feel claustrophobic."
 
-A suitcase is here. The description of the suitcase is "[if the suitcase is closed] A small black suitcase and a keypad on the side. It looks like it requires a passcode to open. [else] Inside the suitcase is a collection of random objects, a yearbook, a record player, and a narwhal". A suitcase is locked and closed. The suitcase is a container. It is fixed in place. A yearbook, record player, and narwhal is in the suitcase. A keypad is here. It is fixed in place. The description is "A numeric keypad, a little old fashioned. The tag reads '[italic type]My favourite neopet[roman type]'.".
-
-Instead of unlocking the suitcase with the key:
-	now the command prompt is "> This suitcase requires a passcode: ";
+A suitcase is here. The description of the suitcase is "[if the suitcase is closed] A small black suitcase and a keypad on the side. It looks like it requires a passcode to open. [line break][line break][italic type]You can enter a passcode by typing 'open suitcase'.[roman type] [else] Inside the suitcase is a collection of random objects, a yearbook, a record player, and a narwhal.". A suitcase is locked and closed. The suitcase is a container. It is fixed in place. A yearbook, record player, and narwhal is in the suitcase. A keypad is here. It is fixed in place. The description is "A numeric keypad, a little old fashioned. The tag reads '[italic type]My favourite neopet[roman type]'.".
 
 	
 Instead of opening the suitcase:
@@ -387,21 +385,30 @@ A playstructure is here. It is fixed in place. Understand "playground" or "park"
 Drawing is an action applying to one topic and one carried thing.
 Understand "draw [text] with [something]" as drawing.
 
+Drawnothing is an action applying to one topic.
+Understand "draw [text]" as drawnothing.
+
+Carry out drawnothing:
+	say "What do you want to draw with?";
+
 Check drawing:
 	if the second noun is not the crayons:
 		say "You need to use crayons to draw that!" instead;
 	if the player does not carry the crayons:
-		say "You don't have any crayons to draw with." instead.
+		say "You don't have any crayons to draw with." instead;
 
 Carry out drawing:
 	if the topic understood matches "dandelion":
 		now the player is carrying the dandelion;
 		say "You use the crayons to carefully draw a bright yellow dandelion. The petals are vivid, and the stem is a bright green. The drawing looks almost alive. 
 		
-		The air sizzles, and with a pop, something drops in your pocket";
+		The air sizzles, and with a pop, something drops in your pocket.";
 	else if the topic understood matches "bunny":
 		say "You doodle a cute bunny on the page. Its long ears and fluffy tail make it look adorable.";
 	else if the topic understood matches "ladder":
+		now the ladder is fixed;
+		say "You color in the missing gaps with the silver crayon. Good as new.";
+	else if the topic understood matches "on ladder":
 		now the ladder is fixed;
 		say "You color in the missing gaps with the silver crayon. Good as new.";
 	else if the topic understood matches "unicorn":
@@ -462,15 +469,16 @@ After going to the Treehouse for the first time:
 
 emmaTalk is a number that varies. emmaTalk is 1.
 
-Emma is a person in the Treehouse. The description of Emma is "[if Emma is in Treehouse]A small girl wearing a checkered dress. Her hair is in neat plaits and her socks are mismatched. She looks familiar. [else]Emma looks taller than you remember. She's fiddling with a sewing needle.[end if]
-
-[italic type]You can interact with her by typing: ask [if emmaName is 1]Emma[else]girl[end if] about `topic`. The topic should be a singular word.[roman type]". Understand "girl" or "child" or "kid" as Emma.
+Emma is a person in the Treehouse. The description of Emma is "[if Emma is in Treehouse]A small girl wearing a checkered dress. Her hair is in neat plaits and her socks are mismatched. She looks familiar. [else]Emma looks taller than you remember. She's fiddling with a sewing needle.[end if]". Understand "girl" or "child" or "kid" as Emma.
 
 Instead of telling someone about something, try asking the noun about it. Instead of answering the noun that something, try asking the noun about it.
 
 Understand "ask [someone] [text]" as asking it about.
 Understand "tell [someone] [text]" as answering it that. Understand "tell [someone] that [text]" as answering it that.
 Giving it about is an action applying to two things. Understand "give [someone] [something]" or "give [something] to [someone]" as giving it about.
+
+After examining a person: say "[italic type]You can interact with [the noun] by typing 'ask [noun] about topic'. The topic should be a single word.[roman type]".
+
 
 Carry out giving something about someone:
 	say "Emma cries out in joy. A [the second noun]!";
@@ -503,7 +511,7 @@ After reading a command when the command prompt is "> Befriend Emma? Y/N ":
 		now roomCount is 2;
 		move player to Bedroom;
 	else if the player's command matches "N":
-		say "Emma deflates for just a second. Then she shrugs it off, and says, 'That's okay.'";
+		say "Emma deflates for just a second. Then she shrugs it off, and says, 'That's okay! Just let me know if you change your mind ^_^.";
 	else:
 		say "That's not a valid response.";
 	now the command prompt is ">";
@@ -576,23 +584,64 @@ To the north you see a yellow schoolhouse. To the south there is a vibrant meado
 
 A river is in Plushieland. "A turgid river, made of fluffy blue transparent cotton." It is scenery. A sky is in Plushieland. "A fluffy blue sky. The clouds are soft to touch." It is scenery. 
 
-A Schoolhouse is north of Plushieland. "Yellow brick." A meadow is south of Plushieland. "Lavender flowers."
+A Schoolhouse is north of Plushieland. "A small schoolhouse atop a grassy hill, red walls delineated with thick, playful strokes. The roof is cozily off-kilter a bell perched on top. A crooked wooden sign near the door reads 'Neoschool' in swirling letters. Curled on the front steps are a couple of petpets. To the north is a meadow. To the east is a Library." 
+
+The Library is east of the Schoolhouse. "Tall bookshelves line the walls, filled with texts on Neopian lore. A sturdy oak desk sits in the center, where the librarian watches over her collection."
+
+The Librarian is a woman in the Library. "The librarian is a wise-looking Aisha with spectacles perched on her nose. She greets you with a knowing smile." The Librarian carries Illusen's Spell Book.
+
+The Floral Encyclopedia is in the Library. "Beside her is a book titled [italic type]Floral Encyclopedia[roman type]. Perhaps it holds a clue."
+
+Instead of asking the Librarian about something:
+	say "The librarian adjusts her spectacles and gives you a knowing smile. 'If you wish to take out a book, you must first provide an offering of knowledge. Bring me something that demonstrates your wisdom, and then we shall talk.'"
+
+
+Instead of reading the Floral Encyclopedia:
+	say "The book describes three flowers:[line break] 
+	- The Starpetal Bloom, which glows faintly in the moonlight.[line break] 
+	- The Mindroot Blossom, said to enhance memory and wisdom.[line break] 
+	- The Dewshade Lily, known for its calming properties.[line break]"
+
+The Meadow is north of the Schoolhouse. "A lush, open field filled with vibrant flowers. The air is thick with the scent of wild blooms."
+
+A flower is a kind of thing. A Starpetal Bloom is a flower in the Meadow. A Mindroot Blossom is a flower in the Meadow. A Dewshade Lily is a flower in the Meadow.
+
+Instead of taking a flower:
+	say "You carefully pluck [the noun], hoping it is the one the librarian seeks.";
+	now the player carries the noun.
+
+Instead of giving a flower to the Librarian:
+	if the noun is the Mindroot Blossom:
+		say "The librarian inspects the flower and nods. 'Well done. You have proven your wisdom. Here is the book you seek.' She hands you Illusen's Spell Book.";
+		now the player carries Illusen's Spell Book;
+	otherwise:
+		say "The librarian shakes her head. 'You must first bring me the Flower of Knowledge from the meadow. But only the right one.'"
  
-A stuffed animal is a kind of thing.
+[A stuffed animal is a kind of thing.]
 
-The jubjub is a stuffed animal in Plushieland. Understand "jubjub" as the jubjub.
-The description of the jubjub is "The jubjub has wide eyes and fuzzy fur, looking curious and somewhat shy."
+The jubjub is a person in Plushieland. Understand "jubjub" as the jubjub.
+The description of the jubjub is "A bright red jubjub. It's pacing around in tight circles, vibrating with nervous energy."
+
+Understand "talk to [someone]" as asking it about.
+
+Instead of asking the jubjub about "illusen":
+	say "'You haven't seen Illusen's spell book, have you?' asks the jubjub. 'It should be nestled somewhere in the Schoolhouse Library...'";
+	
 Instead of asking the jubjub about something:
-    say "'Oh, hello,' the jubjub whispers. 'It's... really nice to meet you.'"
+	say "'Oh, hello,' whispers the jubjub. 'I'd like to stay and chat, but I'm in the middle of one of Illusen's quests.'"
 
-The hedgehog is a stuffed animal in Plushieland. Understand "hedgehog" as the hedgehog.
+[Instead of asking jubjub about "illusen":
+	say "'You haven't seen Illusen's spell book, have you?' asks the jubjub. 'It should be nestled somewhere in the Schoolhouse...'".]
+
+
+The hedgehog is a person in Plushieland. Understand "hedgehog" as the hedgehog.
 The description of the hedgehog is "The hedgehog is covered in tiny, harmless quills, giving it a spiky yet soft appearance."
-Instead of asking the jubjub about something:
+Instead of asking the hedgehog about something:
     say "'I've been rolling around here forever!' the hedgehog giggles. 'Want to roll with me?'"
 
-The djungelskog is a stuffed animal in Plushieland. Understand "djungelskog" as the djungelskog.
+The djungelskog is a person in Plushieland. Understand "djungelskog" as the djungelskog.
 The description of the djungelskog is "A large, soft bear with a slightly slouched posture, as if it's ready for a cozy nap."
-Instead of asking the jubjub about something:
+Instead of asking the djungelskog about something:
     say "'Hello,' the djungelskog says in a slow, deep voice. 'Come sit, rest. There's room for everyone on my belly.'"
 
 
