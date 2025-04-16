@@ -152,15 +152,15 @@ Section 1 - BEDROOM
 
 House is a region. Bedroom is in house. Kitchen is in house.
 
-The Bedroom is a room. "
-.   \_/       .:'    .:'    .:'[line break]
--=(_)=- /\ ||    /\||    /\||[line break]
-.   / \     //\\|   //\\|   //\\|[line break]
-.          //  \\  //  \\  //  \\[line break]
-.         //    \ ^/    \^/    \\[line break]
-.         |  ( )  ||  ( ) || ( ) |[line break]
-.         |       ||      ||      |%[line break]
-  &%&--==--&%-==--%&[line break]
+The Bedroom is a room. "[fixed letter spacing]
+.  \_/       .:'    .:'    .:'[line break]
+.-=(_)=-  /\||   /\||   /\||[line break]
+.  / \   //\\|  //\\|  //\\|[line break]
+.       //  \\ //  \\ //  \\[line break]
+.      //    \^/    \^/    \\[line break]
+.      |()  ()|()  ()|()  ()|[line break]
+.     &|  ||  %  ||  |  ||  |%[line break]
+.  &%&--==--&%-==--%&=--%&%&=--%&[variable letter spacing]
 
 [if roomCount is 0]Your bedroom is unadorned. The walls are chalky and the ground bare. The only decoration is a poster of The Killers. A lightbulb hangs from the ceiling. A tiny window is opened a crack, and the sound of faint static comes through. A crumpled newsprint lies in the wastebin, forgotten.[else if roomCount is 1]You step into the bedroom and are flooded with emotion. Every inch of its surface now looks as if it's been dipped in. The walls are pulsating and warm, shifting from blue to red to violet. [else if roomCount is 2]It's weird to see things in 3D now. Your room has gone back to normal. There's an odd humming coming from your computer, though. [end if]
 
@@ -311,7 +311,18 @@ A record player is a device. It is switched off. It is fixed in place. The descr
 
 Section 2 - KITCHEN
 
-The Kitchen is north of the Bedroom. "Your kitchen has seen better days. A fridge lies in one corner. Near the door is a row of plants with yellowing leaves."
+The Kitchen is north of the Bedroom. "
+[fixed letter spacing]
+.        `'::. [line break]
+.    _________H ,%%&%, [line break]
+.   /\     _   \%&&%%&% [line break]
+.  /  \___/^\___\%&%%&& [line break]
+.  |  | ||   || |%\Y&%' [line break]
+.  |  |   .-.   | ||  [line break]
+.~~@._|@@_|||_@@|~||~~~~~~~~~~~~~[line break]
+.     `''') )'''`[variable letter spacing]
+
+Your kitchen has seen better days. A fridge lies in one corner. Near the door is a row of plants with yellowing leaves."
 
 The silver key is a thing. The description is “A stainless steel key, slightly bigger than your thumb. It's wet with your saliva.” The matching key of the drawer is the silver key. The silver key is nowhere.
 
@@ -339,10 +350,19 @@ After opening the fridge, say "The fridge is empty except for a tub of baking so
 The candy is edible. The description is "A lychee sweet. It glows mysteriously."  The fridge contains candy.  
 
 After taking the candy:
-	say "You pocket the candy. It feels heavy, like nostalgia."
+	say ""
 
 After eating the candy:
-	say "You unwrap the candy and pop it in your mouth. It tastes of a strange medley of flavours—vanilla custard, citrus, a hint of buttered toast. Delightful.
+	say "
+[fixed letter spacing]
+.                                _'' _[line break]
+. _'' _                         (_\|/_)[line break]
+.(_\|/_)  _'' _         _ ' _    (/|\)[line break]
+. (/|\)  (_\|/_)'' _   (_\|/_)[line break]
+.         (/|\)_\|/_)   (/|\)[line break]
+.              (/|\)[variable letter spacing]
+
+You unwrap the candy and pop it in your mouth. It tastes of a strange medley of flavours—vanilla custard, citrus, a hint of buttered toast. Delightful.
 
 A sudden prickling rips through your throat, like you've swallowed something you shouldn't have. You double over, coughing, clutching the counter for balance. There's something lodged in your throat.
 
@@ -356,7 +376,7 @@ A sudden prickling rips through your throat, like you've swallowed something you
 Section 3 - Toybox
 
 Toybox is a room. "
-|                  /\   [line break]
+ |                  /\   [line break]
 |                 / | \ [line break]
 |                / | | \ [line break]
 |               /_|_|_|_[line break]
@@ -368,7 +388,6 @@ Toybox is a room. "
    |         / /        /          |  TOYBOX[line break]
    |        / /        /           |[line break]
 ~~~~~~~~~~~~-----------~~~~~~~~
-
 
 You open your eyes to pure whiteness. Every bit of empty space is blue lines, pink margins...
 
@@ -400,7 +419,15 @@ Check drawing:
 Carry out drawing:
 	if the topic understood matches "dandelion":
 		now the player is carrying the dandelion;
-		say "You use the crayons to carefully draw a bright yellow dandelion. The petals are vivid, and the stem is a bright green. The drawing looks almost alive. 
+		say "[fixed letter spacing]		
+.       wWWWw              wWWWw[line break]
+. vVVVv (___) wWWWw        (___)  vVVVv[line break]
+. (___)  ~Y~  (___)  vVVVv  ~Y~   (___)[line break]
+.  ~Y~   \|    ~Y~   (___)   |/    ~Y~[line break]
+.  \|    \|/   \| /  \~Y~/  \|    \ |/[line break]
+. \\|// \\|// \\|/// \\|// \\|// \\\|///[variable letter spacing]
+
+You use the crayons to carefully draw a bright yellow dandelion. The petals are vivid, and the stem is a bright green. The drawing looks almost alive. 
 		
 		The air sizzles, and with a pop, something drops in your pocket.";
 	else if the topic understood matches "bunny":
@@ -420,7 +447,21 @@ Rule for printing the locale description of Toybox: stop.
 
 Section 3,1 - EMMA
 
-The Treehouse is a room. "You have entered a cozy treehouse. It has a wooden floor, a small table with some board games, a hammock, and a small girl around the age of 6. There's a window with a view of the forest below.
+The Treehouse is a room. "[fixed letter spacing]
+.          &&& &&  & &&[line break]
+.      && &\/&\|& ()|/ @, &&[line break]
+.      &\/(/&/&||/& /_/)_&/_&[line break]
+.   &() &\/&|()|/&\/ '%'' & ()[line break]
+.  &_\_&&_\ |& |&&/&__%_/_& &&[line break]
+.&&   && & &| &| /& & % ()& /&&[line break]
+. ()&_---()&\&\|&&-&&--%---()~[line break]
+.     &&     \|||[line break]
+.             |||[line break]
+.             |||[line break]
+.             |||[line break]
+.       , -=-~  .-^- _[variable letter spacing]
+
+You have entered a cozy treehouse. It has a wooden floor, a small table with some board games, a hammock, and a small girl around the age of 6. There's a window with a view of the forest below.
 
 The girl is doodling furiously. It's some sort of composition of flowers. Every now and then she pauses to wipe her wax-covered hands on her skirt. When she sees you, she cries out in delight. 
 
@@ -469,7 +510,17 @@ After going to the Treehouse for the first time:
 
 emmaTalk is a number that varies. emmaTalk is 1.
 
-Emma is a person in the Treehouse. The description of Emma is "[if Emma is in Treehouse]A small girl wearing a checkered dress. Her hair is in neat plaits and her socks are mismatched. She looks familiar. [else]Emma looks taller than you remember. She's fiddling with a sewing needle.[end if]". Understand "girl" or "child" or "kid" as Emma.
+Emma is a person in the Treehouse. The description of Emma is "
+[fixed letter spacing]
+.     _          _          _         [line break]
+.    //|\       //|\       //|\     [line break]
+.    c_''/      c_''/      c_''/    [line break]
+.   __/\__       /\__       /\     [line break]
+.    /  \       /\ \       /\/\     [line break]
+.   /____\     /____\     /____\   [line break]
+.     /l         ll         l\       [line break]
+[variable letter spacing]
+[if Emma is in Treehouse]A small girl wearing a checkered dress. Her hair is in neat plaits and her socks are mismatched. She looks familiar. [else]Emma looks taller than you remember. She's fiddling with a sewing needle.[end if]". Understand "girl" or "child" or "kid" as Emma.
 
 Instead of telling someone about something, try asking the noun about it. Instead of answering the noun that something, try asking the noun about it.
 
@@ -488,7 +539,18 @@ Before giving narwhal to Emma:
 
 	
 Before giving dandelion to Emma:
-	say "Emma looks up at you in wonder. 'A dandelion', she whispers reverentially. 'I've never seen one before.'
+	say "
+[fixed letter spacing]
+.     _          _          _         [line break]
+.    //|\       //|\       //|\     [line break]
+.    c_''/      c_''/      c_''/    [line break]
+.   __/\__       /\__       /\     [line break]
+.    /  \       /\ \       /\/\     [line break]
+.   /____\     /____\     /____\   [line break]
+.     /l         ll         l\       [line break]
+[variable letter spacing]
+	
+	Emma looks up at you in wonder. 'A dandelion', she whispers reverentially. 'I've never seen one before.'
 
 	You tell her they're commonplace where you're from. 'That can't be right,' she says. 'My grandma says they went extinct long ago. They were killed, you know. For being too resilient.' She cups the fluffy white thing delicately. 'C'mon! Let's wish together.'
 
@@ -658,14 +720,26 @@ Topic	Response
 
 Section 5 - INDEX
 
-A journal is a thing. It is portable. The description of the journal is "A worn out journal in which you've taken to scrawling your dreams.
+A journal is a thing. It is portable. The description of the journal is "[fixed letter spacing]
 
+.      .--.                   [line break]
+.  .---|__|           .-.     [line break]
+.--|===|--|_          |_|     [line break]
+|  |===|  |'\     .---!~|  .--[line break]
+|%%|   |  |.'\    |===| |--|%%|[line break]
+|%%|   |  |\.'\   |   | |__|  |[line break]
+|  |   |  | \  \  |===| |==|  |[line break]
+|  |   |__|  \.'\ |   |_|__|  |[line break]
+|  |===|--|   \.'\|===|~|--|%%|[line break]
+^--^---'--^    `-'`---^-^--^--[variable letter spacing]
 
-TABLE OF CONTENTS:[line break]
+A worn out journal in which you've taken to scrawling your dreams.
+
+TABLE OF CONTENTS:[line break][line break]
 	0. BEDROOM [line break]
 	1.  TOYBOX[line break]
-	2.  [if the player is carrying the narwhal]PLUSHIELAND[else]?????[end if][line break]
-	3. ?????
+	2.  [if the player is carrying the narwhal]PLUSHIELAND[else]?????????[end if][line break]
+	3. ?????????
 	
 	[italic type]You can read the journal by typing: read page N of journal[roman type].".
 	
